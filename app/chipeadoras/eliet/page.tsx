@@ -1,6 +1,3 @@
-
-
-// import FormularioProducto from "@/components/formularios/Formulario1";
 import FormularioHubspot from "@/components/formularios/FormularioHubspot";
 import SeccionInteres1 from "@/components/seccionInteres/SeccionInteres1";
 import Image from "next/image";
@@ -32,8 +29,6 @@ const Producto = () => {
 
 
             <section className="mb-20">
-          
-
                     <div className="block md:flex">
                          <div className="w-screen  md:w-1/2">
                             <Image src="/chipeadora/eliet/chipeadora_compacta.png" alt="Chipeadora compacta Eliet" width={1000} height={1000} className="w-full"/>

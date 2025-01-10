@@ -2,7 +2,7 @@ export default [
     {
         "modelo":"A 141 XL",
         "categoria":"Chipeadoras de Disco",
-        "imagen":[""],
+        "imagen":["/chipeadora/jensen/chipeadora_disco/A141-XL.png"],
         "alt":"Chipeadora A141 XL",
         "descripcion":"La Chipeadora A 141 XL es una máquina robusta con gran facilidad de servicios, con un potente motor diésel, capaz de triturar troncos, arbustos y ramas sin ningún problema. Además, cuenta con una carcasa robusta, es silenciosa, cuenta con cañón de descarga giratorio en 360º, con una barra de seguridad diseñada para que el operador no tenga problemas de acceso para accionarla. Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior es basculante, lo cual significa que se adapta a la forma y tamaño de las ramas. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
         "caracteristicas_tecnicas":"75 HP H - Chasis 80 km/h - Mesa Giratoria",
@@ -321,7 +321,7 @@ export default [
     {
         "modelo":"A 530 L Oruga",
         "categoria":"Chipeadoras con Oruga",
-        "imagen":[""],
+        "imagen":["/chipeadora/jensen/chipeadora_con_oruga/A530-L-oruga.png"],
         "alt":"Chipeadora A 530 L con Oruga",
         "descripcion":"Con la gran facilidad de acceso de las Chipeadoras sobre orugas no tendrá ningún problema en trabajar en terrenos difíciles y empinados, llegando a prácticamente todas partes y triturar troncos o ramas sin dificultad. Están disponibles tanto con orugas fijas como ajustables en ancho. Pueden alcanzar velocidades aproximadamente de 3 [km/hr] y superar pendientes de hasta 30º. También se pueden complementar con un sistema de compensación de nivel controlado hidráulicamente lo cual permite condiciones de trabajo óptimas incluso en pendientes pronunciadas.",
         "caracteristicas_tecnicas":"23.8 HP K - Oruga",
@@ -340,7 +340,7 @@ export default [
     {
         "modelo":"A 540 L Oruga",
         "categoria":"Chipeadoras con Oruga",
-        "imagen":[""],
+        "imagen":["/chipeadora/jensen/chipeadora_con_oruga/A540-L-oruga.png"],
         "alt":"Chipeadora A 540 L con Oruga",
         "descripcion":"Con la gran facilidad de acceso de las Chipeadoras sobre orugas no tendrá ningún problema en trabajar en terrenos difíciles y empinados, llegando a prácticamente todas partes y triturar troncos o ramas sin dificultad. Están disponibles tanto con orugas fijas como ajustables en ancho. Pueden alcanzar velocidades aproximadamente de 3 [km/hr] y superar pendientes de hasta 30º. También se pueden complementar con un sistema de compensación de nivel controlado hidráulicamente lo cual permite condiciones de trabajo óptimas incluso en pendientes pronunciadas.",
         "caracteristicas_tecnicas":"25 HP K - Oruga",

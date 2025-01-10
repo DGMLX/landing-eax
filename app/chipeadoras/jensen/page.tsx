@@ -1,6 +1,3 @@
-
-
-// import FormularioProducto from "@/components/formularios/Formulario1";
 import FormularioHubspot from "@/components/formularios/FormularioHubspot";
 import SeccionInteres1 from "@/components/seccionInteres/SeccionInteres1";
 import Image from "next/image";
