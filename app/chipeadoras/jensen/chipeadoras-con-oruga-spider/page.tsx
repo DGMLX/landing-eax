@@ -9,8 +9,11 @@ export const metadata: Metadata = {
 }
 
 const Productos = data;
-console.log(Productos)
 
+
+const productosFiltrados = Productos.filter(producto=>producto.categoria==="chipeadoras con oruga spider")
+
+console.log(productosFiltrados)
 
 
 
@@ -34,7 +37,7 @@ const InformacionProducto = () =>{
 
                     </section>
 
-                    <ChipeadorasJensen Productos={Productos}/>
+                    <ChipeadorasJensen Productos={productosFiltrados}/>
 
                 </div>
 

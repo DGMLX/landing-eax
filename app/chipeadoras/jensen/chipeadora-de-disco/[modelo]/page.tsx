@@ -1,10 +1,4 @@
 
-
-import { BsShop } from "react-icons/bs";
-import { RiErrorWarningLine } from "react-icons/ri";
-import { GoDownload } from "react-icons/go";
-import { BsTruck } from "react-icons/bs";
-import Image from "next/image";
 import SeccionInteres1 from "@/components/seccionInteres/SeccionInteres1";
 import FormularioHubspot from "@/components/formularios/FormularioHubspot";
 import { Metadata } from "next";
