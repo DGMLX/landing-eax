@@ -5,15 +5,13 @@ import { BsShop, BsTruck } from "react-icons/bs";
 import { GoDownload } from "react-icons/go";
 import { RiErrorWarningLine } from "react-icons/ri";
 import { useParams } from "next/navigation";
-import data from "../../../../data/jensen" 
+
 
 const ModeloJensen = () => {
 
-    const Productos = data;
-
+   
     const {modelo} = useParams()
 
-    const productoIndividual = Productos.filter(producto=>producto.params === modelo)
 
 
     return(

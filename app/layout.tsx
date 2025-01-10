@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { Footer } from "@/components/footer/Footer";
+
 import { Providers } from "@/store/Providers";
 import { Navbar } from "@/components/navbar/Navegacion";
 import { NavbarMovil } from "@/components/navbar/NavegacionMovil";
@@ -35,7 +35,7 @@ export default function RootLayout({
             <Navbar/>
             <NavbarMovil/> 
             {children}
-          {/* <Footer/> */}
+    
         </body>
       </Providers>
     </html>
