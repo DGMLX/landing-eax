@@ -1,18 +1,24 @@
 import SeccionInteres1 from "@/components/seccionInteres/SeccionInteres1";
 import Image from "next/image"
 import { Metadata } from 'next';
-import ChipeadorasJensen from "@/components/chipeadoras/chipeadoras-jensen/ChipeadorasJensen";
-import data from "../../../../data/jensen" 
-export const metadata: Metadata = {
-  title: 'Chipeadoras PTO - EcoAlliance',
-  description: '',
+
+
+import CategoriaChipeadora from "@/components/chipeadoras/chipeadoras-jensen/CategoriaChipeadora";
+
+type Props = {
+    params:Promise<{categoria:string}>;
 }
 
-const Productos = data;
+ export async function generateMetadata(params:Props):Promise<Metadata>{
+    const info =await  params.params
+    return{
+        title:`${info.categoria.replace(/-/g, ' ')} - EcoAlliance`,
+        description:''
+    }
+ }
 
-const productosFiltrados = Productos.filter(producto=>producto.categoria==="chipeadoras pto")
 
-console.log(productosFiltrados)
+
 
 
 
@@ -30,15 +36,12 @@ const InformacionProducto = () =>{
 
 
                     <section  className="px-10 mt-10">
-                        <div className="flex justify-between">
-                            <button>Filtrar</button>
-                            <h1 className="text-3xl">Chipeadoras PTO</h1>
-                            <p>8 productos en total</p>
-                        </div>
-
+                       
+                            <CategoriaChipeadora/>
+                        
                     </section>
 
-                    <ChipeadorasJensen Productos={productosFiltrados}/>
+              
 
                 </div>
 

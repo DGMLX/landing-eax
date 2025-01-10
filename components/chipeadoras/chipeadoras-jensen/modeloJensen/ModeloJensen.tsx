@@ -5,11 +5,17 @@ import { BsShop, BsTruck } from "react-icons/bs";
 import { GoDownload } from "react-icons/go";
 import { RiErrorWarningLine } from "react-icons/ri";
 import { useParams } from "next/navigation";
+import data from "../../../../data/jensen" 
 
 const ModeloJensen = () => {
 
+    const Productos = data;
+
     const {modelo} = useParams()
-    console.log(modelo)
+
+    const productoIndividual = Productos.filter(producto=>producto.params === modelo)
+
+
     return(
         <>
               <section  className="pr-24 pl-24 mt-20 flex mb-10">

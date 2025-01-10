@@ -1,7 +1,7 @@
 export default [
     {
         "modelo":"A 141 XL",
-        "categoria":"chipeadoras de disco",
+        "categoria":"Chipeadoras de Disco",
         "imagen":[""],
         "alt":"Chipeadora A141 XL",
         "descripcion":"La Chipeadora A 141 XL es una máquina robusta con gran facilidad de servicios, con un potente motor diésel, capaz de triturar troncos, arbustos y ramas sin ningún problema. Además, cuenta con una carcasa robusta, es silenciosa, cuenta con cañón de descarga giratorio en 360º, con una barra de seguridad diseñada para que el operador no tenga problemas de acceso para accionarla. Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior es basculante, lo cual significa que se adapta a la forma y tamaño de las ramas. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
@@ -14,12 +14,13 @@ export default [
         "dimensiones":"4100 x 2350 x 3300 [mm]",
         "peso":"3200 [kg]",
         "urlPlano":"",
-        "routerPath":"/chipeadoras/jensen/chipeadora-de-disco/A141XL",
-        "precio":0
+        "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A141-XL",
+        "precio":0,
+        "params":"A141-XL"
     },
     {
         "modelo":"A 540",
-        "categoria":"chipeadoras de disco",
+        "categoria":"Chipeadoras de Disco",
         "imagen":["/chipeadora/jensen/chipeadora_disco/A540.png"],
         "alt":"Chipeadora A540",
         "descripcion":"La Chipeadora A 540 es una máquina ligera, compacta y práctica, con un potente motor diésel, capaz de triturar troncos, arbustos y ramas sin ningún problema. Además, cuenta con una carcasa robusta, es silenciosa, cuenta con cañón de descarga giratorio en 360º, con una barra de seguridad diseñada para que el operador no tenga problemas de acceso para accionarla.Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior está orientado de forma radial para que el material se dirija a donde exista la mayor velocidad periférica. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
@@ -32,12 +33,13 @@ export default [
         "dimensiones":"3530 x 1480 x 2320 [mm]",
         "peso":"1200 [kg]",
         "urlPlano":"",
-        "routerPath":"/productos/tratamiento-de-residuos/chipeadoras/jensen/chipeadora-de-disco/A540",
-        "precio":0
+        "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A540",
+        "precio":0,
+        "params":"A540"
     },
     {
         "modelo":"A 328",
-        "categoria":"chipeadoras de disco",
+        "categoria":"Chipeadoras de Disco",
         "imagen":["/chipeadora/jensen/chipeadora_disco/A328.png"],
         "alt":"Chipeadora A328",
         "descripcion":"La Chipeadora A 328 es una máquina robusta con gran facilidad de servicios, con un potente motor diésel, capaz de triturar troncos, arbustos y ramas sin ningún problema. Además, cuenta con una carcasa robusta, es silenciosa, cuenta con cañón de descarga giratorio en 360º, con una barra de seguridad diseñada para que el operador no tenga problemas de acceso para accionarla. Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior es basculante, lo cual significa que se adapta a la forma y tamaño de las ramas. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
@@ -50,12 +52,13 @@ export default [
         "dimensiones":"4100 x 2140 x 3000 [mm]",
         "peso":"2100 [kg]",
         "urlPlano":"",
-        "routerPath":"/chipeadoras/jensen/chipeadora-de-disco/A328",
-        "precio":0
+        "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A328",
+        "precio":0,
+        "params":"A328"
     },
     {
         "modelo":"A 425",
-        "categoria":"chipeadoras de disco",
+        "categoria":"Chipeadoras de Disco",
         "imagen":["/chipeadora/jensen/chipeadora_disco/A425.png"],
         "alt":"Chipeadora A425",
         "descripcion":"La Chipeadora A 425 es una máquina ligera, compacta y práctica, con un potente motor diésel, capaz de triturar troncos, arbustos y ramas sin ningún problema. Además, cuenta con una carcasa robusta, es silenciosa, cuenta con cañón de descarga giratorio en 360º, con una barra de seguridad diseñada para que el operador no tenga problemas de acceso para accionarla. Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior está orientado de forma radial para que el material se dirija a donde exista la mayor velocidad periférica. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
@@ -68,12 +71,13 @@ export default [
         "dimensiones":"3700 x 2000 x 2800 [mm]",
         "peso":"1800 [kg]",
         "urlPlano":"",
-        "routerPath":"/chipeadoras/jensen/chipeadora-de-disco/A425L",
-        "precio":0
+        "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A425-L",
+        "precio":0,
+        "params":"A425-L"
     },
     {
         "modelo":"A 550",
-        "categoria":"chipeadoras de disco",
+        "categoria":"Chipeadoras de Disco",
         "imagen":["/chipeadora/jensen/chipeadora_disco/A550.png"],
         "alt":"Chipeadora A550",
         "descripcion":"La Chipeadora A 550, es una máquina ligera, compacta y práctica, con un potente motor diésel, capaz de triturar troncos, arbustos y ramas sin ningún problema. Además, cuenta con una carcasa robusta, es silenciosa, cuenta con cañón de descarga giratorio en 360º, con una barra de seguridad diseñada para que el operador no tenga problemas de acceso para accionarla. Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior está orientado de forma radial para que el material se dirija a donde exista la mayor velocidad periférica. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
@@ -86,12 +90,13 @@ export default [
         "dimensiones":"3750 x 1430 x 2320 [mm]",
         "peso":"1300 [kg]",
         "urlPlano":"",
-        "routerPath":"/chipeadoras/jensen/chipeadora-de-disco/A550",
-        "precio":0
+        "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A550",
+        "precio":0,
+        "params":"A550"
     },
     {
         "modelo":"A 450 ",
-        "categoria":"chipeadoras de disco",
+        "categoria":"Chipeadoras de Disco",
         "imagen":["/chipeadora/jensen/chipeadora_disco/A450.png"],
         "alt":"Chipeadora A450L",
         "descripcion":"La Chipeadora A 450 es una máquina ligera, compacta y práctica, con un potente motor diésel, capaz de triturar troncos, arbustos y ramas sin ningún problema. Además, cuenta con una carcasa robusta, es silenciosa, cuenta con cañón de descarga giratorio en 360º, con una barra de seguridad diseñada para que el operador no tenga problemas de acceso para accionarla. Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior está orientado de forma radial para que el material se dirija a donde exista la mayor velocidad periférica. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
@@ -104,12 +109,13 @@ export default [
         "dimensiones":"3620 x 1950 x 2700 [mm]",
         "peso":"1800 [kg]",
         "urlPlano":"",
-        "routerPath":"/chipeadoras/jensen/chipeadora-de-disco/A450",
-        "precio":0
+        "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A450",
+        "precio":0,
+        "params":"A450"
     },
     {
         "modelo":"A 530L Diesel",
-        "categoria":"chipeadoras de disco",
+        "categoria":"Chipeadoras de Disco",
         "imagen":["/chipeadora/jensen/chipeadora_disco/A530L-1.png"],
         "alt":"Chipeadora A530 L",
         "descripcion":"La Chipeadora A 530 L es una máquina ligera, compacta y práctica, con un potente motor diésel, capaz de triturar troncos, arbustos y ramas sin ningún problema. Además, cuenta con una carcasa robusta, es silenciosa, posee un cañón de descarga giratorio en 360º, con una barra de seguridad diseñada para que el operador no tenga problemas de acceso para accionarla. Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior está orientado de forma radial para que el material se dirija a donde exista la mayor velocidad periférica. Además cuenta con un sistema de alimentación automático reduciendo los esfuerzos por corte de material en el motor.",
@@ -122,12 +128,13 @@ export default [
         "dimensiones":"3450 x 1380 x 2200 [mm]",
         "peso":"750 [kg]",
         "urlPlano":"",
-        "routerPath":"/chipeadoras/jensen/chipeadora-de-disco/A530L-1",
-        "precio":0
+        "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A530-L-Diesel",
+        "precio":0,
+        "params":"A530-L-Diesel"
     },
     {
         "modelo":"A 530L Bencina",
-        "categoria":"chipeadoras de disco",
+        "categoria":"Chipeadoras de Disco",
         "imagen":["/chipeadora/jensen/chipeadora_disco/A530L-2.png"],
         "alt":"Chipeadora A530 L",
         "descripcion":"La Chipeadora A 530 L es una máquina ligera, compacta y práctica, con un potente motor a bencina, capaz de triturar troncos, arbustos y ramas sin ningún problema. Además, cuenta con una carcasa robusta, es silenciosa, cuenta con cañón de descarga giratorio en 360º, con una barra de seguridad diseñada para que el operador no tenga problemas de acceso para accionarla. Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior está orientado de forma radial para que el material se dirija a donde exista la mayor velocidad periférica. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
@@ -140,12 +147,13 @@ export default [
         "dimensiones":"3400 x 1380 x 2200 [mm]",
         "peso":"720 [kg]",
         "urlPlano":"",
-        "routerPath":"/chipeadoras/jensen/chipeadora-de-disco/A530L-2",
-        "precio":0
+        "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A530-L-Bencina",
+        "precio":0,
+        "params":"A530-L-Bencina"
     },
     {
         "modelo":"A 350L Bencina",
-        "categoria":"chipeadoras de disco",
+        "categoria":"Chipeadoras de Disco",
         "imagen":["/chipeadora/jensen/chipeadora_disco/A350.png"],
         "alt":"Chipeadora A350",
         "descripcion":"La Chipeadora A 350 es una máquina robusta con gran facilidad de servicios, con un potente motor diésel, capaz de triturar troncos, arbustos y ramas sin ningún problema. Además, cuenta con una carcasa robusta, es silenciosa, cuenta con cañón de descarga giratorio en 360º, con una barra de seguridad diseñada para que el operador no tenga problemas de acceso para accionarla.  Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior es basculante, lo cual significa que se adapta a la forma y tamaño de las ramas. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
@@ -158,8 +166,9 @@ export default [
         "dimensiones":"4100 x 2140 x 3000 [mm]",
         "peso":"2200 [kg]",
         "urlPlano":"",
-        "routerPath":"/chipeadoras/jensen/chipeadora-de-disco/A350",
-        "precio":0
+        "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A350-L-Bencina",
+        "precio":0,
+        "params":"A350-L-Bencina"
     },
 
 
@@ -181,7 +190,7 @@ export default [
 
     {
         "modelo":"A 141 XL PTO",
-        "categoria":"chipeadoras pto",
+        "categoria":"Chipeadoras PTO",
         "imagen":[""],
         "alt":"Chipeadora A 141 XL PTO",
         "descripcion":"Las Chipeadoras PTO son una excelente opción para usuarios con tractores o vehículos especiales. Son máquinas robustas, potentes y compactas. Todas las máquinas funcionan con un sistema hidráulico completamente independiente solo necesitando la alimentación del vehículo. El requisito de potencia del modelo A 141 XL PTO es de 82 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
@@ -194,12 +203,13 @@ export default [
         "dimensiones":"2300 x 1600 x 3000 [mm]",
         "peso":"1950 [kg]",
         "urlPlano":"",
-        "routerPath":'/chipeadoras/jensen/chipeadoras-pto/A141XL',
-        "precio":0
+        "routerPath":'/chipeadoras/jensen/Chipeadoras-PTO/A141-XL',
+        "precio":0,
+        "params":'A141-XL'
     },
     {
         "modelo":"A 231",
-        "categoria":"chipeadoras pto",
+        "categoria":"Chipeadoras PTO",
         "imagen":[""],
         "alt":"Chipeadora A 231 PTO",
         "descripcion":"Las Chipeadoras PTO son una excelente opción para usuarios con tractores o vehículos especiales. Son máquinas robustas, potentes y compactas. Todas las máquinas funcionan con un sistema hidráulico completamente independiente solo necesitando la alimentación del vehículo. l requisito de potencia del modelo A231 PTO es de 75 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
@@ -212,12 +222,13 @@ export default [
         "dimensiones":"2100 x 1500 x 3000 [mm]",
         "peso":"1400 [kg]",
         "urlPlano":"",
-        "routerPath":'/chipeadoras/jensen/chipeadoras-pto/A231',
-        "precio":0
+        "routerPath":'/chipeadoras/jensen/Chipeadoras-PTO/A231',
+        "precio":0,
+        "params":'A231'
     },
     {
         "modelo":"A 328 ",
-        "categoria":"chipeadoras pto",
+        "categoria":"Chipeadoras PTO",
         "imagen":[],
         "alt":"Chipeadora A 328 PTO",
         "descripcion":"Las Chipeadoras PTO son una excelente opción para usuarios con tractores o vehículos especiales. Son máquinas robustas, potentes y compactas. Todas las máquinas funcionan con un sistema hidráulico completamente independiente solo necesitando la alimentación del vehículo. El requisito de potencia del modelo A328 PTO es de 68 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
@@ -230,12 +241,13 @@ export default [
         "dimensiones":"1950 x 1200 x 2540 [mm]",
         "peso":"950 [kg]",
         "urlPlano":"",
-        "routerPath":'/chipeadoras/jensen/chipeadoras-pto/A328',
-        "precio":0
+        "routerPath":'/chipeadoras/jensen/Chipeadoras-PTO/A328',
+        "precio":0,
+        "params":'A328'
     },
     {
         "modelo":"A 425 PTO",
-        "categoria":"chipeadoras pto",
+        "categoria":"Chipeadoras PTO",
         "imagen":[""],
         "alt":"Chipeadora A 425 PTO",
         "descripcion":"Las Chipeadoras PTO son una excelente opción para usuarios con tractores o vehículos especiales. Son máquinas robustas, potentes y compactas. Todas las máquinas funcionan con un sistema hidráulico completamente independiente solo necesitando la alimentación del vehículo. El requisito de potencia del modelo A425 PTO es de 55 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
@@ -248,12 +260,13 @@ export default [
         "dimensiones":"1950 x 1200 x 2540 [mm]",
         "peso":"800 [kg]",
         "urlPlano":"",
-        "routerPath":'/chipeadoras/jensen/chipeadoras-pto/A425',
-        "precio":0
+        "routerPath":'/chipeadoras/jensen/Chipeadoras-PTO/A425',
+        "precio":0,
+        "params":'A425'
     },
     {
         "modelo":"A 540 PTO",
-        "categoria":"chipeadoras pto",
+        "categoria":"Chipeadoras PTO",
         "imagen":[""],
         "alt":"Chipeadora A 540 PTO",
         "descripcion":"Las Chipeadoras PTO son una excelente opción para usuarios con tractores o vehículos especiales. Son máquinas robustas, potentes y compactas. Todas las máquinas funcionan con un sistema hidráulico completamente independiente solo necesitando la alimentación del vehículo. El requisito de potencia del modelo A540 PTO es de 40 [HP], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
@@ -266,12 +279,13 @@ export default [
         "dimensiones":"1950 x 1260 x 2250 [mm]",
         "peso":"750 [kg]",
         "urlPlano":"",
-        "routerPath":'/chipeadoras/jensen/chipeadoras-pto/A540',
-        "precio":0
+        "routerPath":'/chipeadoras/jensen/Chipeadoras-PTO/A540',
+        "precio":0,
+        "params":'A540'
     },
     {
         "modelo":"A 530 XL",
-        "categoria":"chipeadoras pto",
+        "categoria":"Chipeadoras PTO",
         "imagen":[""],
         "alt":"Chipeadora A 530 XL PTO",
         "descripcion":"Las Chipeadoras PTO son una excelente opción para usuarios con tractores o vehículos especiales. Son máquinas robustas, potentes y compactas. Todas las máquinas funcionan con un sistema hidráulico completamente independiente solo necesitando la alimentación del vehículo. El requisito de potencia del modelo A530 XL PTO es de 30 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
@@ -284,8 +298,9 @@ export default [
         "dimensiones":"1850 x 1150 x 2500 [mm]",
         "peso":"500 [kg]",
         "urlPlano":"",
-        "routerPath":'/chipeadoras/jensen/chipeadoras-pto/A530XL',
-        "precio":0
+        "routerPath":'/chipeadoras/jensen/Chipeadoras-PTO/A530-XL',
+        "precio":0,
+        "params":'A530-XL'
     }
 
 
@@ -305,7 +320,7 @@ export default [
     ,
     {
         "modelo":"A 530 L Oruga",
-        "categoria":"chipeadoras con oruga",
+        "categoria":"Chipeadoras con Oruga",
         "imagen":[""],
         "alt":"Chipeadora A 530 L con Oruga",
         "descripcion":"Con la gran facilidad de acceso de las Chipeadoras sobre orugas no tendrá ningún problema en trabajar en terrenos difíciles y empinados, llegando a prácticamente todas partes y triturar troncos o ramas sin dificultad. Están disponibles tanto con orugas fijas como ajustables en ancho. Pueden alcanzar velocidades aproximadamente de 3 [km/hr] y superar pendientes de hasta 30º. También se pueden complementar con un sistema de compensación de nivel controlado hidráulicamente lo cual permite condiciones de trabajo óptimas incluso en pendientes pronunciadas.",
@@ -318,12 +333,13 @@ export default [
         "dimensiones":"",
         "peso":"1200/1250 [kg]",
         "urlPlano":"",
-        "routerPath":'/chipeadoras/jensen/chipeadoras-con-oruga/A530L',
-        "precio":0
+        "routerPath":'/chipeadoras/jensen/Chipeadoras-con-Oruga/A530-L',
+        "precio":0,
+        "params":'A530-L'
     },
     {
         "modelo":"A 540 L Oruga",
-        "categoria":"chipeadoras con oruga",
+        "categoria":"Chipeadoras con Oruga",
         "imagen":[""],
         "alt":"Chipeadora A 540 L con Oruga",
         "descripcion":"Con la gran facilidad de acceso de las Chipeadoras sobre orugas no tendrá ningún problema en trabajar en terrenos difíciles y empinados, llegando a prácticamente todas partes y triturar troncos o ramas sin dificultad. Están disponibles tanto con orugas fijas como ajustables en ancho. Pueden alcanzar velocidades aproximadamente de 3 [km/hr] y superar pendientes de hasta 30º. También se pueden complementar con un sistema de compensación de nivel controlado hidráulicamente lo cual permite condiciones de trabajo óptimas incluso en pendientes pronunciadas.",
@@ -336,8 +352,9 @@ export default [
         "dimensiones":"",
         "peso":"1400/1450 [kg]",
         "urlPlano":"",
-        "routerPath":'/chipeadoras/jensen/chipeadoras-con-oruga/A540L',
-        "precio":0
+        "routerPath":'/chipeadoras/jensen/Chipeadoras-con-Oruga/A540L',
+        "precio":0,
+        "params":''
     },
 
 
@@ -351,7 +368,7 @@ export default [
 
     {
         "modelo":"A 540 Oruga Spider",
-        "categoria":"chipeadoras con oruga spider",
+        "categoria":"Chipeadoras con Oruga Spider",
         "imagen":[""],
         "alt":"Chipeadora A 540 Oruga Spider",
         "descripcion":"La Chipeadora A540 Spider, ha sido desarrollada como una versión más compacta, más ligera y, por lo tanto, más ágil en especial en este modelo. Se puede ajustar las orugas hidráulicamente de manera vertical y horizontal por separado. Se logra una distancia al suelo óptima gracias a su diseño ergonómico permitiendo el cruce de grandes obstáculos. Esta construcción inteligente le brinda la seguridad y flexibilidad que necesita para trabajar en pendientes.",
@@ -364,8 +381,9 @@ export default [
         "dimensiones":"",
         "peso":"2000 [kg]",
         "urlPlano":"",
-        "routerPath":'/chipeadoras/jensen/chipeadoras-con-oruga-spider/A540',
-        "precio":0
+        "routerPath":'/chipeadoras/jensen/Chipeadoras-con-Oruga-Spider/A540',
+        "precio":0,
+        "params":''
     },
 
 
@@ -379,7 +397,7 @@ export default [
 
     {
         "modelo":"JT 600 Motor",
-        "categoria":"chipeadoras de tambor",
+        "categoria":"Chipeadoras de Tambor",
         "imagen":[""],
         "alt":"Chipeadora de tambor JT 600 Motor",
         "descripcion":"La JT600 es una de las Chipeadoras de tambor más compactas en su clase, de alto rendimiento. La masa del volante es superior a la media y garantiza un procesamiento sin problemas de troncos de hasta 400 [mm] de diámetro. Por defecto, la máquina tiene una cinta transportadora con una longitud de 1000 [mm], y opcionalmente puede manejar una cinta transportadora de hasta una longitud aproximadamente de 2300 [mm]. Además de complementarla con una grúa forestal para la toma de troncos. Posee una capacidad de respuesta excepcional, cumple con las normas de regulación de emisiones más estrictas del mundo y permite un uso flexible a bajos costos de operación mediante el bajo consumo de combustible.",
@@ -392,12 +410,13 @@ export default [
         "dimensiones":"",
         "peso":"9000 [kg]",
         "urlPlano":"",
-        "routerPath":'/chipeadoras/jensen/chipeadoras-de-tambor/JT600-motor',
-        "precio":0
+        "routerPath":'/chipeadoras/jensen/Chipeadoras-de-Tambor/JT600-motor',
+        "precio":0,
+        "params":''
     },
     {
         "modelo":"JT 600 PTO",
-        "categoria":"chipeadoras de tambor",
+        "categoria":"Chipeadoras de Tambor",
         "imagen":[""],
         "alt":"Chipeadora de tambor JT 600 PTO",
         "descripcion":"La JT600 es una de las Chipeadoras de tambor más compactas en su clase, de alto rendimiento. La masa del volante es superior a la media y garantiza un procesamiento sin problemas de troncos de hasta 400 [mm] de diámetro. Por defecto, la máquina tiene una cinta transportadora con una longitud de 1000 [mm], y opcionalmente puede manejar una cinta transportadora de hasta una longitud aproximadamente de 2300 [mm]. Además de complementarla con una grúa forestal para la toma de troncos. Posee una capacidad de respuesta excepcional, cumple con las normas de regulación de emisiones más estrictas del mundo y permite un uso flexible a bajos costos de operación mediante el bajo consumo de combustible.",
@@ -410,8 +429,9 @@ export default [
         "dimensiones":"",
         "peso":"7000 [kg]",
         "urlPlano":"",
-        "routerPath":'/chipeadoras/jensen/chipeadoras-de-tambor/JT600-pto',
-        "precio":0
+        "routerPath":'/chipeadoras/jensen/Chipeadoras-de-Tambor/JT600-pto',
+        "precio":0,
+        "params":''
     }
 
 

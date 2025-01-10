@@ -53,71 +53,7 @@ const ProductoGeneral = () =>{
                 </div>
             </section>
 
-            {/* <div className="mb-10 block xl:hidden">
-                <h2 className="text-2xl text-center">Productos Relacionados</h2>
-            </div>
-
-            <section className="mb-10 md:px-20 flex items-center justify-center">
-
-                    <div className="mr-10 hidden xl:block">
-                        <h2 className="text-2xl">Productos <br/>Relacionados</h2>
-                    </div>
-
-                    <div className="mx-10 md:flex justify-center  w-full md:w-auto">
-                        
-                        <div className="w-full  border-gray-200 shadow-xl border-2 rounded-xl p-5 md:w-1/6 lg:w-1/5 md:mx-1 mb-5 md:mb-0">
-                            <div className="flex justify-center">
-                                <Image src="/chipeadora/cribas.png" alt="Cribas" width={100} height={100} />
-                            </div>
-                            <h3 className="text-lg text-center mb-3">Cribas</h3>
-                            <div className="flex justify-center">
-                                <button className="bg-black text-white py-2  px-8 rounded-full text-sm lg:text-md ">Ver producto</button>
-                            </div>
-                        </div>
-
-                        <div className="w-full border-2 rounded-xl border-gray-200 shadow-xl p-5 md:w-1/6 lg:w-1/5 mx-1 mb-5 md:mb-0">
-                            <div className="flex justify-center">
-                                <Image src="/chipeadora/briquetadora.png" alt="Briquetadora" width={100} height={100} />
-                            </div>
-                            <h3 className="text-lg text-center mb-3">Briquetadora</h3>
-                            <div className="flex justify-center">
-                                <button className="bg-black text-white py-2 px-8 rounded-full text-sm lg:text-md ">Ver producto</button>
-                            </div>
-                        </div>
-
-                        <div className="w-full border-2 rounded-xl border-gray-200 shadow-xl p-5 md:w-1/6 lg:w-1/5 mx-1 mb-5 md:mb-0">
-                        <div className="flex justify-center">
-                            <Image src="/chipeadora/trituradora.png" alt="Trituradora" width={100} height={100} />
-                        </div>
-                            <h3 className="text-lg text-center mb-3">Trituradora</h3>
-                            <div className="flex justify-center">
-                                <button className="bg-black text-white py-2 px-8 rounded-full text-sm lg:text-md ">Ver producto</button>
-                            </div>
-                        </div>
-                        <div className="w-full border-2 rounded-xl border-gray-200 shadow-xl p-5 md:w-1/6 lg:w-1/5 mx-1 mb-5 md:mb-0">
-                            <div className="flex justify-center">
-                                <Image src="/chipeadora/volteadora_compost.png" alt="Volteadora compost" width={100} height={100} />
-                            </div>
-                            <h3 className="text-lg text-center mb-3">Volteadora </h3>
-                            <div className="flex justify-center">
-                                <button className="bg-black text-white py-2 px-8 rounded-full text-sm lg:text-md ">Ver producto</button>
-                            </div>
-                        </div>
-                        <div className="w-full border-2 rounded-xl border-gray-200 shadow-xl p-5 md:w-1/6 lg:w-1/5 mx-1 mb-5 md:mb-0">
-                        <div className="flex justify-center">
-                            <Image src="/chipeadora/compostera.png" alt="Compostera" width={100} height={100} />
-                        </div>
-                            <h3 className="text-lg text-center mb-3">Compostera</h3>
-                            <div className="flex justify-center">
-                                <button className="bg-black text-white py-2 px-8 rounded-full text-sm lg:text-md ">Ver producto</button>
-                            </div>
-                        </div>
-                    </div>
-
-            </section> */}
-
-            {/* <SeccionInteres1/> */}
-
+       
         </main>
     )
 

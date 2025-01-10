@@ -14,8 +14,6 @@ export const metadata: Metadata = {
 }
 
 const Producto = () => {
-
-    
     return(
         <main>
             <section> 
@@ -41,10 +39,10 @@ const Producto = () => {
                             <p className="text-end pr-10 text-2xl font-bold md:pr-10 md:pt-3 lg:pr-32 lg:pt-10 xl:pt-20">01</p>
                             <div className="md:pl-10 md:pr-4 lg:pl-24 lg:pr-20 lg:pt-10 xl:pr-52 xl:pt-40">
                                 <h2 className="text-center mb-8 text-2xl md:text-start lg:text-3xl font-bold ">Chipeadoras de disco</h2>
-                                <p className="mb-5 px-10 sm:px-20 text-center md:text-start md:px-0 ">•Características: Ligera y eficiente. Ideal para tareas de jardinería o poda en áreas urbanas. <br/>
-                                •Por qué elegirla: Si buscas una opción confiable para trabajos cotidianos, esta es tu mejor elección.</p>
+                                <p className="mb-5 px-10 sm:px-20 text-center md:text-start md:px-0 ">• Características: Ligera y eficiente. Ideal para tareas de jardinería o poda en áreas urbanas. <br/>
+                                • Por qué elegirla: Si buscas una opción confiable para trabajos cotidianos, esta es tu mejor elección.</p>
                                 <div className="flex pb-10 justify-center md:justify-start md:pb-0">
-                                <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/chipeadoras/jensen/chipeadora-de-disco"}>Ver productos</Link></button>
+                                <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/chipeadoras/jensen/Chipeadoras-de-Disco"}>Ver productos</Link></button>
                                 </div>
                             </div>
                         </div>
@@ -63,7 +61,7 @@ const Producto = () => {
                                 <p className=" px-10 sm:px-20 text-center mb-5 md:mt-3  md:mb-5 lg:mt-5 lg:mb-10 ">• Características: Aprovecha la potencia de tu tractor para operar. <br/>
                                 • Por qué elegirla: Reduce costos y aumenta eficiencia al utilizar maquinaria que ya tienes.</p>
                                 <div className="flex pb-10 justify-center ">
-                                    <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/chipeadoras/jensen/chipeadoras-pto"}>Ver productos</Link></button>
+                                    <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/chipeadoras/jensen/Chipeadoras-PTO"}>Ver productos</Link></button>
 
                                 </div>
                             </div>
@@ -84,7 +82,7 @@ const Producto = () => {
                                 
                                 <p className="md:mt-3  md:mb-5 lg:mt-5 lg:mb-10 ">• Características: Aprovecha la potencia de tu tractor para operar. <br/>
                                 • Por qué elegirla: Reduce costos y aumenta eficiencia al utilizar maquinaria que ya tienes.</p>
-                                <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/chipeadoras/jensen/chipeadoras-pto"}>Ver productos</Link></button>
+                                <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/chipeadoras/jensen/Chipeadoras-PTO"}>Ver productos</Link></button>
                             </div>
                         </div>
                         <div className="w-1/2">
@@ -104,7 +102,7 @@ const Producto = () => {
                                 <p className="mb-5 px-10 sm:px-20 text-center md:text-start md:px-0 ">• Características: Diseño robusto con tracción para superar pendientes y superficies irregulares. <br/>
                                 • Por qué elegirla: Trabaja con facilidad en áreas forestales o de difícil acceso.</p>
                                 <div className="flex pb-10 justify-center md:justify-start md:pb-0">
-                                    <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/chipeadoras/jensen/chipeadoras-con-oruga"}>Ver productos</Link></button>
+                                    <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/chipeadoras/jensen/Chipeadoras-con-Oruga"}>Ver productos</Link></button>
                                 </div>
                             </div>
                         </div>
@@ -125,7 +123,7 @@ const Producto = () => {
                                 <p className=" px-10 sm:px-20 text-center mb-5 md:mt-3  md:mb-5 lg:mt-5 lg:mb-10 ">• Características: Capacidad todoterreno avanzada con excelente maniobrabilidad. <br/>
                                 • Por qué elegirla: Cuando otras chipeadoras no pueden llegar, la Spider sí lo hace.</p>
                                 <div className="flex pb-10 justify-center ">
-                                    <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/chipeadoras/jensen/chipeadoras-con-oruga-spider"}>Ver productos</Link></button>
+                                    <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/chipeadoras/jensen/Chipeadoras-con-Oruga-Spider"}>Ver productos</Link></button>
 
                                 </div>
                             </div>
@@ -146,7 +144,7 @@ const Producto = () => {
                                 
                                 <p className="md:mt-3  md:mb-5 lg:mt-5 lg:mb-10 ">• Características: Capacidad todoterreno avanzada con excelente maniobrabilidad. <br/>
                                 • Por qué elegirla: Cuando otras chipeadoras no pueden llegar, la Spider sí lo hace.</p>
-                                <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/chipeadoras/jensen/chipeadoras-con-oruga-spider"}>Ver productos</Link></button>
+                                <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/chipeadoras/jensen/Chipeadoras-con-Oruga-Spider"}>Ver productos</Link></button>
                             </div>
                         </div>
                         <div className="w-1/2">
@@ -170,29 +168,14 @@ const Producto = () => {
                                 <p className="mb-5 px-10 sm:px-20 text-center md:text-start md:px-0 ">• Características: Alta capacidad de producción y versatilidad para trabajos intensivos. <br/>
                                 • Por qué elegirla: Si necesitas rendimiento continuo para proyectos grandes, esta es tu opción.</p>
                                 <div className="flex pb-10 justify-center md:justify-start md:pb-0">
-                                <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/chipeadoras/jensen/chipeadoras-de-tambor"}>Ver productos</Link></button>
+                                <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/chipeadoras/jensen/Chipeadoras-de-Tambor"}>Ver productos</Link></button>
                                 </div>
                             </div>
                         </div>
                     </div>
                     
 
-                    {/* <div className="flex">
-                        <div className="w-1/2 bg-[#F6F6F6] ">
-                            <p className="text-start pl-32 pt-20  text-2xl font-bold">06</p>
-                            <div className="pr-24 pl-52 pt-14">
-                                <h2 className="text-3xl font-bold mb-8">Chipeadoras Especiales</h2>
-                                <p className="mb-5">• Características: Modelos personalizados según tus necesidades particulares. <br/>
-                                • Por qué elegirla: Cuando un proyecto requiere algo fuera de lo común, estas máquinas están diseñadas para adaptarse.</p>
-                               
-                                <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl">Ver productos</button>
-                            </div>
-                        </div>
-                        <div className="w-1/2">
-                            <Image src="/imgProductos/imgSubproductos/chipeadora/chipeadoras_especiales.png" alt="Chipeadoras especiales" width={1000} height={1000} className="w-full"/>
-                        </div>
-                    </div> */}
-
+                 
                     
                         {/* ------------------ APARECE EN MOVIL -------------------------- */}
                         <div className="block md:hidden">
@@ -207,7 +190,7 @@ const Producto = () => {
                                 <p className=" px-10 sm:px-20 text-center mb-5 md:mt-3  md:mb-5 lg:mt-5 lg:mb-10 ">• Características: Modelos personalizados según tus necesidades particulares. <br/>
                                 • Por qué elegirla: Cuando un proyecto requiere algo fuera de lo común, estas máquinas están diseñadas para adaptarse.</p>
                                 <div className="flex pb-10 justify-center ">
-                                    <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/chipeadoras/jensen/chipeadoras-de-tambor"}>Ver productos</Link></button>
+                                    <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/chipeadoras/jensen/Chipeadoras-de-Tambor"}>Ver productos</Link></button>
 
                                 </div>
                             </div>
