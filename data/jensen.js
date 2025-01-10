@@ -191,7 +191,7 @@ export default [
     {
         "modelo":"A 141 XL PTO",
         "categoria":"Chipeadoras PTO",
-        "imagen":[""],
+        "imagen":["/chipeadora/jensen/chipeadora_pto/A141-XL.png"],
         "alt":"Chipeadora A 141 XL PTO",
         "descripcion":"Las Chipeadoras PTO son una excelente opción para usuarios con tractores o vehículos especiales. Son máquinas robustas, potentes y compactas. Todas las máquinas funcionan con un sistema hidráulico completamente independiente solo necesitando la alimentación del vehículo. El requisito de potencia del modelo A 141 XL PTO es de 82 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
         "caracteristicas_tecnicas":"",
@@ -210,7 +210,7 @@ export default [
     {
         "modelo":"A 231",
         "categoria":"Chipeadoras PTO",
-        "imagen":[""],
+        "imagen":["/chipeadora/jensen/chipeadora_pto/A231.png"],
         "alt":"Chipeadora A 231 PTO",
         "descripcion":"Las Chipeadoras PTO son una excelente opción para usuarios con tractores o vehículos especiales. Son máquinas robustas, potentes y compactas. Todas las máquinas funcionan con un sistema hidráulico completamente independiente solo necesitando la alimentación del vehículo. l requisito de potencia del modelo A231 PTO es de 75 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
         "caracteristicas_tecnicas":"",
@@ -229,7 +229,7 @@ export default [
     {
         "modelo":"A 328 ",
         "categoria":"Chipeadoras PTO",
-        "imagen":[],
+        "imagen":["/chipeadora/jensen/chipeadora_pto/A328.png"],
         "alt":"Chipeadora A 328 PTO",
         "descripcion":"Las Chipeadoras PTO son una excelente opción para usuarios con tractores o vehículos especiales. Son máquinas robustas, potentes y compactas. Todas las máquinas funcionan con un sistema hidráulico completamente independiente solo necesitando la alimentación del vehículo. El requisito de potencia del modelo A328 PTO es de 68 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
         "caracteristicas_tecnicas":"",
@@ -248,7 +248,7 @@ export default [
     {
         "modelo":"A 425 PTO",
         "categoria":"Chipeadoras PTO",
-        "imagen":[""],
+        "imagen":["/chipeadora/jensen/chipeadora_pto/A425.png"],
         "alt":"Chipeadora A 425 PTO",
         "descripcion":"Las Chipeadoras PTO son una excelente opción para usuarios con tractores o vehículos especiales. Son máquinas robustas, potentes y compactas. Todas las máquinas funcionan con un sistema hidráulico completamente independiente solo necesitando la alimentación del vehículo. El requisito de potencia del modelo A425 PTO es de 55 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
         "caracteristicas_tecnicas":"",
@@ -267,7 +267,7 @@ export default [
     {
         "modelo":"A 540 PTO",
         "categoria":"Chipeadoras PTO",
-        "imagen":[""],
+        "imagen":["/chipeadora/jensen/chipeadora_pto/A540.png"],
         "alt":"Chipeadora A 540 PTO",
         "descripcion":"Las Chipeadoras PTO son una excelente opción para usuarios con tractores o vehículos especiales. Son máquinas robustas, potentes y compactas. Todas las máquinas funcionan con un sistema hidráulico completamente independiente solo necesitando la alimentación del vehículo. El requisito de potencia del modelo A540 PTO es de 40 [HP], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
         "caracteristicas_tecnicas":"",
@@ -286,7 +286,7 @@ export default [
     {
         "modelo":"A 530 XL",
         "categoria":"Chipeadoras PTO",
-        "imagen":[""],
+        "imagen":["/chipeadora/jensen/chipeadora_pto/A530-XL.png"],
         "alt":"Chipeadora A 530 XL PTO",
         "descripcion":"Las Chipeadoras PTO son una excelente opción para usuarios con tractores o vehículos especiales. Son máquinas robustas, potentes y compactas. Todas las máquinas funcionan con un sistema hidráulico completamente independiente solo necesitando la alimentación del vehículo. El requisito de potencia del modelo A530 XL PTO es de 30 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
         "caracteristicas_tecnicas":"",
@@ -369,7 +369,7 @@ export default [
     {
         "modelo":"A 540 Oruga Spider",
         "categoria":"Chipeadoras con Oruga Spider",
-        "imagen":[""],
+        "imagen":["/chipeadora/jensen/chipeadora_con_oruga_spider/A540-oruga-spider.png"],
         "alt":"Chipeadora A 540 Oruga Spider",
         "descripcion":"La Chipeadora A540 Spider, ha sido desarrollada como una versión más compacta, más ligera y, por lo tanto, más ágil en especial en este modelo. Se puede ajustar las orugas hidráulicamente de manera vertical y horizontal por separado. Se logra una distancia al suelo óptima gracias a su diseño ergonómico permitiendo el cruce de grandes obstáculos. Esta construcción inteligente le brinda la seguridad y flexibilidad que necesita para trabajar en pendientes.",
         "caracteristicas_tecnicas":"25 HP K - Oruga Spider",
@@ -394,11 +394,10 @@ export default [
 
 
 
-
     {
         "modelo":"JT 600 Motor",
         "categoria":"Chipeadoras de Tambor",
-        "imagen":[""],
+        "imagen":["/chipeadora/jensen/chipeadora_tambor/JT-600-MOTOR.png"],
         "alt":"Chipeadora de tambor JT 600 Motor",
         "descripcion":"La JT600 es una de las Chipeadoras de tambor más compactas en su clase, de alto rendimiento. La masa del volante es superior a la media y garantiza un procesamiento sin problemas de troncos de hasta 400 [mm] de diámetro. Por defecto, la máquina tiene una cinta transportadora con una longitud de 1000 [mm], y opcionalmente puede manejar una cinta transportadora de hasta una longitud aproximadamente de 2300 [mm]. Además de complementarla con una grúa forestal para la toma de troncos. Posee una capacidad de respuesta excepcional, cumple con las normas de regulación de emisiones más estrictas del mundo y permite un uso flexible a bajos costos de operación mediante el bajo consumo de combustible.",
         "caracteristicas_tecnicas":"",
@@ -417,7 +416,7 @@ export default [
     {
         "modelo":"JT 600 PTO",
         "categoria":"Chipeadoras de Tambor",
-        "imagen":[""],
+        "imagen":["/chipeadora/jensen/chipeadora_tambor/JT-600-PTO.png"],
         "alt":"Chipeadora de tambor JT 600 PTO",
         "descripcion":"La JT600 es una de las Chipeadoras de tambor más compactas en su clase, de alto rendimiento. La masa del volante es superior a la media y garantiza un procesamiento sin problemas de troncos de hasta 400 [mm] de diámetro. Por defecto, la máquina tiene una cinta transportadora con una longitud de 1000 [mm], y opcionalmente puede manejar una cinta transportadora de hasta una longitud aproximadamente de 2300 [mm]. Además de complementarla con una grúa forestal para la toma de troncos. Posee una capacidad de respuesta excepcional, cumple con las normas de regulación de emisiones más estrictas del mundo y permite un uso flexible a bajos costos de operación mediante el bajo consumo de combustible.",
         "caracteristicas_tecnicas":"",
