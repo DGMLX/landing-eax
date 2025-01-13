@@ -35,9 +35,9 @@ const ModeloJensen = () => {
                     </div> */}
                 </div>
                 <div className="w-1/2 ml-32">
-                    <div className="flex justify-between">
+                    <div>
                         <h1 className="text-2xl ">Chipeadora {producto[0].modelo}</h1>
-                        <button className="bg-black text-white px-8 py-2 rounded-xl flex items-center">Descargar Ficha Técnica <GoDownload className=" ml-2"/></button>
+                       
                     </div>
                     <p className="text-sm">Chipeadoras Jensen</p>
                     <p className="font-bold mt-2">$15.340.230</p>
@@ -51,7 +51,7 @@ const ModeloJensen = () => {
 
                     <div className="flex  mt-10">
                     
-                        <button className="bg-black text-white py-2 px-32 rounded-xl w-full">Agregar al carrito </button>
+                        <button className="bg-black text-white py-2 px-32 rounded-xl w-full">Solicitar información</button>
                     </div>
   
                 </div>
