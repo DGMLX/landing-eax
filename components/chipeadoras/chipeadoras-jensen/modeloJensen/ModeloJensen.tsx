@@ -1,16 +1,21 @@
 'use client'
 
 import Image from "next/image";
-import { BsShop, BsTruck } from "react-icons/bs";
 import { GoDownload } from "react-icons/go";
-import { RiErrorWarningLine } from "react-icons/ri";
 import { useParams } from "next/navigation";
+import data from "../../../../data/jensen"; 
 
 
 const ModeloJensen = () => {
 
+    const params = useParams()
+    const modelo = params.modelo as string
+    const categoria = params.categoria as string
+
+    const producto = data.filter(prod=>prod.params === modelo && prod.categoria === categoria.replace(/-/g,' '))
+    console.log(producto)
+
    
-    const {modelo} = useParams()
 
 
 
@@ -19,19 +24,19 @@ const ModeloJensen = () => {
               <section  className="pr-24 pl-24 mt-20 flex mb-10">
                 <div className="w-1/2 border rounded-xl">
                     <div className="flex justify-center mt-5 mb-10">
-                        <Image src="/chipeadora/jensen/chipeadora_disco/A530L-1/img_producto1.png" alt="Chipeadora de disco A530L" width={300} height={300} />
+                        <Image src={producto[0].imagen[0]} alt="Chipeadora de disco A530L" width={300} height={300} />
                     </div>
-                    <div className="flex justify-center mb-4">
+                    {/* <div className="flex justify-center mb-4">
                             <Image src="/chipeadora/jensen/chipeadora_disco/A530L-1/img_producto1.png" alt="Chipeadora de disco A530L" width={90} height={90} className="w-1/5 m-1 border rounded-xl" />
                             <Image src="/chipeadora/jensen/chipeadora_disco/A530L-1/img_producto2.png" alt="Chipeadora de disco A530L" width={90} height={90} className="w-1/5 m-1"/>
                             <Image src="/chipeadora/jensen/chipeadora_disco/A530L-1/img_producto3.png" alt="Chipeadora de disco A530L" width={90} height={90} className="w-1/5 m-1"/>
                             <Image src="/chipeadora/jensen/chipeadora_disco/A530L-1/img_producto4.png" alt="Chipeadora de disco A530L" width={90} height={90} className="w-1/5 m-1"/>
                             <Image src="/chipeadora/jensen/chipeadora_disco/A530L-1/img_producto5.png" alt="Chipeadora de disco A530L" width={90} height={90} className="w-1/5 m-1"/>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="w-1/2 ml-32">
                     <div className="flex justify-between">
-                        <h1 className="text-2xl ">Chipeadora {modelo}</h1>
+                        <h1 className="text-2xl ">Chipeadora {producto[0].modelo}</h1>
                         <button className="bg-black text-white px-8 py-2 rounded-xl flex items-center">Descargar Ficha Técnica <GoDownload className=" ml-2"/></button>
                     </div>
                     <p className="text-sm">Chipeadoras Jensen</p>
@@ -40,36 +45,15 @@ const ModeloJensen = () => {
                         <button className="border border-black py-2 px-12 rounded-xl mr-3 hover:bg-black hover:text-white">Diésel</button>
                         <button className="border border-black py-2 px-12 rounded-xl  hover:bg-black hover:text-white">Gasolina</button>
                     </div>
-                    <p className="mb-5">La Chipeadora A 530 L es una máquina ligera, compacta y práctica, con un potente motor diésel, capaz de triturar troncos, arbustos y ramas sin ningún problema. Además, cuenta con una carcasa robusta, es silenciosa, posee un cañón de descarga giratorio en 360º, con una barra de seguridad diseñada para que el operador no tenga problemas de acceso para accionarla.
+                    <p className="mb-5">{producto[0].descripcion}
                     </p>
-                    <div className="flex justify-between mb-5">
-                        <p className="font-bold">Entrega</p>
-                        <p className="underline flex items-center"><RiErrorWarningLine className="text-xl mr-3"/>Viña del Mar</p>
-                    </div>
-                    <div className="flex justify-between mb-3">
-                        <div className="flex items-center">
-                            <BsTruck className="text-2xl mr-5"/>
-                            <p>Recibe el</p>
-                        </div>
-                        <p>30 de diciembre</p>
-                    </div>
-                    <div className="flex justify-between mt-5">
-                        <div className="flex justify-between">
-                            <BsShop className="text-2xl mr-5"/>
-                            <p>Retira en Casa Matriz</p>
-                        </div>
-                        <p>Desde el 24 de noviembre</p>
-                    </div>
+                    
 
-                    <div className="flex justify-between mt-10">
-                        <div className="flex justify-between border rounded-xl items-center w-1/3 mr-3">
-                            <button className="text-xl pl-4">-</button>
-                            <p className="text-xl">1</p>
-                            <button className="text-xl pr-4">+</button>
-                        </div>
-                        <button className="bg-black text-white py-2 px-32 rounded-xl w-2/3">Agregar al carrito </button>
+                    <div className="flex  mt-10">
+                    
+                        <button className="bg-black text-white py-2 px-32 rounded-xl w-full">Agregar al carrito </button>
                     </div>
-                    <p className="mt-5">Máximo 10 unidades</p>
+  
                 </div>
              </section>
 
@@ -81,12 +65,12 @@ const ModeloJensen = () => {
                 </div>
                 <div className="w-1/2 ml-32">
                     <h2 className=" font-bold mb-5">Especificaciones generales</h2>
-                    <p className="mb-5 border-t-2 pt-2 border-black">Modelo: A 530 L - 23.8 HP K - Chasis 80 km/h</p>
-                    <p className="mb-5 border-t-2 pt-2 border-black">Producción: 15 [m3/hr]</p>
+                    <p className="mb-5 border-t-2 pt-2 border-black">Modelo: {producto[0].modelo} - {producto[0].caracteristicas_tecnicas}</p>
+                    <p className="mb-5 border-t-2 pt-2 border-black">Producción: {producto[0].produccion}</p>
                     <p className="mb-5 border-t-2 pt-2 border-black">Tamaño de garganta de alimentación: 210 x 150 [mm]</p>
                     <p className="mb-5 border-t-2 pt-2 border-black">Motor: Motor de 23.8 [HP] Kubota Diésel</p>
                     <p className="mb-5 border-t-2 pt-2 border-black">Dimensiones: (Largo x Ancho x Alto)3450 x 1380 x 2200 [mm]</p>
-                    <p className="mb-5 border-y-2 pt-2 pb-2 border-black">Peso: 750 [kg]</p>
+                    <p className="mb-5 border-y-2 pt-2 pb-2 border-black">Peso: {producto[0].peso}</p>
                 </div>
              </section>
         </>

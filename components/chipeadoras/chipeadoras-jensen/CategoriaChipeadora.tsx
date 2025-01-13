@@ -10,7 +10,6 @@ const Productos = data;
 
 
 const CategoriaChipeadora = () =>{
-    console.log(Productos)
     const params= useParams()
     const categoria = params.categoria as string
     const productosFiltrados = Productos.filter(producto=>producto.categoria===categoria.replace(/-/g,' '))
