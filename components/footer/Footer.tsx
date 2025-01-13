@@ -8,20 +8,7 @@ export const Footer = () =>{
     return(
         <footer className="bg-[#1E1E1E] pb-16 pt-16 ">
             <div className="flex pb-20 justify-center lg:justify-between px-44 sm:px-60">
-                <div className="hidden sm:block text-[#D9D9D9] pr-10">
-                    <h3 className="mb-5 text-xl font-bold">Enlaces</h3>
-                    <nav>
-                        <ul>
-                            <li className="mb-2">Inicio</li>
-                            <li className="mb-2">Soluciones</li>
-                            <li className="mb-2">Productos</li>
-                            <li className="mb-2">Acerca de EAX</li>
-                            <li className="mb-2">Blog</li>
-                            <li className="mb-2">Tienda</li>
-                        </ul>
-                    </nav>
-                </div>
-
+               
                 <div className="text-[#D9D9D9]">
                     <h3 className="mb-5 text-xl font-bold text-start">Contáctanos</h3>
                     <p className="mb-5 flex"><BsGeoAltFill className="text-xl mr-4"/>Casa central: 1/2 oriente 831, oficina 408, <br />Viña del mar, Chile</p>
@@ -62,17 +49,12 @@ export const Footer = () =>{
            
             <div className="border border-white mx-10 md:mx-20 lg:mx-40"></div>
 
-            <div className="mt-3 flex justify-center lg:justify-between px-10 md:px-60">
+            <div className="mt-3 flex justify-center  px-10 md:px-60">
                 <div className="flex items-center">
                     <Image width={35} height={35} src="/footer/logo_eax.png" alt="Logo EAX" className="mr-5" />    
                     <p className="flex items-center text-[#D9D9D9] text-sm">EcoAlliance © 2025 - Transformando el entorno</p>
                 </div>
 
-                <div className="flex items-center ">
-                    <p className="text-[#D9D9D9] text-sm">Información corporativa</p>
-                    <p className="text-[#D9D9D9] text-sm mr-7 ml-7">Información Legal</p>
-                    <p className="text-[#D9D9D9] text-sm">Mapa del sitio</p>
-                </div>
             </div>
             
         </footer>

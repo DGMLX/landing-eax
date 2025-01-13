@@ -1,5 +1,4 @@
 import FormularioHubspot from "@/components/formularios/FormularioHubspot";
-import SeccionInteres1 from "@/components/seccionInteres/SeccionInteres1";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -13,9 +12,9 @@ export const metadata: Metadata = {
 const Producto = () => {
     return(
         <main>
-            <section> 
+            {/* <section> 
                 <Image src="/chipeadora/jensen/img_principal_chipeadora.png" alt="Imagen Princiapl productos " width={1600} height={200} />
-            </section>
+            </section> */}
 
             <section className="px-5 sm:px-10 md:px-16 mt-28 mb-28">
                 <h1 className="text-3xl text-center mb-10">Encuentra la chipeadora ideal para tu proyecto</h1>
@@ -225,7 +224,6 @@ const Producto = () => {
               {/* <FormularioProducto/> */}
               <FormularioHubspot urlImagen="/chipeadora/jensen/img_formulario.png"/>
 
-              <SeccionInteres1/>
         </main>
     )
 }

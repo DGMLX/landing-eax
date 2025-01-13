@@ -1,7 +1,5 @@
-'use client'
 
-import { useAppDispatch } from "@/store"
-import { agregarProducto } from "@/store/productos/productosSlice"
+
 import Image from "next/image"
 import { GoArrowRight } from "react-icons/go"
 
@@ -31,7 +29,6 @@ type Props = {
 
 const ChipeadorasJensen = ({Productos}:Props) =>{
 
-    const dispatch = useAppDispatch()
 
 
     return(

@@ -1,7 +1,6 @@
 // import SeccionInteres1 from "@/components/seccionInteres/SeccionInteres1"
 import Image from "next/image"
 import { Metadata } from "next";
-import SeccionInteres1 from "@/components/seccionInteres/SeccionInteres1";
 
 export const metadata: Metadata = {
     title: "Chipeadoras - EcoAlliance",
@@ -53,8 +52,6 @@ const ProductoGeneral = () =>{
                     </div>
                 </div>
             </section>
-
-            <SeccionInteres1/>
 
         </main>
     )

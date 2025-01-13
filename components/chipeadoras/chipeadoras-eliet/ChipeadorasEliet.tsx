@@ -1,7 +1,5 @@
 'use client'
 
-import { useAppDispatch } from "@/store"
-import { agregarProducto } from "@/store/productos/productosSlice"
 import Image from "next/image"
 import { GoArrowRight } from "react-icons/go"
 
@@ -21,8 +19,6 @@ type Props = {
 
 const ChipeadorasEliet = ({Productos}:Props) =>{
 
-    const dispatch = useAppDispatch()
-
 
     return(
 
@@ -38,14 +34,7 @@ const ChipeadorasEliet = ({Productos}:Props) =>{
                     <p className="text-center mb-2">{producto.descripcion_tecnica}</p>
                     <p className="text-center">{producto.descripcion_producto}</p>
                     <div className="flex justify-center mt-5">
-                        <button className="border border-black p-1 rounded-xl" 
-                            onClick={()=>dispatch(agregarProducto({
-                                imgURL:producto.imagen,
-                                cantidad:1,
-                                nombre:producto.nombre,
-                                precio:producto.precio
-                            }))}
-                        ><Image src="/logos_generales/logo_add_cart.png" alt="Logo carrito" width={33} height={33}/></button>
+                       
                         <button className="bg-black text-white px-4 ml-3 rounded-xl"><a className="flex items-center" href={producto.routerPath}>Ver productos <GoArrowRight className="text-white ml-3"/></a></button>
                     </div>
                 </div>

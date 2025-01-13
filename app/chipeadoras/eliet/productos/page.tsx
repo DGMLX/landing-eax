@@ -1,5 +1,4 @@
-// import ProductosRelacionados from "@/components/ProductosRelacionados";
-import SeccionInteres1 from "@/components/seccionInteres/SeccionInteres1";
+
 import Image from "next/image"
 import { Metadata } from 'next';
 import ChipeadorasEliet from "@/components/chipeadoras/chipeadoras-eliet/ChipeadorasEliet";
@@ -30,7 +29,6 @@ const Productos = [
 
 const InformacionProducto = () =>{
 
-
     return(
         <>
             <main>
@@ -55,7 +53,6 @@ const InformacionProducto = () =>{
 
                 </div>
 
-                <SeccionInteres1/>
             </main>
         </>
     )

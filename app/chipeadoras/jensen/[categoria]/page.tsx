@@ -1,4 +1,4 @@
-import SeccionInteres1 from "@/components/seccionInteres/SeccionInteres1";
+
 import Image from "next/image"
 import { Metadata } from 'next';
 
@@ -16,10 +16,6 @@ type Props = {
         description:''
     }
  }
-
-
-
-
 
 
 
@@ -44,8 +40,6 @@ const InformacionProducto = () =>{
               
 
                 </div>
-
-                <SeccionInteres1/>
             </main>
         </>
     )

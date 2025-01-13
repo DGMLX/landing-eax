@@ -1,6 +1,4 @@
 
-
-import SeccionInteres1 from "@/components/seccionInteres/SeccionInteres1";
 import FormularioHubspot from "@/components/formularios/FormularioHubspot";
 import { Metadata } from "next";
 import ModeloJensen from "@/components/chipeadoras/chipeadoras-jensen/modeloJensen/ModeloJensen";
@@ -33,7 +31,6 @@ const ModeloProducto = () =>{
             <FormularioHubspot urlImagen="/chipeadora/jensen/img_formulario.png"/>
 
 
-             <SeccionInteres1/>
         </main>
         </>
     )
