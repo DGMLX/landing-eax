@@ -43,10 +43,30 @@ const ModeloJensen = () => {
                          
                     </div>
                     <div className="flex justify-center mb-4">
-                            <Image src={producto[0].imagen[0]} alt="Chipeadora de disco A530L" width={90} height={90} className="w-1/5 m-1 border rounded-xl" />
-                            <Image src={producto[0].imagen[1]} alt="Chipeadora de disco A530L" width={90} height={90} className="w-1/5 m-1"/>
-                            <Image src={producto[0].imagen[2]} alt="Chipeadora de disco A530L" width={90} height={90} className="w-1/5 m-1"/>
-                            <Image src={producto[0].imagen[3]} alt="Chipeadora de disco A530L" width={90} height={90} className="w-1/5 m-1"/>
+                            <Image src={producto[0].imagen[0]} alt="Chipeadora de disco A530L" width={90} height={90} className={`w-1/5 m-1 ${imagen1 && "border rounded-xl"}`} onClick={()=>{
+                                setImagen1(true)
+                                setImagen2(false)
+                                setImagen3(false)
+                                setImagen4(false)
+                            }}/>
+                            <Image src={producto[0].imagen[1]} alt="Chipeadora de disco A530L" width={90} height={90} className={`w-1/5 m-1 ${imagen2 && "border rounded-xl"}`} onClick={()=>{
+                                setImagen1(false)
+                                setImagen2(true)
+                                setImagen3(false)
+                                setImagen4(false)
+                            }}/>
+                            <Image src={producto[0].imagen[2]} alt="Chipeadora de disco A530L" width={90} height={90} className={`w-1/5 m-1 ${imagen3 && "border rounded-xl"}`} onClick={()=>{
+                                 setImagen1(false)
+                                 setImagen2(false)
+                                 setImagen3(true)
+                                 setImagen4(false)
+                            }}/>
+                            <Image src={producto[0].imagen[3]} alt="Chipeadora de disco A530L" width={90} height={90} className={`w-1/5 m-1 ${imagen4 && "border rounded-xl"}`} onClick={()=>{
+                                setImagen1(false)
+                                setImagen2(false)
+                                setImagen3(false)
+                                setImagen4(true)
+                            }}/>
                     </div>
                 </div>
                 <div className="w-1/2 ml-32">
