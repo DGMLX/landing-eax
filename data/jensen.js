@@ -14,7 +14,6 @@ export default [
         "motor":"Motor de 75 [HP] Hatz Diésel",
         "dimensiones":"(Largo x Ancho x Alto) 4100 x 2350 x 3300 [mm]",
         "peso":"3200 [kg]",
-        "urlPlano":"",
         "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A141-XL",
         "precio":0,
         "params":"A141-XL"
@@ -34,7 +33,6 @@ export default [
         "motor":"Motor de 25 [HP] Kubota Diésel",
         "dimensiones":"(Largo x Ancho x Alto) 3530 x 1480 x 2320 [mm]",
         "peso":"1200 [kg]",
-        "urlPlano":"",
         "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A540",
         "precio":0,
         "params":"A540"
@@ -54,7 +52,6 @@ export default [
         "motor":"Motor de 57 [HP] Hatz Diésel",
         "dimensiones":"(Largo x Ancho x Alto) 4100 x 2140 x 3000 [mm]",
         "peso":"2100 [kg]",
-        "urlPlano":"",
         "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A328",
         "precio":0,
         "params":"A328"
@@ -74,7 +71,6 @@ export default [
         "motor":"Motor 57 [HP] Hatz Diésel",
         "dimensiones":"(Largo x Ancho x Alto) 3700 x 2000 x 2800 [mm]",
         "peso":"1800 [kg]",
-        "urlPlano":"",
         "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A425-L",
         "precio":0,
         "params":"A425-L"
@@ -94,7 +90,6 @@ export default [
         "motor":"Motor de 37 [HP] Yanmar Diésel",
         "dimensiones":"(Largo x Ancho x Alto) 3750 x 1430 x 2320 [mm]",
         "peso":"1300 [kg]",
-        "urlPlano":"",
         "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A550",
         "precio":0,
         "params":"A550"
@@ -114,7 +109,6 @@ export default [
         "motor":"Motor de 38 [HP] Kubota Diésel",
         "dimensiones":"(Largo x Ancho x Alto) 3620 x 1950 x 2700 [mm]",
         "peso":"1800 [kg]",
-        "urlPlano":"",
         "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A450",
         "precio":0,
         "params":"A450"
@@ -134,7 +128,6 @@ export default [
         "motor":"Motor de 23.8 [HP] Kubota Diésel",
         "dimensiones":"(Largo x Ancho x Alto) 3450 x 1380 x 2200 [mm]",
         "peso":"750 [kg]",
-        "urlPlano":"",
         "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A530-L-Diesel",
         "precio":0,
         "params":"A530-L-Diesel"
@@ -154,7 +147,6 @@ export default [
         "motor":"Motor de 23 [HP] Vanguard a Bencina / Motor de 35 [HP] Vanguard a Bencina",
         "dimensiones":"(Largo x Ancho x Alto) 3400 x 1380 x 2200 [mm]",
         "peso":"720 [kg]",
-        "urlPlano":"",
         "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A530-L-Bencina",
         "precio":0,
         "params":"A530-L-Bencina"
@@ -174,7 +166,6 @@ export default [
         "motor":"Motor de 75 [HP] Hatz Diésel",
         "dimensiones":"(Largo x Ancho x Alto) 4100 x 2140 x 3000 [mm]",
         "peso":"2200 [kg]",
-        "urlPlano":"",
         "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A350-L-Bencina",
         "precio":0,
         "params":"A350-L-Bencina"
@@ -201,7 +192,7 @@ export default [
         "modelo":"A 141 XL PTO",
         "categoria":"Chipeadoras PTO",
         "imagen":["/chipeadora/jensen/chipeadora_pto/A141-XL.png"],
-        "imagenPlano":"",
+        "imagenPlano":"/chipeadora/jensen/chipeadora_pto/A141-XL/A141-XL-PLANO.jpg",
         "alt":"Chipeadora A 141 XL PTO",
         "descripcion":"Las Chipeadoras PTO son una excelente opción para usuarios con tractores o vehículos especiales. Son máquinas robustas, potentes y compactas. Todas las máquinas funcionan con un sistema hidráulico completamente independiente solo necesitando la alimentación del vehículo. El requisito de potencia del modelo A 141 XL PTO es de 82 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
         "caracteristicas_tecnicas":"",
@@ -212,7 +203,6 @@ export default [
         "motor":"",
         "dimensiones":"(Largo x Ancho x Alto) 2300 x 1600 x 3000 [mm]",
         "peso":"1950 [kg]",
-        "urlPlano":"",
         "routerPath":'/chipeadoras/jensen/Chipeadoras-PTO/A141-XL',
         "precio":0,
         "params":'A141-XL'
@@ -221,7 +211,7 @@ export default [
         "modelo":"A 231",
         "categoria":"Chipeadoras PTO",
         "imagen":["/chipeadora/jensen/chipeadora_pto/A231.png"],
-        "imagenPlano":"",
+        "imagenPlano":"/chipeadora/jensen/chipeadora_pto/A231/A231-PLANO.jpg",
         "alt":"Chipeadora A 231 PTO",
         "descripcion":"Las Chipeadoras PTO son una excelente opción para usuarios con tractores o vehículos especiales. Son máquinas robustas, potentes y compactas. Todas las máquinas funcionan con un sistema hidráulico completamente independiente solo necesitando la alimentación del vehículo. l requisito de potencia del modelo A231 PTO es de 75 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
         "caracteristicas_tecnicas":"",
@@ -232,7 +222,6 @@ export default [
         "motor":"",
         "dimensiones":"(Largo x Ancho x Alto) 2100 x 1500 x 3000 [mm]",
         "peso":"1400 [kg]",
-        "urlPlano":"",
         "routerPath":'/chipeadoras/jensen/Chipeadoras-PTO/A231',
         "precio":0,
         "params":'A231'
@@ -241,7 +230,7 @@ export default [
         "modelo":"A 328 ",
         "categoria":"Chipeadoras PTO",
         "imagen":["/chipeadora/jensen/chipeadora_pto/A328.png"],
-        "imagenPlano":"",
+        "imagenPlano":"/chipeadora/jensen/chipeadora_pto/A328/A328-PLANO.jpg",
         "alt":"Chipeadora A 328 PTO",
         "descripcion":"Las Chipeadoras PTO son una excelente opción para usuarios con tractores o vehículos especiales. Son máquinas robustas, potentes y compactas. Todas las máquinas funcionan con un sistema hidráulico completamente independiente solo necesitando la alimentación del vehículo. El requisito de potencia del modelo A328 PTO es de 68 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
         "caracteristicas_tecnicas":"",
@@ -252,7 +241,6 @@ export default [
         "motor":"",
         "dimensiones":"(Largo x Ancho x Alto) 1950 x 1200 x 2540 [mm]",
         "peso":"950 [kg]",
-        "urlPlano":"",
         "routerPath":'/chipeadoras/jensen/Chipeadoras-PTO/A328',
         "precio":0,
         "params":'A328'
@@ -261,7 +249,7 @@ export default [
         "modelo":"A 425 PTO",
         "categoria":"Chipeadoras PTO",
         "imagen":["/chipeadora/jensen/chipeadora_pto/A425.png"],
-        "imagenPlano":"",
+        "imagenPlano":"/chipeadora/jensen/chipeadora_pto/A425/A425-PLANO.jpg",
         "alt":"Chipeadora A 425 PTO",
         "descripcion":"Las Chipeadoras PTO son una excelente opción para usuarios con tractores o vehículos especiales. Son máquinas robustas, potentes y compactas. Todas las máquinas funcionan con un sistema hidráulico completamente independiente solo necesitando la alimentación del vehículo. El requisito de potencia del modelo A425 PTO es de 55 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
         "caracteristicas_tecnicas":"",
@@ -272,7 +260,6 @@ export default [
         "motor":"",
         "dimensiones":"(Largo x Ancho x Alto) 1950 x 1200 x 2540 [mm]",
         "peso":"800 [kg]",
-        "urlPlano":"",
         "routerPath":'/chipeadoras/jensen/Chipeadoras-PTO/A425',
         "precio":0,
         "params":'A425'
@@ -281,7 +268,7 @@ export default [
         "modelo":"A 540 PTO",
         "categoria":"Chipeadoras PTO",
         "imagen":["/chipeadora/jensen/chipeadora_pto/A540.png"],
-        "imagenPlano":"",
+        "imagenPlano":"/chipeadora/jensen/chipeadora_pto/A540/A540-PLANO.jpg",
         "alt":"Chipeadora A 540 PTO",
         "descripcion":"Las Chipeadoras PTO son una excelente opción para usuarios con tractores o vehículos especiales. Son máquinas robustas, potentes y compactas. Todas las máquinas funcionan con un sistema hidráulico completamente independiente solo necesitando la alimentación del vehículo. El requisito de potencia del modelo A540 PTO es de 40 [HP], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
         "caracteristicas_tecnicas":"",
@@ -292,7 +279,6 @@ export default [
         "motor":"",
         "dimensiones":"(Largo x Ancho x Alto) 1950 x 1260 x 2250 [mm]",
         "peso":"750 [kg]",
-        "urlPlano":"",
         "routerPath":'/chipeadoras/jensen/Chipeadoras-PTO/A540',
         "precio":0,
         "params":'A540'
@@ -301,7 +287,7 @@ export default [
         "modelo":"A 530 XL",
         "categoria":"Chipeadoras PTO",
         "imagen":["/chipeadora/jensen/chipeadora_pto/A530-XL.png"],
-        "imagenPlano":"",
+        "imagenPlano":"/chipeadora/jensen/chipeadora_pto/A530/A530-PLANO.jpg",
         "alt":"Chipeadora A 530 XL PTO",
         "descripcion":"Las Chipeadoras PTO son una excelente opción para usuarios con tractores o vehículos especiales. Son máquinas robustas, potentes y compactas. Todas las máquinas funcionan con un sistema hidráulico completamente independiente solo necesitando la alimentación del vehículo. El requisito de potencia del modelo A530 XL PTO es de 30 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
         "caracteristicas_tecnicas":"",
@@ -312,7 +298,6 @@ export default [
         "motor":"",
         "dimensiones":"(Largo x Ancho x Alto) 1850 x 1150 x 2500 [mm]",
         "peso":"500 [kg]",
-        "urlPlano":"",
         "routerPath":'/chipeadoras/jensen/Chipeadoras-PTO/A530-XL',
         "precio":0,
         "params":'A530-XL'
@@ -337,7 +322,7 @@ export default [
         "modelo":"A 530 L Oruga",
         "categoria":"Chipeadoras con Oruga",
         "imagen":["/chipeadora/jensen/chipeadora_con_oruga/A530-L-oruga.png"],
-        "imagenPlano":"",
+        "imagenPlano":"/chipeadora/jensen/chipeadora_con_oruga/A530-L/A530-L-PLANO.jpg",
         "alt":"Chipeadora A 530 L con Oruga",
         "descripcion":"Con la gran facilidad de acceso de las Chipeadoras sobre orugas no tendrá ningún problema en trabajar en terrenos difíciles y empinados, llegando a prácticamente todas partes y triturar troncos o ramas sin dificultad. Están disponibles tanto con orugas fijas como ajustables en ancho. Pueden alcanzar velocidades aproximadamente de 3 [km/hr] y superar pendientes de hasta 30º. También se pueden complementar con un sistema de compensación de nivel controlado hidráulicamente lo cual permite condiciones de trabajo óptimas incluso en pendientes pronunciadas.",
         "caracteristicas_tecnicas":"23.8 HP K - Oruga",
@@ -348,7 +333,6 @@ export default [
         "motor":"Motor de 23,8 [HP] Kubota Diésel",
         "dimensiones":"",
         "peso":"1200/1250 [kg]",
-        "urlPlano":"",
         "routerPath":'/chipeadoras/jensen/Chipeadoras-con-Oruga/A530-L',
         "precio":0,
         "params":'A530-L'
@@ -357,7 +341,7 @@ export default [
         "modelo":"A 540 L Oruga",
         "categoria":"Chipeadoras con Oruga",
         "imagen":["/chipeadora/jensen/chipeadora_con_oruga/A540-L-oruga.png"],
-        "imagenPlano":"",
+        "imagenPlano":"/chipeadora/jensen/chipeadora_con_oruga/A540-L/A540-L-PLANO.jpg",
         "alt":"Chipeadora A 540 L con Oruga",
         "descripcion":"Con la gran facilidad de acceso de las Chipeadoras sobre orugas no tendrá ningún problema en trabajar en terrenos difíciles y empinados, llegando a prácticamente todas partes y triturar troncos o ramas sin dificultad. Están disponibles tanto con orugas fijas como ajustables en ancho. Pueden alcanzar velocidades aproximadamente de 3 [km/hr] y superar pendientes de hasta 30º. También se pueden complementar con un sistema de compensación de nivel controlado hidráulicamente lo cual permite condiciones de trabajo óptimas incluso en pendientes pronunciadas.",
         "caracteristicas_tecnicas":"25 HP K - Oruga",
@@ -368,10 +352,9 @@ export default [
         "motor":"Motor de 25 [HP] Kubota Diésel",
         "dimensiones":"",
         "peso":"1400/1450 [kg]",
-        "urlPlano":"",
-        "routerPath":'/chipeadoras/jensen/Chipeadoras-con-Oruga/A540L',
+        "routerPath":'/chipeadoras/jensen/Chipeadoras-con-Oruga/A540-L',
         "precio":0,
-        "params":''
+        "params":'A540-L'
     },
 
 
@@ -387,7 +370,7 @@ export default [
         "modelo":"A 540 Oruga Spider",
         "categoria":"Chipeadoras con Oruga Spider",
         "imagen":["/chipeadora/jensen/chipeadora_con_oruga_spider/A540-oruga-spider.png"],
-        "imagenPlano":"",
+        "imagenPlano":"/chipeadora/jensen/chipeadora_con_oruga_spider/A540/A540-PLANO.jpg",
         "alt":"Chipeadora A 540 Oruga Spider",
         "descripcion":"La Chipeadora A540 Spider, ha sido desarrollada como una versión más compacta, más ligera y, por lo tanto, más ágil en especial en este modelo. Se puede ajustar las orugas hidráulicamente de manera vertical y horizontal por separado. Se logra una distancia al suelo óptima gracias a su diseño ergonómico permitiendo el cruce de grandes obstáculos. Esta construcción inteligente le brinda la seguridad y flexibilidad que necesita para trabajar en pendientes.",
         "caracteristicas_tecnicas":"25 HP K - Oruga Spider",
@@ -398,10 +381,9 @@ export default [
         "motor":"Motor de 57 [HP] Hatz Diésel",
         "dimensiones":"",
         "peso":"2000 [kg]",
-        "urlPlano":"",
         "routerPath":'/chipeadoras/jensen/Chipeadoras-con-Oruga-Spider/A540',
         "precio":0,
-        "params":''
+        "params":'A540'
     },
 
 
@@ -416,7 +398,7 @@ export default [
         "modelo":"JT 600 Motor",
         "categoria":"Chipeadoras de Tambor",
         "imagen":["/chipeadora/jensen/chipeadora_tambor/JT-600-MOTOR.png"],
-        "imagenPlano":"",
+        "imagenPlano":"/chipeadora/jensen/chipeadora_tambor/JT-600-MOTOR/JT-600-MOTOR-PLANO.jpg",
         "alt":"Chipeadora de tambor JT 600 Motor",
         "descripcion":"La JT600 es una de las Chipeadoras de tambor más compactas en su clase, de alto rendimiento. La masa del volante es superior a la media y garantiza un procesamiento sin problemas de troncos de hasta 400 [mm] de diámetro. Por defecto, la máquina tiene una cinta transportadora con una longitud de 1000 [mm], y opcionalmente puede manejar una cinta transportadora de hasta una longitud aproximadamente de 2300 [mm]. Además de complementarla con una grúa forestal para la toma de troncos. Posee una capacidad de respuesta excepcional, cumple con las normas de regulación de emisiones más estrictas del mundo y permite un uso flexible a bajos costos de operación mediante el bajo consumo de combustible.",
         "caracteristicas_tecnicas":"",
@@ -427,16 +409,15 @@ export default [
         "motor":"Motor de 150 [HP]",
         "dimensiones":"",
         "peso":"9000 [kg]",
-        "urlPlano":"",
         "routerPath":'/chipeadoras/jensen/Chipeadoras-de-Tambor/JT600-motor',
         "precio":0,
-        "params":''
+        "params":'JT600-motor'
     },
     {
         "modelo":"JT 600 PTO",
         "categoria":"Chipeadoras de Tambor",
         "imagen":["/chipeadora/jensen/chipeadora_tambor/JT-600-PTO.png"],
-        "imagenPlano":"",
+        "imagenPlano":"/chipeadora/jensen/chipeadora_tambor/JT-600-PTO/JT-600-PTO-PLANO.jpg",
         "alt":"Chipeadora de tambor JT 600 PTO",
         "descripcion":"La JT600 es una de las Chipeadoras de tambor más compactas en su clase, de alto rendimiento. La masa del volante es superior a la media y garantiza un procesamiento sin problemas de troncos de hasta 400 [mm] de diámetro. Por defecto, la máquina tiene una cinta transportadora con una longitud de 1000 [mm], y opcionalmente puede manejar una cinta transportadora de hasta una longitud aproximadamente de 2300 [mm]. Además de complementarla con una grúa forestal para la toma de troncos. Posee una capacidad de respuesta excepcional, cumple con las normas de regulación de emisiones más estrictas del mundo y permite un uso flexible a bajos costos de operación mediante el bajo consumo de combustible.",
         "caracteristicas_tecnicas":"",
@@ -447,10 +428,9 @@ export default [
         "motor":"",
         "dimensiones":"",
         "peso":"7000 [kg]",
-        "urlPlano":"",
         "routerPath":'/chipeadoras/jensen/Chipeadoras-de-Tambor/JT600-pto',
         "precio":0,
-        "params":''
+        "params":'JT600-pto'
     }
 
 

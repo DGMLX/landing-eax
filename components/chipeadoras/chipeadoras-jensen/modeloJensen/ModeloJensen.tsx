@@ -61,7 +61,7 @@ const ModeloJensen = () => {
                 
                 <div className="w-1/2  mr-2">
                     <h2 className="font-bold">Dimensiones / Plano</h2>
-                    <Image src="/chipeadora/jensen/chipeadora_disco/A530L-1/planos.png" alt="Planos chipeadora de disco A530L" width={1000} height={200} />
+                    <Image src={producto[0].imagenPlano} alt="Planos chipeadora de disco A530L" width={1000} height={200} />
                 </div>
                 <div className="w-1/2 ml-32">
                     <h2 className=" font-bold mb-5">Especificaciones generales</h2>

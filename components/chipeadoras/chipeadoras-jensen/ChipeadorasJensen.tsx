@@ -20,7 +20,6 @@ type Producto = {
     motor:string,
     dimensiones:string,
     peso:string,
-    urlPlano:string
     routerPath:string,
     precio:number,
     params:string
