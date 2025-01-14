@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useParams } from "next/navigation";
 import data from "../../../../data/jensen"; 
 import { useState } from "react";
+import FormularioHubspot from "@/components/formularios/FormularioHubspot";
 
 
 const ModeloJensen = () => {
@@ -143,7 +144,7 @@ const ModeloJensen = () => {
 
                     <div className="flex  mt-10">
                     
-                        <button className="bg-black text-white py-2 px-32 rounded-xl w-full">Solicitar información</button>
+                        <a href="#hubspot" className="bg-black text-center text-white py-2 px-32 rounded-xl w-full">Solicitar información</a>
                     </div>
   
                 </div>
@@ -176,6 +177,10 @@ const ModeloJensen = () => {
                 </div>
               
              </section>
+
+            <div id="hubspot">
+                <FormularioHubspot urlImagen="/chipeadora/jensen/img_formulario.png"/>
+            </div>
         </>
     )
 }

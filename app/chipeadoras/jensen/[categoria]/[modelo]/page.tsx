@@ -1,5 +1,4 @@
 
-import FormularioHubspot from "@/components/formularios/FormularioHubspot";
 import { Metadata } from "next";
 import ModeloJensen from "@/components/chipeadoras/chipeadoras-jensen/modeloJensen/ModeloJensen";
 
@@ -27,7 +26,6 @@ const ModeloProducto = () =>{
         <main>
            <ModeloJensen/>
 
-            <FormularioHubspot urlImagen="/chipeadora/jensen/img_formulario.png"/>
 
 
         </main>
