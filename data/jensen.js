@@ -219,7 +219,12 @@ export default [
     {
         "modelo":"A 141 XL PTO",
         "categoria":"Chipeadoras PTO",
-        "imagen":["/chipeadora/jensen/chipeadora_pto/A141-XL.png"],
+        "imagen":[
+            "/chipeadora/jensen/chipeadora_pto/A141-XL.png",
+            "/chipeadora/jensen/chipeadora_pto/A141-XL/A141-XL-SIN-FONDO-1.png",
+            "/chipeadora/jensen/chipeadora_pto/A141-XL/A141-XL-SIN-FONDO-2.png",
+            "/chipeadora/jensen/chipeadora_pto/A141-XL/A141-XL-SIN-FONDO-3.png"
+        ],
         "imagenPlano":"/chipeadora/jensen/chipeadora_pto/A141-XL/A141-XL-PLANO.jpg",
         "alt":"Chipeadora A 141 XL PTO",
         "descripcion":"Las Chipeadoras PTO son una excelente opción para usuarios con tractores o vehículos especiales. Son máquinas robustas, potentes y compactas. Todas las máquinas funcionan con un sistema hidráulico completamente independiente solo necesitando la alimentación del vehículo. El requisito de potencia del modelo A 141 XL PTO es de 82 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
@@ -238,7 +243,11 @@ export default [
     {
         "modelo":"A 231",
         "categoria":"Chipeadoras PTO",
-        "imagen":["/chipeadora/jensen/chipeadora_pto/A231.png"],
+        "imagen":[
+            "/chipeadora/jensen/chipeadora_pto/A231.png",
+            "/chipeadora/jensen/chipeadora_pto/A231/A231-PTO-SIN-FONDO-1.png",
+            "/chipeadora/jensen/chipeadora_pto/A231/A231-PTO-SIN-FONDO-2.png"
+        ],
         "imagenPlano":"/chipeadora/jensen/chipeadora_pto/A231/A231-PLANO.jpg",
         "alt":"Chipeadora A 231 PTO",
         "descripcion":"Las Chipeadoras PTO son una excelente opción para usuarios con tractores o vehículos especiales. Son máquinas robustas, potentes y compactas. Todas las máquinas funcionan con un sistema hidráulico completamente independiente solo necesitando la alimentación del vehículo. l requisito de potencia del modelo A231 PTO es de 75 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
@@ -257,7 +266,12 @@ export default [
     {
         "modelo":"A 328 ",
         "categoria":"Chipeadoras PTO",
-        "imagen":["/chipeadora/jensen/chipeadora_pto/A328.png"],
+        "imagen":[
+            "/chipeadora/jensen/chipeadora_pto/A328.png",
+            "/chipeadora/jensen/chipeadora_pto/A328/A328-SIN-FONDO-1.png",
+            "/chipeadora/jensen/chipeadora_pto/A328/A328-SIN-FONDO-2.png",
+            "/chipeadora/jensen/chipeadora_pto/A328/A328-SIN-FONDO-3.png",
+        ],
         "imagenPlano":"/chipeadora/jensen/chipeadora_pto/A328/A328-PLANO.jpg",
         "alt":"Chipeadora A 328 PTO",
         "descripcion":"Las Chipeadoras PTO son una excelente opción para usuarios con tractores o vehículos especiales. Son máquinas robustas, potentes y compactas. Todas las máquinas funcionan con un sistema hidráulico completamente independiente solo necesitando la alimentación del vehículo. El requisito de potencia del modelo A328 PTO es de 68 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
@@ -295,7 +309,10 @@ export default [
     {
         "modelo":"A 540 PTO",
         "categoria":"Chipeadoras PTO",
-        "imagen":["/chipeadora/jensen/chipeadora_pto/A540.png"],
+        "imagen":[
+            "/chipeadora/jensen/chipeadora_pto/A540.png",
+            "/chipeadora/jensen/chipeadora_pto/A540/A540-PTO-SIN-FONDO-1.png"
+        ],
         "imagenPlano":"/chipeadora/jensen/chipeadora_pto/A540/A540-PLANO.jpg",
         "alt":"Chipeadora A 540 PTO",
         "descripcion":"Las Chipeadoras PTO son una excelente opción para usuarios con tractores o vehículos especiales. Son máquinas robustas, potentes y compactas. Todas las máquinas funcionan con un sistema hidráulico completamente independiente solo necesitando la alimentación del vehículo. El requisito de potencia del modelo A540 PTO es de 40 [HP], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
@@ -314,7 +331,12 @@ export default [
     {
         "modelo":"A 530 XL",
         "categoria":"Chipeadoras PTO",
-        "imagen":["/chipeadora/jensen/chipeadora_pto/A530-XL.png"],
+        "imagen":[
+            "/chipeadora/jensen/chipeadora_pto/A530-XL.png",
+            "/chipeadora/jensen/chipeadora_pto/A530/A530-PTO-SIN-FONDO-1.png",
+            "/chipeadora/jensen/chipeadora_pto/A530/A530-PTO-SIN-FONDO-2.png",
+
+        ],
         "imagenPlano":"/chipeadora/jensen/chipeadora_pto/A530/A530-PLANO.jpg",
         "alt":"Chipeadora A 530 XL PTO",
         "descripcion":"Las Chipeadoras PTO son una excelente opción para usuarios con tractores o vehículos especiales. Son máquinas robustas, potentes y compactas. Todas las máquinas funcionan con un sistema hidráulico completamente independiente solo necesitando la alimentación del vehículo. El requisito de potencia del modelo A530 XL PTO es de 30 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
