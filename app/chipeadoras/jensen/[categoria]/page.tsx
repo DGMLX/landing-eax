@@ -21,7 +21,6 @@ type Props = {
 
 const InformacionProducto = () =>{
 
-
     return(
         <>
             <main>
@@ -32,7 +31,7 @@ const InformacionProducto = () =>{
 
 
                     <section  className="px-10 mt-10">
-                       
+
                             <CategoriaChipeadora/>
                         
                     </section>

@@ -24,7 +24,15 @@ const ModeloJensen = () => {
 
     return(
         <>
-              <section  className="pr-24 pl-24 mt-20 flex mb-10">
+                <div className="px-16 mt-14">
+                    <div className="font-extralight text-sm">
+                        <a href="/chipeadoras/jensen">Jensen</a> {' > '} 
+                        <a href="/chipeadoras/jensen/Chipeadoras-de-Disco">{categoria.replace(/-/g,' ')}</a> {' > '} 
+                        <span className="text-red-600 underline">{modelo.replace(/-/g,' ')}</span>
+                    </div>
+                </div>
+              <section  className="pr-24 pl-24 mt-10 flex mb-10">
+                
                 <div className="w-1/2 border rounded-xl">
                     <div className="flex justify-center mt-5 mb-10">
                    

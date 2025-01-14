@@ -26,7 +26,10 @@ export default [
     {
         "modelo":"A 540",
         "categoria":"Chipeadoras de Disco",
-        "imagen":["/chipeadora/jensen/chipeadora_disco/A540.png"],
+        "imagen":[
+            "/chipeadora/jensen/chipeadora_disco/A540.png",
+          
+        ],
         "imagenPlano":"/chipeadora/jensen/chipeadora_disco/A540/A540-PLANO.jpg",
         "alt":"Chipeadora A540",
         "descripcion":"La Chipeadora A 540 es una máquina ligera, compacta y práctica, con un potente motor diésel, capaz de triturar troncos, arbustos y ramas sin ningún problema. Además, cuenta con una carcasa robusta, es silenciosa, cuenta con cañón de descarga giratorio en 360º, con una barra de seguridad diseñada para que el operador no tenga problemas de acceso para accionarla.Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior está orientado de forma radial para que el material se dirija a donde exista la mayor velocidad periférica. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
@@ -45,7 +48,12 @@ export default [
     {
         "modelo":"A 328",
         "categoria":"Chipeadoras de Disco",
-        "imagen":["/chipeadora/jensen/chipeadora_disco/A328.png"],
+        "imagen":[
+            "/chipeadora/jensen/chipeadora_disco/A328.png",  
+            "/chipeadora/jensen/chipeadora_disco/A328/A328-SIN-FONDO-1.png",
+            "/chipeadora/jensen/chipeadora_disco/A328/A328-SIN-FONDO-2.png",
+            "/chipeadora/jensen/chipeadora_disco/A328/A328-SIN-FONDO-3.png",
+        ],
         "imagenPlano":"/chipeadora/jensen/chipeadora_disco/A328/A328-PLANO.jpg",
         "alt":"Chipeadora A328",
         "descripcion":"La Chipeadora A 328 es una máquina robusta con gran facilidad de servicios, con un potente motor diésel, capaz de triturar troncos, arbustos y ramas sin ningún problema. Además, cuenta con una carcasa robusta, es silenciosa, cuenta con cañón de descarga giratorio en 360º, con una barra de seguridad diseñada para que el operador no tenga problemas de acceso para accionarla. Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior es basculante, lo cual significa que se adapta a la forma y tamaño de las ramas. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
