@@ -19,8 +19,7 @@ type Props = {
  }
 
 
-const ModeloProducto = (props:any) =>{
-    console.log({props})
+const ModeloProducto = () =>{
     
     return(
         <>

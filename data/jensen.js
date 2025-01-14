@@ -28,7 +28,9 @@ export default [
         "categoria":"Chipeadoras de Disco",
         "imagen":[
             "/chipeadora/jensen/chipeadora_disco/A540.png",
-          
+            "/chipeadora/jensen/chipeadora_disco/A540/A540-SIN-FONDO-1.png",
+            "/chipeadora/jensen/chipeadora_disco/A540/A540-SIN-FONDO-2.png",
+            "/chipeadora/jensen/chipeadora_disco/A540/A540-SIN-FONDO-3.png",
         ],
         "imagenPlano":"/chipeadora/jensen/chipeadora_disco/A540/A540-PLANO.jpg",
         "alt":"Chipeadora A540",
@@ -72,7 +74,12 @@ export default [
     {
         "modelo":"A 425",
         "categoria":"Chipeadoras de Disco",
-        "imagen":["/chipeadora/jensen/chipeadora_disco/A425.png"],
+        "imagen":[
+            "/chipeadora/jensen/chipeadora_disco/A425.png",
+            "/chipeadora/jensen/chipeadora_disco/A425/A425-SIN-FONDO-1.png",
+            "/chipeadora/jensen/chipeadora_disco/A425/A425-SIN-FONDO-2.png",
+            "/chipeadora/jensen/chipeadora_disco/A425/A425-SIN-FONDO-3.png",
+        ],
         "imagenPlano":"/chipeadora/jensen/chipeadora_disco/A425/A425-PLANO.jpg",
         "alt":"Chipeadora A425",
         "descripcion":"La Chipeadora A 425 es una máquina ligera, compacta y práctica, con un potente motor diésel, capaz de triturar troncos, arbustos y ramas sin ningún problema. Además, cuenta con una carcasa robusta, es silenciosa, cuenta con cañón de descarga giratorio en 360º, con una barra de seguridad diseñada para que el operador no tenga problemas de acceso para accionarla. Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior está orientado de forma radial para que el material se dirija a donde exista la mayor velocidad periférica. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
@@ -91,7 +98,10 @@ export default [
     {
         "modelo":"A 550",
         "categoria":"Chipeadoras de Disco",
-        "imagen":["/chipeadora/jensen/chipeadora_disco/A550.png"],
+        "imagen":[
+            "/chipeadora/jensen/chipeadora_disco/A550.png",
+            "/chipeadora/jensen/chipeadora_disco/A550/A550-SIN-FONDO-1.png",
+        ],
         "imagenPlano":"/chipeadora/jensen/chipeadora_disco/A550/A550-PLANO.jpg",
         "alt":"Chipeadora A550",
         "descripcion":"La Chipeadora A 550, es una máquina ligera, compacta y práctica, con un potente motor diésel, capaz de triturar troncos, arbustos y ramas sin ningún problema. Además, cuenta con una carcasa robusta, es silenciosa, cuenta con cañón de descarga giratorio en 360º, con una barra de seguridad diseñada para que el operador no tenga problemas de acceso para accionarla. Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior está orientado de forma radial para que el material se dirija a donde exista la mayor velocidad periférica. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
@@ -110,7 +120,12 @@ export default [
     {
         "modelo":"A 450 ",
         "categoria":"Chipeadoras de Disco",
-        "imagen":["/chipeadora/jensen/chipeadora_disco/A450.png"],
+        "imagen":[
+            "/chipeadora/jensen/chipeadora_disco/A450.png",
+            "/chipeadora/jensen/chipeadora_disco/A450/A450-SIN-FONDO-1.png",
+            "/chipeadora/jensen/chipeadora_disco/A450/A450-SIN-FONDO-2.png",
+            "/chipeadora/jensen/chipeadora_disco/A450/A450-SIN-FONDO-3.png",
+        ],
         "imagenPlano":"/chipeadora/jensen/chipeadora_disco/A450/A450-PLANO.jpg",
         "alt":"Chipeadora A450L",
         "descripcion":"La Chipeadora A 450 es una máquina ligera, compacta y práctica, con un potente motor diésel, capaz de triturar troncos, arbustos y ramas sin ningún problema. Además, cuenta con una carcasa robusta, es silenciosa, cuenta con cañón de descarga giratorio en 360º, con una barra de seguridad diseñada para que el operador no tenga problemas de acceso para accionarla. Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior está orientado de forma radial para que el material se dirija a donde exista la mayor velocidad periférica. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
@@ -148,7 +163,13 @@ export default [
     {
         "modelo":"A 530L Bencina",
         "categoria":"Chipeadoras de Disco",
-        "imagen":["/chipeadora/jensen/chipeadora_disco/A530L-2.png"],
+        "imagen":[
+            "/chipeadora/jensen/chipeadora_disco/A530L-2.png",
+            "/chipeadora/jensen/chipeadora_disco/A530L-2/A530L-BENCINA-SIN-FONDO-1.png",
+            "/chipeadora/jensen/chipeadora_disco/A530L-2/A530L-BENCINA-SIN-FONDO-2.png",
+            "/chipeadora/jensen/chipeadora_disco/A530L-2/A530L-BENCINA-SIN-FONDO-3.png",
+            
+        ],
         "imagenPlano":"/chipeadora/jensen/chipeadora_disco/A530L-2/A530L-BENCINA-PLANO.jpg",
         "alt":"Chipeadora A530 L",
         "descripcion":"La Chipeadora A 530 L es una máquina ligera, compacta y práctica, con un potente motor a bencina, capaz de triturar troncos, arbustos y ramas sin ningún problema. Además, cuenta con una carcasa robusta, es silenciosa, cuenta con cañón de descarga giratorio en 360º, con una barra de seguridad diseñada para que el operador no tenga problemas de acceso para accionarla. Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior está orientado de forma radial para que el material se dirija a donde exista la mayor velocidad periférica. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
@@ -183,12 +204,6 @@ export default [
         "precio":0,
         "params":"A350-L-Bencina"
     },
-
-
-
-
-
-
 
 
 
