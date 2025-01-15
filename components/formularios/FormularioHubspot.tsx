@@ -1,15 +1,14 @@
 'use client'
-import Image from "next/image";
 import Script from "next/script";
 import { BsGeoAltFill } from "react-icons/bs";
 import { FaBloggerB, FaFacebookF, FaLinkedinIn, FaPhone, FaWhatsapp, FaYoutube } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 import { SiGmail } from "react-icons/si";
 
-type Props = {
-  urlImagen: string;
-}
-const FormularioHubspot:React.FC<Props> = ({urlImagen}) => {
+// type Props = {
+//   urlImagen: string;
+// }
+const FormularioHubspot = () => {
   
   return (  
     <div className="mx-10 lg:mx-20 mb-10 flex justify-center">
@@ -57,9 +56,9 @@ const FormularioHubspot:React.FC<Props> = ({urlImagen}) => {
           </div>
           
           </div>
-            <div className="md:w-1/2 lg:w-2/6 hidden xl:block ">
+            {/* <div className="md:w-1/2 lg:w-2/6 hidden xl:block ">
                 <Image src={urlImagen} alt="Contacta nuestros servicios" width={1000} height={1000} className="w-full h-full"/>
-            </div>
+            </div> */}
           
     </div>
   );

@@ -179,7 +179,7 @@ const ModeloJensen = () => {
              </section>
 
             <div id="hubspot">
-                <FormularioHubspot urlImagen="/chipeadora/jensen/img_formulario.png"/>
+                <FormularioHubspot />
             </div>
         </>
     )

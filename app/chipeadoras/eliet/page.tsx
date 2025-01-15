@@ -180,7 +180,7 @@ const Producto = () => {
                 </section>
 
               {/* <FormularioProducto/> */}
-              <FormularioHubspot urlImagen="/chipeadora/eliet/img_formulario.png"/>
+              <FormularioHubspot/>
 
         </main>
     )

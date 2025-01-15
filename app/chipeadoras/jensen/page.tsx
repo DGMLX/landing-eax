@@ -222,7 +222,7 @@ const Producto = () => {
                 </section>
 
               {/* <FormularioProducto/> */}
-              <FormularioHubspot urlImagen="/chipeadora/jensen/img_formulario.png"/>
+              <FormularioHubspot/>
 
         </main>
     )
