@@ -26,7 +26,7 @@ const InformacionProducto = () =>{
             <main>
                 <div className="bg-[#F4F4F4]">
                     <section> 
-                        <Image src="/chipeadora/jensen/chipeadora_disco/chipeadora_disco_principal.png" alt="Imagen Principal chipeadora de discos " width={2000} height={200} />
+                        <Image src="/chipeadora/jensen/chipeadora_disco/banner_chipeadora.jpg" alt="Imagen Principal chipeadora de discos " width={2000} height={200} />
                     </section>
 
 

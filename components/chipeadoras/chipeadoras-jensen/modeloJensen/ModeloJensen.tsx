@@ -144,7 +144,7 @@ const ModeloJensen = () => {
 
                     <div className="flex  mt-10">
                     
-                        <a href="#hubspot" className="bg-black text-center text-white py-2 px-32 rounded-xl w-full">Solicitar información</a>
+                        <a href="#hubspot" className="bg-black text-center text-white py-2 px-32 rounded-xl w-full">Solicitar producto</a>
                     </div>
   
                 </div>
