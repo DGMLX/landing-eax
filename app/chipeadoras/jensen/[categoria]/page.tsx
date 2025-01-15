@@ -17,8 +17,6 @@ type Props = {
     }
  }
 
-
-
 const InformacionProducto = () =>{
 
     return(

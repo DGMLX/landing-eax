@@ -32,7 +32,7 @@ const ModeloJensen = () => {
                         <span className="text-red-600 underline">{modelo.replace(/-/g,' ')}</span>
                     </div>
                 </div>
-              <section  className="px-32 xl:px-24 mt-10 xl:flex mb-10">
+              <section  className="px-5 sm:px-10 md:px-32 xl:px-24 mt-10 xl:flex mb-10">
                 
                 <div className="w-1/2 border rounded-xl hidden xl:block">
                     <div className="flex justify-center mt-5 mb-10">
@@ -164,7 +164,7 @@ const ModeloJensen = () => {
                 </div>
              
 
-                <div className="w-1/2 ml-32">
+                <div className="w-full md:w-1/2 lg:ml-32">
 
                     <h2 className=" font-bold mb-5">Especificaciones generales</h2>
                     <p className="mb-5 border-t-2 pt-2 border-black">Modelo: {producto[0].modelo} - {producto[0].caracteristicas_tecnicas}</p>
