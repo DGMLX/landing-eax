@@ -40,7 +40,7 @@ const FormularioHubspot = () => {
           <div className="block sm:flex md:block mt-5 lg:flex lg:mt-10">
               <div className="sm:w-1/2">
                   <h3 className="text-center sm:text-start text-md lg:text-xl font-bold lg:font-normal">Correo</h3>
-                  <p className="justify-center items-center sm:justify-start mt-2 lg:mt-5 flex underline"><IoMdMail className="text-xl sm:text-2xl mr-3"/>Ventas@ecoalliance.cl</p>
+                  <p className="justify-center items-center sm:justify-start mt-2 lg:mt-5 flex underline"><IoMdMail className="text-xl sm:text-2xl mr-3"/>ventas@ecoalliance.cl</p>
               </div>
               <div className="sm:w-1/2 mt-5 sm:mt-0 md:mt-3 lg:mt-0 ">
                   <h3 className="text-center sm:text-start text-md lg:text-xl font-bold lg:font-normal">Redes sociales</h3>

@@ -35,7 +35,7 @@ const ChipeadorasEliet = ({Productos}:Props) =>{
                     <p className="text-center">{producto.descripcion_producto}</p>
                     <div className="flex justify-center mt-5">
                        
-                        <button className="bg-black text-white px-4 ml-3 rounded-xl"><a className="flex items-center" href={producto.routerPath}>Ver productos <GoArrowRight className="text-white ml-3"/></a></button>
+                        <button className="bg-black text-white px-4 py-2 ml-3 rounded-xl"><a className="flex items-center" href={producto.routerPath}>Ver productos <GoArrowRight className="text-white ml-3"/></a></button>
                     </div>
                 </div>
             ))} 

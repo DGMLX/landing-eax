@@ -13,7 +13,7 @@ export const Footer = () =>{
                     <h3 className="mb-5 text-xl font-bold text-start">Contáctanos</h3>
                     <p className="mb-5 flex"><BsGeoAltFill className="text-xl mr-4"/>Casa central: 1/2 oriente 831, oficina 408, <br />Viña del mar, Chile</p>
                     <p className="mb-5 flex"><FaPhoneAlt className="text-xl mr-4"/> +56-32-269-0691</p>
-                    <p className="mb-5 flex"><IoMdMail className="text-xl mr-4"/>Ventas@ecoalliance.cl</p>
+                    <p className="mb-5 flex"><IoMdMail className="text-xl mr-4"/>ventas@ecoalliance.cl</p>
                     <p className="mb-5 flex"><FaWhatsapp className="text-2xl mr-4"/>+56-32-269-061</p>
                 </div>
 
