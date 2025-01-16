@@ -8,9 +8,10 @@ export const metadata: Metadata = {
   };
 
 
-
 const ProductoGeneral = () =>{
     return(
+        <>
+        
         <main>
             <section>
                  <Image src="/chipeadora/banner_principal.png" alt="Banner Chipeadoras" width={2000} height={200} />
@@ -54,6 +55,7 @@ const ProductoGeneral = () =>{
             </section>
 
         </main>
+        </>
     )
 
 }
