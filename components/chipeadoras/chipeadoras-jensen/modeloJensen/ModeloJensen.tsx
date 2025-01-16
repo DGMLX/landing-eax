@@ -5,9 +5,14 @@ import { useParams } from "next/navigation";
 import data from "../../../../data/jensen"; 
 import { useState } from "react";
 import FormularioHubspot from "@/components/formularios/FormularioHubspot";
-
+import Hotjar from '@hotjar/browser';
 
 const ModeloJensen = () => {
+
+        const siteId = 5270142;
+    const hotjarVersion = 6;
+
+    Hotjar.init(siteId, hotjarVersion);
 
     const params = useParams()
     const modelo = params.modelo as string

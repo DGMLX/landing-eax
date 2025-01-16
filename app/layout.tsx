@@ -26,6 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+
         <script src="//code.tidio.co/rsfmldphxoq1mdgjktlibzuel6zi9nsn.js" async></script>
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
