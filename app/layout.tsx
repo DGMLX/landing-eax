@@ -4,6 +4,8 @@ import "./globals.css";
 
 import { Footer } from "@/components/footer/Footer";
 import HotjarScript from "@/components/HotjarScript";
+import ChatFlotante from "@/components/chat/ChatFlotante";
+
 
 
 const geistSans = Geist({
@@ -32,12 +34,16 @@ export default function RootLayout({
      
     <html lang="en">
        <HotjarScript />
-   
-        <script src="//code.tidio.co/rsfmldphxoq1mdgjktlibzuel6zi9nsn.js" async></script>
+
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+
           >
+            <ChatFlotante/>
+
+            
             {children}
+            
             <Footer/>
         </body>
 
