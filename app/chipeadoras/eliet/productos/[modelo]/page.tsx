@@ -1,6 +1,6 @@
 
 import { Metadata } from "next";
-import ModeloJensen from "@/components/chipeadoras/chipeadoras-jensen/modeloJensen/ModeloJensen";
+import ModeloEliet from "@/components/chipeadoras/chipeadoras-eliet/modeloEliet/ModeloEliet";
 import Image from "next/image";
 
 
@@ -13,7 +13,7 @@ type Props = {
  export async function generateMetadata(params:Props):Promise<Metadata>{
     const info =await  params.params
     return{
-        title:`Chipeadora Jensen - ${info.modelo}`,
+        title:`Chipeadora Eliet - ${info.modelo}`,
         description:'Descripcion de chipeadora'
     }
  }
@@ -25,8 +25,10 @@ const ModeloProducto = () =>{
         <>
       
         <main>
-      
-           <ModeloJensen/>
+            <section> 
+                <Image src="/chipeadora/eliet/productos/img_principal.png" alt="Imagen Principal chipeadoras productos Eliet" width={1600} height={200} />
+            </section>
+           <ModeloEliet/>
 
 
 
