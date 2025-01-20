@@ -30,7 +30,6 @@ type Props = {
 
 const ChipeadorasJensen = ({Productos}:Props) =>{
 
-    console.log(Productos)
 
     return(
         <section className="px-5 sm:px-12 mt-10 flex justify-center flex-wrap">
