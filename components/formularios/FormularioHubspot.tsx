@@ -11,7 +11,7 @@ import { SiGmail } from "react-icons/si";
 const FormularioHubspot = () => {
   
   return (  
-    <div className="mx-10 lg:mx-20 mb-10 flex justify-center border border-2">
+    <div className="mx-10 lg:mx-20 mb-10 flex justify-center border-2">
       
       <Script
           src="https://js.hsforms.net/forms/embed/48703151.js"

@@ -11,7 +11,7 @@ export const Footer = () =>{
                
                 <div className="text-[#D9D9D9]">
                     <h3 className="mb-5 text-xl font-bold text-start">Contáctanos</h3>
-                    <p className="mb-5 flex"><BsGeoAltFill className="text-xl mr-4"/>Casa central: 1/2 oriente 831, oficina 408, <br />Viña del mar, Chile</p>
+                    <p className="mb-5 flex "><BsGeoAltFill className="text-xl mr-4"/>Casa central: 1/2 oriente 831, oficina 408, <br />Viña del mar, Chile</p>
                     <p className="mb-5 flex"><FaPhoneAlt className="text-xl mr-4"/> +56-32-269-0691</p>
                     <p className="mb-5 flex"><IoMdMail className="text-xl mr-4"/>ventas@ecoalliance.cl</p>
                     <p className="mb-5 flex"><FaWhatsapp className="text-2xl mr-4"/>+56-32-269-061</p>
@@ -26,7 +26,7 @@ export const Footer = () =>{
 
             <div className="block lg:flex mb-10 md:items-center md:justify-between px-5 xl:px-28">
                 <div className="flex justify-center">
-                    <p className="text-[#D9D9D9] mr-5 block lg:hidden xl:block">Síguenos en</p>
+                    <p className="text-[#D9D9D9] mr-5 hidden sm:block lg:hidden xl:block">Síguenos en</p>
                     <div className="flex items-center">
                         <Image width={28} height={28} className="w-7 h-7 mr-2" src="/footer/logo_wsp.png" alt="Logo whatsApp" />
                         <Image width={28} height={28} className="w-7 h-7 mr-2" src="/footer/logo_gmail.png" alt="Logo Gmail" />
@@ -43,7 +43,7 @@ export const Footer = () =>{
                 </div>
                 <div className="flex  items-center justify-center  mt-8 lg:mt-0">
                     <Image width={73} height={63} src="/footer/logo_desafio10x.png"  alt="Logo desafio 10x"/>
-                    <p className="text-[#D9D9D9]">EcoAlliance participa en Desafío 10X</p>
+                    <p className="text-[#D9D9D9] pl-2">EcoAlliance participa en Desafío 10X</p>
                 </div>
             </div>
            

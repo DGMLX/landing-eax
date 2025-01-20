@@ -26,13 +26,13 @@ const ModeloJensen = () => {
 
     return(
         <>
-                <div className="px-10 sm:px-16 mt-14">
-                    <div className="font-extralight text-sm">
-                        <a href="/chipeadoras/jensen">Jensen</a> {' > '} 
-                        <a href={`/chipeadoras/jensen/${categoria}`}>{categoria.replace(/-/g,' ')}</a> {' > '} 
-                        <span className="text-red-600 underline">{modelo.replace(/-/g,' ')}</span>
-                    </div>
+            <div className="px-5 md:px-16 lg:px-24 mt-14">
+                <div className="font-extralight text-sm">
+                    <a href="/chipeadoras/jensen">Jensen</a> {' > '} 
+                    <a href={`/chipeadoras/jensen/${categoria}`}>{categoria.replace(/-/g,' ')}</a> {' > '} 
+                    <span className="text-red-600 underline">{modelo.replace(/-/g,' ')}</span>
                 </div>
+            </div>
               <section  className="px-5 sm:px-10 md:px-32 xl:px-24 mt-10 xl:flex mb-10">
                 
                 <div className="w-1/2 border rounded-xl hidden xl:block">
@@ -181,10 +181,32 @@ const ModeloJensen = () => {
 
                     <h2 className=" font-bold mb-5">Especificaciones generales</h2>
                     <p className="mb-5 border-t-2 pt-2 border-black">Modelo: {producto[0].modelo} - {producto[0].caracteristicas_tecnicas}</p>
+
+                    {
+                        producto[0].mesa_giratoria && producto[0].mesa_giratoria_opcional ?
+                        <p className="mb-5 border-t-2 pt-2 border-black">Mesa giratoria</p>
+                        :   producto[0].mesa_giratoria ?
+                        <p className="mb-5 border-t-2 pt-2 border-black">Mesa giratoria (opcional)</p>
+                        : ''
+                    }
+                    
+
                     <p className="mb-5 border-t-2 pt-2 border-black">Producción: {producto[0].produccion}</p>
-                    <p className="mb-5 border-t-2 pt-2 border-black">Tamaño de garganta de alimentación: 210 x 150 [mm]</p>
-                    <p className="mb-5 border-t-2 pt-2 border-black">Motor: Motor de 23.8 [HP] Kubota Diésel</p>
-                    <p className="mb-5 border-t-2 pt-2 border-black">Dimensiones: (Largo x Ancho x Alto)3450 x 1380 x 2200 [mm]</p>
+                    {
+                        producto[0].tamaño_garganta !== '' ? 
+                        <p className="mb-5 border-t-2 pt-2 border-black">Tamaño de garganta de alimentación: {producto[0].tamaño_garganta}</p>
+                        : ''
+                    }
+                   {
+                        producto[0].motor !== '' ?
+                        <p className="mb-5 border-t-2 pt-2 border-black">Motor: {producto[0].motor}</p>
+                        : ''
+                   }
+                   {
+                        producto[0].dimensiones !== '' ?
+                        <p className="mb-5 border-t-2 pt-2 border-black">Dimensiones: {producto[0].dimensiones}</p>
+                        : ''
+                   }
                     <p className="mb-5 border-y-2 pt-2 pb-2 border-black">Peso: {producto[0].peso}</p>
                                     
                 </div>

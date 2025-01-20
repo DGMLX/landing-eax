@@ -174,7 +174,7 @@ const Producto = () => {
                     
                 </section>
 
-                <section className="pr-24 pl-24 ">
+                <section className="px-10 md:px-24 ">
                     <h2 className="text-center text-3xl mb-10">¿No estás seguro de qué <br/> modelo necesitas?</h2>
                 </section>
 
