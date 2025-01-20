@@ -1,5 +1,6 @@
 
 
+import FormularioHubspot from "@/components/formularios/FormularioHubspot"
 import Image from "next/image"
 import { GoArrowRight } from "react-icons/go"
 
@@ -29,11 +30,18 @@ type Props = {
 
 const ChipeadorasJensen = ({Productos}:Props) =>{
 
-
+    console.log(Productos)
 
     return(
         <section className="px-5 sm:px-12 mt-10 flex justify-center flex-wrap">
-            {Productos.map(producto=>(
+            {Productos.length === 0 ?
+            <>
+                <p className="mb-10 lg:mx-64 text-center">Indícanos tu requerimiento y realizaremos la ingeniería de diseño para potenciar aún mas la solución al procesamiento de grandes cantidades de material.</p>
+                <FormularioHubspot/>
+            </> 
+            :
+            Productos.map(producto=>(
+              
                 <div className="border mx-2 rounded-2xl shadow-lg mb-5 w-72 pt-5 pb-20 px-5" key={producto.modelo}>
                     <div className="flex justify-center">
                         <Image src={producto.imagen[0]} alt={producto.alt} width={200} height={200}/>
@@ -47,6 +55,7 @@ const ChipeadorasJensen = ({Productos}:Props) =>{
                     </div>
                 </div>
             ))} 
+        
         </section>
     )
 }
