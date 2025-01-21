@@ -7,11 +7,17 @@ type Producto = {
     imagen:string[],
     alt:string,
     modelo:string,
-    caracteristicas_tecnicas:string,
+    // caracteristicas_tecnicas?:string,
     descripcion:string,
-    routerPath:string,
     params:string,
-    precio:number
+    routerPath:string,
+    precio:number,
+    produccion:string,
+    diametro_entrada:string,
+    motor:string,
+    dimensiones:string,
+    peso:string,
+    
 }
 
 type Props = {
@@ -32,7 +38,7 @@ const ChipeadorasEliet = ({Productos}:Props) =>{
                     </div>
                     <p className="text-center text-sm mt-4">Chipeadora</p>
                     <h2 className="text-center text-xl font-bold mt-1">{producto.modelo}</h2>
-                    <p className="text-center mb-2">{producto.caracteristicas_tecnicas}</p>
+                    {/* <p className="text-center mb-2">{producto.caracteristicas_tecnicas}</p> */}
                     <p className="text-center">{producto.descripcion.substring(0,165)}....</p>
                     <div className="flex justify-center mt-5">
                        
