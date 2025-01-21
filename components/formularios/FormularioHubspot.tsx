@@ -46,11 +46,11 @@ const FormularioHubspot = () => {
                   <h3 className="text-center sm:text-start text-md lg:text-xl font-bold lg:font-normal">Redes sociales</h3>
                   <div className="flex justify-center sm:justify-start  mt-2 md:mt-5">
                       <a href=""> <SiGmail className="text-white mr-3 text-xl"/></a>
-                      <a href=""> <FaWhatsapp className="text-white mr-3 text-xl"/></a>
-                      <a href=""> <FaBloggerB className="text-white mr-3 text-xl"/></a>
-                      <a href=""> <FaFacebookF className="text-white mr-3 text-xl"/></a>
-                      <a href=""> <FaLinkedinIn className="text-white mr-3 text-xl"/></a>
-                      <a href=""> <FaYoutube className="text-white text-xl"/></a>
+                      <a href="https://api.whatsapp.com/send?phone=56322690691&text=Hola!%20Solicito%20mas%20informacion%20de%20los%20siguientes%20productos:" target="_blank"> <FaWhatsapp className="text-white mr-3 text-xl"/></a>
+                      <a href="https://ecoalliance.cl/blog/" target="_blank"> <FaBloggerB className="text-white mr-3 text-xl"/></a>
+                      <a href="https://www.facebook.com/EcoAllianceEAX" target="_blank"> <FaFacebookF className="text-white mr-3 text-xl"/></a>
+                      <a href="https://www.linkedin.com/company/ecoalliance-spa/" target="_blank"> <FaLinkedinIn className="text-white mr-3 text-xl"/></a>
+                      <a href="https://www.youtube.com/channel/UCkNCjH3z4eyPPzgCBwveUZg" target="_blank"> <FaYoutube className="text-white text-xl"/></a>
                   </div>
               </div>
           </div>

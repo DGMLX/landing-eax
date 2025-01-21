@@ -20,7 +20,7 @@ const Producto = () => {
                 <h1 className="text-3xl text-center mb-10">Encuentra la chipeadora ideal para tu proyecto</h1>
                 <div className="mx-5 md:mx-16  xl:mx-72">
                     <p className="text-center">En Eco Alliance, estamos comprometidos con brindarte las mejores soluciones tecnológicas para el cuidado del medio ambiente. 
-                        Si tienes preguntas, inquietudes o necesitas más información sobre nuestros productos y servicios, no dudes en ponerte en contacto con nosotros.</p>
+                    Aquí encontrarás chipeadoras ideales para aplicaciones de gran escala como agricultura y paisajismo, diseñadas para manejar grandes volúmenes de poda con eficiencia y resistencia.</p>
                 </div>
             </section>
 

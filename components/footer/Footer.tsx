@@ -7,7 +7,10 @@ import { BsGeoAltFill } from "react-icons/bs"
 export const Footer = () =>{
     return(
         <footer className="bg-[#1E1E1E] pb-16 pt-16 ">
-            <div className="flex pb-20 justify-center lg:justify-between px-44 sm:px-60">
+            <div className="block md:hidden">
+                <h3 className="text-white mb-8 text-xl font-bold text-center">Contáctanos</h3>
+            </div>
+            <div className="hidden md:flex pb-20 justify-center lg:justify-between md:px-28 lg:px-56  sm:px-60">
                
                 <div className="text-[#D9D9D9]">
                     <h3 className="mb-5 text-xl font-bold text-start">Contáctanos</h3>
@@ -28,13 +31,13 @@ export const Footer = () =>{
                 <div className="flex justify-center">
                     <p className="text-[#D9D9D9] mr-5 hidden sm:block lg:hidden xl:block">Síguenos en</p>
                     <div className="flex items-center">
-                        <Image width={28} height={28} className="w-7 h-7 mr-2" src="/footer/logo_wsp.png" alt="Logo whatsApp" />
+                        <a href="https://api.whatsapp.com/send?phone=56322690691&text=Hola!%20Solicito%20mas%20informacion%20de%20los%20siguientes%20productos:" target="_blank"><Image width={28} height={28} className="w-7 h-7 mr-2" src="/footer/logo_wsp.png" alt="Logo whatsApp" /></a>
                         <Image width={28} height={28} className="w-7 h-7 mr-2" src="/footer/logo_gmail.png" alt="Logo Gmail" />
-                        <Image width={28} height={28} className="w-7 h-7 mr-2" src="/footer/logo_fb.png" alt="Logo Facebook" />
-                        <Image width={28} height={28} className="w-7 h-7 mr-2" src="/footer/logo_youtube.png" alt="Logo Youtube" />
-                        <Image width={28} height={28} className="w-7 h-7 mr-2" src="/footer/logo_blog.png" alt="Logo Blog" />
-                        <Image width={28} height={28} className="w-7 h-7 mr-2" src="/footer/logo_linkedin.png" alt="Logo Linkedin" />
-                        <Image width={28} height={28} className="w-7 h-7" src="/footer/logo_instagram.png" alt="Logo Instagram" />
+                        <a href="https://www.facebook.com/EcoAllianceEAX" target="_blank"><Image width={28} height={28} className="w-7 h-7 mr-2" src="/footer/logo_fb.png" alt="Logo Facebook" /></a>
+                        <a href="https://www.youtube.com/channel/UCkNCjH3z4eyPPzgCBwveUZg" target="_blank"><Image width={28} height={28} className="w-7 h-7 mr-2" src="/footer/logo_youtube.png" alt="Logo Youtube" /></a>
+                        <a href="https://ecoalliance.cl/blog/" target="_blank"><Image width={28} height={28} className="w-7 h-7 mr-2" src="/footer/logo_blog.png" alt="Logo Blog" /></a>
+                        <a href="https://www.linkedin.com/company/ecoalliance-spa/" target="_blank"><Image width={28} height={28} className="w-7 h-7 mr-2" src="/footer/logo_linkedin.png" alt="Logo Linkedin" /></a>
+                        <a href="https://www.instagram.com/ecoalliancespa_chile/" target="_blank"><Image width={28} height={28} className="w-7 h-7" src="/footer/logo_instagram.png" alt="Logo Instagram" /></a>
                     </div>
                 </div>
                 
@@ -49,10 +52,10 @@ export const Footer = () =>{
            
             <div className="border border-white mx-10 md:mx-20 lg:mx-40"></div>
 
-            <div className="mt-3 flex justify-center  px-10 md:px-60">
+            <div className="mt-3 flex justify-center items-center  px-10 md:px-60">
                 <div className="flex items-center">
                     <Image width={35} height={35} src="/footer/logo_eax.png" alt="Logo EAX" className="mr-5" />    
-                    <p className="flex items-center text-[#D9D9D9] text-sm">EcoAlliance © 2025 - Transformando el entorno</p>
+                    <p className="flex items-center text-center text-[#D9D9D9] text-sm">EcoAlliance © 2025 - Transformando el entorno</p>
                 </div>
 
             </div>

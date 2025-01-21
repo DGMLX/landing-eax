@@ -41,7 +41,7 @@ const ChipeadorasJensen = ({Productos}:Props) =>{
             :
             Productos.map(producto=>(
               
-                <div className="border mx-2 rounded-2xl shadow-lg mb-5 w-72 pt-5 pb-20 px-5" key={producto.modelo}>
+                <div className="border mx-2 rounded-2xl shadow-lg mb-5 w-96 md:w-72 pt-5 pb-20 px-5" key={producto.modelo}>
                     <div className="flex justify-center">
                         <Image src={producto.imagen[0]} alt={producto.alt} width={200} height={200}/>
                     </div>
