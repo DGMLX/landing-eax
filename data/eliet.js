@@ -95,7 +95,7 @@ export default [
             
         ],
         "alt":"Chipeadora Eliet Neo",
-        "modelo":"Maestro Country Bencina",
+        "modelo":"Neo",
         // "caracteristicas_tecnicas":"23.8 HP K - Chasis 80 km/h",
         "descripcion":"La Chipeadora Neo es una máquina compacta, silenciosa y práctica, equipada con un motor eléctrico de 3.5 HP que permite triturar ramas y residuos verdes de hasta 30 mm de diámetro sin dificultad. Diseñada para ofrecer comodidad y eficiencia, cuenta con una cámara de astillado transparente que facilita el monitoreo del proceso y un sistema de cuchillas RESIST™ de 12 unidades, reversibles y duraderas, que alcanzan una velocidad de 36,000 cortes por minuto. Además, incorpora un depósito de recolección de 40 litros para un manejo más limpio y eficiente del material procesado. Su diseño ergonómico con una altura de alimentación óptima y ruedas grandes asegura una fácil movilidad y comodidad de uso. Con su bajo nivel de ruido y calibración precisa, la Chipeadora Neo es ideal para el uso doméstico, combinando funcionalidad, practicidad y un mantenimiento sencillo.",
         "params":"Neo",

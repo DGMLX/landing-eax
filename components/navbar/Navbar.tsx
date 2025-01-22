@@ -1,3 +1,5 @@
+'use client'
+
 import Image from "next/image";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { IoMdMail } from "react-icons/io";
@@ -7,22 +9,40 @@ import { FaYoutube } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { LuBookText } from "react-icons/lu";
 import { FaInstagram } from "react-icons/fa";
+import { useState } from "react";
+import { SubNavegacionProductos } from "./SubNavegacionProductos";
+import SubNavegacionSoluciones from "./SubNavegacionSoluciones";
 
 const Navbar = () => {
+
+    const [hoverSubProductos,setHoverSubProductos] = useState(false)
+    const [hoverSubSoluciones,setHoverSubSoluciones] = useState(false)
+
+
+    const onHoverProducto = ()=> {
+        setHoverSubProductos(true)
+        setHoverSubSoluciones(false)
+    }
+
+    const onHoverSoluciones = ()=> {
+        setHoverSubProductos(false)
+        setHoverSubSoluciones(true)
+    }
+
     return(
         <>
             <header className="bg-[#303030] py-6 px-5 flex items-center justify-between w-screen fixed top-0">
                 
                 <nav className="flex">
-                    <a href="https://ecoalliance.cl/"><Image src="/logos_generales/eax.png" width={80} height={80} alt="Logo EAX" className="mr-[104px]" /></a>
+                    <a href="https://ecoalliance.cl/"><Image src="/logos_generales/eax.png" width={80} height={80} alt="Logo EAX" className="mr-[104px]"/></a>
                     <ul className="flex items-center">
                         <li >
                             <a href="https://ecoalliance.cl/" className="text-white text-xs mr-5 ">INICIO</a>
                         </li>
-                        <li>
+                        <li onMouseEnter={()=>onHoverProducto()}>
                             <a href="https://ecoalliance.cl/productos/" className="text-white text-xs mr-5 flex mt-1">PRODUCTOS <IoMdArrowDropdown className="ml-1 text-lg text-white"/></a>
                         </li>
-                        <li>
+                        <li onMouseEnter={()=>onHoverSoluciones()}>
                             <a href="https://ecoalliance.cl/soluciones/" className="text-white text-xs mr-5 flex mt-1">SOLUCIONES <IoMdArrowDropdown className="ml-1 text-lg text-white"/></a>
                         </li>
                         <li>
@@ -48,6 +68,10 @@ const Navbar = () => {
                 </div>
 
             </header>
+
+            <SubNavegacionProductos hoverSubProductos={hoverSubProductos} setHoverSubProductos={setHoverSubProductos} />
+
+            <SubNavegacionSoluciones  hoverSubSoluciones={hoverSubSoluciones} setHoverSubSoluciones={setHoverSubSoluciones}/>
 
 
         </>
