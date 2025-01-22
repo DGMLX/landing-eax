@@ -27,6 +27,7 @@ const Navbar = () => {
     const onHoverSoluciones = ()=> {
         setHoverSubProductos(false)
         setHoverSubSoluciones(true)
+
     }
 
     return(
