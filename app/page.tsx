@@ -12,12 +12,12 @@ const ProductoGeneral = () =>{
     return(
         <>
         
-        <main>
+        <main className="mt-40">
             {/* <section>
                  <Image src="/chipeadora/banner_principal.png" alt="Banner Chipeadoras" width={2000} height={200} />
             </section> */}
 
-            <section className="mb-20">
+            <section className="mb-20 ">
                 <div className="mt-20">
                     <p className="text-center text-sm">Responde esta pregunta y encuentra la chipeadora ideal para ti.</p>
                     <h2 className="text-center text-2xl mt-2">¿Buscas una chipeadora para podas domésticas o para <br/> procesamiento continuo en grandes proyectos?</h2>   

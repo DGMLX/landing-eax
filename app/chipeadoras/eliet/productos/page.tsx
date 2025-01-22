@@ -14,7 +14,7 @@ const InformacionProducto = () =>{
 
     return(
         <>
-            <main>
+            <main className="mt-20">
                 <div className="bg-[#F4F4F4]">
                     <section> 
                         <Image src="/chipeadora/eliet/productos/img_principal.png" alt="Imagen Principal chipeadoras productos Eliet" width={1600} height={200} />

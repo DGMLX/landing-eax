@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 const ProductoGeneral = () =>{
     return(
-        <main>
+        <main className="mt-40">
    
 
             <section className="mb-20">
