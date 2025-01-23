@@ -17,7 +17,7 @@ const InformacionProducto = () =>{
             <main className="mt-20">
                 <div className="bg-[#F4F4F4]">
                     <section> 
-                        <Image src="/chipeadora/eliet/productos/img_principal.png" alt="Imagen Principal chipeadoras productos Eliet" width={1600} height={200} />
+                        <Image src="/chipeadora/eliet/productos/img_principal.png" alt="Imagen Principal chipeadoras productos Eliet" width={2000} height={200} />
                     </section>
                     <section  className="px-10 mt-10">
                         <div className="font-extralight text-sm">

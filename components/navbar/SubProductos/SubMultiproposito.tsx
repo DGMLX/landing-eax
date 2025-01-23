@@ -1,5 +1,6 @@
 import { Dispatch, SetStateAction } from "react";
 import { IoMdArrowDropright } from "react-icons/io";
+import SubCamiones from "./SubCamiones/SubCamiones";
 
 type Props = {
   hoverMultiproposito: boolean;
@@ -13,17 +14,30 @@ type Props = {
 const SubMultiproposito:React.FC<Props> = ({hoverMultiproposito,setHoverMultiproposito,setHoverSubProductos,hoverSubCamiones,setHoverSubCamiones}) =>{
     
     const outHover = ()=>{
-        setHoverMultiproposito(false)
-        setHoverSubProductos(false)
+        if(hoverSubCamiones){
+            setHoverMultiproposito(true)
+            setHoverSubProductos(true)
+        }else{
+            setHoverMultiproposito(false)
+            setHoverSubProductos(false)
+        }
+    }
+
+    const onHoverCamiones = () =>{
+        setHoverSubProductos(true)
+        setHoverMultiproposito(true)
+        setHoverSubCamiones(true)
     }
     
     return(
        <>
         <div className={` text-white md:ml-10 lg:ml-36 xl:ml-[504px] mr-96 ${hoverMultiproposito ? 'flex' : 'hidden'}`} onMouseLeave={()=>outHover()}>
             <div className="z-30  bg-[#1E1E1E] fixed top-[63px]">
-                <a href="https://ecoalliance.cl/camion-multiproposito/" className="text-white text-xs py-4 flex border-b border-slate-600 pl-10 pr-5 ">CAMIÓN MULTIPROPÓSITO<IoMdArrowDropright className="text-lg"/></a>
+                <a onMouseEnter={()=>onHoverCamiones()} href="https://ecoalliance.cl/camion-multiproposito/" className="text-white text-xs py-4 flex border-b border-slate-600 pl-10 pr-5 ">CAMIÓN MULTIPROPÓSITO<IoMdArrowDropright className="text-lg"/></a>
             </div>
         </div>
+
+        <SubCamiones hoverSubCamiones={hoverSubCamiones} setHoverSubCamiones={setHoverSubCamiones} setHoverSubProductos={setHoverSubProductos} setHoverMultiproposito={setHoverMultiproposito}/>
        </>
     )
 }

@@ -103,8 +103,9 @@ const ModeloEliet = () => {
                         nded-xl mr-3 hover:bg-black hover:text-white">Diésel</button>
                         <button className="border border-black py-2 px-12 rounded-xl  hover:bg-black hover:text-white">Gasolina</button>
                     </div> */}
-                    <p className="mb-5 mt-5">{producto[0].descripcion}
-                    </p>
+                    <p className="mb-5 mt-5">{producto[0].descripcion}</p>
+                    <p className="mb-5 mt-5">{producto[0].descripcion2}</p>
+                    
                     
                     
                     <div className="   flex justify-center xl:hidden">
@@ -181,11 +182,21 @@ const ModeloEliet = () => {
 
                     <h2 className=" font-bold mb-5">Especificaciones generales</h2>
                     <p className="mb-5 border-t-2 pt-2 border-black">Modelo: {producto[0].modelo} - {producto[0].caracteristicas_tecnicas}</p>
-                    {/* <p className="mb-5 border-t-2 pt-2 border-black">Producción: {producto[0].produccion}</p> */}
-                    <p className="mb-5 border-t-2 pt-2 border-black">Tamaño de garganta de alimentación: 210 x 150 [mm]</p>
-                    <p className="mb-5 border-t-2 pt-2 border-black">Motor: Motor de 23.8 [HP] Kubota Diésel</p>
-                    <p className="mb-5 border-t-2 pt-2 border-black">Dimensiones: (Largo x Ancho x Alto)3450 x 1380 x 2200 [mm]</p>
-                    {/* <p className="mb-5 border-y-2 pt-2 pb-2 border-black">Peso: {producto[0].peso}</p> */}
+                    {
+                        producto[0].produccion !== '' &&  <p className="mb-5 border-t-2 pt-2 border-black">Producción: {producto[0].produccion}</p>
+                    }
+                    {
+                        producto[0].diametro_entrada !== '' && <p className="mb-5 border-t-2 pt-2 border-black">Diámetro de entrada: {producto[0].diametro_entrada}</p>
+                    }
+                    {
+                        producto[0].motor !== '' && <p className="mb-5 border-t-2 pt-2 border-black">Motor: {producto[0].motor}</p>
+                    }
+                    {
+                        producto[0].dimensiones !== '' && <p className="mb-5 border-t-2 pt-2 border-black">Dimensiones: {producto[0].dimensiones}</p>
+                    }
+                    {
+                        producto[0].peso !== '' && <p className="mb-5 border-y-2 pt-2 pb-2 border-black">Peso: {producto[0].peso}</p>
+                    }
                                     
                 </div>
               
