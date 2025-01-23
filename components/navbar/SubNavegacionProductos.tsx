@@ -10,16 +10,26 @@ import SubEspaciosPublicos from "./SubProductos/SubEspaciosPublicos";
 
 type Props = {
   hoverSubProductos: boolean;
-  setHoverSubProductos:Dispatch<SetStateAction<boolean>>
+  hoverMultiproposito:boolean;
+  hoverTratamientoResiduos:boolean;
+  hoverAseoUrbano:boolean;
+  hoverMantenimientoUrbano:boolean;
+  hoverEspaciosPublicos:boolean;
+  hoverSubChipeadoras:boolean;
+  hoverSubCamiones:boolean;
+  setHoverMultiproposito:Dispatch<SetStateAction<boolean>>;
+  setHoverTratamientoResiduos:Dispatch<SetStateAction<boolean>>;
+  setHoverAseoUrbano:Dispatch<SetStateAction<boolean>>;
+  setHoverMantenimientoUrbano:Dispatch<SetStateAction<boolean>>;
+  setHoverEspaciosPublicos:Dispatch<SetStateAction<boolean>>;
+  setHoverSubProductos:Dispatch<SetStateAction<boolean>>;
+  setHoverSubChipeadoras:Dispatch<SetStateAction<boolean>>;
+  setHoverSubCamiones:Dispatch<SetStateAction<boolean>>;
 }
 
-export const SubNavegacionProductos:React.FC<Props> = ({setHoverSubProductos,hoverSubProductos}) =>{
+export const SubNavegacionProductos:React.FC<Props> = ({setHoverSubProductos,hoverSubProductos,hoverMultiproposito,hoverTratamientoResiduos,hoverAseoUrbano,hoverMantenimientoUrbano,hoverEspaciosPublicos,setHoverMultiproposito,setHoverTratamientoResiduos,setHoverAseoUrbano,setHoverMantenimientoUrbano,setHoverEspaciosPublicos,hoverSubCamiones,hoverSubChipeadoras,setHoverSubCamiones,setHoverSubChipeadoras}) =>{
 
-  const [hoverMultiproposito,setHoverMultiproposito] = useState(false);
-  const [hoverTratamientoResiduos,setHoverTratamientoResiduos] = useState(false);
-  const [hoverAseoUrbano,setHoverAseoUrbano] = useState(false);
-  const [hoverMantenimientoUrbano,setHoverMantenimientoUrbano] = useState(false);
-  const [hoverEspaciosPublicos,setHoverEspaciosPublicos] = useState(false);
+
 
 
   const outHover = ()=>{
@@ -32,6 +42,8 @@ export const SubNavegacionProductos:React.FC<Props> = ({setHoverSubProductos,hov
       setHoverAseoUrbano(false)
       setHoverMantenimientoUrbano(false)
       setHoverEspaciosPublicos(false)
+      setHoverSubCamiones(false)
+      setHoverSubChipeadoras(false)
     }
   }
 
@@ -43,6 +55,8 @@ export const SubNavegacionProductos:React.FC<Props> = ({setHoverSubProductos,hov
     setHoverAseoUrbano(false)
     setHoverMantenimientoUrbano(false)
     setHoverEspaciosPublicos(false)
+    setHoverSubCamiones(false)
+    setHoverSubChipeadoras(false)
   }
   const onHoverTratamientoResiduos = () =>{
     setHoverTratamientoResiduos(true)
@@ -60,6 +74,8 @@ export const SubNavegacionProductos:React.FC<Props> = ({setHoverSubProductos,hov
     setHoverTratamientoResiduos(false)
     setHoverMantenimientoUrbano(false)
     setHoverEspaciosPublicos(false)
+    setHoverSubCamiones(false)
+    setHoverSubChipeadoras(false)
   }
 
   const onHoverMantenimiento = () =>{
@@ -69,6 +85,8 @@ export const SubNavegacionProductos:React.FC<Props> = ({setHoverSubProductos,hov
     setHoverMultiproposito(false)
     setHoverTratamientoResiduos(false)
     setHoverEspaciosPublicos(false)
+    setHoverSubCamiones(false)
+    setHoverSubChipeadoras(false)
   }
 
   const onHoverEspaciosPublicos = () =>{
@@ -78,6 +96,8 @@ export const SubNavegacionProductos:React.FC<Props> = ({setHoverSubProductos,hov
     setHoverAseoUrbano(false)
     setHoverMultiproposito(false)
     setHoverTratamientoResiduos(false)
+    setHoverSubCamiones(false)
+    setHoverSubChipeadoras(false)
   }
 
 
@@ -89,7 +109,6 @@ export const SubNavegacionProductos:React.FC<Props> = ({setHoverSubProductos,hov
               <div className="z-30 bg-[#1E1E1E] fixed top-[63px] ">
                 <div className="flex">
                   <a onMouseEnter={()=>onHoverMultiproposito()} href="https://ecoalliance.cl/camion-multiproposito/" className="text-white text-xs py-4 flex border-b border-slate-600 pl-10 pr-5 ">MULTIPROPÓSITO<IoMdArrowDropright className="text-lg"/></a>
-                  
                 </div>
                 <a onMouseEnter={()=>onHoverTratamientoResiduos()} href="https://ecoalliance.cl/tratamiento-de-residuos/" className="text-white text-xs py-4 flex border-b border-slate-600 pl-10 pr-5">TRATAMIENTO DE RESIDUOS<IoMdArrowDropright className="text-lg"/></a>
                 <a onMouseEnter={()=>onHoverAseoUrbano()} href="https://ecoalliance.cl/aseo-urbano/" className="text-white text-xs py-4 flex border-b border-slate-600 pl-10 pr-5">ASEO URBANO<IoMdArrowDropright className="text-lg"/></a>
@@ -98,9 +117,9 @@ export const SubNavegacionProductos:React.FC<Props> = ({setHoverSubProductos,hov
               </div>
           </div>
 
-          <SubMultiproposito hoverMultiproposito={hoverMultiproposito} setHoverMultiproposito={setHoverMultiproposito} setHoverSubProductos={setHoverSubProductos}/>
+          <SubMultiproposito hoverMultiproposito={hoverMultiproposito} setHoverMultiproposito={setHoverMultiproposito} setHoverSubProductos={setHoverSubProductos} hoverSubCamiones={hoverSubCamiones} setHoverSubCamiones={setHoverSubCamiones}/>
 
-          <SubTratamientoResiduos hoverTratamientoResiduos={hoverTratamientoResiduos} setHoverTratamientoResiduos={setHoverTratamientoResiduos} setHoverSubProductos={setHoverSubProductos}/>
+          <SubTratamientoResiduos hoverTratamientoResiduos={hoverTratamientoResiduos} setHoverTratamientoResiduos={setHoverTratamientoResiduos} setHoverSubProductos={setHoverSubProductos} hoverSubChipeadoras={hoverSubChipeadoras} setHoverSubChipeadoras={setHoverSubChipeadoras}/>
 
           <SubAseoUrbano hoverAseoUrbano={hoverAseoUrbano} setHoverAseoUrbano={setHoverAseoUrbano} setHoverSubProductos={setHoverSubProductos}/>
 

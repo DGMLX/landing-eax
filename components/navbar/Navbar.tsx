@@ -17,17 +17,39 @@ const Navbar = () => {
 
     const [hoverSubProductos,setHoverSubProductos] = useState(false)
     const [hoverSubSoluciones,setHoverSubSoluciones] = useState(false)
+    // SUB PRODUCTOS
+    const [hoverMultiproposito,setHoverMultiproposito] = useState(false);
+    const [hoverTratamientoResiduos,setHoverTratamientoResiduos] = useState(false);
+    const [hoverAseoUrbano,setHoverAseoUrbano] = useState(false);
+    const [hoverMantenimientoUrbano,setHoverMantenimientoUrbano] = useState(false);
+    const [hoverEspaciosPublicos,setHoverEspaciosPublicos] = useState(false);
+    // SUB SOLUCIONES
+    const [hoverSolucionAseo,setHoverSolucionAseo] = useState(false);
+    const [hoverSolucionMantenimiento,setHoverSolucionMantenimiento] = useState(false);
+    // SUB CHIPEADORAS Y SUB CAMIONES
+    const [hoverSubChipeadoras,setHoverSubChipeadoras] = useState(false);
+    const [hoverSubCamiones,setHoverSubCamiones] = useState(false);
 
 
     const onHoverProducto = ()=> {
-        setHoverSubProductos(true)
-        setHoverSubSoluciones(false)
+        setHoverSubProductos(true);
+        setHoverSubSoluciones(false);
+        setHoverSolucionAseo(false);
+        setHoverSolucionMantenimiento(false);
     }
 
     const onHoverSoluciones = ()=> {
-        setHoverSubProductos(false)
-        setHoverSubSoluciones(true)
-
+        setHoverSubProductos(false);
+        setHoverSubSoluciones(true);
+        setHoverMultiproposito(false);
+        setHoverTratamientoResiduos(false);
+        setHoverAseoUrbano(false);
+        setHoverMantenimientoUrbano(false);
+        setHoverEspaciosPublicos(false);
+        setHoverSubChipeadoras(false);
+        setHoverSubCamiones(false)
+        setHoverSubChipeadoras(false);
+        setHoverSubCamiones(false);
     }
 
     return(
@@ -70,9 +92,9 @@ const Navbar = () => {
 
             </header>
 
-            <SubNavegacionProductos hoverSubProductos={hoverSubProductos} setHoverSubProductos={setHoverSubProductos} />
+            <SubNavegacionProductos hoverSubProductos={hoverSubProductos} setHoverSubProductos={setHoverSubProductos} hoverMultiproposito={hoverMultiproposito} hoverTratamientoResiduos={hoverTratamientoResiduos} hoverAseoUrbano={hoverAseoUrbano} hoverMantenimientoUrbano={hoverMantenimientoUrbano} hoverEspaciosPublicos={hoverEspaciosPublicos} setHoverMultiproposito={setHoverMultiproposito} setHoverTratamientoResiduos={setHoverTratamientoResiduos} setHoverAseoUrbano={setHoverAseoUrbano} setHoverMantenimientoUrbano={setHoverMantenimientoUrbano} setHoverEspaciosPublicos={setHoverEspaciosPublicos} hoverSubChipeadoras={hoverSubChipeadoras} hoverSubCamiones={hoverSubCamiones} setHoverSubChipeadoras={setHoverSubChipeadoras} setHoverSubCamiones={setHoverSubCamiones}/>
 
-            <SubNavegacionSoluciones  hoverSubSoluciones={hoverSubSoluciones} setHoverSubSoluciones={setHoverSubSoluciones}/>
+            <SubNavegacionSoluciones  hoverSubSoluciones={hoverSubSoluciones} setHoverSubSoluciones={setHoverSubSoluciones} hoverSolucionAseo={hoverSolucionAseo} hoverSolucionMantenimiento={hoverSolucionMantenimiento} setHoverSolucionAseo={setHoverSolucionAseo} setHoverSolucionMantenimiento={setHoverSolucionMantenimiento}/>
 
 
         </>
