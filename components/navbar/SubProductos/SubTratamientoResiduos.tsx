@@ -33,7 +33,7 @@ const SubTratamientoResiduos:React.FC<Props> = ({hoverTratamientoResiduos,setHov
 
     return(
         <>
-            <div className={` text-white md:ml-10 lg:ml-36 xl:ml-[504px]   mr-96 ${hoverTratamientoResiduos ? 'flex' : 'hidden'}`} onMouseLeave={()=>outHover()}>
+            <div className={` text-white md:ml-10 lg:ml-[440px] xl:ml-[504px]   mr-96 ${hoverTratamientoResiduos ? 'flex' : 'hidden'}`} onMouseLeave={()=>outHover()}>
                 <div className="z-30  bg-[#1E1E1E] fixed top-[114px] ">
                     <a onMouseEnter={()=>onHoverSubChipeadoras()} href="https://ecoalliance.cl/chipeadoras/" className="text-white text-xs py-4 flex border-b border-slate-600 pl-10 pr-5">CHIPEADORAS<IoMdArrowDropright className="text-lg"/></a>
                     <a href="https://ecoalliance.cl/briquetadoras/" className="text-white text-xs py-4 flex border-b border-slate-600 pl-10 pr-5 ">BRIQUETADORAS</a>

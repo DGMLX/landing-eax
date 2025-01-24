@@ -15,7 +15,7 @@ const SubSolucionMantenimiento:React.FC<Props> = ({hoverSolucionMantenimiento,se
 
     return(
         <>
-        <div className={` text-white md:ml-10 lg:ml-36 xl:ml-[616px] mr-96 ${hoverSolucionMantenimiento ? 'flex' : 'hidden'}`} onMouseLeave={()=>outHover()}>
+        <div className={` text-white md:ml-10 lg:ml-[558px] xl:ml-[616px] mr-96 ${hoverSolucionMantenimiento ? 'flex' : 'hidden'}`} onMouseLeave={()=>outHover()}>
             <div className="z-30  bg-[#1E1E1E] fixed top-[211px]">
                 <a href="https://ecoalliance.cl/solucion-mantencion-de-arbustos-y-arbolado/" className="text-white text-xs py-4 flex border-b border-slate-600 pl-10 pr-5 ">MANTENICIÓN DE ARBUSTOS Y ABOLADO</a>
             </div>

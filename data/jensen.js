@@ -21,7 +21,7 @@ export default [
         "peso":"3200 [kg]",
         "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A141-XL",
         "precio":0,
-        "params":"A141-XL"
+        "params":"A141-XL",
     },
     {
         "modelo":"A 540",

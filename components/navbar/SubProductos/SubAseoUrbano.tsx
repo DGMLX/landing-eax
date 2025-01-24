@@ -15,7 +15,7 @@ const SubAseoUrbano:React.FC<Props>= ({hoverAseoUrbano,setHoverAseoUrbano,setHov
     
     return(
         <>
-            <div className={` text-white md:ml-10 lg:ml-36 xl:ml-[504px] mr-96 ${hoverAseoUrbano ? 'flex' : 'hidden'}`} onMouseLeave={()=>outHover()}>
+            <div className={` text-white md:ml-10 lg:ml-[440px] xl:ml-[504px] mr-96 ${hoverAseoUrbano ? 'flex' : 'hidden'}`} onMouseLeave={()=>outHover()}>
                 <div className="z-30  bg-[#1E1E1E] fixed top-[166px] ">
                     <a href="https://ecoalliance.cl/barredoras-de-calle/" className="text-white text-xs py-4 flex border-b border-slate-600 pl-10 pr-5 ">BARREDORAS DE CALLE</a>
                     <a href="https://ecoalliance.cl/contenedores-campana/" className="text-white text-xs py-4 flex border-b border-slate-600 pl-10 pr-5 ">CONTENEDORES CAMPANA</a>

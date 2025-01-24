@@ -5,6 +5,8 @@ import "./globals.css";
 import { Footer } from "@/components/footer/Footer";
 import HotjarScript from "@/components/HotjarScript";
 import Navbar from "@/components/navbar/Navbar";
+import NavbarMovil from "@/components/navbarMovil/NavbarMovil";
+
 
 
 const geistSans = Geist({
@@ -39,8 +41,10 @@ export default function RootLayout({
         <body
           className={` ${geistSans.variable} ${geistMono.variable} antialiased`}
           >
-            
+          
             <Navbar/>
+            <NavbarMovil/>
+            
             {children}
             <Footer/>
         </body>

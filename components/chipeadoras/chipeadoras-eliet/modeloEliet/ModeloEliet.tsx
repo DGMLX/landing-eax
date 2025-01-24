@@ -105,8 +105,8 @@ const ModeloEliet = () => {
                     </div> */}
                     <p className="mb-5 mt-5">{producto[0].descripcion}</p>
                     <p className="mb-5 mt-5">{producto[0].descripcion2}</p>
-                    
-                    
+                    <p className="mb-5 mt-5">{producto[0].descripcion3}</p>
+                    <p className="mb-5 mt-5">{producto[0].descripcion4}</p>
                     
                     <div className="   flex justify-center xl:hidden">
                         <div className="w-3/4 border rounded-xl">

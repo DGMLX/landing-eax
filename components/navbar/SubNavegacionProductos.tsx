@@ -105,7 +105,7 @@ export const SubNavegacionProductos:React.FC<Props> = ({setHoverSubProductos,hov
     return(
         <>
 
-          <div className={` text-white md:ml-10 lg:ml-36 xl:ml-64 mr-96 ${hoverSubProductos ? 'flex' : 'hidden'}`} onMouseLeave={()=>outHover()} >
+          <div className={` text-white md:ml-10 lg:ml-48 xl:ml-64 mr-96 ${hoverSubProductos ? 'flex' : 'hidden'}`} onMouseLeave={()=>outHover()} >
               <div className="z-30 bg-[#1E1E1E] fixed top-[63px] ">
                 <div className="flex">
                   <a onMouseEnter={()=>onHoverMultiproposito()} href="https://ecoalliance.cl/camion-multiproposito/" className="text-white text-xs py-4 flex border-b border-slate-600 pl-10 pr-5 ">MULTIPROPÓSITO<IoMdArrowDropright className="text-lg"/></a>
