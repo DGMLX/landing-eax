@@ -19,6 +19,10 @@ const NavbarMovil = () =>{
     const [openSubAseoUrbano,setOpenSubAseoUrbano] = useState(false);
     const [openSubMantenimientoUrbano,setOpenSubMantenimientoUrbano] = useState(false);
     const [openSubEspaciosPublicos,setOpenSubEspaciosPublicos] = useState(false);
+    const [openSubCamionMulti,setOpenSubCamionMulti] = useState(false);
+    const [openSubChipeadoras,setOpenSubChipeadoras] = useState(false);
+    const [openSubSolAseo,setOpenSubSolAseo] = useState(false);
+    const [openSubSolMantenimiento,setOpenSubSolMantenimiento] = useState(false);
 
 
     const cerrarNavMovil = () => {
@@ -75,21 +79,38 @@ const NavbarMovil = () =>{
 
                             {
                                 openSubMultiproposito &&  
-                                <a href="https://ecoalliance.cl/productos/" className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">CAMIÓN MULTIPROPÓSITO<IoMdArrowDropdown className="ml-2 text-xl" /></a>
+                                <p onClick={()=>setOpenSubCamionMulti(!openSubCamionMulti)} className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">CAMIÓN MULTIPROPÓSITO<IoMdArrowDropdown className="ml-2 text-xl" /></p>
+                              
 
                             }
+                                {
+                                    openSubCamionMulti && 
+                                    <>
+                                        <a href="https://ecoalliance.cl/productos/" className="text-white text-center py-3 justify-center text-xs border-b border-slate-500 flex items-center">CAMIONES MULTIPROPÓSITO</a>
+                                        <a href="https://ecoalliance.cl/briquetadoras/" className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">ACCESORIOS MULTIPROPÓSITO</a>
+                                    </>
+                                }
 
                             <p onClick={()=>setOpenSubTratamientoResiduos(!openSubTratamientoResiduos)} className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">TRATAMIENTO DE RESIDUOS<IoMdArrowDropdown className="ml-2 text-xl" /></p>
                             {
                                 openSubTratamientoResiduos && 
                                 <>
-                                    <a href="https://ecoalliance.cl/productos/" className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">CHIPEADORAS<IoMdArrowDropdown className="ml-2 text-xl" /></a>
+                                    <p onClick={()=>setOpenSubChipeadoras(!openSubChipeadoras)} className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">CHIPEADORAS<IoMdArrowDropdown className="ml-2 text-xl" /></p>
+                                    {
+                                openSubChipeadoras && 
+                                <>
+                                    <a href="https://landing-eax.vercel.app/chipeadoras/eliet" className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">PEQUEÑO Y MEDIANO TAMAÑO</a>
+                                    <a href="https://landing-eax.vercel.app/chipeadoras/jensen" className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">GRAN TAMAÑO</a>
+                                    
+                                </>
+                            }
                                     <a href="https://ecoalliance.cl/briquetadoras/" className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">BRIQUETADORAS</a>
                                     <a href="https://ecoalliance.cl/productos/" className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">TRITURADORAS</a>
                                     <a href="https://ecoalliance.cl/productos/" className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">CRIBAS</a>
                                     <a href="https://ecoalliance.cl/productos/" className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">COMPOST</a>
                                 </>
                             }
+                           
 
 
                             <p onClick={()=>setOpenSubAseoUrbano(!openSubAseoUrbano)} className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">ASEO URBANO<IoMdArrowDropdown className="ml-2 text-xl" /></p>
@@ -126,11 +147,19 @@ const NavbarMovil = () =>{
                 {
                     openSubSoluciones && 
                         <>
-                            <a href="https://ecoalliance.cl/productos/" className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">SOLUCIONES MULTIPROPÓSITO<IoMdArrowDropdown className="ml-2 text-xl" /></a>
-                            <a href="https://ecoalliance.cl/productos/" className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">TRATAMIENTO DE RESIDUOS<IoMdArrowDropdown className="ml-2 text-xl" /></a> 
-                            <a href="https://ecoalliance.cl/productos/" className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">ASEO URBANO<IoMdArrowDropdown className="ml-2 text-xl" /></a>
-                            <a href="https://ecoalliance.cl/productos/" className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">MANTENIMIENTO URBANO<IoMdArrowDropdown className="ml-2 text-xl" /></a>
-                            <a href="https://ecoalliance.cl/productos/" className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">ESPACIOS PÚBLICOS<IoMdArrowDropdown className="ml-2 text-xl" /></a>
+                            <a href="https://ecoalliance.cl/productos/" className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">SOLUCIONES MULTIPROPÓSITO</a>
+                            <a href="https://ecoalliance.cl/productos/" className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">TRATAMIENTO DE RESIDUOS</a> 
+                            <p onClick={()=>setOpenSubSolAseo(!openSubSolAseo)} className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">ASEO URBANO<IoMdArrowDropdown className="ml-2 text-xl" /></p>
+                            {
+                                openSubSolAseo &&
+                                <a href="https://ecoalliance.cl/productos/" className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">LIMPIEZA, SANITIZACIÓN Y DESINFECCIÓN URBANA</a>
+                            }
+                            <p onClick={()=>setOpenSubSolMantenimiento(!openSubSolMantenimiento)} className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">MANTENIMIENTO URBANO<IoMdArrowDropdown className="ml-2 text-xl" /></p>
+                            {
+                                openSubSolMantenimiento &&
+                                <a href="https://ecoalliance.cl/productos/" className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">MANTENCIÓN DE ARBUSTOS Y ARBOLADO</a>
+                            }
+                            <a href="https://ecoalliance.cl/productos/" className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">ESPACIOS PÚBLICOS</a>
                         </>
                 }
                 

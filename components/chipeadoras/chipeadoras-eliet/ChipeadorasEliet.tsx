@@ -20,6 +20,7 @@ type Producto = {
     motor:string,
     dimensiones:string,
     peso:string,
+    motorPrincipal:string
     
 }
 
@@ -48,7 +49,7 @@ const ChipeadorasEliet = ({Productos}:Props) =>{
                             producto.produccion !== '' && <p className="text-start ">Producción: {producto.produccion}</p>
                         }
                         {
-                            producto.motor !== '' &&  <p className="text-start ">Motor: {producto.motor}</p>
+                            producto.motor !== '' &&  <p className="text-start ">Motor: {producto.motorPrincipal}</p>
                         }
                         {
                             producto.dimensiones !== '' && <p className="text-start ">Dimensiones: {producto.dimensiones.substring(23,70)}</p>
