@@ -30,6 +30,7 @@ export default [
         "dimensiones": "(Largo x Ancho x Alto) 1360 x 650 x 1260 [mm]",
         "peso": "63 [kg]"
     },
+    
     {
         "imagen": [
             "/chipeadora/eliet/productos/maestro_city.png",
@@ -54,6 +55,7 @@ export default [
         "dimensiones": "(Largo x Ancho x Alto) 1360 x 650 x 1260 [mm]",
         "peso": "60 [kg]"
     },
+    
     {
         "imagen": [
             "/chipeadora/eliet/productos/maestro_city.png",
