@@ -17,7 +17,6 @@ export default [
         //Descripcion 2
         "descripcion2":"Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior es basculante, lo cual significa que se adapta a la forma y tamaño de las ramas. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
         
-        "caracteristicas_tecnicas":"75 HP H - Chasis 80 km/h",    
         "mesa_giratoria":true,
         "mesa_giratoria_opcional":false,
         "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A141-XL",
@@ -57,7 +56,7 @@ export default [
 
         //Descripcion 2
         "descripcion2":"Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior está orientado de forma radial para que el material se dirija a donde exista la mayor velocidad periférica. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
-        "caracteristicas_tecnicas":"25 HP K - Chasis 80 km/h",
+
         "mesa_giratoria":true,
         "mesa_giratoria_opcional":true,
         "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A540",
@@ -97,7 +96,7 @@ export default [
 
         //Descripcion 2
         "descripcion2":"Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior está orientado de forma radial para que el material se dirija a donde exista la mayor velocidad periférica. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
-        "caracteristicas_tecnicas":"57 HP H - Chasis 80 km/h",
+
         "mesa_giratoria":true,
         "mesa_giratoria_opcional":false,
         "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A328",
@@ -137,7 +136,7 @@ export default [
 
         //Descripcion 2
         "descripcion2":"Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior está orientado de forma radial para que el material se dirija a donde exista la mayor velocidad periférica. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
-        "caracteristicas_tecnicas":"57 HP H - Chasis 80 km/h",
+
         "mesa_giratoria":true,
         "mesa_giratoria_opcional":false,
         "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A425-L",
@@ -177,7 +176,7 @@ export default [
 
         //Descripcion 2
         "descripcion2":"Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior está orientado de forma radial para que el material se dirija a donde exista la mayor velocidad periférica. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
-        "caracteristicas_tecnicas":"37 HP Y - Chasis 80 km/h",
+
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
         "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A550",
@@ -214,7 +213,7 @@ export default [
 
         //Descripcion 1
         "descripcion":"La Chipeadora A 450 es una máquina ligera, compacta y práctica, con un potente motor diésel, capaz de triturar troncos, arbustos y ramas sin ningún problema. Además, cuenta con una carcasa robusta, es silenciosa, cuenta con cañón de descarga giratorio en 360º, con una barra de seguridad diseñada para que el operador no tenga problemas de acceso para accionarla. ",
-        "caracteristicas_tecnicas":"38 HP K - Chasis 80 km/h",
+      
 
         //Descripcion 2
         "descripcion2":"Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior está orientado de forma radial para que el material se dirija a donde exista la mayor velocidad periférica. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
@@ -249,10 +248,10 @@ export default [
         
         //Descripcion 1
         "descripcion":"La Chipeadora A 530 L es una máquina ligera, compacta y práctica, con un potente motor diésel, capaz de triturar troncos, arbustos y ramas sin ningún problema. Además, cuenta con una carcasa robusta, es silenciosa, posee un cañón de descarga giratorio en 360º, con una barra de seguridad diseñada para que el operador no tenga problemas de acceso para accionarla.",
-        "caracteristicas_tecnicas":"23.8 HP K - Chasis 80 km/h",
+      
 
         //descripcion 2
-        "descripcion":"Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior está orientado de forma radial para que el material se dirija a donde exista la mayor velocidad periférica. Además cuenta con un sistema de alimentación automático reduciendo los esfuerzos por corte de material en el motor.",
+        "descripcion2":"Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior está orientado de forma radial para que el material se dirija a donde exista la mayor velocidad periférica. Además cuenta con un sistema de alimentación automático reduciendo los esfuerzos por corte de material en el motor.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
         "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A530-L-Diesel",
@@ -295,7 +294,7 @@ export default [
 
         //Descripcion 2
         "descripcion2":"Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior está orientado de forma radial para que el material se dirija a donde exista la mayor velocidad periférica. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
-        "caracteristicas_tecnicas":"23 / 35 HP V - Chasis 80 km/h ",
+    
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
         "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A530-L-Bencina",
@@ -331,7 +330,7 @@ export default [
 
         //Descripcion 2
         "descripcion2":"Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior es basculante, lo cual significa que se adapta a la forma y tamaño de las ramas. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
-        "caracteristicas_tecnicas":"75 HP H - Chasis 80 km/h",
+       
         "mesa_giratoria":true,
         "mesa_giratoria_opcional":false,
         "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A350-L-Bencina",
@@ -382,7 +381,7 @@ export default [
 
         //descripcion 2
         "descripcion2":"El requisito de potencia del modelo A141 XL PTO es de 82 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
-        "caracteristicas_tecnicas":"",
+       
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
         "routerPath":'/chipeadoras/jensen/Chipeadoras-PTO/A141-XL',
@@ -423,7 +422,7 @@ export default [
 
         //descripcion 2
         "descripcion2":"El requisito de potencia del modelo A231 PTO es de 75 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
-        "caracteristicas_tecnicas":"",
+      
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
         "routerPath":'/chipeadoras/jensen/Chipeadoras-PTO/A231',
@@ -464,7 +463,6 @@ export default [
         
         //descripcion2
         "descripcion2":"El requisito de potencia del modelo A328 PTO es de 68 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
-        "caracteristicas_tecnicas":"",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
         "routerPath":'/chipeadoras/jensen/Chipeadoras-PTO/A328',
@@ -499,7 +497,6 @@ export default [
 
         //descripcion 2
         "descripcion2":"El requisito de potencia del modelo A425 PTO es de 55 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
-        "caracteristicas_tecnicas":"",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
         "routerPath":'/chipeadoras/jensen/Chipeadoras-PTO/A425',
@@ -539,7 +536,6 @@ export default [
 
         //Descripcion 2
         "descripcion2":"El requisito de potencia del modelo A540 PTO es de 40 [HP], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
-        "caracteristicas_tecnicas":"",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
         "routerPath":'/chipeadoras/jensen/Chipeadoras-PTO/A540',
@@ -582,7 +578,6 @@ export default [
 
         //descripcion 2
         "descripcion2":"El requisito de potencia del modelo A530 XL PTO es de 30 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
-        "caracteristicas_tecnicas":"",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
         "routerPath":'/chipeadoras/jensen/Chipeadoras-PTO/A530-XL',
@@ -625,7 +620,6 @@ export default [
 
         //descripcion 2
         "descripcion2":"Están disponibles tanto con orugas fijas como ajustables en ancho. Pueden alcanzar velocidades aproximadamente de 3 [km/hr] y superar pendientes de hasta 30º. También se pueden complementar con un sistema de compensación de nivel controlado hidráulicamente lo cual permite condiciones de trabajo óptimas incluso en pendientes pronunciadas.",
-        "caracteristicas_tecnicas":"23.8 HP K - Oruga",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
         "routerPath":'/chipeadoras/jensen/Chipeadoras-con-Oruga/A530-L',
@@ -662,7 +656,6 @@ export default [
 
         //descripcion 2
         "descripcion2":"Están disponibles tanto con orugas fijas como ajustables en ancho. Pueden alcanzar velocidades aproximadamente de 3 [km/hr] y superar pendientes de hasta 30º. También se pueden complementar con un sistema de compensación de nivel controlado hidráulicamente lo cual permite condiciones de trabajo óptimas incluso en pendientes pronunciadas.",
-        "caracteristicas_tecnicas":"25 HP K - Oruga",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
         "routerPath":'/chipeadoras/jensen/Chipeadoras-con-Oruga/A540-L',
@@ -705,7 +698,6 @@ export default [
         //descripcion 2
 
         "descripcion2":"Se logra una distancia al suelo óptima gracias a su diseño ergonómico permitiendo el cruce de grandes obstáculos. Esta construcción inteligente le brinda la seguridad y flexibilidad que necesita para trabajar en pendientes.",
-        "caracteristicas_tecnicas":"25 HP K - Oruga Spider",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
         "routerPath":'/chipeadoras/jensen/Chipeadoras-con-Oruga-Spider/A540',
@@ -746,7 +738,6 @@ export default [
 
         //descripcion 2
         "descripcion2":"Posee una capacidad de respuesta excepcional, cumple con las normas de regulación de emisiones más estrictas del mundo y permite un uso flexible a bajos costos de operación mediante el bajo consumo de combustible.",
-        "caracteristicas_tecnicas":"",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
         "routerPath":'/chipeadoras/jensen/Chipeadoras-de-Tambor/JT600-motor',
@@ -783,7 +774,6 @@ export default [
 
         //descripcion 2
         "descripcion2":"Posee una capacidad de respuesta excepcional, cumple con las normas de regulación de emisiones más estrictas del mundo y permite un uso flexible a bajos costos de operación mediante el bajo consumo de combustible.",
-        "caracteristicas_tecnicas":"",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
         "routerPath":'/chipeadoras/jensen/Chipeadoras-de-Tambor/JT600-pto',
