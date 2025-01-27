@@ -181,8 +181,7 @@ const ModeloJensen = () => {
                 <div className="w-full md:w-1/2 xl:ml-32">
 
                     <h2 className=" font-bold mb-5">Especificaciones generales</h2>
-                    <p className="mb-5 border-t-2 pt-2 border-black">Modelo: {producto[0].modelo} - {producto[0].caracteristicas_tecnicas}</p>
-
+                   
                     {
                         producto[0].mesa_giratoria && producto[0].mesa_giratoria_opcional ?
                         <p className="mb-5 border-t-2 pt-2 border-black">Mesa giratoria</p>
