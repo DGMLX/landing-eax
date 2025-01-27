@@ -49,20 +49,32 @@ const ChipeadorasJensen = ({Productos}:Props) =>{
             :
             Productos.map(producto=>(
               
-                <div className="border mx-2 rounded-2xl shadow-lg mb-5 w-96 md:w-72 pt-5 pb-20 px-5" key={producto.modelo}>
+                <div className="border mx-2 rounded-2xl shadow-lg mb-5 w-[390px] md:w-96 pt-5 pb-10 px-5" key={producto.modelo}>
                     <div className="flex justify-center">
                         <Image src={producto.imagen[0]} alt={producto.alt} width={200} height={200}/>
                     </div>
                     <p className="text-center text-sm mt-4">Chipeadora</p>
-                    <h2 className="text-center text-xl font-bold mt-1">{producto.modelo}</h2>
-                    <p className="text-start">Producción: {producto.produccion}</p>
-                    <p className="text-start">Potencia: {producto.potencia}</p>
-                    {
-                        producto.dimensionesPrincipales !== '' && <p className="text-start">Dimensiones: {producto.dimensionesPrincipales}</p>
-                    }
-                   
-                    <p className="text-start">Peso: {producto.peso}</p>
-                    <p className="text-start">Tamaño de garganta: {producto.tamaño_garganta}</p>
+                    <h2 className="text-center text-xl font-bold mt-1 pb-5">{producto.modelo}</h2>
+                    <div className="px-5">
+                        
+                        {
+                            producto.produccion !== '' && <p className="text-start ">Producción: {producto.produccion}</p>
+                        }
+                        {
+                            producto.potencia !== '' &&  <p className="text-start ">Potencia: {producto.potencia}</p>
+                        }
+                       
+                        {
+                            producto.dimensionesPrincipales !== '' && <p className="text-start">Dimensiones: {producto.dimensionesPrincipales}</p>
+                        }
+                        
+                        
+                        <p className="text-start">Peso: {producto.peso}</p>
+                        <p className="text-start">Tamaño de garganta: {producto.tamaño_garganta}</p>
+                        {
+                            producto.tambor !== '' && <p className="text-start">Tambor: {producto.tambor}</p>
+                        }
+                    </div>
                     <div className="flex justify-center mt-5 ">
                         <button className="bg-black text-white px-2 sm:px-5 py-2 ml-3 rounded-xl"><a className="flex items-center" href={producto.routerPath}>Ver productos <GoArrowRight className="text-white ml-1 sm:ml-3"/></a></button>
                     </div>

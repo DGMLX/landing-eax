@@ -753,9 +753,9 @@ export default [
         "peso":"9000 [kg]",
         "tambor":"600 [mm] de diametro con 6 cuchillas",
         "dimensionesPrincipales":"5.530 x 2.400 x 3.670 [mm]",
-        "potencia":"",
-        "dimensionesOrugaFija":"2.400 x 1.315 x 2.500 [mm]",
-        "dimensionesOrugaAjustable":"2.400 x 1820 x 2.800 [mm]",
+        "potencia":"150 [HP]",
+        "dimensionesOrugaFija":"2.250 x 1.150 x 2.500 [mm]",
+        "dimensionesOrugaAjustable":"",
         "tomaDeFuerza":"",
     },
 
@@ -790,8 +790,8 @@ export default [
         "peso":"7000 [kg]",
         "tambor":"600 [mm] de diametro con 6 cuchillas",
         "dimensionesPrincipales":"3.980 x 2.530 x 3.670 [mm]",
-        "dimensionesOrugaFija":"2.400 x 1.315 x 2.500 [mm]",
-        "dimensionesOrugaAjustable":"2.400 x 1820 x 2.800 [mm]",
+        "dimensionesOrugaFija":"2.250 x 1.150 x 2.500 [mm]",
+        "dimensionesOrugaAjustable":"",
         "tomaDeFuerza":"",
     }
 
