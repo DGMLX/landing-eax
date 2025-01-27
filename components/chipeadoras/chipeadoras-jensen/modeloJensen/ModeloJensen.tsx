@@ -181,6 +181,11 @@ const ModeloJensen = () => {
                 <div className="w-full md:w-1/2 xl:ml-32">
 
                     <h2 className=" font-bold mb-5">Especificaciones generales</h2>
+                    
+                    {
+                        producto[0].modelo !== '' &&
+                        <p className=" border-t-2 pt-3 pb-3 border-black">Modelo: {producto[0].modelo}</p>
+                    }
                    
                     {
                         producto[0].mesa_giratoria && producto[0].mesa_giratoria_opcional ?
@@ -190,24 +195,43 @@ const ModeloJensen = () => {
                         : ''
                     }
                     
-
-                    <p className="mb-5 border-t-2 pt-2 border-black">Producción: {producto[0].produccion}</p>
                     {
-                        producto[0].tamaño_garganta !== '' ? 
-                        <p className="mb-5 border-t-2 pt-2 border-black">Tamaño de garganta de alimentación: {producto[0].tamaño_garganta}</p>
-                        : ''
+                        producto[0].tambor !== '' &&
+                        <p className=" border-t-2 pt-3 pb-3 border-black">Tambor: {producto[0].tambor}</p>
+                    }
+
+                    {
+                        producto[0].produccion !== '' && 
+                        <p className=" border-t-2 pt-3 pb-3 border-black">Producción: {producto[0].produccion}</p>
+                    }
+                    
+
+                    {
+                        producto[0].tamaño_garganta !== '' &&    
+                        <p className=" border-t-2 pt-3 pb-3 border-black">Tamaño de garganta de alimentación: {producto[0].tamaño_garganta}</p>
                     }
                    {
-                        producto[0].motor !== '' ?
-                        <p className="mb-5 border-t-2 pt-2 border-black">Motor: {producto[0].motor}</p>
-                        : ''
+                        producto[0].motor !== '' &&
+                        <p className="border-t-2 pt-3 pb-3 border-black">Motor: {producto[0].motor}</p>
                    }
                    {
-                        producto[0].dimensiones !== '' ?
-                        <p className="mb-5 border-t-2 pt-2 border-black">Dimensiones: {producto[0].dimensiones}</p>
-                        : ''
+                        producto[0].dimensiones !== '' &&
+                        <p className=" border-t-2 pt-3 pb-3 border-black">Dimensiones: {producto[0].dimensiones}</p>
                    }
-                    <p className="mb-5 border-y-2 pt-2 pb-2 border-black">Peso: {producto[0].peso}</p>
+                    <p className=" border-t-2 pt-3 pb-3  border-black">Peso: {producto[0].peso}</p>
+
+                    {   
+                        producto[0].tomaDeFuerza !== '' && 
+                        <p className="mb-5 border-t-2 pt-2 border-black">Requisitos Toma de Fuerza: {producto[0].tomaDeFuerza}</p>
+                    }
+                    {
+                        producto[0].dimensionesOrugaFija !== '' && 
+                        <p className="mb-5 border-t-2 pt-2 border-black">Dimensiones Oruga Fija (Largo x Ancho x Alto): {producto[0].dimensionesOrugaFija}</p>
+                    }
+                    {
+                        producto[0].dimensionesOrugaAjustable !== '' && 
+                        <p className="mb-5 border-t-2 pt-2 border-black">Dimensiones Oruga Ajustable (Largo x Ancho x Alto): {producto[0].dimensionesOrugaAjustable}</p>
+                    }
                                     
                 </div>
               
