@@ -97,7 +97,7 @@ const ModeloEliet = () => {
                     <div>
                         <h1 className="text-2xl ">Chipeadora {producto[0].modelo}</h1>
                     </div>
-                    <p className="text-sm">Chipeadoras Jensen</p>
+                    <p className="text-sm">Chipeadoras Eliet</p>
                     <p className="font-bold mt-2">$15.340.230</p>
                     {/* <div className="mt-2 mb-10">
                         <button className="border border-black py-2 px-12 rou
