@@ -5,6 +5,7 @@ import { useParams } from "next/navigation";
 import data from "../../../../data/eliet"; 
 import { useState } from "react";
 import FormularioHubspot from "@/components/formularios/FormularioHubspot";
+import { TbNoteOff } from "react-icons/tb";
 
 const ModeloEliet = () => {
 
@@ -170,18 +171,21 @@ const ModeloEliet = () => {
 
              <section className="px-12 xl:px-24 mb-20 xl:flex justify-between ">
                 
-                <div className="xl:w-1/2 flex justify-center xl:mr-2">
-                    {/* <div className="w-full">
+                <div className="xl:w-1/2 xl:flex justify-center xl:mr-2 hidden">
+                     <div className="w-full">
                         <h2 className="font-bold text-center xl:text-start">Dimensiones / Plano</h2>
-                        <Image src={producto[0].imagenPlano} alt={`Planos ${producto[0].alt}`} width={1000} height={200} />
-                    </div> */}
+                        <div className="flex justify-center items-center h-full">
+                            <TbNoteOff className="text-4xl"/>
+                            <p className="text-2xl">Plano no disponible</p>
+                        </div>
+                    </div> 
                 </div>
              
 
                 <div className="w-full md:w-1/2 xl:ml-32">
 
                     <h2 className=" font-bold mb-5">Especificaciones generales</h2>
-                    <p className="mb-5 border-t-2 pt-2 border-black">Modelo: {producto[0].modelo} - {producto[0].caracteristicas_tecnicas}</p>
+                    <p className="mb-5 border-t-2 pt-2 border-black">Modelo: {producto[0].modelo}</p>
                     {
                         producto[0].produccion !== '' &&  <p className="mb-5 border-t-2 pt-2 border-black">Producción: {producto[0].produccion}</p>
                     }
