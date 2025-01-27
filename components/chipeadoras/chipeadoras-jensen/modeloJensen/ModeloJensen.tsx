@@ -104,8 +104,8 @@ const ModeloJensen = () => {
                         <button className="border border-black py-2 px-12 rounded-xl mr-3 hover:bg-black hover:text-white">Diésel</button>
                         <button className="border border-black py-2 px-12 rounded-xl  hover:bg-black hover:text-white">Gasolina</button>
                     </div> */}
-                    <p className="mb-5 mt-5">{producto[0].descripcion}
-                    </p>
+                    <p className="mb-5 mt-5">{producto[0].descripcion}</p>
+                    <p className="mb-5 mt-5">{producto[0].descripcion2}</p>
                     
                     
                     <div className="   flex justify-center xl:hidden">

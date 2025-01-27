@@ -4,6 +4,8 @@ import FormularioHubspot from "@/components/formularios/FormularioHubspot"
 import Image from "next/image"
 import { GoArrowRight } from "react-icons/go"
 
+
+
 type Producto = {
     modelo:string,
     categoria:string,
@@ -11,6 +13,7 @@ type Producto = {
     imagenPlano:string,
     alt:string,
     descripcion:string,
+    descripcion2:string,
     caracteristicas_tecnicas:string,
     mesa_giratoria:boolean,
     mesa_giratoria_opcional:boolean,
@@ -21,7 +24,13 @@ type Producto = {
     peso:string,
     routerPath:string,
     precio:number,
-    params:string
+    params:string,
+    potencia:string,
+    tambor:string,
+    dimensionesPrincipales:string,
+    dimensionesOrugaFija:string,
+    dimensionesOrugaAjustable:string,
+    tomaDeFuerza:string,
 }
 
 type Props = {
