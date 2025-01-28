@@ -755,7 +755,7 @@ export default [
         ],
         "alt": "Chipeadora Eliet Mega Prof Diesel",
         "modelo": "Mega Prof Diesel",
-        "categoria":"Por Definir",
+        "categoria":"Chipeadoras Remolcables De Carretera",
         // "caracteristicas_tecnicas":"37 HP Y - Chasis 80 km/h",
 
         //DESCRIPCION 1
@@ -769,7 +769,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Mega-Prof-Diesel",
-        "routerPath": "/chipeadoras/eliet/Por-Definir/Mega-Prof-Diesel",
+        "routerPath": "/chipeadoras/eliet/Chipeadoras-Remolcables-De-Carretera/Mega-Prof-Diesel",
         "diametro_entrada": "150 [mm]",
         "precio": 0,
 
@@ -790,7 +790,7 @@ export default [
         ],
         "alt": "Chipeadora Eliet Mega Prof",
         "modelo": "Mega Prof Gasolina",
-        "categoria":"Por Definir",
+        "categoria":"Chipeadoras Remolcables De Carretera",
         // "caracteristicas_tecnicas":"37 HP Y - Chasis 80 km/h",
 
         //DESCRIPCION 1
@@ -804,7 +804,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Mega-Prof-Gasolina",
-        "routerPath": "/chipeadoras/eliet/Por-Definir/Mega-Prof-Gasolina",
+        "routerPath": "/chipeadoras/eliet/Chipeadoras-Remolcables-De-Carretera/Mega-Prof-Gasolina",
         "precio": 0,
 
 
