@@ -30,7 +30,7 @@ const Producto = () => {
             <section className="mb-20">
                     <div className="block md:flex">
                          <div className="w-screen  md:w-1/2">
-                            <Image src="/chipeadora/eliet/chipeadora_compacta.png" alt="Chipeadora compacta Eliet" width={1000} height={1000} className="w-full"/>
+                            <Image src="/chipeadora/eliet/chipeadora_estacionaria.png" alt="Chipeadora Estacionaria Eliet" width={1000} height={1000} className="w-full"/>
                         </div>
 
                         <div className="w-screen md:w-1/2 bg-[#F6F6F6]">
@@ -48,7 +48,7 @@ const Producto = () => {
                     {/* ------------------ APARECE EN MOVIL -------------------------- */}
                     <div className="block md:hidden">
                         <div className="w-screen md:w-1/2">
-                            <Image src="/chipeadora/eliet/chipeadora_de_rendimiento.png" alt="Chipeadora de rendimiento Eliet" width={1000} height={1000} className="w-full"/>
+                            <Image src="/chipeadora/eliet/chipeadora_movil_rueda.jpg" alt="Chipeadoras Moviles sobre ruedas Eliet" width={1000} height={1000} className="w-full"/>
                         </div>
                         <div className="w-screen md:w-1/2 bg-[#F6F6F6] ">
                             <p className="text-end pr-10 text-2xl font-bold">02</p>
@@ -81,14 +81,14 @@ const Producto = () => {
                             </div>
                         </div>
                         <div className="w-1/2">
-                            <Image src="/chipeadora/eliet/chipeadora_de_rendimiento.png" alt="Chipeadora de rendimiento Eliet" width={1000} height={1000} className="w-full"/>
+                            <Image src="/chipeadora/eliet/chipeadora_movil_rueda.jpg" alt="Chipeadoras moviles sobre ruedas Eliet" width={1000} height={1000} className="w-full"/>
                         </div>
                     </div>
 
 
                     <div className="block md:flex">
                          <div className="w-screen  md:w-1/2">
-                            <Image src="/chipeadora/eliet/chipeadora_profesional.png" alt="Chipeadora profesional Eliet" width={1000} height={1000} className="w-full"/>
+                            <Image src="/chipeadora/eliet/chipeadora_sobre_oruga.jpg" alt="Chipeadora sobre oruga Eliet" width={1000} height={1000} className="w-full"/>
                         </div>
 
                         <div className="w-screen md:w-1/2 bg-[#F6F6F6]">
@@ -108,7 +108,7 @@ const Producto = () => {
                         {/* ------------------ APARECE EN MOVIL -------------------------- */}
                         <div className="block md:hidden">
                         <div className="w-screen md:w-1/2">
-                            <Image src="/chipeadora/eliet/chipeadoras_uso_versatil.png" alt="Chipeadoras de uso versatil Eliet" width={1000} height={1000} className="w-full"/>
+                            <Image src="/chipeadora/eliet/chipeadora_carretera.png" alt="Chipeadoras remolcables de carretera Eliet" width={1000} height={1000} className="w-full"/>
                         </div>
                         <div className="w-screen md:w-1/2 bg-[#F6F6F6] ">
                             <p className="text-end pr-10 text-2xl font-bold">04</p>
@@ -141,7 +141,7 @@ const Producto = () => {
                             </div>
                         </div>
                         <div className="w-1/2">
-                            <Image src="/chipeadora/eliet/chipeadoras_uso_versatil.png" alt="Chipeadoras de uso versatil Eliet" width={1000} height={1000} className="w-full"/>
+                            <Image src="/chipeadora/eliet/chipeadora_carretera.png" alt="Chipeadoras remolcables de carretera" width={1000} height={1000} className="w-full"/>
                         </div>
                     </div>
 
@@ -151,7 +151,7 @@ const Producto = () => {
 
                     <div className="block md:flex">
                          <div className="w-screen  md:w-1/2">
-                            <Image src="/chipeadora/eliet/chipeadoras_industriales.png" alt="Chipeadoras Industriales Eliet" width={1000} height={1000} className="w-full"/>
+                            <Image src="/chipeadora/eliet/chipeadora_pto.jpg" alt="Chipeadoras PTO Eliet" width={1000} height={1000} className="w-full"/>
                         </div>
 
                         <div className="w-screen md:w-1/2 bg-[#F6F6F6]">
