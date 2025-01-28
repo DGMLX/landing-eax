@@ -8,6 +8,7 @@ type Producto = {
     alt:string,
     modelo:string,
     // caracteristicas_tecnicas?:string,
+    categoria:string,
     descripcion:string,
     descripcion2:string,
     descripcion3:string,

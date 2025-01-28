@@ -3,6 +3,8 @@
 // SUPER PROF MAX CROSS COUNTRY
 
 
+//categoria
+
 export default [
 
     // MAESTRO CITY BENCINA
@@ -22,14 +24,14 @@ export default [
         
         //descripcion 2
         "descripcion2": "Con un chasis robusto y ruedas grandes, la Maestro City es fácil de transportar y almacenar. Su sistema de cuchillas RESIST™/6 (12 unidades) y una velocidad de corte de 36,000 cortes por minuto garantizan un rendimiento óptimo y un trabajo preciso. Esta chipeadora compacta combina practicidad y potencia, convirtiéndola en la herramienta perfecta para mantener jardines limpios y ordenados",
-
+        "categoria":"Chipeadoras Estacionarias",
         //DESCRIPCION 3
         "descripcion3":"",
 
         //DESCRIPCION 4
         "descripcion4":"",
         "params": "Maestro-city-Bencina",
-        "routerPath": "/chipeadoras/eliet/productos/Maestro-city-Bencina",
+        "routerPath": "/chipeadoras/eliet/Chipeadoras-Estacionarias/Maestro-city-Bencina",
         "precio": 0,
 
         //ESPECIFICACIONES PRINCIPALES:
@@ -55,6 +57,7 @@ export default [
         ],
         "alt": "Chipeadora Eliet Maestro Eléctrico 230V",
         "modelo": "Maestro City 230V",
+        "categoria":"Chipeadoras Estacionarias",
         // "caracteristicas_tecnicas":"23.8 HP K - Chasis 80 km/h",
 
         //DESCRIPCION 1
@@ -69,7 +72,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Maestro-city-Electrico-230V",
-        "routerPath": "/chipeadoras/eliet/productos/Maestro-city-Electrico-230V",
+        "routerPath": "/chipeadoras/eliet/Chipeadoras-Estacionarias/Maestro-city-Electrico-230V",
         "precio": 0,
 
 
@@ -94,6 +97,7 @@ export default [
         ],
         "alt": "Chipeadora Eliet Maestro Eléctrico 380V",
         "modelo": "Maestro City 380V",
+        "categoria":"Chipeadoras Estacionarias",
         // "caracteristicas_tecnicas":"23.8 HP K - Chasis 80 km/h",
 
         // DESCRIPCION 1
@@ -108,7 +112,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Maestro-city-Electrico-380V",
-        "routerPath": "/chipeadoras/eliet/productos/Maestro-city-Electrico-380V",
+        "routerPath": "/chipeadoras/eliet/Chipeadoras-Estacionarias/Maestro-city-Electrico-380V",
         "precio": 0,
 
 
@@ -133,6 +137,7 @@ export default [
         ],
         "alt": "Chipeadora Eliet Maestro Country Bencina",
         "modelo": "Maestro Country Bencina",
+        "categoria":"Chipeadoras Estacionarias",
         // "caracteristicas_tecnicas":"23.8 HP K - Chasis 80 km/h",
 
         // DESCRIPCION 1
@@ -147,7 +152,7 @@ export default [
         //DESCRIPCION 4
         "descripcion4":"",
         "params": "Maestro-Country-Bencina",
-        "routerPath": "/chipeadoras/eliet/productos/Maestro-Country-Bencina",
+        "routerPath": "/chipeadoras/eliet/Chipeadoras-Estacionarias/Maestro-Country-Bencina",
         "precio": 0,
 
 
@@ -173,6 +178,7 @@ export default [
         ],
         "alt": "Chipeadora Eliet Neo",
         "modelo": "Neo",
+        "categoria":"Chipeadoras Estacionarias",
         // "caracteristicas_tecnicas":"23.8 HP K - Chasis 80 km/h",
 
         // DESCRIPCION 1
@@ -187,7 +193,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Neo",
-        "routerPath": "/chipeadoras/eliet/productos/Neo",
+        "routerPath": "/chipeadoras/eliet/Chipeadoras-Estacionarias/Neo",
         "precio": 0,
 
         //ESPECIFICACIONES PRINCIPALES:
@@ -209,6 +215,7 @@ export default [
         ],
         "alt": "Chipeadora Eliet Neo²",
         "modelo": "Neo²",
+        "categoria":"Chipeadoras Estacionarias",
         // "caracteristicas_tecnicas":"23.8 HP K - Chasis 80 km/h",
 
         // DESCRIPCION 1
@@ -223,7 +230,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Neo2",
-        "routerPath": "/chipeadoras/eliet/productos/Neo2",
+        "routerPath": "/chipeadoras/eliet/Chipeadoras-Estacionarias/Neo2",
         "precio": 0,
 
 
@@ -247,6 +254,7 @@ export default [
         ],
         "alt": "Chipeadora Eliet Neo³",
         "modelo": "Neo³",
+        "categoria":"Chipeadoras Estacionarias",
         // "caracteristicas_tecnicas":"23.8 HP K - Chasis 80 km/h",
 
         // DESCRIPCION 1
@@ -261,7 +269,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Neo3",
-        "routerPath": "/chipeadoras/eliet/productos/Neo3",
+        "routerPath": "/chipeadoras/eliet/Chipeadoras-Estacionarias/Neo3",
         "precio": 0,
 
 
@@ -283,6 +291,7 @@ export default [
         ],
         "alt": "Chipeadora Eliet Major 4S",
         "modelo": "Major 4S",
+        "categoria":"Chipeadoras Moviles Sobre Ruedas",
         // "caracteristicas_tecnicas":"23 HP V - Chasis 80 km/h",
 
         // DESCRIPCION 1
@@ -298,7 +307,7 @@ export default [
         "descripcion4":"",
 
         "params": "Major-4S",
-        "routerPath": "/chipeadoras/eliet/productos/Major-4S",
+        "routerPath": "/chipeadoras/eliet/Chipeadoras-Moviles-Sobre-Ruedas/Major-4S",
         "precio": 0,
 
 
@@ -321,6 +330,7 @@ export default [
         ],
         "alt": "Chipeadora Eliet Vector 4S On Wheels",
         "modelo": "Vector 4S On Wheels",
+        "categoria":"Chipeadoras Moviles Sobre Ruedas",
         // "caracteristicas_tecnicas":"25 HP K - Chasis 80 km/h",
         
         // DESCRIPCION 1
@@ -335,7 +345,7 @@ export default [
         //descripcion4
         "descripcion4":"",
         "params": "Vector-4S-On-Wheels",
-        "routerPath": "/chipeadoras/eliet/productos/Vector-4S-On-Wheels",
+        "routerPath": "/chipeadoras/eliet/Chipeadoras-Moviles-Sobre-Ruedas/Vector-4S-On-Wheels",
         "precio": 0,
 
 
@@ -364,6 +374,7 @@ export default [
         ],
         "alt": "Chipeadora Eliet Prof 6 Cross Country",
         "modelo": "Prof 6 Cross Country",
+        "categoria":"Chipeadoras Sobre Oruga",
         // "caracteristicas_tecnicas":"25 HP K - Chasis 80 km/h",
 
         // DESCRIPCION 1
@@ -381,7 +392,7 @@ export default [
         "descripcion4":"Con una capacidad de procesamiento de hasta 4 m³ de chips por hora, una altura de descarga de 1.8 metros y un peso total de 426 kg, la Prof 6 Cross Country se posiciona como una solución robusta y confiable para usuarios que buscan potencia, durabilidad y eficiencia en la gestión de residuos verdes.",
 
         "params": "Prof-6-Cross-Country",
-        "routerPath": "/chipeadoras/eliet/productos/Prof-6-Cross-Country",
+        "routerPath": "/chipeadoras/eliet/Chipeadoras-Sobre-Oruga/Prof-6-Cross-Country",
         "precio": 0,
 
 
@@ -405,6 +416,7 @@ export default [
         ],
         "alt": "Chipeadora Eliet Prof 6 On Road",
         "modelo": "Prof 6 On Road",
+        "categoria":"Chipeadoras Remolcables De Carretera",
         // "caracteristicas_tecnicas":"25 HP K - Chasis 80 km/h",
 
         //descripcion 1
@@ -419,7 +431,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Prof-6-On-Road",
-        "routerPath": "/chipeadoras/eliet/productos/Prof-6-On-Road",
+        "routerPath": "/chipeadoras/eliet/Chipeadoras-Remolcables-De-Carretera/Prof-6-On-Road",
         "precio": 0,
 
 
@@ -443,6 +455,7 @@ export default [
         ],
         "alt": "Chipeadora Eliet Prof 6 On Wheels",
         "modelo": "Prof 6 On Wheels",
+        "categoria":"Chipeadoras Moviles Sobre Ruedas",
         // "caracteristicas_tecnicas":"25 HP K - Chasis 80 km/h",
 
         //descripcion 1
@@ -456,7 +469,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Prof-6-On-Wheels",
-        "routerPath": "/chipeadoras/eliet/productos/Prof-6-On-Wheels",
+        "routerPath": "/chipeadoras/eliet/Chipeadoras-Moviles-Sobre-Ruedas/Prof-6-On-Wheels",
         "precio": 0,
 
 
@@ -478,6 +491,7 @@ export default [
         ],
         "alt": "Chipeadora Eliet Prof 6 PTO",
         "modelo": "Prof 6 PTO",
+        "categoria":"Chipeadoras PTO",
         // "caracteristicas_tecnicas":"25 HP K - Chasis 80 km/h",
 
         //descripcion 1
@@ -491,7 +505,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Prof-6-PTO",
-        "routerPath": "/chipeadoras/eliet/productos/Prof-6-PTO",
+        "routerPath": "/chipeadoras/eliet/Chipeadoras-PTO/Prof-6-PTO",
         "precio": 0,
 
 
@@ -514,6 +528,7 @@ export default [
         ],
         "alt": "Chipeadora Eliet Minor 4S",
         "modelo": "Minor 4S",
+        "categoria":"Chipeadoras Estacionarias",
         // "caracteristicas_tecnicas":"23 HP V - Chasis 80 km/h",
 
         // DESCRIPCION 1
@@ -528,7 +543,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Minor-4S",
-        "routerPath": "/chipeadoras/eliet/productos/Minor-4S",
+        "routerPath": "/chipeadoras/eliet/Chipeadoras-Estacionarias/Minor-4S",
         "precio": 0,
 
 
@@ -550,6 +565,7 @@ export default [
         ],
         "alt": "Chipeadora Eliet Minor 4S Eléctrica",
         "modelo": "Minur 4S Eléctrica",
+        "categoria":"Chipeadoras Estacionarias",
         // "caracteristicas_tecnicas":"23 HP V - Chasis 80 km/h",
 
         // DESCRIPCION 1
@@ -563,7 +579,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Minor-4S-Electrica",
-        "routerPath": "/chipeadoras/eliet/productos/Minor-4S-Electrica",
+        "routerPath": "/chipeadoras/eliet/Chipeadoras-Estacionarias/Minor-4S-Electrica",
         "precio": 0,
 
 
@@ -591,6 +607,7 @@ export default [
         ],
         "alt": "Chipeadora Eliet Super Prof Max Cross Country",
         "modelo": "Super Prof Max Cross Country",
+        "categoria":"Chipeadoras Sobre Oruga",
         // "caracteristicas_tecnicas": "25 HP K - Chasis 80 km/h",
 
         //DESCRIPCION 1
@@ -604,7 +621,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Super-Prof-Max-Cross-Country",
-        "routerPath": "/chipeadoras/eliet/productos/Super-Prof-Max-Cross-Country",
+        "routerPath": "/chipeadoras/eliet/Chipeadoras-Sobre-Oruga/Super-Prof-Max-Cross-Country",
         "precio": 0,
 
 
@@ -626,6 +643,7 @@ export default [
         ],
         "alt": "Chipeadora Eliet Super Prof Max On Road",
         "modelo": "Super Prof Max On Road",
+        "categoria":"Chipeadoras Remolcables De Carretera",
         // "caracteristicas_tecnicas":"25 HP K - Chasis 80 km/h",
 
         //DESCRIPCION 1
@@ -639,7 +657,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Super-Prof-Max-On-Road",
-        "routerPath": "/chipeadoras/eliet/productos/Super-Prof-Max-On-Road",
+        "routerPath": "/chipeadoras/eliet/Chipeadoras-Remolcables-De-Carretera/Super-Prof-Max-On-Road",
         "precio": 0,
 
 
@@ -660,6 +678,7 @@ export default [
         ],
         "alt": "Chipeadora Eliet Super Prof On Wheels",
         "modelo": "Super Prof On Wheels",
+        "categoria":"Chipeadoras Moviles Sobre Ruedas",
         // "caracteristicas_tecnicas":"25 HP K - Chasis 80 km/h",
 
         //DESCRIPCION 1
@@ -695,6 +714,7 @@ export default [
         ],
         "alt": "Chipeadora Eliet Super Prof On Road",
         "modelo": "Super Prof On Road",
+        "categoria":"Chipedaoras Remolcables De Carretera",
         // "caracteristicas_tecnicas":"25 HP K - Chasis 80 km/h",
 
         //DESCRIPCION 1
@@ -708,7 +728,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Super-Prof-On-Road",
-        "routerPath": "/chipeadoras/eliet/productos/Super-Prof-On-Road",
+        "routerPath": "/chipeadoras/eliet/Chipeadoras-Remolcables-De-Carretera/Super-Prof-On-Road",
         "precio": 0,
 
 
@@ -735,6 +755,7 @@ export default [
         ],
         "alt": "Chipeadora Eliet Mega Prof Diesel",
         "modelo": "Mega Prof Diesel",
+        "categoria":"Por Definir",
         // "caracteristicas_tecnicas":"37 HP Y - Chasis 80 km/h",
 
         //DESCRIPCION 1
@@ -748,7 +769,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Mega-Prof-Diesel",
-        "routerPath": "/chipeadoras/eliet/productos/Mega-Prof-Diesel",
+        "routerPath": "/chipeadoras/eliet/Por-Definir/Mega-Prof-Diesel",
         "diametro_entrada": "150 [mm]",
         "precio": 0,
 
@@ -769,6 +790,7 @@ export default [
         ],
         "alt": "Chipeadora Eliet Mega Prof",
         "modelo": "Mega Prof Gasolina",
+        "categoria":"Por Definir",
         // "caracteristicas_tecnicas":"37 HP Y - Chasis 80 km/h",
 
         //DESCRIPCION 1
@@ -782,7 +804,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Mega-Prof-Gasolina",
-        "routerPath": "/chipeadoras/eliet/productos/Mega-Prof-Gasolina",
+        "routerPath": "/chipeadoras/eliet/Por-Definir/Mega-Prof-Gasolina",
         "precio": 0,
 
 

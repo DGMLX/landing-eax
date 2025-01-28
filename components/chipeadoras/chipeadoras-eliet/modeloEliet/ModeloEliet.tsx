@@ -28,7 +28,7 @@ const ModeloEliet = () => {
         <>
                 <div className="px-10 sm:px-16 mt-14">
                     <div className="font-extralight text-sm">
-                        <a href="/chipeadoras/jensen">Eliet</a> {' > '} 
+                        <a href="/chipeadoras/eliet">Eliet</a> {' > '} 
                         <a href={`/chipeadoras/eliet/productos`}>Chipeadoras Eliet</a> {' > '} 
                         <span className="text-red-600 underline">{modelo.replace(/-/g,' ')}</span>
                     </div>
