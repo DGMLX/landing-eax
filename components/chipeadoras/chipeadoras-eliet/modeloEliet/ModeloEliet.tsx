@@ -13,8 +13,9 @@ const ModeloEliet = () => {
 
     const params = useParams()
     const modelo = params.modelo as string
+    const categoria = params.categoria as string
 
-    const producto = data.filter(prod=>prod.params === modelo)
+    const producto = data.filter(prod=>prod.params === modelo && prod.categoria === categoria.replace(/-/g,' '))
     
 
     const [imagen1,setImagen1] = useState(true)
@@ -29,7 +30,7 @@ const ModeloEliet = () => {
                 <div className="px-10 sm:px-16 mt-14">
                     <div className="font-extralight text-sm">
                         <a href="/chipeadoras/eliet">Eliet</a> {' > '} 
-                        <a href={`/chipeadoras/eliet/productos`}>Chipeadoras Eliet</a> {' > '} 
+                        <a href={`/chipeadoras/eliet/${categoria}`}>{categoria.replace(/-/g,' ')}</a> {' > '} 
                         <span className="text-red-600 underline">{modelo.replace(/-/g,' ')}</span>
                     </div>
                 </div>
