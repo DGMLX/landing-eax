@@ -51,6 +51,7 @@ export default [
             "/chipeadora/eliet/productos/maestro_city/maestro-city-1.jpeg",
             "/chipeadora/eliet/productos/maestro_city/maestro-city-2.jpeg",
 
+
         ],
         "alt": "Chipeadora Eliet Maestro Eléctrico 230V",
         "modelo": "Maestro City 230V",

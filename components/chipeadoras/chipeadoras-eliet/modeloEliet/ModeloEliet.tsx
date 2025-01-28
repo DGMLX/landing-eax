@@ -114,16 +114,16 @@ const ModeloEliet = () => {
                             <div className="flex justify-center mt-5 mb-10">
                         
                                 {
-                                    imagen1 && <Image src={producto[0].imagen[0]} alt={producto[0].alt} width={100} height={100} />
+                                    imagen1 && <Image src={producto[0].imagen[0]} alt={producto[0].alt} width={300} height={400} />
                                 }
                                 {
-                                    imagen2 && <Image src={producto[0].imagen[1]} alt={producto[0].alt} width={300} height={300} />
+                                    imagen2 && <Image src={producto[0].imagen[1]} alt={producto[0].alt} width={300} height={400} />
                                 }
                                 {
-                                    imagen3 && <Image src={producto[0].imagen[2]} alt={producto[0].alt} width={300} height={300} />
+                                    imagen3 && <Image src={producto[0].imagen[2]} alt={producto[0].alt} width={300} height={400} />
                                 }
                                 {
-                                    imagen4 && <Image src={producto[0].imagen[3]} alt={producto[0].alt} width={300} height={300} />
+                                    imagen4 && <Image src={producto[0].imagen[3]} alt={producto[0].alt} width={300} height={400} />
                                 }
                                 
                             </div>
@@ -134,24 +134,34 @@ const ModeloEliet = () => {
                                         setImagen3(false)
                                         setImagen4(false)
                                     }}/>
-                                    <Image src={producto[0].imagen[1]} alt={producto[0].alt} width={90} height={90} className={`w-1/5 m-1 ${imagen2 && "border rounded-xl"}`} onClick={()=>{
-                                        setImagen1(false)
-                                        setImagen2(true)
-                                        setImagen3(false)
-                                        setImagen4(false)
-                                    }}/>
-                                    <Image src={producto[0].imagen[2]} alt={producto[0].alt} width={90} height={90} className={`w-1/5 m-1 ${imagen3 && "border rounded-xl"}`} onClick={()=>{
-                                        setImagen1(false)
-                                        setImagen2(false)
-                                        setImagen3(true)
-                                        setImagen4(false)
-                                    }}/>
-                                    <Image src={producto[0].imagen[3]} alt={producto[0].alt} width={90} height={90} className={`w-1/5 m-1 ${imagen4 && "border rounded-xl"}`} onClick={()=>{
-                                        setImagen1(false)
-                                        setImagen2(false)
-                                        setImagen3(false)
-                                        setImagen4(true)
-                                    }}/>
+                                    {
+                                         producto[0].imagen[1] &&
+                                            <Image src={producto[0].imagen[1]} alt={producto[0].alt} width={90} height={90} className={`w-1/5 m-1 ${imagen2 && "border rounded-xl"}`} onClick={()=>{
+                                                setImagen1(false)
+                                                setImagen2(true)
+                                                setImagen3(false)
+                                                setImagen4(false)
+                                            }}/>
+                                    }
+                                    {
+                                         producto[0].imagen[2] &&
+                                            <Image src={producto[0].imagen[2]} alt={producto[0].alt} width={90} height={90} className={`w-1/5 m-1 ${imagen3 && "border rounded-xl"}`} onClick={()=>{
+                                                setImagen1(false)
+                                                setImagen2(false)
+                                                setImagen3(true)
+                                                setImagen4(false)
+                                            }}/>
+                                    }
+                                    {
+                                        producto[0].imagen[3] &&
+                                        <Image src={producto[0].imagen[3]} alt={producto[0].alt} width={90} height={90} className={`w-1/5 m-1 ${imagen4 && "border rounded-xl"}`} onClick={()=>{
+                                            setImagen1(false)
+                                            setImagen2(false)
+                                            setImagen3(false)
+                                            setImagen4(true)
+                                        }}/>
+                                    }
+                                    
                             </div>
                         </div>
                     </div>
