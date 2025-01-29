@@ -207,7 +207,7 @@ const Producto = () => {
                                 
                                 <p className="md:mt-3  md:mb-5 lg:mt-5 lg:mb-10 ">• Características: Modelos personalizados según tus necesidades particulares. <br/>
                                 • Por qué elegirla: Cuando un proyecto requiere algo fuera de lo común, estas máquinas están diseñadas para adaptarse.</p>
-                                <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><a href={"/jensen/Chipeadoras-especiales"}>Ver productos</a></button>
+                                <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><a href={"/jensen/Chipeadoras-Especiales"}>Ver productos</a></button>
                             </div>
                         </div>
                         <div className="w-1/2">

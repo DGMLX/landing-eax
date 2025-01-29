@@ -5,6 +5,7 @@ import { useParams } from "next/navigation";
 import data from "../../../../data/jensen"; 
 import { useState } from "react";
 import FormularioHubspot from "@/components/formularios/FormularioHubspot";
+import { TbNoteOff } from "react-icons/tb";
 
 const ModeloJensen = () => {
 
@@ -173,7 +174,15 @@ const ModeloJensen = () => {
                 <div className="xl:w-1/2 flex justify-center xl:mr-2">
                     <div className="w-full">
                         <h2 className="font-bold text-center xl:text-start">Dimensiones / Plano</h2>
-                        <Image src={producto[0].imagenPlano} alt={`Planos ${producto[0].alt}`} width={1000} height={200} />
+                        {
+                            producto[0].imagenPlano !== '' ?
+                            <Image src={producto[0].imagenPlano} alt={`Planos ${producto[0].alt}`} width={1000} height={200} />
+                            :
+                            <div className="flex justify-center items-center h-full">
+                            <TbNoteOff className="text-4xl"/>
+                            <p className="text-2xl">Plano no disponible</p>
+                        </div>
+                        }
                     </div>
                 </div>
              
@@ -218,7 +227,10 @@ const ModeloJensen = () => {
                         producto[0].dimensiones !== '' &&
                         <p className=" border-t-2 pt-3 pb-3 border-black">Dimensiones: {producto[0].dimensiones}</p>
                    }
-                    <p className=" border-t-2 pt-3 pb-3  border-black">Peso: {producto[0].peso}</p>
+                   {
+                        producto[0].peso !== '' &&
+                        <p className=" border-t-2 pt-3 pb-3  border-black">Peso: {producto[0].peso}</p>
+                   }
 
                     {   
                         producto[0].tomaDeFuerza !== '' && 

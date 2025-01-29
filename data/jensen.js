@@ -793,9 +793,226 @@ export default [
         "dimensionesOrugaFija":"2.250 x 1.150 x 2.500 [mm]",
         "dimensionesOrugaAjustable":"",
         "tomaDeFuerza":"",
+    },
+
+
+    {
+        "modelo":"Chipeadora Especial con Oruga y Grúa",
+        "categoria":"Chipeadoras Especiales",
+        "imagen":[
+            "/chipeadora/jensen/chipeadora_especial/chipeadora_especial__1_-removebg-preview.png"
+        ],
+        "imagenPlano":"",
+        "alt":"Chipeadoras Especiales Jensen",
+        
+        //Descripcion 1
+        "descripcion":"Indícanos tu requerimiento y realizaremos la ingeniería de diseño para potenciar aún mas la solución al procesamiento de grandes cantidades de material.",
+
+        //descripcion 2
+        "descripcion2":"Ya sea que busques una chipeadora con chasis de eje simple o tándem, con oruga o chipeadoras PTO, puedes complementar la funcionalidad de estos equipos integrándole herramientas tales como Grúas de mediana y alta capacidad de carga, cintas transportadoras plegables o contenedores sobre chasis, entre otros.",
+        "mesa_giratoria":false,
+        "mesa_giratoria_opcional":false,
+        "routerPath":'/jensen/Chipeadoras-Especiales/Con-Oruga-y-Grua',
+        "precio":0,
+        "params":'Con-Oruga-y-Grua',
+
+
+        //Especificaciones Especificas
+        "produccion":"",
+        "potencia":"",
+        "tamaño_garganta":"",
+        "motor":"",
+        "dimensiones":"",
+        "peso":"",
+        "tambor":"",
+        "dimensionesPrincipales":"",
+        "dimensionesOrugaFija":"",
+        "dimensionesOrugaAjustable":"",
+        "tomaDeFuerza":"",
+    },
+
+    {
+        "modelo":"Chipeadora con Chasis Tándem y Grúa",
+        "categoria":"Chipeadoras Especiales",
+        "imagen":[
+            "/chipeadora/jensen/chipeadora_especial/chipeadora_especial_5.png"
+        ],
+        "imagenPlano":"",
+        "alt":"Chipeadoras Especiales Jensen",
+        
+        //Descripcion 1
+        "descripcion":"Indícanos tu requerimiento y realizaremos la ingeniería de diseño para potenciar aún mas la solución al procesamiento de grandes cantidades de material.",
+
+        //descripcion 2
+        "descripcion2":"Ya sea que busques una chipeadora con chasis de eje simple o tándem, con oruga o chipeadoras PTO, puedes complementar la funcionalidad de estos equipos integrándole herramientas tales como Grúas de mediana y alta capacidad de carga, cintas transportadoras plegables o contenedores sobre chasis, entre otros.",
+        "mesa_giratoria":false,
+        "mesa_giratoria_opcional":false,
+        "routerPath":'/jensen/Chipeadoras-Especiales/Con-Chasis-Tandem-y-Grua',
+        "precio":0,
+        "params":'Con-Chasis-Tandem-y-Grua',
+
+
+        //Especificaciones Especificas
+        "produccion":"",
+        "potencia":"",
+        "tamaño_garganta":"",
+        "motor":"",
+        "dimensiones":"",
+        "peso":"",
+        "tambor":"",
+        "dimensionesPrincipales":"",
+        "dimensionesOrugaFija":"",
+        "dimensionesOrugaAjustable":"",
+        "tomaDeFuerza":"",
+    }
+    ,
+
+    {
+        "modelo":"Chipeadora con Cinta, Mesa Giratoria y Grúa",
+        "categoria":"Chipeadoras Especiales",
+        "imagen":[
+            "/chipeadora/jensen/chipeadora_especial/chipeadora_especial_2.png"
+        ],
+        "imagenPlano":"",
+        "alt":"Chipeadoras Especiales Jensen",
+        
+        //Descripcion 1
+        "descripcion":"Indícanos tu requerimiento y realizaremos la ingeniería de diseño para potenciar aún mas la solución al procesamiento de grandes cantidades de material.",
+
+        //descripcion 2
+        "descripcion2":"Ya sea que busques una chipeadora con chasis de eje simple o tándem, con oruga o chipeadoras PTO, puedes complementar la funcionalidad de estos equipos integrándole herramientas tales como Grúas de mediana y alta capacidad de carga, cintas transportadoras plegables o contenedores sobre chasis, entre otros.",
+        "mesa_giratoria":false,
+        "mesa_giratoria_opcional":false,
+        "routerPath":'/jensen/Chipeadoras-Especiales/Con-Cinta-Transportadora',
+        "precio":0,
+        "params":'Con-Cinta-Transportadora',
+
+
+        //Especificaciones Especificas
+        "produccion":"",
+        "potencia":"",
+        "tamaño_garganta":"",
+        "motor":"",
+        "dimensiones":"",
+        "peso":"",
+        "tambor":"",
+        "dimensionesPrincipales":"",
+        "dimensionesOrugaFija":"",
+        "dimensionesOrugaAjustable":"",
+        "tomaDeFuerza":"",
+    }
+    ,
+
+    {
+        "modelo":"Chipeadora Grúa con Mayor capacidad de Alcance y Carga",
+        "categoria":"Chipeadoras Especiales",
+        "imagen":[
+            "/chipeadora/jensen/chipeadora_especial/chipeadora_especial_3.png"
+        ],
+        "imagenPlano":"",
+        "alt":"Chipeadoras Especiales Jensen",
+        
+        //Descripcion 1
+        "descripcion":"Indícanos tu requerimiento y realizaremos la ingeniería de diseño para potenciar aún mas la solución al procesamiento de grandes cantidades de material.",
+
+        //descripcion 2
+        "descripcion2":"Ya sea que busques una chipeadora con chasis de eje simple o tándem, con oruga o chipeadoras PTO, puedes complementar la funcionalidad de estos equipos integrándole herramientas tales como Grúas de mediana y alta capacidad de carga, cintas transportadoras plegables o contenedores sobre chasis, entre otros.",
+        "mesa_giratoria":false,
+        "mesa_giratoria_opcional":false,
+        "routerPath":'/jensen/Chipeadoras-Especiales/Con-Mayor-Alcance-y-Carga',
+        "precio":0,
+        "params":'Con-Mayor-Alcance-y-Carga',
+
+
+        //Especificaciones Especificas
+        "produccion":"",
+        "potencia":"",
+        "tamaño_garganta":"",
+        "motor":"",
+        "dimensiones":"",
+        "peso":"",
+        "tambor":"",
+        "dimensionesPrincipales":"",
+        "dimensionesOrugaFija":"",
+        "dimensionesOrugaAjustable":"",
+        "tomaDeFuerza":"",
+    }
+    ,
+
+   
+
+    {
+        "modelo":"Chipeadora PTO en Chasis con Grúa y contenedor Hidráulico",
+        "categoria":"Chipeadoras Especiales",
+        "imagen":[
+            "/chipeadora/jensen/chipeadora_especial/chipeadora_especial_4.png"
+        ],
+        "imagenPlano":"",
+        "alt":"Chipeadoras Especiales Jensen",
+        
+        //Descripcion 1
+        "descripcion":"Indícanos tu requerimiento y realizaremos la ingeniería de diseño para potenciar aún mas la solución al procesamiento de grandes cantidades de material.",
+
+        //descripcion 2
+        "descripcion2":"Ya sea que busques una chipeadora con chasis de eje simple o tándem, con oruga o chipeadoras PTO, puedes complementar la funcionalidad de estos equipos integrándole herramientas tales como Grúas de mediana y alta capacidad de carga, cintas transportadoras plegables o contenedores sobre chasis, entre otros.",
+        "mesa_giratoria":false,
+        "mesa_giratoria_opcional":false,
+        "routerPath":'/jensen/Chipeadoras-Especiales/PTO-En-Chasis-Con-Descarga',
+        "precio":0,
+        "params":'PTO-En-Chasis-Con-Descarga',
+
+
+        //Especificaciones Especificas
+        "produccion":"",
+        "potencia":"",
+        "tamaño_garganta":"",
+        "motor":"",
+        "dimensiones":"",
+        "peso":"",
+        "tambor":"",
+        "dimensionesPrincipales":"",
+        "dimensionesOrugaFija":"",
+        "dimensionesOrugaAjustable":"",
+        "tomaDeFuerza":"",
     }
 
 
+    ,
+
+    {
+        "modelo":"Chipeadora PTO con Chasis Tándem y Grúa",
+        "categoria":"Chipeadoras Especiales",
+        "imagen":[
+            "/chipeadora/jensen/chipeadora_especial/chipeadora_especial_6.png"
+        ],
+        "imagenPlano":"",
+        "alt":"Chipeadoras Especiales Jensen",
+        
+        //Descripcion 1
+        "descripcion":"Indícanos tu requerimiento y realizaremos la ingeniería de diseño para potenciar aún mas la solución al procesamiento de grandes cantidades de material.",
+
+        //descripcion 2
+        "descripcion2":"Ya sea que busques una chipeadora con chasis de eje simple o tándem, con oruga o chipeadoras PTO, puedes complementar la funcionalidad de estos equipos integrándole herramientas tales como Grúas de mediana y alta capacidad de carga, cintas transportadoras plegables o contenedores sobre chasis, entre otros.",
+        "mesa_giratoria":false,
+        "mesa_giratoria_opcional":false,
+        "routerPath":'/jensen/Chipeadoras-Especiales/PTO-Con-Chasis-Tandem',
+        "precio":0,
+        "params":'PTO-Con-Chasis-Tandem',
+
+
+        //Especificaciones Especificas
+        "produccion":"",
+        "potencia":"",
+        "tamaño_garganta":"",
+        "motor":"",
+        "dimensiones":"",
+        "peso":"",
+        "tambor":"",
+        "dimensionesPrincipales":"",
+        "dimensionesOrugaFija":"",
+        "dimensionesOrugaAjustable":"",
+        "tomaDeFuerza":"",
+    }
 
     
 

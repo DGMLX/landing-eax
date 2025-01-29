@@ -68,9 +68,14 @@ const ChipeadorasJensen = ({Productos}:Props) =>{
                             producto.dimensionesPrincipales !== '' && <p className="text-start">Dimensiones: {producto.dimensionesPrincipales}</p>
                         }
                         
+                        {
+                            producto.peso !== '' && <p className="text-start">Peso: {producto.peso}</p>
+                        }
+                        {
+                            producto.tamaño_garganta !== '' && <p className="text-start">Tamaño de garganta: {producto.tamaño_garganta}</p>
+                        }
                         
-                        <p className="text-start">Peso: {producto.peso}</p>
-                        <p className="text-start">Tamaño de garganta: {producto.tamaño_garganta}</p>
+                        
                         {
                             producto.tambor !== '' && <p className="text-start">Tambor: {producto.tambor}</p>
                         }
