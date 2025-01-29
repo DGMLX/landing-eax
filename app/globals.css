@@ -7,10 +7,6 @@
   --foreground: #171717;
 }
 
-*{
-  box-sizing: border-box;
-  overflow: hidden;
-}
 
 body {
   color: var(--foreground);
