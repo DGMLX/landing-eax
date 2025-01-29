@@ -134,24 +134,33 @@ const ModeloJensen = () => {
                                         setImagen3(false)
                                         setImagen4(false)
                                     }}/>
-                                    <Image src={producto[0].imagen[1]} alt={producto[0].alt} width={90} height={90} className={`w-1/5 m-1 ${imagen2 && "border rounded-xl"}`} onClick={()=>{
-                                        setImagen1(false)
-                                        setImagen2(true)
-                                        setImagen3(false)
-                                        setImagen4(false)
-                                    }}/>
-                                    <Image src={producto[0].imagen[2]} alt={producto[0].alt} width={90} height={90} className={`w-1/5 m-1 ${imagen3 && "border rounded-xl"}`} onClick={()=>{
-                                        setImagen1(false)
-                                        setImagen2(false)
-                                        setImagen3(true)
-                                        setImagen4(false)
-                                    }}/>
-                                    <Image src={producto[0].imagen[3]} alt={producto[0].alt} width={90} height={90} className={`w-1/5 m-1 ${imagen4 && "border rounded-xl"}`} onClick={()=>{
-                                        setImagen1(false)
-                                        setImagen2(false)
-                                        setImagen3(false)
-                                        setImagen4(true)
-                                    }}/>
+                                       {
+                                            producto[0].imagen[1] &&
+                                            <Image src={producto[0].imagen[1]} alt={producto[0].alt} width={90} height={90} className={`w-1/5 m-1 ${imagen2 && "border rounded-xl"}`} onClick={()=>{
+                                                setImagen1(false)
+                                                setImagen2(true)
+                                                setImagen3(false)
+                                                setImagen4(false)
+                                            }}/>
+                                    }
+                                    {
+                                            producto[0].imagen[2] &&
+                                            <Image src={producto[0].imagen[2]} alt={producto[0].alt} width={90} height={90} className={`w-1/5 m-1 ${imagen3 && "border rounded-xl"}`} onClick={()=>{
+                                                setImagen1(false)
+                                                setImagen2(false)
+                                                setImagen3(true)
+                                                setImagen4(false)
+                                            }}/>
+                                    }
+                                    {
+                                        producto[0].imagen[3] &&
+                                        <Image src={producto[0].imagen[3]} alt={producto[0].alt} width={90} height={90} className={`w-1/5 m-1 ${imagen4 && "border rounded-xl"}`} onClick={()=>{
+                                            setImagen1(false)
+                                            setImagen2(false)
+                                            setImagen3(false)
+                                            setImagen4(true)
+                                        }}/>
+                                    }
                             </div>
                         </div>
                     </div>
@@ -179,15 +188,16 @@ const ModeloJensen = () => {
                             <Image src={producto[0].imagenPlano} alt={`Planos ${producto[0].alt}`} width={1000} height={200} />
                             :
                             <div className="flex justify-center items-center h-full">
-                            <TbNoteOff className="text-4xl"/>
-                            <p className="text-2xl">Plano no disponible</p>
-                        </div>
+                                
+                                <TbNoteOff className="text-4xl"/>
+                                <p className="text-2xl ">Plano no disponible</p>
+                            </div>
                         }
                     </div>
                 </div>
              
 
-                <div className="w-full md:w-1/2 xl:ml-32">
+                <div className="w-full md:w-1/2 xl:ml-32 mt-10">
 
                     <h2 className=" font-bold mb-5">Especificaciones generales</h2>
                     

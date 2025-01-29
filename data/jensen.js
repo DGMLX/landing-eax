@@ -983,7 +983,7 @@ export default [
         "modelo":"Chipeadora PTO con Chasis Tándem y Grúa",
         "categoria":"Chipeadoras Especiales",
         "imagen":[
-            "/chipeadora/jensen/chipeadora_especial/chipeadora_especial_6.png"
+            "/chipeadora/jensen/chipeadora_especial/chipeadora_Especial_6.png"
         ],
         "imagenPlano":"",
         "alt":"Chipeadoras Especiales Jensen",
