@@ -28,8 +28,8 @@ const ModeloJensen = () => {
         <>
             <div className="px-5 md:px-16 lg:px-24 mt-14">
                 <div className="font-extralight text-sm">
-                    <a href="/chipeadoras/jensen">Jensen</a> {' > '} 
-                    <a href={`/chipeadoras/jensen/${categoria}`}>{categoria.replace(/-/g,' ')}</a> {' > '} 
+                    <a href="/jensen">Jensen</a> {' > '} 
+                    <a href={`/jensen/${categoria}`}>{categoria.replace(/-/g,' ')}</a> {' > '} 
                     <span className="text-red-600 underline">{modelo.replace(/-/g,' ')}</span>
                 </div>
             </div>

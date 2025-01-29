@@ -19,7 +19,7 @@ export default [
         
         "mesa_giratoria":true,
         "mesa_giratoria_opcional":false,
-        "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A141-XL",
+        "routerPath":"/jensen/Chipeadoras-de-Disco/A141-XL",
         "precio":0,
         "params":"A141-XL",
 
@@ -59,7 +59,7 @@ export default [
 
         "mesa_giratoria":true,
         "mesa_giratoria_opcional":true,
-        "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A540",
+        "routerPath":"/jensen/Chipeadoras-de-Disco/A540",
         "precio":0,
         "params":"A540",
 
@@ -99,7 +99,7 @@ export default [
 
         "mesa_giratoria":true,
         "mesa_giratoria_opcional":false,
-        "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A328",
+        "routerPath":"/jensen/Chipeadoras-de-Disco/A328",
         "precio":0,
         "params":"A328",
 
@@ -139,7 +139,7 @@ export default [
 
         "mesa_giratoria":true,
         "mesa_giratoria_opcional":false,
-        "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A425-L",
+        "routerPath":"/jensen/Chipeadoras-de-Disco/A425-L",
         "precio":0,
         "params":"A425-L",
 
@@ -179,7 +179,7 @@ export default [
 
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A550",
+        "routerPath":"/jensen/Chipeadoras-de-Disco/A550",
         "precio":0,
         "params":"A550",
         
@@ -219,7 +219,7 @@ export default [
         "descripcion2":"Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior está orientado de forma radial para que el material se dirija a donde exista la mayor velocidad periférica. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
         "mesa_giratoria":true,
         "mesa_giratoria_opcional":false,
-        "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A450",
+        "routerPath":"/jensen/Chipeadoras-de-Disco/A450",
         "precio":0,
         "params":"A450",
 
@@ -254,7 +254,7 @@ export default [
         "descripcion2":"Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior está orientado de forma radial para que el material se dirija a donde exista la mayor velocidad periférica. Además cuenta con un sistema de alimentación automático reduciendo los esfuerzos por corte de material en el motor.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A530-L-Diesel",
+        "routerPath":"/jensen/Chipeadoras-de-Disco/A530-L-Diesel",
         "precio":0,
         "params":"A530-L-Diesel",
 
@@ -297,7 +297,7 @@ export default [
     
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A530-L-Bencina",
+        "routerPath":"/jensen/Chipeadoras-de-Disco/A530-L-Bencina",
         "precio":0,
         "params":"A530-L-Bencina",
 
@@ -333,7 +333,7 @@ export default [
        
         "mesa_giratoria":true,
         "mesa_giratoria_opcional":false,
-        "routerPath":"/chipeadoras/jensen/Chipeadoras-de-Disco/A350-L-Bencina",
+        "routerPath":"/jensen/Chipeadoras-de-Disco/A350-L-Bencina",
         "precio":0,
         "params":"A350-L-Bencina",
 
@@ -384,7 +384,7 @@ export default [
        
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/chipeadoras/jensen/Chipeadoras-PTO/A141-XL',
+        "routerPath":'/jensen/Chipeadoras-PTO/A141-XL',
         "precio":0,
         "params":'A141-XL',
 
@@ -425,7 +425,7 @@ export default [
       
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/chipeadoras/jensen/Chipeadoras-PTO/A231',
+        "routerPath":'/jensen/Chipeadoras-PTO/A231',
         "precio":0,
         "params":'A231',
 
@@ -465,7 +465,7 @@ export default [
         "descripcion2":"El requisito de potencia del modelo A328 PTO es de 68 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/chipeadoras/jensen/Chipeadoras-PTO/A328',
+        "routerPath":'/jensen/Chipeadoras-PTO/A328',
         "precio":0,
         "params":'A328',
 
@@ -499,7 +499,7 @@ export default [
         "descripcion2":"El requisito de potencia del modelo A425 PTO es de 55 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/chipeadoras/jensen/Chipeadoras-PTO/A425',
+        "routerPath":'/jensen/Chipeadoras-PTO/A425',
         "precio":0,
         "params":'A425',
 
@@ -538,7 +538,7 @@ export default [
         "descripcion2":"El requisito de potencia del modelo A540 PTO es de 40 [HP], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/chipeadoras/jensen/Chipeadoras-PTO/A540',
+        "routerPath":'/jensen/Chipeadoras-PTO/A540',
         "precio":0,
         "params":'A540',
 
@@ -580,7 +580,7 @@ export default [
         "descripcion2":"El requisito de potencia del modelo A530 XL PTO es de 30 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/chipeadoras/jensen/Chipeadoras-PTO/A530-XL',
+        "routerPath":'/jensen/Chipeadoras-PTO/A530-XL',
         "precio":0,
         "params":'A530-XL',
 
@@ -622,7 +622,7 @@ export default [
         "descripcion2":"Están disponibles tanto con orugas fijas como ajustables en ancho. Pueden alcanzar velocidades aproximadamente de 3 [km/hr] y superar pendientes de hasta 30º. También se pueden complementar con un sistema de compensación de nivel controlado hidráulicamente lo cual permite condiciones de trabajo óptimas incluso en pendientes pronunciadas.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/chipeadoras/jensen/Chipeadoras-con-Oruga/A530-L',
+        "routerPath":'/jensen/Chipeadoras-con-Oruga/A530-L',
         "precio":0,
         "params":'A530-L',
 
@@ -658,7 +658,7 @@ export default [
         "descripcion2":"Están disponibles tanto con orugas fijas como ajustables en ancho. Pueden alcanzar velocidades aproximadamente de 3 [km/hr] y superar pendientes de hasta 30º. También se pueden complementar con un sistema de compensación de nivel controlado hidráulicamente lo cual permite condiciones de trabajo óptimas incluso en pendientes pronunciadas.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/chipeadoras/jensen/Chipeadoras-con-Oruga/A540-L',
+        "routerPath":'/jensen/Chipeadoras-con-Oruga/A540-L',
         "precio":0,
         "params":'A540-L',
 
@@ -700,7 +700,7 @@ export default [
         "descripcion2":"Se logra una distancia al suelo óptima gracias a su diseño ergonómico permitiendo el cruce de grandes obstáculos. Esta construcción inteligente le brinda la seguridad y flexibilidad que necesita para trabajar en pendientes.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/chipeadoras/jensen/Chipeadoras-con-Oruga-Spider/A540',
+        "routerPath":'/jensen/Chipeadoras-con-Oruga-Spider/A540',
         "precio":0,
         "params":'A540',
 
@@ -740,7 +740,7 @@ export default [
         "descripcion2":"Posee una capacidad de respuesta excepcional, cumple con las normas de regulación de emisiones más estrictas del mundo y permite un uso flexible a bajos costos de operación mediante el bajo consumo de combustible.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/chipeadoras/jensen/Chipeadoras-de-Tambor/JT600-motor',
+        "routerPath":'/jensen/Chipeadoras-de-Tambor/JT600-motor',
         "precio":0,
         "params":'JT600-motor',
 
@@ -776,7 +776,7 @@ export default [
         "descripcion2":"Posee una capacidad de respuesta excepcional, cumple con las normas de regulación de emisiones más estrictas del mundo y permite un uso flexible a bajos costos de operación mediante el bajo consumo de combustible.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/chipeadoras/jensen/Chipeadoras-de-Tambor/JT600-pto',
+        "routerPath":'/jensen/Chipeadoras-de-Tambor/JT600-pto',
         "precio":0,
         "params":'JT600-pto',
 

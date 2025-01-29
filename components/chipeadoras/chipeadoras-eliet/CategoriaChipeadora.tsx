@@ -20,7 +20,7 @@ const CategoriaChipeadora = () =>{
     return(
         <>
                <div className="font-extralight text-sm">
-                        <a href="/chipeadoras/eliet">Eliet</a> {' > '} 
+                        <a href="/eliet">Eliet</a> {' > '} 
                         <span className="text-red-600 underline">{categoria.replace(/-/g,' ')}</span> 
                         
                     </div>

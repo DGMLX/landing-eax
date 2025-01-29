@@ -31,7 +31,7 @@ export default [
         //DESCRIPCION 4
         "descripcion4":"",
         "params": "Maestro-city-Bencina",
-        "routerPath": "/chipeadoras/eliet/Chipeadoras-Estacionarias/Maestro-city-Bencina",
+        "routerPath": "/eliet/Chipeadoras-Estacionarias/Maestro-city-Bencina",
         "precio": 0,
 
         //ESPECIFICACIONES PRINCIPALES:
@@ -72,7 +72,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Maestro-city-Electrico-230V",
-        "routerPath": "/chipeadoras/eliet/Chipeadoras-Estacionarias/Maestro-city-Electrico-230V",
+        "routerPath": "/eliet/Chipeadoras-Estacionarias/Maestro-city-Electrico-230V",
         "precio": 0,
 
 
@@ -112,7 +112,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Maestro-city-Electrico-380V",
-        "routerPath": "/chipeadoras/eliet/Chipeadoras-Estacionarias/Maestro-city-Electrico-380V",
+        "routerPath": "/eliet/Chipeadoras-Estacionarias/Maestro-city-Electrico-380V",
         "precio": 0,
 
 
@@ -152,7 +152,7 @@ export default [
         //DESCRIPCION 4
         "descripcion4":"",
         "params": "Maestro-Country-Bencina",
-        "routerPath": "/chipeadoras/eliet/Chipeadoras-Estacionarias/Maestro-Country-Bencina",
+        "routerPath": "/eliet/Chipeadoras-Estacionarias/Maestro-Country-Bencina",
         "precio": 0,
 
 
@@ -193,7 +193,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Neo",
-        "routerPath": "/chipeadoras/eliet/Chipeadoras-Estacionarias/Neo",
+        "routerPath": "/eliet/Chipeadoras-Estacionarias/Neo",
         "precio": 0,
 
         //ESPECIFICACIONES PRINCIPALES:
@@ -230,7 +230,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Neo2",
-        "routerPath": "/chipeadoras/eliet/Chipeadoras-Estacionarias/Neo2",
+        "routerPath": "/eliet/Chipeadoras-Estacionarias/Neo2",
         "precio": 0,
 
 
@@ -269,7 +269,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Neo3",
-        "routerPath": "/chipeadoras/eliet/Chipeadoras-Estacionarias/Neo3",
+        "routerPath": "/eliet/Chipeadoras-Estacionarias/Neo3",
         "precio": 0,
 
 
@@ -307,7 +307,7 @@ export default [
         "descripcion4":"",
 
         "params": "Major-4S",
-        "routerPath": "/chipeadoras/eliet/Chipeadoras-Moviles-Sobre-Ruedas/Major-4S",
+        "routerPath": "/eliet/Chipeadoras-Moviles-Sobre-Ruedas/Major-4S",
         "precio": 0,
 
 
@@ -345,7 +345,7 @@ export default [
         //descripcion4
         "descripcion4":"",
         "params": "Vector-4S-On-Wheels",
-        "routerPath": "/chipeadoras/eliet/Chipeadoras-Moviles-Sobre-Ruedas/Vector-4S-On-Wheels",
+        "routerPath": "/eliet/Chipeadoras-Moviles-Sobre-Ruedas/Vector-4S-On-Wheels",
         "precio": 0,
 
 
@@ -392,7 +392,7 @@ export default [
         "descripcion4":"Con una capacidad de procesamiento de hasta 4 m³ de chips por hora, una altura de descarga de 1.8 metros y un peso total de 426 kg, la Prof 6 Cross Country se posiciona como una solución robusta y confiable para usuarios que buscan potencia, durabilidad y eficiencia en la gestión de residuos verdes.",
 
         "params": "Prof-6-Cross-Country",
-        "routerPath": "/chipeadoras/eliet/Chipeadoras-Sobre-Oruga/Prof-6-Cross-Country",
+        "routerPath": "/eliet/Chipeadoras-Sobre-Oruga/Prof-6-Cross-Country",
         "precio": 0,
 
 
@@ -431,7 +431,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Prof-6-On-Road",
-        "routerPath": "/chipeadoras/eliet/Chipeadoras-Remolcables-De-Carretera/Prof-6-On-Road",
+        "routerPath": "/eliet/Chipeadoras-Remolcables-De-Carretera/Prof-6-On-Road",
         "precio": 0,
 
 
@@ -469,7 +469,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Prof-6-On-Wheels",
-        "routerPath": "/chipeadoras/eliet/Chipeadoras-Moviles-Sobre-Ruedas/Prof-6-On-Wheels",
+        "routerPath": "/eliet/Chipeadoras-Moviles-Sobre-Ruedas/Prof-6-On-Wheels",
         "precio": 0,
 
 
@@ -505,7 +505,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Prof-6-PTO",
-        "routerPath": "/chipeadoras/eliet/Chipeadoras-PTO/Prof-6-PTO",
+        "routerPath": "/eliet/Chipeadoras-PTO/Prof-6-PTO",
         "precio": 0,
 
 
@@ -543,7 +543,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Minor-4S",
-        "routerPath": "/chipeadoras/eliet/Chipeadoras-Estacionarias/Minor-4S",
+        "routerPath": "/eliet/Chipeadoras-Estacionarias/Minor-4S",
         "precio": 0,
 
 
@@ -579,7 +579,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Minor-4S-Electrica",
-        "routerPath": "/chipeadoras/eliet/Chipeadoras-Estacionarias/Minor-4S-Electrica",
+        "routerPath": "/eliet/Chipeadoras-Estacionarias/Minor-4S-Electrica",
         "precio": 0,
 
 
@@ -621,7 +621,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Super-Prof-Max-Cross-Country",
-        "routerPath": "/chipeadoras/eliet/Chipeadoras-Sobre-Oruga/Super-Prof-Max-Cross-Country",
+        "routerPath": "/eliet/Chipeadoras-Sobre-Oruga/Super-Prof-Max-Cross-Country",
         "precio": 0,
 
 
@@ -657,7 +657,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Super-Prof-Max-On-Road",
-        "routerPath": "/chipeadoras/eliet/Chipeadoras-Remolcables-De-Carretera/Super-Prof-Max-On-Road",
+        "routerPath": "/eliet/Chipeadoras-Remolcables-De-Carretera/Super-Prof-Max-On-Road",
         "precio": 0,
 
 
@@ -692,7 +692,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Super-Prof-On-Wheels",
-        "routerPath": "/chipeadoras/eliet/productos/Super-Prof-On-Wheels",
+        "routerPath": "/eliet/Chipeadoras-Moviles-Sobre-Ruedas/Super-Prof-On-Wheels",
         "precio": 0,
 
 
@@ -728,7 +728,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Super-Prof-On-Road",
-        "routerPath": "/chipeadoras/eliet/Chipeadoras-Remolcables-De-Carretera/Super-Prof-On-Road",
+        "routerPath": "/eliet/Chipeadoras-Remolcables-De-Carretera/Super-Prof-On-Road",
         "precio": 0,
 
 
@@ -769,7 +769,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Mega-Prof-Diesel",
-        "routerPath": "/chipeadoras/eliet/Chipeadoras-Remolcables-De-Carretera/Mega-Prof-Diesel",
+        "routerPath": "/eliet/Chipeadoras-Remolcables-De-Carretera/Mega-Prof-Diesel",
         "diametro_entrada": "150 [mm]",
         "precio": 0,
 
@@ -804,7 +804,7 @@ export default [
         //descripcion 4
         "descripcion4":"",
         "params": "Mega-Prof-Gasolina",
-        "routerPath": "/chipeadoras/eliet/Chipeadoras-Remolcables-De-Carretera/Mega-Prof-Gasolina",
+        "routerPath": "/eliet/Chipeadoras-Remolcables-De-Carretera/Mega-Prof-Gasolina",
         "precio": 0,
 
 
