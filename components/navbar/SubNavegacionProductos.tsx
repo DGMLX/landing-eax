@@ -65,6 +65,7 @@ export const SubNavegacionProductos:React.FC<Props> = ({setHoverSubProductos,hov
     setHoverAseoUrbano(false)
     setHoverMantenimientoUrbano(false)
     setHoverEspaciosPublicos(false)
+    setHoverSubCamiones(false)
   }
 
   const onHoverAseoUrbano = () =>{
@@ -118,7 +119,7 @@ export const SubNavegacionProductos:React.FC<Props> = ({setHoverSubProductos,hov
 
           <SubMultiproposito hoverMultiproposito={hoverMultiproposito} setHoverMultiproposito={setHoverMultiproposito} setHoverSubProductos={setHoverSubProductos} hoverSubCamiones={hoverSubCamiones} setHoverSubCamiones={setHoverSubCamiones}/>
 
-          <SubTratamientoResiduos hoverTratamientoResiduos={hoverTratamientoResiduos} setHoverTratamientoResiduos={setHoverTratamientoResiduos} setHoverSubProductos={setHoverSubProductos} hoverSubChipeadoras={hoverSubChipeadoras} setHoverSubChipeadoras={setHoverSubChipeadoras}/>
+          <SubTratamientoResiduos hoverTratamientoResiduos={hoverTratamientoResiduos} setHoverTratamientoResiduos={setHoverTratamientoResiduos} setHoverSubProductos={setHoverSubProductos} hoverSubChipeadoras={hoverSubChipeadoras} setHoverSubChipeadoras={setHoverSubChipeadoras} setHoverSubCamiones={setHoverSubCamiones}/>
 
           <SubAseoUrbano hoverAseoUrbano={hoverAseoUrbano} setHoverAseoUrbano={setHoverAseoUrbano} setHoverSubProductos={setHoverSubProductos}/>
 

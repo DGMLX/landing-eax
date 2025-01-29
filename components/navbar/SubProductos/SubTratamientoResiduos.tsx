@@ -8,10 +8,11 @@ type Props = {
     setHoverTratamientoResiduos:Dispatch<SetStateAction<boolean>>;
     setHoverSubProductos:Dispatch<SetStateAction<boolean>>;
     setHoverSubChipeadoras:Dispatch<SetStateAction<boolean>>;
+    setHoverSubCamiones:Dispatch<SetStateAction<boolean>>;
 }
 
 
-const SubTratamientoResiduos:React.FC<Props> = ({hoverTratamientoResiduos,setHoverTratamientoResiduos,setHoverSubProductos,hoverSubChipeadoras,setHoverSubChipeadoras}) =>{
+const SubTratamientoResiduos:React.FC<Props> = ({hoverTratamientoResiduos,setHoverTratamientoResiduos,setHoverSubProductos,hoverSubChipeadoras,setHoverSubChipeadoras,setHoverSubCamiones}) =>{
 
    
     const outHover = ()=>{
@@ -28,6 +29,7 @@ const SubTratamientoResiduos:React.FC<Props> = ({hoverTratamientoResiduos,setHov
         setHoverSubProductos(true)
         setHoverTratamientoResiduos(true)
         setHoverSubChipeadoras(true)
+        setHoverSubCamiones(false)
       }
     
 
