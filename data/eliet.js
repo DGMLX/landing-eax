@@ -8,10 +8,9 @@
 export default [
 
     // MAESTRO CITY BENCINA
-
     {
         "imagen": [
-            "/chipeadora/eliet/productos/maestro_city.png",
+            "/chipeadora/eliet/productos/maestro_city/MAESTRO_CITY.png",
             "/chipeadora/eliet/productos/maestro_city/maestro-city-1.jpeg",
             "/chipeadora/eliet/productos/maestro_city/maestro-city-2.jpeg",
         ],
@@ -49,7 +48,8 @@ export default [
 
     {
         "imagen": [
-            "/chipeadora/eliet/productos/maestro_city.png",
+
+            "/chipeadora/eliet/productos/maestro_city/MAESTRO_CITY_ELEKTRO.png",
             "/chipeadora/eliet/productos/maestro_city/maestro-city-1.jpeg",
             "/chipeadora/eliet/productos/maestro_city/maestro-city-2.jpeg",
 
@@ -90,7 +90,7 @@ export default [
 
     {
         "imagen": [
-            "/chipeadora/eliet/productos/maestro_city.png",
+            "/chipeadora/eliet/productos/maestro_city/MAESTRO_CITY_ELEKTRO.png",
             "/chipeadora/eliet/productos/maestro_city/maestro-city-1.jpeg",
             "/chipeadora/eliet/productos/maestro_city/maestro-city-2.jpeg",
 
@@ -130,7 +130,7 @@ export default [
 
     {
         "imagen": [
-            "/chipeadora/eliet/productos/maestro_city.png",
+            "/chipeadora/eliet/productos/maestro_city/MAESTRO_COUNTRY_BENCINA.png",
             "/chipeadora/eliet/productos/maestro_city/maestro-city-1.jpeg",
             "/chipeadora/eliet/productos/maestro_city/maestro-city-2.jpeg",
 
@@ -171,7 +171,7 @@ export default [
 
     {
         "imagen": [
-            "/chipeadora/eliet/productos/neo/neo-1.png",
+            "/chipeadora/eliet/productos/neo/NEO.png",
             "/chipeadora/eliet/productos/neo/neo-2.png",
             "/chipeadora/eliet/productos/neo/neo-3.png",
 
@@ -209,7 +209,7 @@ export default [
 
     {
         "imagen": [
-            "/chipeadora/eliet/productos/neo/neo23-1.png",
+            "/chipeadora/eliet/productos/neo/NEO2_3.png",
             "/chipeadora/eliet/productos/neo/neo23-2.png",
             "/chipeadora/eliet/productos/neo/neo23-3.png",
         ],
@@ -247,7 +247,7 @@ export default [
 
     {
         "imagen": [
-            "/chipeadora/eliet/productos/neo/neo23-1.png",
+            "/chipeadora/eliet/productos/neo/NEO2_3.png",
             "/chipeadora/eliet/productos/neo/neo23-2.png",
             "/chipeadora/eliet/productos/neo/neo23-3.png",
 
@@ -286,7 +286,7 @@ export default [
 
     {
         "imagen": [
-            "/chipeadora/eliet/productos/major_4s.png",
+            "/chipeadora/eliet/productos/major_4s/MAJOR_4S.png",
             "/chipeadora/eliet/productos/major_4s/major-4s-1.png"
         ],
         "alt": "Chipeadora Eliet Major 4S",
@@ -326,7 +326,7 @@ export default [
 
     {
         "imagen": [
-            "/chipeadora/eliet/productos/vector_4s/vector_4s_on_wheels-1.png"
+            "/chipeadora/eliet/productos/vector_4s/VECTOR_4S.png"
         ],
         "alt": "Chipeadora Eliet Vector 4S On Wheels",
         "modelo": "Vector 4S On Wheels",
@@ -367,7 +367,7 @@ export default [
 
     {
         "imagen": [
-            "/chipeadora/eliet/productos/prof6/prof6-cross-country-1.png",
+            "/chipeadora/eliet/productos/prof6/PROF_6_CC.png",
             "/chipeadora/eliet/productos/prof6/prof6-cross-country-2.png",
             "/chipeadora/eliet/productos/prof6/prof6-cross-country-3.png",
             "/chipeadora/eliet/productos/prof6/prof6-cross-country-4.png",
@@ -409,7 +409,7 @@ export default [
 
     {
         "imagen": [
-            "/chipeadora/eliet/productos/prof6/prof-6-on-road-1.png",
+            "/chipeadora/eliet/productos/super_prof/PROF_6_ON_ROAD.png",
             "/chipeadora/eliet/productos/prof6/prof-6-on-road-2.png",
             "/chipeadora/eliet/productos/prof6/prof-6-on-road-3.png",
             "/chipeadora/eliet/productos/prof6/prof-6-on-road-4.png"
@@ -448,7 +448,7 @@ export default [
 
     {
         "imagen": [
-            "/chipeadora/eliet/productos/prof6/prof6-onwheels-1.png",
+            "/chipeadora/eliet/productos/prof6/PROF_6_OW.png",
             "/chipeadora/eliet/productos/prof6/prof6-onwheels-2.png",
             "/chipeadora/eliet/productos/prof6/prof6-onwheels-3.png",
             "/chipeadora/eliet/productos/prof6/prof6-onwheels-4.png",
@@ -485,7 +485,7 @@ export default [
     //prof 6 pto
     {
         "imagen": [
-            "/chipeadora/eliet/productos/prof6_cross_country.png",
+            "/chipeadora/eliet/productos/prof6/PROF_6_PTO.png",
             "/chipeadora/eliet/productos/prof6/prof6-1.png",
             "/chipeadora/eliet/productos/prof6/prof6-2.png",
         ],
@@ -523,7 +523,7 @@ export default [
 
     {
         "imagen": [
-            "/chipeadora/eliet/productos/minor_4s.png",
+            "/chipeadora/eliet/productos/minor_4s/MINOR_4s.png",
             "/chipeadora/eliet/productos/minor_4s/minor-4s-1.png",
         ],
         "alt": "Chipeadora Eliet Minor 4S",
@@ -560,7 +560,7 @@ export default [
 
     {
         "imagen": [
-            "/chipeadora/eliet/productos/minor_4s.png",
+            "/chipeadora/eliet/productos/minor_4s/MINOR_4S_ELECTRICA.png",
             "/chipeadora/eliet/productos/minor_4s/minor-4s-1.png",
         ],
         "alt": "Chipeadora Eliet Minor 4S Eléctrica",
@@ -600,7 +600,7 @@ export default [
 
     {
         "imagen": [
-            "/chipeadora/eliet/productos/super_prof/super-prof-max-cross-country-1.png",
+            "/chipeadora/eliet/productos/prof6/SUPER_PROF_MAX_CC.png",
             "/chipeadora/eliet/productos/super_prof/super-prof-max-cross-country-2.png",
             "/chipeadora/eliet/productos/super_prof/super-prof-max-cross-country-3.png",
             "/chipeadora/eliet/productos/super_prof/super-prof-max-cross-country-4.png"
@@ -639,7 +639,8 @@ export default [
 
     {
         "imagen": [
-            "/chipeadora/eliet/productos/super_prof/super-prof-max-on-road-1.png"
+            "/chipeadora/eliet/productos/super_prof/SUPER_PROF_MAX_ON_ROAD.png",
+
         ],
         "alt": "Chipeadora Eliet Super Prof Max On Road",
         "modelo": "Super Prof Max On Road",
