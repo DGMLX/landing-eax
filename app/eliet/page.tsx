@@ -39,7 +39,7 @@ const Producto = () => {
                                 <h2 className="text-center mb-8 text-2xl md:text-start lg:text-3xl font-bold ">Chipeadoras estacionarias</h2>
                                 <p className="mb-5 px-10 sm:px-20 text-center md:text-start md:px-0 ">Compactas y diseñadas para uso doméstico y de jardinería, estas chipeadoras son ideales para propietarios de jardines y pequeños espacios verdes. Permiten procesar residuos vegetales de manera eficiente, facilitando su reutilización como compost o mulch.<br/></p>
                                 <div className="flex pb-10 justify-center md:justify-start md:pb-0 ">
-                                <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Chipeadoras-Estacionarias"}>Ver productos</Link></button>
+                                <button className="md:mt-1 md:mb-3 lg:mt-10 lg:mb-0 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Chipeadoras-Estacionarias"}>Ver productos</Link></button>
                                 </div>
                             </div>
                         </div>
@@ -76,8 +76,8 @@ const Producto = () => {
                             <div className="md:ml-5 md:pr-10 md:pt-2 lg:pr-24 lg:pt-14 lg:pl-20 lg:ml-0 xl:pl-52 ">
                                 <h2 className="md:text-2xl lg:text-3xl font-bold md:mb-3 lg:mb-8">Chipeadoras móviles sobre rueda</h2>
                                 
-                                <p className="md:mt-3  md:mb-5 lg:mt-5 lg:mb-10 ">Equipadas para facilitar el transporte en terrenos variados, son ideales para jardineros y empresas de mantenimiento de áreas verdes. Su diseño compacto permite un uso eficiente en espacios reducidos<br/></p>
-                                <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Chipeadoras-Moviles-Sobre-Ruedas"}>Ver productos</Link></button>
+                                <p className="md:mt-3  md:mb-5 lg:mt-5 lg:mb-5 xl:mb-10 ">Equipadas para facilitar el transporte en terrenos variados, son ideales para jardineros y empresas de mantenimiento de áreas verdes.<br/></p>
+                                <button className=" xl:mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Chipeadoras-Moviles-Sobre-Ruedas"}>Ver productos</Link></button>
                             </div>
                         </div>
                         <div className="w-1/2">
@@ -117,7 +117,7 @@ const Producto = () => {
                                 
                                 <p className=" px-10 sm:px-20 text-center mb-5 md:mt-3  md:mb-5 lg:mt-5 lg:mb-10 ">Cumplen con normativas de transporte y son ideales para contratistas y municipios que requieren movilidad entre distintos sitios de trabajo. Ofrecen un equilibrio entre rendimiento y facilidad de traslado<br/></p>
                                 <div className="flex pb-10 justify-center ">
-                                    <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Chipeadoras-Remolcables-De-Carretera"}>Ver productos</Link></button>
+                                    <button className=" mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Chipeadoras-Remolcables-De-Carretera"}>Ver productos</Link></button>
 
                                 </div>
                             </div>
@@ -133,11 +133,11 @@ const Producto = () => {
                     <div className="hidden md:flex">
                         <div className="w-1/2 bg-[#F6F6F6] ">
                             <p className="text-start text-2xl font-bold md:pt-3 md:pl-10 lg:pl-20 lg:pt-10 xl:pl-32 xl:pt-20">04</p>
-                            <div className="md:ml-5 md:pr-10 md:pt-2 lg:pr-24 lg:pt-14 lg:pl-20 lg:ml-0 xl:pl-52 ">
+                            <div className="md:ml-5 md:pr-10 md:pt-10 lg:pr-24 lg:pt-14 lg:pl-20 lg:ml-0 xl:pl-52 ">
                                 <h2 className="md:text-2xl lg:text-3xl font-bold md:mb-3 lg:mb-8">Chipeadoras remolcables de carretera</h2>
                                 
                                 <p className="md:mt-3  md:mb-5 lg:mt-5 lg:mb-10 ">Cumplen con normativas de transporte y son ideales para contratistas y municipios que requieren movilidad entre distintos sitios de trabajo. Ofrecen un equilibrio entre rendimiento y facilidad de traslado<br/></p>
-                                <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Chipeadoras-Remolcables-De-Carretera"}>Ver productos</Link></button>
+                                <button className="xl:mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Chipeadoras-Remolcables-De-Carretera"}>Ver productos</Link></button>
                             </div>
                         </div>
                         <div className="w-1/2">
