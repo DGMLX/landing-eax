@@ -16,9 +16,7 @@ const ModeloEliet = () => {
     const categoria = params.categoria as string
     
     const producto = data.filter(prod=>prod.params === modelo && prod.categoria === categoria.replace(/-/g,' '))
-    console.log(params)
-    console.log(categoria)
-    console.log(producto)
+
 
     const [imagen1,setImagen1] = useState(true)
     const [imagen2,setImagen2] = useState(false)

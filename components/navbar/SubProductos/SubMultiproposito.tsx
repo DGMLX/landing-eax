@@ -31,7 +31,7 @@ const SubMultiproposito:React.FC<Props> = ({hoverMultiproposito,setHoverMultipro
     
     return(
        <>
-        <div className={` text-white md:!ml-10 lg:!ml-[440px] xl:!ml-[504px] mr-96 ${hoverMultiproposito ? 'flex' : 'hidden'}`} onMouseLeave={()=>outHover()}>
+        <div className={` text-white md:!ml-10 lg:!ml-[436px] xl:!ml-[499px] mr-96 ${hoverMultiproposito ? 'flex' : 'hidden'}`} onMouseLeave={()=>outHover()}>
             <div className="z-30  bg-[#1E1E1E] fixed top-[63px]">
                 <a onMouseEnter={()=>onHoverCamiones()} href="https://ecoalliance.cl/camion-multiproposito/" className="text-white text-xs py-4 flex border-b border-slate-600 pl-10 pr-5 ">CAMIÓN MULTIPROPÓSITO<IoMdArrowDropright className="text-lg"/></a>
             </div>
