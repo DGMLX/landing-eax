@@ -33,9 +33,8 @@ export const SubNavegacionProductos:React.FC<Props> = ({setHoverSubProductos,hov
 
 
   const outHover = ()=>{
-    if(hoverMultiproposito || hoverTratamientoResiduos || hoverAseoUrbano || hoverMantenimientoUrbano || hoverEspaciosPublicos){
-      setHoverSubProductos(true)
-    }else{
+
+    if(hoverSubProductos && hoverTratamientoResiduos && hoverSubChipeadoras || (hoverSubProductos && hoverTratamientoResiduos && !hoverSubChipeadoras) || (hoverSubProductos && hoverMultiproposito && hoverSubCamiones) || (hoverSubProductos && hoverMultiproposito && !hoverSubCamiones)){
       setHoverSubProductos(false)
       setHoverMultiproposito(false)
       setHoverTratamientoResiduos(false)
@@ -44,7 +43,31 @@ export const SubNavegacionProductos:React.FC<Props> = ({setHoverSubProductos,hov
       setHoverEspaciosPublicos(false)
       setHoverSubCamiones(false)
       setHoverSubChipeadoras(false)
-    }
+    }else if(hoverMultiproposito || hoverTratamientoResiduos || hoverAseoUrbano || hoverMantenimientoUrbano || hoverEspaciosPublicos){
+       setHoverSubProductos(true)
+     }else{
+       setHoverSubProductos(false)
+       setHoverMultiproposito(false)
+       setHoverTratamientoResiduos(false)
+       setHoverAseoUrbano(false)
+       setHoverMantenimientoUrbano(false)
+       setHoverEspaciosPublicos(false)
+       setHoverSubCamiones(false)
+       setHoverSubChipeadoras(false)
+     }
+
+    // if(hoverMultiproposito || hoverTratamientoResiduos || hoverAseoUrbano || hoverMantenimientoUrbano || hoverEspaciosPublicos){
+    //   setHoverSubProductos(true)
+    // }else{
+    //   setHoverSubProductos(false)
+    //   setHoverMultiproposito(false)
+    //   setHoverTratamientoResiduos(false)
+    //   setHoverAseoUrbano(false)
+    //   setHoverMantenimientoUrbano(false)
+    //   setHoverEspaciosPublicos(false)
+    //   setHoverSubCamiones(false)
+    //   setHoverSubChipeadoras(false)
+    // }
   }
 
 
