@@ -124,6 +124,27 @@ export const SubNavegacionProductos:React.FC<Props> = ({setHoverSubProductos,hov
     setHoverSubChipeadoras(false)
   }
 
+  const hoverBonus = ()=>{
+    setHoverSubProductos(true)
+    setHoverEspaciosPublicos(false)
+    setHoverMantenimientoUrbano(false)
+    setHoverAseoUrbano(false)
+    setHoverMultiproposito(false)
+    setHoverTratamientoResiduos(false)
+    setHoverSubCamiones(false)
+    setHoverSubChipeadoras(false)
+  }
+
+  const hoverBonusLeft = ()=>{
+    setHoverSubProductos(true)
+    setHoverEspaciosPublicos(false)
+    setHoverMantenimientoUrbano(false)
+    setHoverAseoUrbano(false)
+    setHoverMultiproposito(false)
+    setHoverTratamientoResiduos(false)
+    setHoverSubCamiones(false)
+    setHoverSubChipeadoras(false)
+  }
 
 
     return(
@@ -132,14 +153,30 @@ export const SubNavegacionProductos:React.FC<Props> = ({setHoverSubProductos,hov
           <div className={` text-white md:ml-10 lg:ml-48 xl:ml-64 mr-96 ${hoverSubProductos ? 'flex' : 'hidden'}`} onMouseLeave={()=>outHover()} >
               <div className="z-30 bg-[#1E1E1E] fixed top-[63px] ">
                 
-                <a onMouseEnter={()=>onHoverMultiproposito()} href="https://ecoalliance.cl/camion-multiproposito/" className="text-white text-xs py-4 flex border-b border-slate-600 pl-10 pr-5 ">MULTIPROPÓSITO<IoMdArrowDropright className="text-lg"/></a>
-                <a onMouseEnter={()=>onHoverTratamientoResiduos()} href="https://ecoalliance.cl/tratamiento-de-residuos/" className="text-white text-xs py-4 flex border-b border-slate-600 pl-10 pr-5">TRATAMIENTO DE RESIDUOS<IoMdArrowDropright className="text-lg"/></a>
-                <a onMouseEnter={()=>onHoverAseoUrbano()} href="https://ecoalliance.cl/aseo-urbano/" className="text-white text-xs py-4 flex border-b border-slate-600 pl-10 pr-5">ASEO URBANO<IoMdArrowDropright className="text-lg"/></a>
-                <a onMouseEnter={()=>onHoverMantenimiento()} href="https://ecoalliance.cl/mantenimiento-urbano/" className="text-white text-xs py-4 flex border-b border-slate-600 pl-10 pr-5">MANTENIMIENTO URBANO<IoMdArrowDropright className="text-lg"/></a>
-                <a onMouseEnter={()=>onHoverEspaciosPublicos()} href="https://ecoalliance.cl/espacios-publicos/" className="text-white text-xs py-4 flex border-b border-slate-600 pl-10 pr-5">ESPACIOS PÚBLICOS<IoMdArrowDropright className="text-lg"/></a>
+                <a onMouseEnter={()=>onHoverMultiproposito()} href="https://ecoalliance.cl/camion-multiproposito/" className="text-white text-xs py-4 flex border-b border-slate-600 pl-[50px] pr-5 ">MULTIPROPÓSITO<IoMdArrowDropright className="text-lg"/></a>
+                <a onMouseEnter={()=>onHoverTratamientoResiduos()} href="https://ecoalliance.cl/tratamiento-de-residuos/" className="text-white text-xs py-4 flex border-b border-slate-600 pl-[50px] pr-5">TRATAMIENTO DE RESIDUOS<IoMdArrowDropright className="text-lg"/></a>
+                
+                <div className="flex">
+                  <div className="bg-[#1E1E1E] w-[10px]" onMouseEnter={()=>hoverBonusLeft()}></div>
+                  <a onMouseEnter={()=>onHoverAseoUrbano()} href="https://ecoalliance.cl/aseo-urbano/" className="text-white text-xs py-4 flex border-b border-slate-600 pl-10 pr-5">ASEO URBANO<IoMdArrowDropright className="text-lg"/></a>
+                </div>
+
+                <div className="flex">
+                  <div className="bg-[#1E1E1E] w-[10px]" onMouseEnter={()=>hoverBonusLeft()}></div>
+                  <a onMouseEnter={()=>onHoverMantenimiento()} href="https://ecoalliance.cl/mantenimiento-urbano/" className="text-white text-xs py-4 flex border-b border-slate-600 pl-10 pr-5">MANTENIMIENTO URBANO<IoMdArrowDropright className="text-lg"/></a>
+
+                </div>
+
+                <div className="flex">
+                  <div className="bg-[#1E1E1E] w-[10px]" onMouseEnter={()=>hoverBonusLeft()}></div>
+                  <a onMouseEnter={()=>onHoverEspaciosPublicos()}  href="https://ecoalliance.cl/espacios-publicos/" className="text-white text-xs py-4 flex pl-10 pr-5">ESPACIOS PÚBLICOS<IoMdArrowDropright className="text-lg"/></a>
+
+                </div>
+                <div className="bg-[#1E1E1E] h-[8px]" onMouseEnter={()=>hoverBonus()}>
               </div>
           </div>
-
+        
+          </div>
           <SubMultiproposito hoverMultiproposito={hoverMultiproposito} setHoverMultiproposito={setHoverMultiproposito} setHoverSubProductos={setHoverSubProductos} hoverSubCamiones={hoverSubCamiones} setHoverSubCamiones={setHoverSubCamiones}/>
 
           <SubTratamientoResiduos hoverTratamientoResiduos={hoverTratamientoResiduos} setHoverTratamientoResiduos={setHoverTratamientoResiduos} setHoverSubProductos={setHoverSubProductos} hoverSubChipeadoras={hoverSubChipeadoras} setHoverSubChipeadoras={setHoverSubChipeadoras} setHoverSubCamiones={setHoverSubCamiones}/>
