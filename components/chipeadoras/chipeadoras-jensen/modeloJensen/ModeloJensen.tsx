@@ -24,17 +24,16 @@ const ModeloJensen = () => {
     const [imagen4,setImagen4] = useState(false)
 
 
-
     return(
         <>
             {/* <div className="px-5 md:px-16 lg:px-24 mt-14"> */}
-            <div className="px-10 sm:px-16 mt-32">
-                <div className="font-extralight text-sm">
-                    <a href="/jensen">Jensen</a> {' > '} 
-                    <a href={`/jensen/${categoria}`}>{categoria.replace(/-/g,' ')}</a> {' > '} 
-                    <span className="text-red-600 underline">{modelo.replace(/-/g,' ')}</span>
+                <div className="px-10 sm:px-16 mt-32">
+                    <div className="font-extralight text-sm">
+                        <a href="/jensen">Jensen</a> {' > '} 
+                        <a href={`/jensen/${categoria}`}>{categoria.replace(/-/g,' ')}</a> {' > '} 
+                        <span className="text-red-600 underline">{modelo.replace(/-/g,' ')}</span>
+                    </div>
                 </div>
-            </div>
             
               <section  className="px-5 sm:px-10 md:px-32 xl:px-24 mt-10 xl:flex mb-10">
                 
@@ -264,6 +263,7 @@ const ModeloJensen = () => {
                 <FormularioHubspot />
             </div>
         </>
+    
     )
 }
 
