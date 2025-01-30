@@ -116,7 +116,7 @@ const ModeloEliet = () => {
                             <div className="flex justify-center mt-5 mb-10">
                         
                                 {
-                                    imagen1 && <Image src={producto[0].imagen[0]} alt={producto[0].alt} width={300} height={400} />
+                                    imagen1 && <Image src={producto[0].imagen[0]} alt={producto[0].alt} width={300} height={400}/>
                                 }
                                 {
                                     imagen2 && <Image src={producto[0].imagen[1]} alt={producto[0].alt} width={300} height={400} />
