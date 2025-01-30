@@ -27,7 +27,8 @@ const ModeloJensen = () => {
 
     return(
         <>
-            <div className="px-5 md:px-16 lg:px-24 mt-14">
+            {/* <div className="px-5 md:px-16 lg:px-24 mt-14"> */}
+            <div className="px-10 sm:px-16 mt-32">
                 <div className="font-extralight text-sm">
                     <a href="/jensen">Jensen</a> {' > '} 
                     <a href={`/jensen/${categoria}`}>{categoria.replace(/-/g,' ')}</a> {' > '} 

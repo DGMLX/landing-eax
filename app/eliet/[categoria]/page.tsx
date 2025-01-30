@@ -24,13 +24,13 @@ const InformacionProducto = () =>{
         <>
             <main>
                 <div className="bg-[#F4F4F4]">
-                    <section className="mt-20"> 
+                    {/* <section className="mt-20"> 
                         <Image src="/chipeadora/eliet/productos/img_principal.png" alt="Imagen Principal Eliet " width={2000} height={800} />
-                    </section>
+                    </section> */}
 
 
-                    <section  className="px-10 mt-10">
-
+                    {/* <section  className="px-10 mt-10"> */}
+                    <section  className="px-10 pt-32 pb-32">
                             <CategoriaChipeadora/>
                         
                     </section>

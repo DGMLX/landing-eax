@@ -25,9 +25,9 @@ const ModeloProducto = () =>{
         <>
       
         <main className="mt-20">
-            <section> 
+            {/* <section> 
                 <Image src="/chipeadora/eliet/productos/img_principal.png" alt="Imagen Principal chipeadoras productos Eliet" width={2000} height={2000}/>
-            </section>
+            </section> */}
            <ModeloEliet/>
 
 

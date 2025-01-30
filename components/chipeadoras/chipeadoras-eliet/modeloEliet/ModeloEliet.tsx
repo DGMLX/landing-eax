@@ -27,7 +27,8 @@ const ModeloEliet = () => {
 
     return(
         <>
-                <div className="px-10 sm:px-16 mt-14">
+                {/* <div className="px-10 sm:px-16 mt-14"> */}
+                <div className="px-10 sm:px-16 mt-32">
                     <div className="font-extralight text-sm">
                         <a href="/eliet">Eliet</a> {' > '} 
                         <a href={`/eliet/${categoria}`}>{categoria.replace(/-/g,' ')}</a> {' > '} 

@@ -23,13 +23,13 @@ const InformacionProducto = () =>{
         <>
             <main>
                 <div className="bg-[#F4F4F4]">
-                    <section> 
+                    {/* <section> 
                         <Image src="/chipeadora/jensen/chipeadora_disco/banner_chipeadora.jpg" alt="Imagen Principal chipeadora de discos " width={2000} height={200} />
-                    </section>
+                    </section> */}
 
 
-                    <section  className="px-10 mt-10">
-
+                    {/* <section  className="px-10 mt-10"> */}
+                    <section  className="px-10 pt-32 pb-32">
                             <CategoriaChipeadora/>
                         
                     </section>
