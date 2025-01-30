@@ -10,8 +10,9 @@ type Props = {
 const SubChipeadoras:React.FC<Props> = ({hoverSubChipeadoras,setHoverSubChipeadoras,setHoverSubProductos,setHoverTratamientoResiduos}) =>{
     
     const outHover = ()=>{
-
+        setHoverSubProductos(false)
         setHoverSubChipeadoras(false)
+        setHoverTratamientoResiduos(false)
       
     }
     
