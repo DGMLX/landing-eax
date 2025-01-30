@@ -52,6 +52,20 @@ const Navbar = () => {
         setHoverSubCamiones(false);
     }
 
+    const onHoverNav = () =>{
+        setHoverSubProductos(false);
+        setHoverSubSoluciones(false);
+        setHoverMultiproposito(false);
+        setHoverTratamientoResiduos(false);
+        setHoverAseoUrbano(false);
+        setHoverMantenimientoUrbano(false);
+        setHoverEspaciosPublicos(false);
+        setHoverSubChipeadoras(false);
+        setHoverSubCamiones(false)
+        setHoverSubChipeadoras(false);
+        setHoverSubCamiones(false);
+    }
+
     return(
         <>
             <header className="hidden lg:flex lg:bg-[#303030]  py-6 px-5  items-center justify-between w-screen fixed top-0">
@@ -59,7 +73,7 @@ const Navbar = () => {
                 <nav className="flex">
                     <a href="https://ecoalliance.cl/"><Image src="/logos_generales/eax.png" width={80} height={80} alt="Logo EAX" className="lg:mr-10 xl:mr-[104px]"/></a>
                     <ul className="flex items-center">
-                        <li >
+                        <li onMouseEnter={()=>onHoverNav()}>
                             <a href="https://ecoalliance.cl/" className="text-white text-xs mr-5 ">INICIO</a>
                         </li>
                         <li onMouseEnter={()=>onHoverProducto()}>
@@ -68,13 +82,13 @@ const Navbar = () => {
                         <li onMouseEnter={()=>onHoverSoluciones()}>
                             <a href="https://ecoalliance.cl/soluciones/" className="text-white text-xs mr-5 flex mt-1">SOLUCIONES <IoMdArrowDropdown className="ml-1 text-lg text-white"/></a>
                         </li>
-                        <li>
+                        <li onMouseEnter={()=>onHoverNav()}>
                             <a href="https://ecoalliance.cl/servicios/" className="text-white text-xs mr-5">SERVICIOS</a>
                         </li>
-                        <li>
+                        <li onMouseEnter={()=>onHoverNav()}>
                             <a href="https://ecoalliance.cl/acerca-de-eax/" className="text-white text-xs mr-5">ACERCA DE EAX</a>
                         </li>
-                        <li>
+                        <li onMouseEnter={()=>onHoverNav()}>
                             <a href="https://ecoalliance.cl/contacto/" className="text-white text-xs mr-5">CONTACTO</a>
                         </li>
                     </ul>
