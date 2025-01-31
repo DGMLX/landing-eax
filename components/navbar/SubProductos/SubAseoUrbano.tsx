@@ -19,7 +19,7 @@ const SubAseoUrbano:React.FC<Props>= ({hoverAseoUrbano,setHoverAseoUrbano,setHov
                 <div className="z-30  bg-[#1E1E1E] fixed top-[165px] ">
                     <a href="https://ecoalliance.cl/barredoras-de-calle/" className="text-white text-xs pt-4 pb-[17.5px] flex border-b border-slate-600 pl-10 pr-5 ">BARREDORAS DE CALLE</a>
                     <a href="https://ecoalliance.cl/contenedores-campana/" className="text-white text-xs pt-4 pb-[18px] flex border-b border-slate-600 pl-10 pr-5 ">CONTENEDORES CAMPANA</a>
-                    <a href="https://ecoalliance.cl/contenedores-metalicos/" className="text-white text-xs pt-4 pb-[27.5px] flex border-b border-slate-600 pl-10 pr-5 ">CONTENEDORES METÁLICOS</a>
+                    <a href="https://ecoalliance.cl/contenedores-metalicos/" className="text-white text-xs pt-4 pb-[28px] flex pl-10 pr-5 ">CONTENEDORES METÁLICOS</a>
                 </div>
             </div>
     </>
