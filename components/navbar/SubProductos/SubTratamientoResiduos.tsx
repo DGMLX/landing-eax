@@ -52,7 +52,7 @@ const SubTratamientoResiduos:React.FC<Props> = ({hoverTratamientoResiduos,setHov
                     <a onMouseEnter={()=>onHoverSubChipeadoras()} href="https://ecoalliance.cl/chipeadoras/" className="text-white text-xs pt-4 pb-[11px] flex border-b border-slate-600 pl-12 pr-5">CHIPEADORAS<IoMdArrowDropright className="text-lg"/></a>
                     <a onMouseEnter={()=>onhoverNav()} href="https://ecoalliance.cl/briquetadoras/" className="text-white text-xs pt-4 pb-[17.5px] flex border-b border-slate-600 pl-12 pr-5 ">BRIQUETADORAS</a>
                     <a  onMouseEnter={()=>onhoverNav()}href="https://ecoalliance.cl/trituradoras/" className="text-white text-xs pt-4 pb-[18.5px] flex border-b border-slate-600 pl-12 pr-5 ">TRITURADORAS</a>
-                    <a onMouseEnter={()=>onhoverNav()} href="https://ecoalliance.cl/cribas/" className="text-white text-xs pt-4 pb-[17.5px] flex border-b border-slate-600 pl-12 pr-5 ">CRIBAS</a>
+                    <a onMouseEnter={()=>onhoverNav()} href="https://ecoalliance.cl/cribas/" className="text-white text-xs pt-4 pb-[25px] flex border-b border-slate-600 pl-12 pr-5 ">CRIBAS</a>
                     <a onMouseEnter={()=>onhoverNav()} href="https://ecoalliance.cl/compost/" className="text-white text-xs pt-4 pb-[17.5px] flex border-b border-slate-600 pl-12 pr-5 ">COMPOST</a>
                 </div>
             </div>
