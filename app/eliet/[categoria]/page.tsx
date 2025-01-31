@@ -30,7 +30,7 @@ const InformacionProducto = () =>{
 
 
                     {/* <section  className="px-10 mt-10"> */}
-                    <section  className="px-10 pt-32 pb-32 animate-fade animate-duration-[1000ms] animate-normal animate-fill-both">
+                    <section  className="px-10 pt-32 pb-32">
                             <CategoriaChipeadora/>
                         
                     </section>

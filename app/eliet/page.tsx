@@ -11,9 +11,9 @@ export const metadata: Metadata = {
 }
 
 const Producto = () => {
-    
+    // animate-fade animate-duration-[1000ms] animate-normal animate-fill-both
     return(
-        <main className="mt-40 animate-fade animate-duration-[1000ms] animate-normal animate-fill-both">
+        <main className="mt-40 ">
             {/* <section> 
                 <Image src="/chipeadora/eliet/img_principal_eliet.png" alt="Imagen Princiapl productos Eliet" width={1600} height={200} />
             </section> */}
