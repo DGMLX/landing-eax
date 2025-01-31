@@ -6,6 +6,7 @@ import data from "../../../../data/jensen";
 import { useState } from "react";
 import FormularioHubspot from "@/components/formularios/FormularioHubspot";
 import { TbNoteOff } from "react-icons/tb";
+import Link from "next/link";
 
 const ModeloJensen = () => {
 
@@ -30,7 +31,7 @@ const ModeloJensen = () => {
                 <div className="px-10 sm:px-16 mt-32">
                     <div className="font-extralight text-sm">
                         <a href="/jensen">Jensen</a> {' > '} 
-                        <a href={`/jensen/${categoria}`}>{categoria.replace(/-/g,' ')}</a> {' > '} 
+                        <Link href={`/jensen/${categoria}`}>{categoria.replace(/-/g,' ')}</Link> {' > '} 
                         <span className="text-red-600 underline">{modelo.replace(/-/g,' ')}</span>
                     </div>
                 </div>

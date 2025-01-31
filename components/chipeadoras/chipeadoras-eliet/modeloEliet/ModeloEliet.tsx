@@ -6,6 +6,7 @@ import data from "../../../../data/eliet";
 import { useState } from "react";
 import FormularioHubspot from "@/components/formularios/FormularioHubspot";
 import { TbNoteOff } from "react-icons/tb";
+import Link from "next/link";
 
 const ModeloEliet = () => {
 
@@ -31,7 +32,7 @@ const ModeloEliet = () => {
                 <div className="px-10 sm:px-16 mt-32">
                     <div className="font-extralight text-sm">
                         <a href="/eliet">Eliet</a> {' > '} 
-                        <a href={`/eliet/${categoria}`}>{categoria.replace(/-/g,' ')}</a> {' > '} 
+                        <Link href={`/eliet/${categoria}`}>{categoria.replace(/-/g,' ')}</Link> {' > '} 
                         <span className="text-red-600 underline">{modelo.replace(/-/g,' ')}</span>
                     </div>
                 </div>
