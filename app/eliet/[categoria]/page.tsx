@@ -22,7 +22,7 @@ const InformacionProducto = () =>{
 
     return(
         <>
-            <main>
+            <main >
                 <div className="bg-[#F4F4F4]">
                     {/* <section className="mt-20"> 
                         <Image src="/chipeadora/eliet/productos/img_principal.png" alt="Imagen Principal Eliet " width={2000} height={800} />
@@ -30,7 +30,7 @@ const InformacionProducto = () =>{
 
 
                     {/* <section  className="px-10 mt-10"> */}
-                    <section  className="px-10 pt-32 pb-32">
+                    <section  className="px-10 pt-32 pb-32 animate-fade animate-duration-[1000ms] animate-normal animate-fill-both">
                             <CategoriaChipeadora/>
                         
                     </section>

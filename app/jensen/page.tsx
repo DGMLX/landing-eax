@@ -11,13 +11,13 @@ export const metadata: Metadata = {
 
 const Producto = () => {
     return(
-        <main className="mt-40">
+        <main className="mt-40 animate-fade animate-duration-[1000ms] animate-normal animate-fill-both ">
             {/* <section> 
                 <Image src="/chipeadora/jensen/img_principal_chipeadora.png" alt="Imagen Princiapl productos " width={1600} height={200} />
             </section> */}
 
             <section className="px-5 sm:px-10 md:px-16 mt-28 mb-28">
-                <h1 className="text-3xl text-center mb-10">Encuentra la chipeadora ideal para tu proyecto</h1>
+                <h1 className="text-3xl text-center mb-10 ">Encuentra la chipeadora ideal para tu proyecto</h1>
                 <div className="mx-5 md:mx-16  xl:mx-72">
                     <p className="text-center">En Eco Alliance, estamos comprometidos con brindarte las mejores soluciones tecnológicas para el cuidado del medio ambiente. 
                     Aquí encontrarás chipeadoras ideales para aplicaciones de gran escala como agricultura y paisajismo, diseñadas para manejar grandes volúmenes de poda con eficiencia y resistencia.</p>
@@ -26,12 +26,12 @@ const Producto = () => {
 
 
             <section className="mb-20">
-                    <div className="block md:flex">
+                    <div className="block md:flex ">
                          <div className="w-screen  md:w-1/2">
-                            <Image src="/chipeadora/jensen/chipeadora_de_disco.png" alt="Chipeadora de disco" width={1000} height={1000} className="w-full"/>
+                            <Image src="/chipeadora/jensen/chipeadora_de_disco.png" alt="Chipeadora de disco" width={1000} height={1000} className="w-full "/>
                         </div>
 
-                        <div className="w-screen md:w-1/2 bg-[#F6F6F6]">
+                        <div className="w-screen md:w-1/2 bg-[#F6F6F6] ">
                             <p className="text-end pr-10 text-2xl font-bold md:pr-10 md:pt-3 lg:pr-32 lg:pt-10 xl:pt-20">01</p>
                             <div className="md:pl-10 md:pr-4 lg:pl-24 lg:pr-20 lg:pt-10 xl:pr-52 xl:pt-40">
                                 <h2 className="text-center mb-8 text-2xl md:text-start lg:text-3xl font-bold ">Chipeadoras de disco</h2>
@@ -45,7 +45,7 @@ const Producto = () => {
                     </div>
 
                     {/* ------------------ APARECE EN MOVIL -------------------------- */}
-                    <div className="block md:hidden">
+                    <div className="block md:hidden ">
                         <div className="w-screen md:w-1/2">
                             <Image src="/chipeadora/jensen/chipeadoras_pto.png" alt="Chipeadora PTO" width={1000} height={1000} className="w-full"/>
                         </div>
@@ -70,7 +70,7 @@ const Producto = () => {
                     {/* ------------------ APARECE EN TABLET Y ESCRITORIO -------------------------- */}
 
                     
-                    <div className="hidden md:flex">
+                    <div className="hidden md:flex ">
                         <div className="w-1/2 bg-[#F6F6F6] ">
                             <p className="text-start text-2xl font-bold md:pt-3 md:pl-10 lg:pl-20 lg:pt-10 xl:pl-32 xl:pt-20">02</p>
                             <div className="md:ml-5 md:pr-10 md:pt-2 lg:pr-24 lg:pt-14 lg:pl-20 lg:ml-0 xl:pl-52 ">

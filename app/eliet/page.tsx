@@ -13,12 +13,12 @@ export const metadata: Metadata = {
 const Producto = () => {
     
     return(
-        <main className="mt-40">
+        <main className="mt-40 animate-fade animate-duration-[1000ms] animate-normal animate-fill-both">
             {/* <section> 
                 <Image src="/chipeadora/eliet/img_principal_eliet.png" alt="Imagen Princiapl productos Eliet" width={1600} height={200} />
             </section> */}
 
-            <section className="px-5 sm:px-10 md:px-16 mt-28 mb-28">
+            <section className="px-5 sm:px-10 md:px-16 mt-28 mb-28 ">
                 <h1 className="text-3xl text-center mb-10">Encuentra la chipeadora ideal para tu proyecto</h1>
                 <div className="mx-5 md:mx-16  xl:mx-72">
                     <p className="text-center">En Eco Alliance, estamos comprometidos con brindarte las mejores soluciones tecnológicas para el cuidado del medio ambiente. 
@@ -28,7 +28,7 @@ const Producto = () => {
 
 
             <section className="mb-20">
-                    <div className="block md:flex">
+                    <div className="block md:flex ">
                          <div className="w-screen  md:w-1/2">
                             <Image src="/chipeadora/eliet/chipeadora_estacionaria.png" alt="Chipeadora Estacionaria Eliet" width={1000} height={1000} className="w-full"/>
                         </div>
