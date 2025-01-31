@@ -17,7 +17,7 @@ const SubEspaciosPublicos:React.FC<Props> = ({hoverEspaciosPublicos,setHoverEspa
     return(
         <>
             <div className={` text-white md:ml-10 lg:ml-[436px] xl:ml-[515px] mr-96 ${hoverEspaciosPublicos ? 'flex' : 'hidden'}`} onMouseLeave={()=>outHover()}>
-                <div className="z-30  bg-[#1E1E1E] fixed top-[266px] ">
+                <div className="z-50  bg-[#1E1E1E] fixed top-[266px] ">
                     <a href="https://ecoalliance.cl/basureros-urbanos/" className="text-white text-xs pt-[19px] pb-[25.5px] flex pl-10 pr-5 ">BASUREROS URBANOS</a>
                 </div>
             </div>

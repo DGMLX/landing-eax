@@ -61,7 +61,7 @@ export const SubNavegacionSoluciones:React.FC<Props> = ({setHoverSubSoluciones,h
         <>
 
           <div className={` text-white md:ml-10 lg:ml-[310px]  xl:ml-[368px] mr-96 ${hoverSubSoluciones ? 'flex' : 'hidden'}`} onMouseLeave={()=>outHover()} >
-              <div className="z-30 bg-[#1E1E1E] fixed top-[63px] ">
+              <div className="z-50 bg-[#1E1E1E] fixed top-[63px] ">
                 
                 <a href="https://ecoalliance.cl/camion-multiproposito/" className="text-white text-xs py-4 flex border-b border-slate-600 pl-[55px] pr-5 " onMouseEnter={()=>hoverNav()}>SOLUCIONES MULTIPROPÓSITO</a>
                 
