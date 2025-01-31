@@ -21,7 +21,7 @@ const InformacionProducto = () =>{
     return(
         <>
             <main>
-                <div className="bg-[#F4F4F4] ">
+                <div className="bg-[#F4F4F4] animate-fade animate-duration-[1000ms] animate-normal animate-fill-both">
                     {/* <section> 
                         <Image src="/chipeadora/jensen/chipeadora_disco/banner_chipeadora.jpg" alt="Imagen Principal chipeadora de discos " width={2000} height={200} />
                     </section> */}

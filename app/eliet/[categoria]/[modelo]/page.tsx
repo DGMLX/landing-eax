@@ -1,7 +1,6 @@
 
 import { Metadata } from "next";
 import ModeloEliet from "@/components/chipeadoras/chipeadoras-eliet/modeloEliet/ModeloEliet";
-import Image from "next/image";
 
 
 type Props = {
@@ -24,7 +23,7 @@ const ModeloProducto = () =>{
     return(
         <>
       
-        <main className="mt-20  ">
+        <main className="mt-20 animate-fade animate-duration-[1000ms] animate-normal animate-fill-both ">
             {/* <section> 
                 <Image src="/chipeadora/eliet/productos/img_principal.png" alt="Imagen Principal chipeadoras productos Eliet" width={2000} height={2000}/>
             </section> */}

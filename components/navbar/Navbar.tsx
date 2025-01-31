@@ -71,7 +71,7 @@ const Navbar = () => {
             <header className="hidden lg:flex lg:bg-[#303030]  py-6 px-5  items-center justify-between w-screen fixed top-0 z-50">
                 
                 <nav className="flex">
-                    <a href="https://ecoalliance.cl/"><Image src="/logos_generales/eax.png" width={80} height={80} alt="Logo EAX" className="lg:mr-10 xl:mr-[104px]"/></a>
+                    <a href="https://ecoalliance.cl/"><Image src="/logos_generales/eax.png" width={80} height={80} alt="Logo EAX" className="lg:mr-10 xl:mr-[104px] w-auto"/></a>
                     <ul className="flex items-center">
                         <li onMouseEnter={()=>onHoverNav()}>
                             <a href="https://ecoalliance.cl/" className="text-white text-xs mr-5 ">INICIO</a>

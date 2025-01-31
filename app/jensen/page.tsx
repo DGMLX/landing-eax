@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const Producto = () => {
     return(
         // animate-fade animate-duration-[1000ms] animate-normal animate-fill-both
-        <main className="mt-40  ">
+        <main className="mt-40  animate-fade animate-duration-[1000ms] animate-normal animate-fill-both">
             {/* <section> 
                 <Image src="/chipeadora/jensen/img_principal_chipeadora.png" alt="Imagen Princiapl productos " width={1600} height={200} />
             </section> */}
