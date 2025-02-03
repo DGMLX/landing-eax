@@ -40,7 +40,7 @@ const ChipeadorasJensen = ({Productos}:Props) =>{
 
 
     return(
-        <section className="px-5 sm:px-12 mt-10 flex justify-center flex-wrap">
+        <section className="md:px-5 sm:px-12 mt-10 flex justify-center flex-wrap">
             {Productos.length === 0 ?
             <>
                 <p className="mb-10 lg:mx-64 text-center">Indícanos tu requerimiento y realizaremos la ingeniería de diseño para potenciar aún mas la solución al procesamiento de grandes cantidades de material.</p>

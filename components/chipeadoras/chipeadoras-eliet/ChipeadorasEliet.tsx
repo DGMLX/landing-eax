@@ -35,7 +35,7 @@ const ChipeadorasEliet = ({Productos}:Props) =>{
     return(
 
         
-        <section className="pr-12 pl-12 mt-10 flex justify-center flex-wrap">
+        <section className=" md:px-12 mt-10 flex justify-center flex-wrap">
             {Productos.map(producto=>(
                 <div className="border mx-2 rounded-2xl shadow-lg mb-5 w-[390px] md:w-96 pt-5 pb-10 px-5" key={producto.modelo}>
                     <div className="flex justify-center">
