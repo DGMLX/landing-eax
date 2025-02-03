@@ -366,10 +366,10 @@ export default [
 
     {
         "imagen": [
-            "/chipeadora/eliet/productos/prof6/PROF_6_CC.png",
-            "/chipeadora/eliet/productos/prof6/prof6-cross-country-2.png",
-            "/chipeadora/eliet/productos/prof6/prof6-cross-country-3.png",
-            "/chipeadora/eliet/productos/prof6/prof6-cross-country-4.png",
+            "/chipeadora/eliet/productos/prof6/prof6-cross-country/prof6-cc-1.png",
+            "/chipeadora/eliet/productos/prof6/prof6-cross-country/prof6-cc-2.png",
+            "/chipeadora/eliet/productos/prof6/prof6-cross-country/prof6-cc-3.png",
+            "/chipeadora/eliet/productos/prof6/prof6-cross-country/prof6-cc-4.png"
         ],
         "alt": "Chipeadora Eliet Prof 6 Cross Country",
         "modelo": "Prof 6 Cross Country",
@@ -408,10 +408,9 @@ export default [
 
     {
         "imagen": [
-            "/chipeadora/eliet/productos/super_prof/PROF_6_ON_ROAD.png",
-            "/chipeadora/eliet/productos/prof6/prof-6-on-road-2.png",
-            "/chipeadora/eliet/productos/prof6/prof-6-on-road-3.png",
-            "/chipeadora/eliet/productos/prof6/prof-6-on-road-4.png"
+            "/chipeadora/eliet/productos/prof6/prof_6_on_road/PROF6_ON_ROAD_1.png",
+            "/chipeadora/eliet/productos/prof6/prof_6_on_road/PROF6_ON_ROAD_2.jpg",
+            "/chipeadora/eliet/productos/prof6/prof_6_on_road/PROF6_ON_ROAD_3.png",
         ],
         "alt": "Chipeadora Eliet Prof 6 On Road",
         "modelo": "Prof 6 On Road",
@@ -447,10 +446,10 @@ export default [
 
     {
         "imagen": [
-            "/chipeadora/eliet/productos/prof6/PROF_6_OW.png",
-            "/chipeadora/eliet/productos/prof6/prof6-onwheels-2.png",
-            "/chipeadora/eliet/productos/prof6/prof6-onwheels-3.png",
-            "/chipeadora/eliet/productos/prof6/prof6-onwheels-4.png",
+            "/chipeadora/eliet/productos/prof6/prof6-on-wheels/prof6-on-whheels-1.png",
+            "/chipeadora/eliet/productos/prof6/prof6-on-wheels/prof6-on-wheels-2.png",
+            "/chipeadora/eliet/productos/prof6/prof6-on-wheels/prof6-on-wheels-3.png",
+            "/chipeadora/eliet/productos/prof6/prof6-on-wheels/prof6-on-wheels-4.png",
         ],
         "alt": "Chipeadora Eliet Prof 6 On Wheels",
         "modelo": "Prof 6 On Wheels",
@@ -485,8 +484,9 @@ export default [
     {
         "imagen": [
             "/chipeadora/eliet/productos/prof6/PROF_6_PTO.png",
-            "/chipeadora/eliet/productos/prof6/prof6-1.png",
-            "/chipeadora/eliet/productos/prof6/prof6-2.png",
+            "/chipeadora/eliet/productos/prof6/prof6_pto/prof6_pto.png",
+            "/chipeadora/eliet/productos/prof6/prof6_pto/prof6_pto_2.png",
+
         ],
         "alt": "Chipeadora Eliet Prof 6 PTO",
         "modelo": "Prof 6 PTO",
@@ -639,10 +639,10 @@ export default [
 
     {
         "imagen": [
-            "/chipeadora/eliet/productos/prof6/SUPER_PROF_MAX_CC.png",
-            "/chipeadora/eliet/productos/super_prof/super-prof-max-cross-country-2.png",
-            "/chipeadora/eliet/productos/super_prof/super-prof-max-cross-country-3.png",
-            "/chipeadora/eliet/productos/super_prof/super-prof-max-cross-country-4.png"
+            "/chipeadora/eliet/productos/super_prof/super_prof_max_cc/super_prof_cc_1.png",
+            "/chipeadora/eliet/productos/super_prof/super_prof_max_cc/super_prof_cc_2.png",
+            "/chipeadora/eliet/productos/super_prof/super_prof_max_cc/super_prof_cc_3.png",
+            "/chipeadora/eliet/productos/super_prof/super_prof_max_cc/super_prof_cc_4.png",
         ],
         "alt": "Chipeadora Eliet Super Prof Max Cross Country",
         "modelo": "Super Prof Max Cross Country",
@@ -679,6 +679,9 @@ export default [
     {
         "imagen": [
             "/chipeadora/eliet/productos/super_prof/SUPER_PROF_MAX_ON_ROAD.png",
+            "/chipeadora/eliet/productos/super_prof/super_prof_max_on_road/super_prof_on_road.jpg",
+            "/chipeadora/eliet/productos/super_prof/super_prof_max_on_road/super_prof_on_road_fondo.jpg"
+
 
         ],
         "alt": "Chipeadora Eliet Super Prof Max On Road",
@@ -714,7 +717,7 @@ export default [
 
     {
         "imagen": [
-            "/chipeadora/eliet/productos/super_prof/super-prof-on-wheels-1.png",
+            "/chipeadora/eliet/productos/super_prof/super_prof_on_wheels/super_prof_ow.png",
         ],
         "alt": "Chipeadora Eliet Super Prof On Wheels",
         "modelo": "Super Prof On Wheels",
@@ -788,10 +791,10 @@ export default [
 
     {
         "imagen": [
-            "/chipeadora/eliet/productos/mega-prof-diesel/mega-prof-diesel-1.png",
-            "/chipeadora/eliet/productos/mega-prof-diesel/mega-prof-diesel-2.png",
-            "/chipeadora/eliet/productos/mega-prof-diesel/mega-prof-diesel-3.png",
-            "/chipeadora/eliet/productos/mega-prof-diesel/mega-prof-diesel-4.png",
+            "/chipeadora/eliet/productos/mega_prof/mega_prof_2.png",
+            "/chipeadora/eliet/productos/mega_prof/mega_prof_1.jpg",
+            "/chipeadora/eliet/productos/mega_prof/mega_prof_3.png",
+            "/chipeadora/eliet/productos/mega_prof/mega_prof_4.png",
         ],
         "alt": "Chipeadora Eliet Mega Prof Diesel",
         "modelo": "Mega Prof Diesel",
@@ -826,7 +829,9 @@ export default [
     {
         "imagen": [
             "/chipeadora/eliet/productos/mega_prof_gasolina/mega-prof-gasolina-1.png",
-            "/chipeadora/eliet/productos/mega_prof_gasolina/mega-prof-gasolina-2.png"
+            "/chipeadora/eliet/productos/mega_prof/mega_prof_2.jpg",
+            "/chipeadora/eliet/productos/mega_prof/mega_prof_3.png",
+            "/chipeadora/eliet/productos/mega_prof/mega_prof_4.png",
         ],
         "alt": "Chipeadora Eliet Mega Prof",
         "modelo": "Mega Prof Gasolina",
