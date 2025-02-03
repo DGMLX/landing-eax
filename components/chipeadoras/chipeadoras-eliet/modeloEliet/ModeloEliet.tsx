@@ -131,12 +131,13 @@ const ModeloEliet = () => {
                                 
                             </div>
                             <div className="flex justify-center mb-4">
-                                    <Image src={producto[0].imagen[0]} alt={producto[0].alt} width={90} height={90} className={`w-1/5 m-1 ${imagen1 && "border rounded-xl"}`} onClick={()=>{
+                                    <Image src={producto[0].imagen[0]} alt={producto[0].alt} width={2000} height={2000} className={`w-1/5 m-1 ${imagen1 && "border rounded-xl"}`} onClick={()=>{
                                         setImagen1(true)
                                         setImagen2(false)
                                         setImagen3(false)
                                         setImagen4(false)
                                     }}/>
+                        
                                     {
                                          producto[0].imagen[1] &&
                                             <Image src={producto[0].imagen[1]} alt={producto[0].alt} width={90} height={90} className={`w-1/5 m-1 ${imagen2 && "border rounded-xl"}`} onClick={()=>{

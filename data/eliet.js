@@ -11,8 +11,7 @@ export default [
     {
         "imagen": [
             "/chipeadora/eliet/productos/maestro_city/MAESTRO_CITY.png",
-            "/chipeadora/eliet/productos/maestro_city/maestro-city-1.jpeg",
-            "/chipeadora/eliet/productos/maestro_city/maestro-city-2.jpeg",
+            "/chipeadora/eliet/productos/maestro_city/MAESTRO_CITY-1.jpg",
         ],
         "alt": "Chipeadora Eliet Maestro City Bencina",
         "modelo": "Maestro City Bencina",
@@ -50,8 +49,6 @@ export default [
         "imagen": [
 
             "/chipeadora/eliet/productos/maestro_city/MAESTRO_CITY_ELEKTRO.png",
-            "/chipeadora/eliet/productos/maestro_city/maestro-city-1.jpeg",
-            "/chipeadora/eliet/productos/maestro_city/maestro-city-2.jpeg",
 
 
         ],
@@ -91,8 +88,6 @@ export default [
     {
         "imagen": [
             "/chipeadora/eliet/productos/maestro_city/MAESTRO_CITY_ELEKTRO.png",
-            "/chipeadora/eliet/productos/maestro_city/maestro-city-1.jpeg",
-            "/chipeadora/eliet/productos/maestro_city/maestro-city-2.jpeg",
 
         ],
         "alt": "Chipeadora Eliet Maestro Eléctrico 380V",
@@ -131,8 +126,7 @@ export default [
     {
         "imagen": [
             "/chipeadora/eliet/productos/maestro_city/MAESTRO_COUNTRY_BENCINA.png",
-            "/chipeadora/eliet/productos/maestro_city/maestro-city-1.jpeg",
-            "/chipeadora/eliet/productos/maestro_city/maestro-city-2.jpeg",
+
 
         ],
         "alt": "Chipeadora Eliet Maestro Country Bencina",
@@ -172,8 +166,7 @@ export default [
     {
         "imagen": [
             "/chipeadora/eliet/productos/neo/NEO.png",
-            "/chipeadora/eliet/productos/neo/neo-2.png",
-            "/chipeadora/eliet/productos/neo/neo-3.png",
+
 
         ],
         "alt": "Chipeadora Eliet Neo",
@@ -210,8 +203,9 @@ export default [
     {
         "imagen": [
             "/chipeadora/eliet/productos/neo/NEO2_3.png",
-            "/chipeadora/eliet/productos/neo/neo23-2.png",
-            "/chipeadora/eliet/productos/neo/neo23-3.png",
+            "/chipeadora/eliet/productos/neo/NEO2-1.png",
+            "/chipeadora/eliet/productos/neo/NEO2-3.png",
+            "/chipeadora/eliet/productos/neo/NEO2-2.png",
         ],
         "alt": "Chipeadora Eliet Neo²",
         "modelo": "Neo²",
@@ -248,9 +242,9 @@ export default [
     {
         "imagen": [
             "/chipeadora/eliet/productos/neo/NEO2_3.png",
-            "/chipeadora/eliet/productos/neo/neo23-2.png",
-            "/chipeadora/eliet/productos/neo/neo23-3.png",
-
+            "/chipeadora/eliet/productos/neo/NEO2-1.png",
+            "/chipeadora/eliet/productos/neo/NEO3.png",
+            "/chipeadora/eliet/productos/neo/NEO3_2.png",
         ],
         "alt": "Chipeadora Eliet Neo³",
         "modelo": "Neo³",
@@ -287,7 +281,9 @@ export default [
     {
         "imagen": [
             "/chipeadora/eliet/productos/major_4s/MAJOR_4S.png",
-            "/chipeadora/eliet/productos/major_4s/major-4s-1.png"
+            "/chipeadora/eliet/productos/major_4s/MAJOR_4S-2.jpg",
+            "/chipeadora/eliet/productos/major_4s/MAJOR_4S-3.jpg",
+            "/chipeadora/eliet/productos/major_4s/MAJOR_4S-4.jpg"
         ],
         "alt": "Chipeadora Eliet Major 4S",
         "modelo": "Major 4S",
@@ -326,7 +322,10 @@ export default [
 
     {
         "imagen": [
-            "/chipeadora/eliet/productos/vector_4s/VECTOR_4S.png"
+            "/chipeadora/eliet/productos/vector_4s/VECTOR_4S.png",
+            "/chipeadora/eliet/productos/vector_4s/vector_4s_1.jpg",
+            "/chipeadora/eliet/productos/vector_4s/VECTOR_4S_2.png",
+            "/chipeadora/eliet/productos/vector_4s/VETOR_4S_3.png"
         ],
         "alt": "Chipeadora Eliet Vector 4S On Wheels",
         "modelo": "Vector 4S On Wheels",
@@ -524,10 +523,11 @@ export default [
     {
         "imagen": [
             "/chipeadora/eliet/productos/minor_4s/MINOR_4s.png",
-            "/chipeadora/eliet/productos/minor_4s/minor-4s-1.png",
+            "/chipeadora/eliet/productos/minor_4s/GP200-1.png",
+            "/chipeadora/eliet/productos/minor_4s/GP200-2.png",
         ],
-        "alt": "Chipeadora Eliet Minor 4S",
-        "modelo": "Minor 4S",
+        "alt": "Chipeadora Eliet Minor 4S GP200",
+        "modelo": "Minor 4S GP200",
         "categoria":"Chipeadoras Estacionarias",
         // "caracteristicas_tecnicas":"23 HP V - Chasis 80 km/h",
 
@@ -542,18 +542,55 @@ export default [
 
         //descripcion 4
         "descripcion4":"",
-        "params": "Minor-4S",
-        "routerPath": "/eliet/Chipeadoras-Estacionarias/Minor-4S",
+        "params": "Minor-4SGP-200",
+        "routerPath": "/eliet/Chipeadoras-Estacionarias/Minor-4SGP-200",
         "precio": 0,
 
 
         //ESPECIFICACIONES PRINCIPALES:
         "produccion": "2,72 [m³/hr] chips de madera",
         "diametro_entrada": "50 [mm]",
-        "motor": "6,0 HP Honda GP200 / 6,5 HP Honda GX200)",
+        "motor": "6,0 HP Honda GP200 ",
         "dimensiones": "(Largo x Ancho x Alto) 1250 x 520 x 1100 [mm]",
         "peso": "92 [kg]",
-        "motorPrincipal":"6,0 HP Honda / 6,5 HP Honda"
+        "motorPrincipal":"6,0 HP Honda"
+    },
+    {
+        "imagen": [
+            "/chipeadora/eliet/productos/minor_4s/MINOR-GX200.png",
+            "/chipeadora/eliet/productos/minor_4s/GX200-1.jpg",
+            "/chipeadora/eliet/productos/minor_4s/GX200-2.jpg",
+            "/chipeadora/eliet/productos/minor_4s/GX200-3.jpg",
+            
+        ],
+        "alt": "Chipeadora Eliet Minor 4S GX200",
+        "modelo": "Minor 4S GX200",
+        "categoria":"Chipeadoras Estacionarias",
+        // "caracteristicas_tecnicas":"23 HP V - Chasis 80 km/h",
+
+        // DESCRIPCION 1
+        "descripcion": "La Chipeadora Minor 4S es una máquina compacta, robusta y versátil, diseñada para procesar todo tipo de residuos verdes, incluyendo ramas, hojas y desechos húmedos, sin riesgo de atascos. Equipada con un eje de 12 cuchillas ultra afiladas y un sistema de alimentación amplio, puede triturar madera de hasta 50 mm de diámetro.",
+
+        //descripcion 2
+        "descripcion2":"Gracias a su impulsión por correa, ofrece alta durabilidad, mientras que su sistema de expulsión asegura un manejo eficiente del material. Disponible con motores Honda de gasolina o eléctrico, combina potencia, funcionalidad y comodidad, siendo ideal para la gestión de residuos durante todo el año.",
+
+        //descripcion 3
+        "descripcion3":"",
+
+        //descripcion 4
+        "descripcion4":"",
+        "params": "Minor-4SGX200",
+        "routerPath": "/eliet/Chipeadoras-Estacionarias/Minor-4SGX200",
+        "precio": 0,
+
+
+        //ESPECIFICACIONES PRINCIPALES:
+        "produccion": "2,72 [m³/hr] chips de madera",
+        "diametro_entrada": "50 [mm]",
+        "motor": "6,5 HP Honda GX200",
+        "dimensiones": "(Largo x Ancho x Alto) 1250 x 520 x 1100 [mm]",
+        "peso": "92 [kg]",
+        "motorPrincipal":"6,5 HP Honda"
     },
 
     //MINOR 4S ELECTRICA
@@ -561,7 +598,9 @@ export default [
     {
         "imagen": [
             "/chipeadora/eliet/productos/minor_4s/MINOR_4S_ELECTRICA.png",
-            "/chipeadora/eliet/productos/minor_4s/minor-4s-1.png",
+            "/chipeadora/eliet/productos/minor_4s/minor_electrica_2.png",
+            "/chipeadora/eliet/productos/minor_4s/minor_electrica_3.png",
+            "/chipeadora/eliet/productos/minor_4s/minor_electrica_4.png",
         ],
         "alt": "Chipeadora Eliet Minor 4S Eléctrica",
         "modelo": "Minur 4S Eléctrica",
