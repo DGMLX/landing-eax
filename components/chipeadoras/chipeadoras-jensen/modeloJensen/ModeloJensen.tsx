@@ -24,6 +24,21 @@ const ModeloJensen = () => {
     const [imagen3,setImagen3] = useState(false)
     const [imagen4,setImagen4] = useState(false)
 
+    const [modalVisible,setModalVisible] = useState(false);
+    const [selectedImage,setSelectedImage] = useState('');
+
+
+    const handleImgClick = (imgUrl:string) =>{
+        setSelectedImage(imgUrl)
+        setModalVisible(true);
+    }
+
+    const closeModal = () =>{
+        setModalVisible(false);
+        setSelectedImage('')
+    }
+
+
 
     return(
         <>
@@ -42,16 +57,16 @@ const ModeloJensen = () => {
                     <div className="flex justify-center mt-5 mb-10">
                    
                         {
-                            imagen1 && <Image src={producto[0].imagen[0]} alt={producto[0].alt} width={300} height={300} />
+                            imagen1 && <Image src={producto[0].imagen[0]} alt={producto[0].alt} width={300} height={300} onClick={()=>handleImgClick(producto[0].imagen[0])}/>
                         }
                         {
-                            imagen2 && <Image src={producto[0]?.imagen[1]} alt={producto[0].alt} width={300} height={300} />
+                            imagen2 && <Image src={producto[0]?.imagen[1]} alt={producto[0].alt} width={300} height={300} onClick={()=>handleImgClick(producto[0].imagen[1])}/>
                         }
                         {
-                            imagen3 && <Image src={producto[0]?.imagen[2]} alt={producto[0].alt} width={300} height={300} />
+                            imagen3 && <Image src={producto[0]?.imagen[2]} alt={producto[0].alt} width={300} height={300} onClick={()=>handleImgClick(producto[0].imagen[2])}/>
                         }
                         {
-                            imagen4 && <Image src={producto[0]?.imagen[3]} alt={producto[0].alt} width={300} height={300} />
+                            imagen4 && <Image src={producto[0]?.imagen[3]} alt={producto[0].alt} width={300} height={300} onClick={()=>handleImgClick(producto[0].imagen[3])}/>
                         }
                          
                     </div>
@@ -115,16 +130,16 @@ const ModeloJensen = () => {
                             <div className="flex justify-center mt-5 mb-10">
                         
                                 {
-                                    imagen1 && <Image src={producto[0].imagen[0]} alt={producto[0].alt} width={300} height={300} />
+                                    imagen1 && <Image src={producto[0].imagen[0]} alt={producto[0].alt} width={300} height={300} onClick={()=>handleImgClick(producto[0].imagen[0])}/>
                                 }
                                 {
-                                    imagen2 && <Image src={producto[0].imagen[1]} alt={producto[0].alt} width={300} height={300} />
+                                    imagen2 && <Image src={producto[0].imagen[1]} alt={producto[0].alt} width={300} height={300} onClick={()=>handleImgClick(producto[0].imagen[1])}/>
                                 }
                                 {
-                                    imagen3 && <Image src={producto[0].imagen[2]} alt={producto[0].alt} width={300} height={300} />
+                                    imagen3 && <Image src={producto[0].imagen[2]} alt={producto[0].alt} width={300} height={300} onClick={()=>handleImgClick(producto[0].imagen[2])}/>
                                 }
                                 {
-                                    imagen4 && <Image src={producto[0].imagen[3]} alt={producto[0].alt} width={300} height={300} />
+                                    imagen4 && <Image src={producto[0].imagen[3]} alt={producto[0].alt} width={300} height={300} onClick={()=>handleImgClick(producto[0].imagen[3])}/>
                                 }
                                 
                             </div>
