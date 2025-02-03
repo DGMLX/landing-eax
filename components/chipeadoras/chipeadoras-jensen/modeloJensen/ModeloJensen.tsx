@@ -7,6 +7,7 @@ import { useState } from "react";
 import FormularioHubspot from "@/components/formularios/FormularioHubspot";
 import { TbNoteOff } from "react-icons/tb";
 import Link from "next/link";
+import Modal from "@/components/modal/Modal";
 
 const ModeloJensen = () => {
 
@@ -52,6 +53,11 @@ const ModeloJensen = () => {
                 </div>
             
               <section  className="px-5 sm:px-10 md:px-32 xl:px-24 mt-10 xl:flex mb-10">
+
+              {
+                    modalVisible && <Modal imageUrl={selectedImage} onClose = {closeModal}/>
+                }
+
                 
                 <div className="w-1/2 border rounded-xl hidden xl:block">
                     <div className="flex justify-center mt-5 mb-10">
