@@ -37,7 +37,7 @@ const NavbarMovil = () =>{
     }
 
     return(
-        <header className=" lg:hidden items-center justify-between w-screen fixed top-0">
+        <header className=" lg:hidden items-center justify-between w-screen fixed top-0 z-50">
             <div className="flex items-center justify-between w-full  bg-[#303030]  py-6 px-5">
 
                 {

@@ -10,19 +10,15 @@ export default [
         ],
         "imagenPlano":"/chipeadora/jensen/chipeadora_disco/A141-XL/A141-XL-PLANO.jpg",
         "alt":"Chipeadora A141 XL",
-
         //Descripcion 1
         "descripcion":"La Chipeadora A 141 XL es una máquina robusta con gran facilidad de servicios, con un potente motor diésel, capaz de triturar troncos, arbustos y ramas sin ningún problema. Además, cuenta con una carcasa robusta, es silenciosa, cuenta con cañón de descarga giratorio en 360º, con una barra de seguridad diseñada para que el operador no tenga problemas de acceso para accionarla.",
-
         //Descripcion 2
         "descripcion2":"Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior es basculante, lo cual significa que se adapta a la forma y tamaño de las ramas. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
-        
         "mesa_giratoria":true,
         "mesa_giratoria_opcional":false,
         "routerPath":"/jensen/Chipeadoras-de-Disco/A141-XL",
         "precio":0,
         "params":"A141-XL",
-
         //Especificaciones Especificas
         "produccion":"35 [m3/hr]",
         "tamaño_garganta":"410 x 300 [mm]",
