@@ -31,7 +31,8 @@ export default [
         "tomaDeFuerza":"",
         "dimensionesOrugaFija":"",
         "dimensionesOrugaAjustable":"",
-        "tambor":""
+        "tambor":"",
+        "modelo3D":"/chipeadora/jensen/chipeadora_disco/A141-XL/A141-XL.glb"
     },
 
 
@@ -71,7 +72,8 @@ export default [
         "tomaDeFuerza":"",
         "dimensionesOrugaFija":"",
         "dimensionesOrugaAjustable":"",
-        "tambor":""
+        "tambor":"",
+        "modelo3D":""
     },
 
 
@@ -111,7 +113,8 @@ export default [
         "tomaDeFuerza":"",
         "dimensionesOrugaFija":"",
         "dimensionesOrugaAjustable":"",
-        "tambor":""
+        "tambor":"",
+        "modelo3D":""
     },
 
 
@@ -152,7 +155,8 @@ export default [
         "tomaDeFuerza":"",
         "dimensionesOrugaFija":"",
         "dimensionesOrugaAjustable":"",
-        "tambor":""
+        "tambor":"",
+        "modelo3D":""
 
     },
 
@@ -191,7 +195,8 @@ export default [
         "tomaDeFuerza":"",
         "dimensionesOrugaFija":"",
         "dimensionesOrugaAjustable":"",
-        "tambor":""
+        "tambor":"",
+        "modelo3D":""
     },
 
 
@@ -231,7 +236,8 @@ export default [
         "tomaDeFuerza":"",
         "dimensionesOrugaFija":"",
         "dimensionesOrugaAjustable":"",
-        "tambor":""
+        "tambor":"",
+        "modelo3D":""
     },
 
 
@@ -268,7 +274,8 @@ export default [
         "tomaDeFuerza":"",
         "dimensionesOrugaFija":"",
         "dimensionesOrugaAjustable":"",
-        "tambor":""
+        "tambor":"",
+        "modelo3D":""
     },
 
 
@@ -310,7 +317,8 @@ export default [
         "tomaDeFuerza":"",
         "dimensionesOrugaFija":"",
         "dimensionesOrugaAjustable":"",
-        "tambor":""
+        "tambor":"",
+        "modelo3D":""
     },
 
 
@@ -346,7 +354,8 @@ export default [
         "tomaDeFuerza":"",
         "dimensionesOrugaFija":"",
         "dimensionesOrugaAjustable":"",
-        "tambor":""
+        "tambor":"",
+        "modelo3D":""
     },
 
 
@@ -398,7 +407,8 @@ export default [
 
         "dimensionesOrugaFija":"",
         "dimensionesOrugaAjustable":"",
-        "tambor":""
+        "tambor":"",
+        "modelo3D":""
     },
 
 
@@ -438,7 +448,8 @@ export default [
 
         "dimensionesOrugaFija":"",
         "dimensionesOrugaAjustable":"",
-        "tambor":""
+        "tambor":"",
+        "modelo3D":""
     },
 
 
@@ -477,7 +488,8 @@ export default [
 
         "dimensionesOrugaFija":"",
         "dimensionesOrugaAjustable":"",
-        "tambor":""
+        "tambor":"",
+        "modelo3D":""
     },
 
 
@@ -513,7 +525,8 @@ export default [
 
         "dimensionesOrugaFija":"",
         "dimensionesOrugaAjustable":"",
-        "tambor":""
+        "tambor":"",
+        "modelo3D":""
     },
 
 
@@ -553,7 +566,8 @@ export default [
 
         "dimensionesOrugaFija":"",
         "dimensionesOrugaAjustable":"",
-        "tambor":""
+        "tambor":"",
+        "modelo3D":""
     },
 
 
@@ -594,7 +608,8 @@ export default [
 
         "dimensionesOrugaFija":"",
         "dimensionesOrugaAjustable":"",
-        "tambor":""
+        "tambor":"",
+        "modelo3D":""
     }
 
 
@@ -635,7 +650,8 @@ export default [
 
         "dimensionesPrincipales":"",
         "tomaDeFuerza":"",
-        "tambor":""
+        "tambor":"",
+        "modelo3D":""
     },
 
 
@@ -671,7 +687,8 @@ export default [
         
         "dimensionesPrincipales":"",
         "tomaDeFuerza":"",
-        "tambor":""
+        "tambor":"",
+        "modelo3D":""
     },
 
 
@@ -713,7 +730,8 @@ export default [
 
         "dimensionesPrincipales":"",
         "tomaDeFuerza":"",
-        "tambor":""
+        "tambor":"",
+        "modelo3D":""
     },
 
 
@@ -753,6 +771,7 @@ export default [
         "dimensionesOrugaFija":"2.250 x 1.150 x 2.500 [mm]",
         "dimensionesOrugaAjustable":"",
         "tomaDeFuerza":"",
+        "modelo3D":""
     },
 
     
@@ -789,6 +808,7 @@ export default [
         "dimensionesOrugaFija":"2.250 x 1.150 x 2.500 [mm]",
         "dimensionesOrugaAjustable":"",
         "tomaDeFuerza":"",
+        "modelo3D":""
     },
 
 
@@ -829,6 +849,7 @@ export default [
         "dimensionesOrugaFija":"",
         "dimensionesOrugaAjustable":"",
         "tomaDeFuerza":"",
+        "modelo3D":""
     },
 
     {
@@ -865,6 +886,7 @@ export default [
         "dimensionesOrugaFija":"",
         "dimensionesOrugaAjustable":"",
         "tomaDeFuerza":"",
+        "modelo3D":""
     }
     ,
 
@@ -901,6 +923,7 @@ export default [
         "dimensionesOrugaFija":"",
         "dimensionesOrugaAjustable":"",
         "tomaDeFuerza":"",
+        "modelo3D":""
     }
     ,
 
@@ -937,6 +960,7 @@ export default [
         "dimensionesOrugaFija":"",
         "dimensionesOrugaAjustable":"",
         "tomaDeFuerza":"",
+        "modelo3D":""
     }
     ,
 
@@ -975,6 +999,7 @@ export default [
         "dimensionesOrugaFija":"",
         "dimensionesOrugaAjustable":"",
         "tomaDeFuerza":"",
+        "modelo3D":""
     }
 
 
@@ -1013,9 +1038,7 @@ export default [
         "dimensionesOrugaFija":"",
         "dimensionesOrugaAjustable":"",
         "tomaDeFuerza":"",
+        "modelo3D":""
     }
-
-    
-
 ]
 

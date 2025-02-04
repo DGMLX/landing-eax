@@ -9,6 +9,9 @@ import { TbNoteOff } from "react-icons/tb";
 import Link from "next/link";
 import Modal from "@/components/modal/Modal";
 
+
+
+
 const ModeloEliet = () => {
 
   
@@ -51,14 +54,19 @@ const ModeloEliet = () => {
                     </div>
                 </div>
               <section  className="px-5 sm:px-10 md:px-32 xl:px-24 mt-10 xl:flex mb-10">
-                
+
+             
                 {
                     modalVisible && <Modal imageUrl={selectedImage} onClose = {closeModal}/>
                 }
 
+              
+
                 <div className="w-1/2 border rounded-xl hidden xl:block">
                     <div className="flex justify-center mt-5 mb-10">
+                        
                    
+                
                         {
                             imagen1 && <Image src={producto[0].imagen[0]} alt={producto[0].alt} width={300} height={300} onClick={()=>handleImgClick(producto[0].imagen[0])} className="cursor-pointer"/>
                         }
@@ -70,10 +78,10 @@ const ModeloEliet = () => {
                         }
                         {
                             imagen4 && <Image src={producto[0]?.imagen[3]} alt={producto[0].alt} width={300} height={300} onClick={()=>handleImgClick(producto[0].imagen[3])} className="cursor-pointer"/>
-                        }
+                        } 
                          
                     </div>
-                    <div className="flex justify-center mb-4">
+                        <div className="flex justify-center mb-4">
                             <Image src={producto[0].imagen[0]} alt={producto[0].alt} width={90} height={90} className={`w-1/5 m-1 cursor-pointer  ${imagen1 && "border rounded-xl "}`} onClick={()=>{
                                 setImagen1(true)
                                 setImagen2(false)
@@ -130,6 +138,11 @@ const ModeloEliet = () => {
                     <p className="mb-5 mt-5">{producto[0].descripcion3}</p>
                     <p className="mb-5 mt-5">{producto[0].descripcion4}</p>
                     
+
+                    
+
+
+
                     <div className="   flex justify-center xl:hidden">
                         <div className="w-3/4 border rounded-xl">
                             <div className="flex justify-center mt-5 mb-10">

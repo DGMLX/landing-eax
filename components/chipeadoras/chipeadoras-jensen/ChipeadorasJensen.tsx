@@ -30,6 +30,7 @@ type Producto = {
     dimensionesOrugaFija:string,
     dimensionesOrugaAjustable:string,
     tomaDeFuerza:string,
+    modelo3D:string
 }
 
 type Props = {
