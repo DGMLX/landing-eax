@@ -119,7 +119,7 @@ const ModeloJensen = () => {
 
                 <div className="w-full xl:w-1/2  xl:ml-32">
                     <div>
-                        <h1 className="text-2xl ">Chipeadora {producto[0].modelo}</h1>
+                        <h1 className="text-2xl ">{producto[0].categoria !== 'Chipeadoras Especiales' && 'Chipeadora' } {producto[0].modelo}</h1>
                     </div>
                     <p className="text-sm">Chipeadoras Jensen</p>
                     {/* <p className="font-bold mt-2">$15.340.230</p> */}
@@ -282,7 +282,7 @@ const ModeloJensen = () => {
              </section>
 
             <div id="hubspot">
-                <FormularioHubspot />
+                <FormularioHubspot  />
             </div>
         </>
     

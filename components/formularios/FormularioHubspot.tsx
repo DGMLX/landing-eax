@@ -1,14 +1,18 @@
 'use client'
+import { useParams } from "next/navigation";
 import Script from "next/script";
 import { BsGeoAltFill } from "react-icons/bs";
 import { FaBloggerB, FaFacebookF, FaLinkedinIn, FaPhone, FaWhatsapp, FaYoutube } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 import { SiGmail } from "react-icons/si";
 
-// type Props = {
-//   urlImagen: string;
-// }
+
+
+
 const FormularioHubspot = () => {
+
+    const params = useParams()
+    const modelo = params.modelo as string
   
   return (  
     <div className="mx-10 lg:mx-20 mb-10 flex justify-center border-2">
@@ -21,8 +25,12 @@ const FormularioHubspot = () => {
       <div className="hs-form-frame w-full md:w-2/5 md:border-r" data-region="na1" data-form-id="4e8b21ba-1c39-4580-b0ce-4e11e73116f7" data-portal-id="48703151"></div>
   
       <div className="hidden md:block p-5 pt-10  md:w-1/2 lg:w-3/5 bg-gradient-to-r from-white to-slate-400">
-          <h3 className="hidden lg:block pb-10 text-3xl">¡Estamos aquí para ayudarte! <br/>
-          Ponte en contacto con nosotros.</h3>
+          <h3 className="hidden lg:block text-3xl">
+          {
+            modelo !== undefined ?  `¿Te interesa la chipeadora ${modelo.replace(/-/g,' ')}?` : '¡Estamos aquí para ayudarte!'
+          }
+         </h3>
+         <h3 className="hidden lg:block pb-10 text-3xl">Ponte en contacto con nosotros.</h3>
           <h3  className="pb-5 text-3xl lg:hidden text-center">¡Estamos aquí para ayudarte!</h3>
           <p className="text-sm lg:text-md text-center md:text-start">Utiliza nuestro formulario de contacto para cualquier consulta o, si prefieres, contáctanos directamente a través de la información que aparece a continuación.</p>
 

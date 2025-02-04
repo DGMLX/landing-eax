@@ -792,6 +792,10 @@ export default [
     },
 
 
+
+
+    // CHIPEADORAS ESPECIALES ------------------------------------
+
     {
         "modelo":"Chipeadora Especial con Oruga y Grúa",
         "categoria":"Chipeadoras Especiales",
@@ -831,6 +835,7 @@ export default [
         "modelo":"Chipeadora con Chasis Tándem y Grúa",
         "categoria":"Chipeadoras Especiales",
         "imagen":[
+            "/chipeadora/jensen/chipeadora_especial/chipeadora_5_1.png",
             "/chipeadora/jensen/chipeadora_especial/chipeadora_especial_5.png"
         ],
         "imagenPlano":"",
