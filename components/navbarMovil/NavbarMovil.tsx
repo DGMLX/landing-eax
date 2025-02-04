@@ -99,8 +99,8 @@ const NavbarMovil = () =>{
                                     {
                                 openSubChipeadoras && 
                                 <>
-                                    <a href="https://landing-eax.vercel.app/chipeadoras/eliet" className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">TAMAÑO PEQUEÑO Y MEDIANO</a>
-                                    <a href="https://landing-eax.vercel.app/chipeadoras/jensen" className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">GRAN TAMAÑO</a>
+                                    <a href="https://landing-eax.vercel.app/eliet" className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">TAMAÑO PEQUEÑO Y MEDIANO</a>
+                                    <a href="https://landing-eax.vercel.app/jensen" className="text-white text-center py-3  justify-center text-xs border-b border-slate-500 flex items-center">GRAN TAMAÑO</a>
                                     
                                 </>
                             }
