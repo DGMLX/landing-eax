@@ -21,15 +21,7 @@ const nextConfig: NextConfig = {
     return config; // Devuelve la configuración modificada
   },
 
-  async redirects() {
-    return [
-      {
-        source: '/',
-        destination: "https://landing-eax.vercel.app", // aquí va la ruta real de tu aplicación Next.js
-        permanent: true,
-      },
-    ]
-  }
+  
 
 };
 
