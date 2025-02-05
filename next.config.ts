@@ -20,6 +20,22 @@ const nextConfig: NextConfig = {
 
     return config; // Devuelve la configuración modificada
   },
+
+  async redirects() {
+    return [
+      {
+        source: '/eliet',
+        destination: '/eliet', // aquí va la ruta real de tu aplicación Next.js
+        permanent: true,
+      },
+      {
+        source: '/jensen',
+        destination: '/jensen', // aquí va la ruta real de tu aplicación Next.js
+        permanent: true,
+      },
+    ]
+  }
+
 };
 
 export default nextConfig;
