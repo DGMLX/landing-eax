@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+      {
+        "source": "/eliet",
+        "destination": "/eliet"
+      },
+      {
+        "source": "/jensen",
+        "destination": "/jensen"
+      }
+    ]
+  }
