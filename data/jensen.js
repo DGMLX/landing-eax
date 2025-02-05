@@ -32,7 +32,7 @@ export default [
         "dimensionesOrugaFija":"",
         "dimensionesOrugaAjustable":"",
         "tambor":"",
-        "modelo3D":"/chipeadora/jensen/chipeadora_disco/A141-XL/A141-XL.glb"
+        "modelo3D":""
     },
 
 

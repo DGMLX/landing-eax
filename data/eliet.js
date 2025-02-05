@@ -38,7 +38,8 @@ export default [
         "motor": "5,5 hp B&S XR 750",
         "dimensiones": "(Largo x Ancho x Alto) 1360 x 650 x 1260 [mm]",
         "peso": "63 [kg]",
-        "motorPrincipal":"5,5 hp B&S XR 750"
+        "motorPrincipal":"5,5 hp B&S XR 750",
+        "modelo3D":""
         
 
     },
@@ -79,7 +80,8 @@ export default [
         "motor": "4,0 HP Elec. 230V/1~ (3000W)",
         "dimensiones": "(Largo x Ancho x Alto) 1360 x 650 x 1260 [mm]",
         "peso": "60 [kg]",
-        "motorPrincipal":"4,0 HP Elec. 230V/1~ (3000W)"
+        "motorPrincipal":"4,0 HP Elec. 230V/1~ (3000W)",
+        "modelo3D":""
 
     },
 
@@ -117,7 +119,8 @@ export default [
         "motor": "5,5 HP Elect. 380 V/3~ (3500W)",
         "dimensiones": "(Largo x Ancho x Alto) 1360 x 650 x 1260 [mm]",
         "peso": "60 [kg]",
-        "motorPrincipal":"5,5 HP Elect. 380 V/3~ (3500W)"
+        "motorPrincipal":"5,5 HP Elect. 380 V/3~ (3500W)",
+        "modelo3D":""
 
     },
 
@@ -156,7 +159,8 @@ export default [
         "motor": "6,5 hp B&S XR 950",
         "dimensiones": "(Largo x Ancho x Alto) 1360 x 650 x 1400 [mm]",
         "peso": "63 [kg]",
-        "motorPrincipal":"6,5 hp B&S XR 950"
+        "motorPrincipal":"6,5 hp B&S XR 950",
+        "modelo3D":""
     },
 
 
@@ -195,7 +199,8 @@ export default [
         "motor": "3.5 HP electro 230 V/1~ (2500 W)",
         "dimensiones": "(Largo x Ancho x Alto) 700 x 600 x 1230 [mm]",
         "peso": "40 [kg]",
-        "motorPrincipal":"3.5 HP electro 230 V/1~ (2500 W)"
+        "motorPrincipal":"3.5 HP electro 230 V/1~ (2500 W)",
+        "modelo3D":""
     },
 
     // NEO²
@@ -208,7 +213,7 @@ export default [
             "/chipeadora/eliet/productos/neo/NEO2-2.png",
         ],
         "alt": "Chipeadora Eliet Neo²",
-        "modelo": "Neo²",
+        "modelo": "Neo 2",
         "categoria":"Chipeadoras Estacionarias",
         // "caracteristicas_tecnicas":"23.8 HP K - Chasis 80 km/h",
 
@@ -234,7 +239,8 @@ export default [
         "motor": "4.0 HP electro 230 V/1~ (3000 W)",
         "dimensiones": "(Largo x Ancho x Alto) 800 x 600 x 1470 [mm]",
         "peso": "43 [kg]",
-        "motorPrincipal":"4.0 HP electro 230 V/1~ (3000 W)"
+        "motorPrincipal":"4.0 HP electro 230 V/1~ (3000 W)",
+        "modelo3D":""
     },
 
     // NEO³
@@ -247,7 +253,7 @@ export default [
             "/chipeadora/eliet/productos/neo/NEO3_2.png",
         ],
         "alt": "Chipeadora Eliet Neo³",
-        "modelo": "Neo³",
+        "modelo": "Neo 3",
         "categoria":"Chipeadoras Estacionarias",
         // "caracteristicas_tecnicas":"23.8 HP K - Chasis 80 km/h",
 
@@ -273,7 +279,8 @@ export default [
         "motor": "4.75 HP electro 230 V/1~ (3500 W)",
         "dimensiones": "(Largo x Ancho x Alto) 800 x 600 x 1470 [mm]",
         "peso": "43 [kg]",
-        "motorPrincipal":"4.75 HP electro 230 V/1~ (3500 W)"
+        "motorPrincipal":"4.75 HP electro 230 V/1~ (3500 W)",
+        "modelo3D":""
     },
 
     // MAJOR 4s
@@ -313,7 +320,8 @@ export default [
         "diametro_entrada": "60 [mm]",
         "dimensiones": "(Largo x Ancho x Alto) 1290 x 630 x 1280 [mm]",
         "peso": "135 [kg]",
-        "motorPrincipal":"9,0 HP Honda GX270"
+        "motorPrincipal":"9,0 HP Honda GX270",
+        "modelo3D":""
     },
 
 
@@ -354,7 +362,8 @@ export default [
         "motor": "13 HP Honda GX 390",
         "dimensiones": "(Largo x Ancho x Alto) 1750 x 750 x 1520 [mm]",
         "peso": "265 [kg]",
-        "motorPrincipal":"13 HP Honda GX 390"
+        "motorPrincipal":"13 HP Honda GX 390",
+        "modelo3D":""
     },
 
 
@@ -401,7 +410,8 @@ export default [
         "motor": "14 HP B&S Vanguard 400",
         "dimensiones": "(Largo x Ancho x Alto) 1900 x 860 x1670 [mm]",
         "peso": "426 [kg]",
-        "motorPrincipal":"14 HP B&S Vanguard 400"
+        "motorPrincipal":"14 HP B&S Vanguard 400",
+        "modelo3D":""
     },
 
     // PROF 6 ON ROAD
@@ -439,7 +449,8 @@ export default [
         "motor": "14 [HP] Vanguard a Bencina",
         "dimensiones": "(Largo x Ancho x Alto) 1900 x 1475 x 1670 [mm]",
         "peso": "419 [kg]",
-        "motorPrincipal":"14 HP Vanguard a Bencina"
+        "motorPrincipal":"14 HP Vanguard a Bencina",
+        "modelo3D":""
     },
 
     //prof 6 on wheels
@@ -477,7 +488,8 @@ export default [
         "motor": "14 HP B&S Vanguard 400",
         "dimensiones": "(Largo x Ancho x Alto) 1900 x 860 x 1670 [mm]",
         "peso": "361 [kg]",
-        "motorPrincipal":"14 HP B&S Vanguard 400"
+        "motorPrincipal":"14 HP B&S Vanguard 400",
+        "modelo3D":""
     },
 
     //prof 6 pto
@@ -515,7 +527,8 @@ export default [
         "dimensiones": "(Largo x Ancho x Alto) 1900 x 760 x 1520 [mm]",
         "peso": "308 [kg]",
         "tomaDeFuerza":"Enganche de 3 puntos, 325kg",
-        "motorPrincipal":"No requiere"
+        "motorPrincipal":"No requiere",
+        "modelo3D":""
     },
 
     //MINOR 4S
@@ -553,7 +566,8 @@ export default [
         "motor": "6,0 HP Honda GP200 ",
         "dimensiones": "(Largo x Ancho x Alto) 1250 x 520 x 1100 [mm]",
         "peso": "92 [kg]",
-        "motorPrincipal":"6,0 HP Honda"
+        "motorPrincipal":"6,0 HP Honda",
+        "modelo3D":""
     },
     {
         "imagen": [
@@ -590,7 +604,8 @@ export default [
         "motor": "6,5 HP Honda GX200",
         "dimensiones": "(Largo x Ancho x Alto) 1250 x 520 x 1100 [mm]",
         "peso": "92 [kg]",
-        "motorPrincipal":"6,5 HP Honda"
+        "motorPrincipal":"6,5 HP Honda",
+        "modelo3D":""
     },
 
     //MINOR 4S ELECTRICA
@@ -628,7 +643,8 @@ export default [
         "motor": "5,5 HP Elect. 380 380 V/3~ (4000 W)",
         "dimensiones": "(Largo x Ancho x Alto) 1250 x 520 x 1100 [mm]",
         "peso": "92 [kg]",
-        "motorPrincipal":"5,5 HP 380 380 V/3~ (4000 W)"
+        "motorPrincipal":"5,5 HP 380 380 V/3~ (4000 W)",
+        "modelo3D":""
     },
 
 
@@ -670,7 +686,8 @@ export default [
         "motor": "Briggs & Stratton Vanguard 23 HP EFI + ECO EYE™",
         "dimensiones": "(Largo x Ancho x Alto) 2000 x 835 x 1450 [mm]",
         "peso": "506 [kg]",
-        "motorPrincipal":"23 HP EFI + ECO EYE™"
+        "motorPrincipal":"23 HP EFI + ECO EYE™",
+        "modelo3D":""
         
     },
 
@@ -710,7 +727,8 @@ export default [
         "motor": "23 HP B&S Vanguard EFI",
         "dimensiones": "(Largo x Ancho x Alto) 3000 x 1500 x 1450 [mm]",
         "peso": "499 [kg]",
-        "motorPrincipal":"23 HP B&S Vanguard EFI"
+        "motorPrincipal":"23 HP B&S Vanguard EFI",
+        "modelo3D":""
     },
 
     // SUPER PROF MAX ON WHEELS
@@ -745,7 +763,8 @@ export default [
         "motor": "18 HP B&S Vanguard",
         "dimensiones": "(Largo x Ancho x Alto) 2000 x 835 x 1450 [mm]",
         "peso": "437 [kg]",
-        "motorPrincipal":"18 HP B&S Vanguard"
+        "motorPrincipal":"18 HP B&S Vanguard",
+        "modelo3D":""
     },
 
     // SUPER PROF ON ROAD
@@ -781,7 +800,8 @@ export default [
         "motor": "Briggs & Stratton Vanguard 18 HP",
         "dimensiones": "(Largo x Ancho x Alto) 3000 x 1500 x 1450 [mm]",
         "peso": "495 [kg]",
-        "motorPrincipal":"18 HP B&S Vanguard"
+        "motorPrincipal":"18 HP B&S Vanguard",
+        "modelo3D":""
     },
 
 
@@ -822,7 +842,8 @@ export default [
         "produccion": "10 [m³/hr] chips de madera",
         "peso": "748 [kg]",
         "dimensiones": "(Largo x Ancho x Alto) 3500 x 1700 x 2250 [mm]",
-        "motorPrincipal":"33 hp Kubota D1105 T Turbo"
+        "motorPrincipal":"33 hp Kubota D1105 T Turbo",
+        "modelo3D":""
     },
 
     // MEGA PROF GASOLINA
@@ -859,7 +880,8 @@ export default [
         "diametro_entrada": "150 [mm]",
         "peso": "748 [kg]",
         "dimensiones": "(Largo x Ancho x Alto) 3500 x 1700 x 2250 [mm]",
-        "motorPrincipal":"37 hp Vanguard tm Gasoline"
+        "motorPrincipal":"37 hp Vanguard tm Gasoline",
+        "modelo3D":""
 
     }
 ]

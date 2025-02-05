@@ -30,6 +30,7 @@ interface ModelViewerProps {
     autoRotate?: boolean;
     cameraControls?: boolean;
     style?: React.CSSProperties;
+    cameraOrbit?: string;
   }
   
   // Componente ModelViewer

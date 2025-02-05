@@ -3,11 +3,12 @@
 import Image from "next/image";
 import { useParams } from "next/navigation";
 import data from "../../../../data/eliet"; 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import FormularioHubspot from "@/components/formularios/FormularioHubspot";
 import { TbNoteOff } from "react-icons/tb";
 import Link from "next/link";
 import Modal from "@/components/modal/Modal";
+import ModelViewer from "@/components/modelo3D/ModelViewer";
 
 
 
@@ -22,11 +23,18 @@ const ModeloEliet = () => {
     
     const producto = data.filter(prod=>prod.params === modelo && prod.categoria === categoria.replace(/-/g,' '))
 
-
-    const [imagen1,setImagen1] = useState(true)
+    const [modelo3D,setModelo3D] = useState(true)
+    const [imagen1,setImagen1] = useState(false)
     const [imagen2,setImagen2] = useState(false)
     const [imagen3,setImagen3] = useState(false)
     const [imagen4,setImagen4] = useState(false)
+
+    useEffect(()=>{
+        if(modelo3D && producto[0].modelo3D === ''){
+            setModelo3D(false)
+            setImagen1(true)
+        }
+    },[])
 
 
     const [modalVisible,setModalVisible] = useState(false);
@@ -65,9 +73,36 @@ const ModeloEliet = () => {
                 <div className="w-1/2 border rounded-xl hidden xl:block">
                     <div className="flex justify-center mt-5 mb-10">
                         
-                   
-                
-                        {
+                       
+                            <>
+                                { modelo3D && producto[0].modelo3D !== '' ?
+                                    <div style={{ width: '100%' }} className="h-[300px]">
+                                    <ModelViewer
+                                        src={producto[0].modelo3D}
+                                        alt="Modelo 3D" 
+                                        auto-rotate 
+            
+                                        camera-controls
+                                        style={{ width: '100%', height: '100%' }} 
+                                    />
+                                    </div> : undefined
+                                }
+                                {
+                                    imagen1 && <Image src={producto[0].imagen[0]} alt={producto[0].alt} width={300} height={300} onClick={()=>handleImgClick(producto[0].imagen[0])} className="cursor-pointer"/>
+                                }
+                                {
+                                    imagen2 && <Image src={producto[0]?.imagen[1]} alt={producto[0].alt} width={300} height={300} onClick={()=>handleImgClick(producto[0].imagen[1])} className="cursor-pointer"/>
+                                }
+                                {
+                                    imagen3 && <Image src={producto[0]?.imagen[2]} alt={producto[0].alt} width={300} height={300} onClick={()=>handleImgClick(producto[0].imagen[2])} className="cursor-pointer"/>
+                                }
+                                {
+                                    imagen4 && <Image src={producto[0]?.imagen[3]} alt={producto[0].alt} width={300} height={300} onClick={()=>handleImgClick(producto[0].imagen[3])} className="cursor-pointer"/>
+                                } 
+                            </>
+                        
+
+                        {/* {
                             imagen1 && <Image src={producto[0].imagen[0]} alt={producto[0].alt} width={300} height={300} onClick={()=>handleImgClick(producto[0].imagen[0])} className="cursor-pointer"/>
                         }
                         {
@@ -78,47 +113,73 @@ const ModeloEliet = () => {
                         }
                         {
                             imagen4 && <Image src={producto[0]?.imagen[3]} alt={producto[0].alt} width={300} height={300} onClick={()=>handleImgClick(producto[0].imagen[3])} className="cursor-pointer"/>
-                        } 
+                        }  */}
                          
                     </div>
-                        <div className="flex justify-center mb-4">
-                            <Image src={producto[0].imagen[0]} alt={producto[0].alt} width={90} height={90} className={`w-1/5 m-1 cursor-pointer  ${imagen1 && "border rounded-xl "}`} onClick={()=>{
-                                setImagen1(true)
-                                setImagen2(false)
-                                setImagen3(false)
-                                setImagen4(false)
-                            }}/>
-                            {
-                                producto[0].imagen[1] ? 
-                                <Image src={producto[0]?.imagen[1]} alt={producto[0].alt} width={90} height={90} className={`w-1/5 m-1 cursor-pointer  ${imagen2 && "border rounded-xl "}`} onClick={()=>{
-                                    setImagen1(false)
-                                    setImagen2(true)
-                                    setImagen3(false)
-                                    setImagen4(false)
-                                }}/> : ''
-                            }
-                            {
-                                producto[0].imagen[2] ?
-                                <Image src={producto[0]?.imagen[2]} alt={producto[0].alt} width={90} height={90} className={`w-1/5 m-1 cursor-pointer  ${imagen3 && "border rounded-xl "}`} onClick={()=>{
-                                    setImagen1(false)
-                                    setImagen2(false)
-                                    setImagen3(true)
-                                    setImagen4(false)
-                               }}/> : ''
+                        
+                            <div className="flex justify-center mb-4">
+                                    {
+                                        producto[0].modelo3D !== '' &&
+                                        <div className="w-1/5" onClick={()=>{
+                                            setModelo3D(true)
+                                            setImagen1(false)
+                                            setImagen2(false)
+                                            setImagen3(false)
+                                            setImagen4(false)
+                                        }
+                                        }>
+                                            <ModelViewer
+                                                src={producto[0].modelo3D}
+                                                alt="Modelo 3D" 
+                                                auto-rotate 
+                                                camera-controls
+                                                style={{ width: '100%', height: '100%' }} 
+                                                />
+                                        </div>
+                                    }
 
-                            }
+                                    <Image src={producto[0].imagen[0]} alt={producto[0].alt} width={90} height={90} className={`w-1/5 m-1 cursor-pointer ${imagen1 && "border rounded-xl "}`} onClick={()=>{
+                                        setImagen1(true)
+                                        setImagen2(false)
+                                        setImagen3(false)
+                                        setImagen4(false)
+                                        setModelo3D(false)
+                                    }}/>
+
+                                    {
+                                        producto[0].imagen[1] ? 
+                                        <Image src={producto[0]?.imagen[1]} alt={producto[0].alt} width={90} height={90} className={`w-1/5 m-1 cursor-pointer ${imagen2 && "border rounded-xl "}`} onClick={()=>{
+                                            setImagen1(false)
+                                            setImagen2(true)
+                                            setImagen3(false)
+                                            setImagen4(false)
+                                            setModelo3D(false)
+                                        }}/> : ''
+                                    }
+                                    {
+                                        producto[0].imagen[2] ?
+                                        <Image src={producto[0]?.imagen[2]} alt={producto[0].alt} width={90} height={90} className={`w-1/5 m-1 cursor-pointer ${imagen3 && "border rounded-xl "}`} onClick={()=>{
+                                            setImagen1(false)
+                                            setImagen2(false)
+                                            setImagen3(true)
+                                            setImagen4(false)
+                                            setModelo3D(false)
+                                        }}/> : ''
+        
+                                    }
+                                    
+                                    {
+                                        producto[0].imagen[3] ? 
+                                        <Image src={producto[0]?.imagen[3]} alt={producto[0].alt} width={90} height={90} className={`w-1/5 m-1 cursor-pointer ${imagen4  && "border rounded-xl "}`} onClick={()=>{
+                                            setImagen1(false)
+                                            setImagen2(false)
+                                            setImagen3(false)
+                                            setImagen4(true)
+                                        }}/> : ''
+                                    }
+                                    
+                            </div>
                             
-                            {
-                                producto[0].imagen[3] ? 
-                                <Image src={producto[0]?.imagen[3]} alt={producto[0].alt} width={90} height={90} className={`w-1/5 m-1 cursor-pointer  ${imagen4 && "border rounded-xl "}`} onClick={()=>{
-                                    setImagen1(false)
-                                    setImagen2(false)
-                                    setImagen3(false)
-                                    setImagen4(true)
-                                }}/> : ''
-                            }
-                           
-                    </div>
                 </div>
 
 

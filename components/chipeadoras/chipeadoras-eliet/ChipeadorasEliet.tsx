@@ -21,7 +21,8 @@ type Producto = {
     motor:string,
     dimensiones:string,
     peso:string,
-    motorPrincipal:string
+    motorPrincipal:string,
+    modelo3D:string
     
 }
 
