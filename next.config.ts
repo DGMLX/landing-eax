@@ -24,13 +24,8 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
-        source: '/eliet',
-        destination: '/eliet', // aquí va la ruta real de tu aplicación Next.js
-        permanent: true,
-      },
-      {
-        source: '/jensen',
-        destination: '/jensen', // aquí va la ruta real de tu aplicación Next.js
+        source: '/',
+        destination: "https://landing-eax.vercel.app", // aquí va la ruta real de tu aplicación Next.js
         permanent: true,
       },
     ]
