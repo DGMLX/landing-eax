@@ -613,7 +613,7 @@ export default [
     {
         "imagen": [
             "/chipeadora/eliet/productos/minor_4s/MINOR_4S_ELECTRICA.png",
-            "/chipeadora/eliet/productos/minor_4s/minor_electrica_2.png",
+            "/chipeadora/eliet/productos/minor_4s/Minor_electrica_2.png",
             "/chipeadora/eliet/productos/minor_4s/minor_electrica_3.png",
             "/chipeadora/eliet/productos/minor_4s/minor_electrica_4.png",
         ],
