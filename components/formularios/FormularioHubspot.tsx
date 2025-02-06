@@ -15,16 +15,16 @@ const FormularioHubspot = () => {
     const modelo = params.modelo as string
   
   return (  
-    <div className="mx-10 lg:mx-20 mb-10 flex justify-center border-2">
+    <div className="mx-10 lg:mx-20 mb-10 flex justify-center border-r-2 md:border-r-0">
       
       <Script
           src="https://js.hsforms.net/forms/embed/48703151.js"
           defer
           strategy="afterInteractive"
         />
-      <div className="hs-form-frame w-full md:w-2/5 md:border-r" data-region="na1" data-form-id="4e8b21ba-1c39-4580-b0ce-4e11e73116f7" data-portal-id="48703151"></div>
+      <div className="hs-form-frame w-full md:w-2/5 border-t-2 border-l-2 border-b-2 " data-region="na1" data-form-id="4e8b21ba-1c39-4580-b0ce-4e11e73116f7" data-portal-id="48703151"></div>
   
-      <div className="hidden md:block p-5 pt-10  md:w-1/2 lg:w-3/5 bg-gradient-to-r from-white to-slate-400">
+      <div className="hidden md:block p-5 pt-10  md:w-1/2 lg:w-3/5 bg-gradient-to-r from-white to-slate-400 border-t-2 border-b-2 border-r-2">
           <h3 className="hidden lg:block text-3xl">
           {
             modelo !== undefined ?  `¿Te interesa la chipeadora ${modelo.replace(/-/g,' ')}?` : '¡Estamos aquí para ayudarte!'

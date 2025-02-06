@@ -33,7 +33,7 @@ const Producto = () => {
                         </div>
 
                         <div className="w-screen md:w-1/2 bg-[#F6F6F6] ">
-                            <p className="text-end pr-10 text-2xl font-bold md:pr-10 md:pt-3 lg:pr-32 lg:pt-10 xl:pt-20">01</p>
+                            <p className="text-end pr-10 text-2xl font-bold pt-5 md:pr-10 md:pt-3 lg:pr-32 lg:pt-10 xl:pt-20">01</p>
                             <div className="md:pl-10 md:pr-4 lg:pl-24 lg:pr-20 lg:pt-10 xl:pr-52 xl:pt-40">
                                 <h2 className="text-center mb-8 text-2xl md:text-start lg:text-3xl font-bold ">Chipeadoras de disco</h2>
                                 <p className="mb-5 px-10 sm:px-20 text-center md:text-start md:px-0 ">• Características: Ligera y eficiente. Ideal para tareas de jardinería o poda en áreas urbanas. <br/>
@@ -51,7 +51,7 @@ const Producto = () => {
                             <Image src="/chipeadora/jensen/chipeadoras_pto.png" alt="Chipeadora PTO" width={1000} height={1000} className="w-full"/>
                         </div>
                         <div className="w-screen md:w-1/2 bg-[#F6F6F6] ">
-                            <p className="text-end pr-10 text-2xl font-bold">02</p>
+                            <p className="text-end pr-10 text-2xl font-bold pt-5">02</p>
                             <div className=" ">
                                 <h2 className="text-2xl mb-8 text-center  font-bold">Chipeadoras PTO</h2>
                                 
@@ -93,7 +93,7 @@ const Producto = () => {
                         </div>
 
                         <div className="w-screen md:w-1/2 bg-[#F6F6F6]">
-                            <p className="text-end pr-10 text-2xl font-bold md:pr-10 md:pt-3 lg:pr-32 lg:pt-10 xl:pt-20">03</p>
+                            <p className="text-end pr-10 text-2xl font-bold pt-5 md:pr-10 md:pt-3 lg:pr-32 lg:pt-10 xl:pt-20">03</p>
                             <div className="md:pl-10 md:pr-4 lg:pl-24 lg:pr-20 lg:pt-10 xl:pr-52 xl:pt-40">
                                 <h2 className="text-center mb-8 text-2xl md:text-start lg:text-3xl font-bold ">Chipeadoras con Oruga</h2>
                                 <p className="mb-5 px-10 sm:px-20 text-center md:text-start md:px-0 ">• Características: Diseño robusto con tracción para superar pendientes y superficies irregulares. <br/>
@@ -113,7 +113,7 @@ const Producto = () => {
                             <Image src="/chipeadora/jensen/chipeadoras_con_oruga_spider.png" alt="Chipeadora con oruga spider" width={1000} height={1000} className="w-full"/>
                         </div>
                         <div className="w-screen md:w-1/2 bg-[#F6F6F6] ">
-                            <p className="text-end pr-10 text-2xl font-bold">04</p>
+                            <p className="text-end pr-10 text-2xl font-bold pt-5">04</p>
                             <div className=" ">
                                 <h2 className="text-2xl mb-8 text-center  font-bold">Chipeadoras con Oruga Spider</h2>
                                 
@@ -159,7 +159,7 @@ const Producto = () => {
                         </div>
 
                         <div className="w-screen md:w-1/2 bg-[#F6F6F6]">
-                            <p className="text-end pr-10 text-2xl font-bold md:pr-10 md:pt-3 lg:pr-32 lg:pt-10 xl:pt-20">05</p>
+                            <p className="text-end pr-10 text-2xl font-bold pt-5 md:pr-10 md:pt-3 lg:pr-32 lg:pt-10 xl:pt-20">05</p>
                             <div className="md:pl-10 md:pr-4 lg:pl-24 lg:pr-20 lg:pt-10 xl:pr-52 xl:pt-40">
                                 <h2 className="text-center mb-8 text-2xl md:text-start lg:text-3xl font-bold ">Chipeadoras de tambor</h2>
                                 <p className="mb-5 px-10 sm:px-20 text-center md:text-start md:px-0 ">• Características: Alta capacidad de producción y versatilidad para trabajos intensivos. <br/>
@@ -180,7 +180,7 @@ const Producto = () => {
                             <Image src="/chipeadora/jensen/chipeadoras_especiales.png" alt="Chipeadoras especiales" width={1000} height={1000} className="w-full"/>
                         </div>
                         <div className="w-screen md:w-1/2 bg-[#F6F6F6] ">
-                            <p className="text-end pr-10 text-2xl font-bold">06</p>
+                            <p className="text-end pr-10 text-2xl font-bold pt-5">06</p>
                             <div className=" ">
                                 <h2 className="text-2xl mb-8 text-center  font-bold">Chipeadoras Especiales</h2>
                                 
