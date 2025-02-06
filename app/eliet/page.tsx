@@ -34,7 +34,7 @@ const Producto = () => {
                         </div>
 
                         <div className="w-screen md:w-1/2 bg-[#F6F6F6]">
-                            <p className="text-end pr-10 text-2xl font-bold md:pr-10 md:pt-3 lg:pr-32 lg:pt-10">01</p>
+                            <p className="text-end pr-10 text-2xl font-bold pt-5 pb-4 md:pb-0  md:pr-10 md:pt-3 lg:pr-32 lg:pt-10">01</p>
                             <div className="md:pl-10 md:pr-4 lg:pl-24 lg:pr-20 lg:pt-10 xl:pr-52 xl:pt-36">
                                 <h2 className="text-center mb-8 text-2xl md:text-start lg:text-3xl font-bold ">Chipeadoras estacionarias</h2>
                                 <p className="mb-5 px-10 sm:px-20 text-center md:text-start md:px-0 ">Compactas y diseñadas para uso doméstico y de jardinería, estas chipeadoras son ideales para propietarios de jardines y pequeños espacios verdes. Permiten procesar residuos vegetales de manera eficiente, facilitando su reutilización como compost o mulch.<br/></p>
@@ -51,7 +51,7 @@ const Producto = () => {
                             <Image src="/chipeadora/eliet/chipeadora_movil_rueda.jpg" alt="Chipeadoras Moviles sobre ruedas Eliet" width={1000} height={1000} className="w-full"/>
                         </div>
                         <div className="w-screen md:w-1/2 bg-[#F6F6F6] ">
-                            <p className="text-end pr-10 text-2xl font-bold">02</p>
+                            <p className="text-end pr-10 text-2xl font-bold pt-5 pb-4">02</p>
                             <div className=" ">
                             <h2 className="text-2xl mb-8 text-center  font-bold">Chipeadoras móviles sobre ruedas</h2>
                                 
@@ -92,7 +92,7 @@ const Producto = () => {
                         </div>
 
                         <div className="w-screen md:w-1/2 bg-[#F6F6F6]">
-                            <p className="text-end pr-10 text-2xl font-bold md:pr-10 md:pt-3 lg:pr-32 lg:pt-10 xl:pt-15">03</p>
+                            <p className="text-end pr-10 text-2xl font-bold pt-5 pb-4 md:pb-0 md:pr-10 md:pt-3 lg:pr-32 lg:pt-10 xl:pt-15">03</p>
                             <div className="md:pl-10 md:pr-4 lg:pl-24 lg:pr-20 lg:pt-10 xl:pr-52 xl:pt-40">
                                 <h2 className="text-center mb-8 text-2xl md:text-start lg:text-3xl font-bold ">Chipeadoras sobre oruga</h2>
                                 <p className="mb-5 px-10 sm:px-20 text-center md:text-start md:px-0 ">Optimizadas para terrenos difíciles e irregulares, brindan estabilidad y tracción en zonas forestales o de acceso complicado, garantizando movilidad en condiciones adversas.<br/></p>
@@ -111,7 +111,7 @@ const Producto = () => {
                             <Image src="/chipeadora/eliet/chipeadora_carretera.png" alt="Chipeadoras remolcables de carretera Eliet" width={1000} height={1000} className="w-full"/>
                         </div>
                         <div className="w-screen md:w-1/2 bg-[#F6F6F6] ">
-                            <p className="text-end pr-10 text-2xl font-bold">04</p>
+                            <p className="text-end pr-10 text-2xl font-bold pt-5 pb-4">04</p>
                             <div className=" ">
                                 <h2 className="text-2xl mb-8 text-center  font-bold">Chipeadoras remolcables de carretera</h2>
                                 
@@ -155,12 +155,12 @@ const Producto = () => {
                         </div>
 
                         <div className="w-screen md:w-1/2 bg-[#F6F6F6]">
-                            <p className="text-end pr-10 text-2xl font-bold md:pr-10 md:pt-3 lg:pr-32 lg:pt-10 xl:pt-20">05</p>
+                            <p className="text-end pr-10 text-2xl font-bold pt-5 pb-4 md:pb-0 md:pr-10 md:pt-3 lg:pr-32 lg:pt-10 xl:pt-20">05</p>
                             <div className="md:pl-10 md:pr-4 lg:pl-24 lg:pr-20 lg:pt-10 xl:pr-52 xl:pt-40">
                                 <h2 className="text-center mb-8 text-2xl md:text-start lg:text-3xl font-bold ">Chipeadoras PTO</h2>
                                 <p className="mb-5 px-10 sm:px-20 text-center md:text-start md:px-0 ">Disenadas para ser accionadas por la toma de fuerza de tractores, son una solucion eficiente para aplicaciones agricolas y forestales, optimizando el uso de maquinaria existente sin necesidad de un motor propio<br/></p>
                                 <div className="flex pb-10 justify-center md:justify-start md:pb-0">
-                                    <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Chipeadoras-PTO"}>Ver productos</Link></button>
+                                    <button className="mt-5 lg:mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Chipeadoras-PTO"}>Ver productos</Link></button>
                                 </div>
                             </div>
                         </div>
