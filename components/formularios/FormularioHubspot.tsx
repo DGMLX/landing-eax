@@ -1,6 +1,6 @@
 'use client'
 import { useParams } from "next/navigation";
-import Script from "next/script";
+import { useEffect } from "react";
 import { BsGeoAltFill } from "react-icons/bs";
 import { FaBloggerB, FaFacebookF, FaLinkedinIn, FaPhone, FaWhatsapp, FaYoutube } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
@@ -8,21 +8,45 @@ import { SiGmail } from "react-icons/si";
 
 
 
-
 const FormularioHubspot = () => {
 
     const params = useParams()
     const modelo = params.modelo as string
+
+    useEffect(() => {
+      // Cargar el script de HubSpot
+      const script = document.createElement('script');
+      script.src = '//js.hsforms.net/forms/embed/v2.js';
+      script.charset = 'utf-8';
+      script.type = 'text/javascript';
+      script.async = true;
+      document.body.appendChild(script);
   
+      script.onload = () => {
+        // Una vez que el script se haya cargado, inicializar el formulario de HubSpot
+        if (typeof window !== "undefined" && window.hbspt) {
+          window.hbspt.forms.create({
+            portalId: '6221998',
+            formId: '81e23d44-e9d3-4008-8f0b-35e7747f8e74',
+            target: '#hubspot-form', // Este es el id donde se mostrará el formulario
+          });
+        }
+      };
+  
+      // Limpieza del script al desmontar el componente
+      return () => {
+        document.body.removeChild(script);
+      };
+    }, []);
+
   return (  
     <div className="mx-10 lg:mx-20 mb-10 flex justify-center border-r-2 md:border-r-0">
-      
-      <Script
-          src="https://js.hsforms.net/forms/embed/48703151.js"
-          defer
-          strategy="afterInteractive"
-        />
-      <div className="hs-form-frame w-full md:w-2/5 border-t-2 border-l-2 border-b-2 " data-region="na1" data-form-id="4e8b21ba-1c39-4580-b0ce-4e11e73116f7" data-portal-id="48703151"></div>
+        <div id="hubspot-form" className="w-full md:w-2/5 p-10 border-t-2 border-l-2 border-b-2">
+          {/* Aquí se cargará el formulario de HubSpot */}
+        </div>
+
+       
+    
   
       <div className="hidden md:block p-5 pt-10  md:w-1/2 lg:w-3/5 bg-gradient-to-r from-white to-slate-400 border-t-2 border-b-2 border-r-2">
           <h3 className="hidden lg:block text-3xl">
