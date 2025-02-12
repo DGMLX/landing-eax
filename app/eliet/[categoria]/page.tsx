@@ -14,7 +14,12 @@ type Props = {
     const info =await  params.params
     return{
         title:`${info.categoria.replace(/-/g, ' ')} - EcoAlliance`,
-        description:''
+        description:'',
+        icons: {
+            icon:"/logo.png",
+            shortcut:"/logo.png",
+            apple:"/logo-apple.png"
+          }
     }
  }
 

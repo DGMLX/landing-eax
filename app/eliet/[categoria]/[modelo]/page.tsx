@@ -13,7 +13,12 @@ type Props = {
     const info =await  params.params
     return{
         title:`Trituradoras Eliet - ${info.modelo.replace(/-/g,' ')}`,
-        description:'Descripcion de chipeadora'
+        description:'Descripcion de chipeadora',
+        icons: {
+            icon:"/logo.png",
+            shortcut:"/logo.png",
+            apple:"/logo-apple.png"
+          }
     }
  }
 

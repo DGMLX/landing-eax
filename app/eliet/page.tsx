@@ -8,6 +8,12 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Trituradoras Eliet - EcoAlliance',
   description: '',
+  icons: {
+    icon:"/logo.png",
+    shortcut:"/logo.png",
+    apple:"/logo-apple.png"
+  }
+
 }
 
 const Producto = () => {

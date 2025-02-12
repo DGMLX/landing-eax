@@ -6,7 +6,12 @@ import { Metadata } from 'next';
  
 export const metadata: Metadata = {
   title: 'Chipeadoras Jensen - EcoAlliance',
-  description: '',
+  description: '"Descubre las chipeadoras Jensen, diseñadas para ofrecer potencia y durabilidad en el procesamiento de madera. Conoce sus características, modelos disponibles y cómo optimizar tu trabajo con estas herramientas de alta eficiencia.',
+  icons: {
+    icon:"/logo.png",
+    shortcut:"/logo.png",
+    apple:"/logo-apple.png"
+  }
 }
 
 const Producto = () => {
