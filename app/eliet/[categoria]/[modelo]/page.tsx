@@ -12,7 +12,7 @@ type Props = {
  export async function generateMetadata(params:Props):Promise<Metadata>{
     const info =await  params.params
     return{
-        title:`Chipeadora Eliet - ${info.modelo.replace(/-/g,' ')}`,
+        title:`Trituradoras Eliet - ${info.modelo.replace(/-/g,' ')}`,
         description:'Descripcion de chipeadora'
     }
  }

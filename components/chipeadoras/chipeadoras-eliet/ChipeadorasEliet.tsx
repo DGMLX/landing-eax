@@ -42,7 +42,7 @@ const ChipeadorasEliet = ({Productos}:Props) =>{
                     <div className="flex justify-center">
                         <Image src={producto.imagen[0]} alt={producto.alt} width={200} height={200}/>
                     </div>
-                    <p className="text-center text-sm mt-4">Chipeadora</p>
+                    <p className="text-center text-sm mt-4">Trituradora</p>
                     <h2 className="text-center text-xl font-bold mt-1 pb-5">{producto.modelo}</h2>
              
                     <div className="px-5">

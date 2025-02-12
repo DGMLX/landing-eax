@@ -6,7 +6,7 @@ import Link from "next/link";
 import { Metadata } from 'next';
  
 export const metadata: Metadata = {
-  title: 'Chipeadoras Eliet - EcoAlliance',
+  title: 'Trituradoras Eliet - EcoAlliance',
   description: '',
 }
 
@@ -19,10 +19,10 @@ const Producto = () => {
             </section> */}
 
             <section className="px-5 sm:px-10 md:px-16 mt-28 mb-28 ">
-                <h1 className="text-3xl text-center mb-10">Encuentra la chipeadora ideal para tu proyecto</h1>
+                <h1 className="text-3xl text-center mb-10">Encuentra la trituradora ideal para tu proyecto</h1>
                 <div className="mx-5 md:mx-16  xl:mx-72">
                     <p className="text-center">En Eco Alliance, estamos comprometidos con brindarte las mejores soluciones tecnológicas para el cuidado del medio ambiente. 
-                    Aquí encontrarás chipeadoras portátiles ideales para poda y mantenimiento en el hogar o áreas verdes pequeñas, diseñadas para necesidades básicas de limpieza.</p>
+                    Aquí encontrarás trituradoras portátiles ideales para poda y mantenimiento en el hogar o áreas verdes pequeñas, diseñadas para necesidades básicas de limpieza.</p>
                 </div>
             </section>
 
@@ -30,16 +30,16 @@ const Producto = () => {
             <section className="mb-20">
                     <div className="block md:flex ">
                          <div className="w-screen  md:w-1/2">
-                            <Image src="/chipeadora/eliet/chipeadora_estacionaria.png" alt="Chipeadora Estacionaria Eliet" width={1000} height={1000} className="w-full"/>
+                            <Image src="/chipeadora/eliet/chipeadora_estacionaria.png" alt="Trituradora Estacionaria Eliet" width={1000} height={1000} className="w-full"/>
                         </div>
 
                         <div className="w-screen md:w-1/2 bg-[#F6F6F6]">
                             <p className="text-end pr-10 text-2xl font-bold pt-5 pb-4 md:pb-0  md:pr-10 md:pt-3 lg:pr-32 lg:pt-10">01</p>
                             <div className="md:pl-10 md:pr-4 lg:pl-24 lg:pr-20 lg:pt-10 xl:pr-52 xl:pt-36">
-                                <h2 className="text-center mb-8 text-2xl md:text-start lg:text-3xl font-bold ">Chipeadoras estacionarias</h2>
-                                <p className="mb-5 px-10 sm:px-20 text-center md:text-start md:px-0 ">Compactas y diseñadas para uso doméstico y de jardinería, estas chipeadoras son ideales para propietarios de jardines y pequeños espacios verdes. Permiten procesar residuos vegetales de manera eficiente, facilitando su reutilización como compost o mulch.<br/></p>
+                                <h2 className="text-center mb-8 text-2xl md:text-start lg:text-3xl font-bold ">Trituradoras estacionarias</h2>
+                                <p className="mb-5 px-10 sm:px-20 text-center md:text-start md:px-0 ">Compactas y diseñadas para uso doméstico y de jardinería, estas trituradoras son ideales para propietarios de jardines y pequeños espacios verdes. Permiten procesar residuos vegetales de manera eficiente, facilitando su reutilización como compost o mulch.<br/></p>
                                 <div className="flex pb-10 justify-center md:justify-start md:pb-0 ">
-                                <button className="md:mt-1 md:mb-3 lg:mt-10 lg:mb-0 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Chipeadoras-Estacionarias"}>Ver productos</Link></button>
+                                <button className="md:mt-1 md:mb-3 lg:mt-10 lg:mb-0 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Trituradoras-Estacionarias"}>Ver productos</Link></button>
                                 </div>
                             </div>
                         </div>
@@ -48,16 +48,16 @@ const Producto = () => {
                     {/* ------------------ APARECE EN MOVIL -------------------------- */}
                     <div className="block md:hidden">
                         <div className="w-screen md:w-1/2">
-                            <Image src="/chipeadora/eliet/chipeadora_movil_rueda.jpg" alt="Chipeadoras Moviles sobre ruedas Eliet" width={1000} height={1000} className="w-full"/>
+                            <Image src="/chipeadora/eliet/chipeadora_movil_rueda.jpg" alt="Trituradoras Moviles sobre ruedas Eliet" width={1000} height={1000} className="w-full"/>
                         </div>
                         <div className="w-screen md:w-1/2 bg-[#F6F6F6] ">
                             <p className="text-end pr-10 text-2xl font-bold pt-5 pb-4">02</p>
                             <div className=" ">
-                            <h2 className="text-2xl mb-8 text-center  font-bold">Chipeadoras móviles sobre ruedas</h2>
+                            <h2 className="text-2xl mb-8 text-center  font-bold">Trituradoras móviles sobre ruedas</h2>
                                 
                                 <p className=" px-10 sm:px-20 text-center mb-5 md:mt-3  md:mb-5 lg:mt-5 lg:mb-10 ">Equipadas para facilitar el transporte en terrenos variados, son ideales para jardineros y empresas de mantenimiento de áreas verdes. Su diseño compacto permite un uso eficiente en espacios reducidos<br/></p>
                                 <div className="flex pb-10 justify-center ">
-                                <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Chipeadoras-Moviles-Sobre-Ruedas"}>Ver productos</Link></button>
+                                <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Trituradoras-Moviles-Sobre-Ruedas"}>Ver productos</Link></button>
 
                                 </div>
                             </div>
@@ -74,30 +74,30 @@ const Producto = () => {
                         <div className="w-1/2 bg-[#F6F6F6] ">
                             <p className="text-start text-2xl font-bold md:pt-3 md:pl-10 lg:pl-20 lg:pt-10 xl:pl-32 xl:pt-20">02</p>
                             <div className="md:ml-5 md:pr-10 md:pt-2 lg:pr-24 lg:pt-14 lg:pl-20 lg:ml-0 xl:pl-52 ">
-                                <h2 className="md:text-2xl lg:text-3xl font-bold md:mb-3 lg:mb-8">Chipeadoras móviles sobre rueda</h2>
+                                <h2 className="md:text-2xl lg:text-3xl font-bold md:mb-3 lg:mb-8">Trituradoras móviles sobre rueda</h2>
                                 
                                 <p className="md:mt-3  md:mb-5 lg:mt-5 lg:mb-5 xl:mb-10 ">Equipadas para facilitar el transporte en terrenos variados, son ideales para jardineros y empresas de mantenimiento de áreas verdes.<br/></p>
-                                <button className=" xl:mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Chipeadoras-Moviles-Sobre-Ruedas"}>Ver productos</Link></button>
+                                <button className=" xl:mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Trituradoras-Moviles-Sobre-Ruedas"}>Ver productos</Link></button>
                             </div>
                         </div>
                         <div className="w-1/2">
-                            <Image src="/chipeadora/eliet/chipeadora_movil_rueda.jpg" alt="Chipeadoras moviles sobre ruedas Eliet" width={1000} height={1000} className="w-full"/>
+                            <Image src="/chipeadora/eliet/chipeadora_movil_rueda.jpg" alt="Trituradoras moviles sobre ruedas Eliet" width={1000} height={1000} className="w-full"/>
                         </div>
                     </div>
 
 
                     <div className="block md:flex">
                          <div className="w-screen  md:w-1/2">
-                            <Image src="/chipeadora/eliet/chipeadora_sobre_oruga.jpg" alt="Chipeadora sobre oruga Eliet" width={1000} height={1000} className="w-full"/>
+                            <Image src="/chipeadora/eliet/chipeadora_sobre_oruga.jpg" alt="Trituradora sobre oruga Eliet" width={1000} height={1000} className="w-full"/>
                         </div>
 
                         <div className="w-screen md:w-1/2 bg-[#F6F6F6]">
                             <p className="text-end pr-10 text-2xl font-bold pt-5 pb-4 md:pb-0 md:pr-10 md:pt-3 lg:pr-32 lg:pt-10 xl:pt-15">03</p>
                             <div className="md:pl-10 md:pr-4 lg:pl-24 lg:pr-20 lg:pt-10 xl:pr-52 xl:pt-40">
-                                <h2 className="text-center mb-8 text-2xl md:text-start lg:text-3xl font-bold ">Chipeadoras sobre oruga</h2>
+                                <h2 className="text-center mb-8 text-2xl md:text-start lg:text-3xl font-bold ">Trituradoras sobre oruga</h2>
                                 <p className="mb-5 px-10 sm:px-20 text-center md:text-start md:px-0 ">Optimizadas para terrenos difíciles e irregulares, brindan estabilidad y tracción en zonas forestales o de acceso complicado, garantizando movilidad en condiciones adversas.<br/></p>
                                 <div className="flex pb-10 justify-center md:justify-start md:pb-0">
-                                <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Chipeadoras-Sobre-Oruga"}>Ver productos</Link></button>
+                                <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Trituradoras-Sobre-Oruga"}>Ver productos</Link></button>
                                 </div>
                             </div>
                         </div>
@@ -108,16 +108,16 @@ const Producto = () => {
                         {/* ------------------ APARECE EN MOVIL -------------------------- */}
                         <div className="block md:hidden">
                         <div className="w-screen md:w-1/2">
-                            <Image src="/chipeadora/eliet/chipeadora_carretera.png" alt="Chipeadoras remolcables de carretera Eliet" width={1000} height={1000} className="w-full"/>
+                            <Image src="/chipeadora/eliet/chipeadora_carretera.png" alt="Trituradoras remolcables de carretera Eliet" width={1000} height={1000} className="w-full"/>
                         </div>
                         <div className="w-screen md:w-1/2 bg-[#F6F6F6] ">
                             <p className="text-end pr-10 text-2xl font-bold pt-5 pb-4">04</p>
                             <div className=" ">
-                                <h2 className="text-2xl mb-8 text-center  font-bold">Chipeadoras remolcables de carretera</h2>
+                                <h2 className="text-2xl mb-8 text-center  font-bold">Trituradoras remolcables de carretera</h2>
                                 
                                 <p className=" px-10 sm:px-20 text-center mb-5 md:mt-3  md:mb-5 lg:mt-5 lg:mb-10 ">Cumplen con normativas de transporte y son ideales para contratistas y municipios que requieren movilidad entre distintos sitios de trabajo. Ofrecen un equilibrio entre rendimiento y facilidad de traslado<br/></p>
                                 <div className="flex pb-10 justify-center ">
-                                    <button className=" mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Chipeadoras-Remolcables-De-Carretera"}>Ver productos</Link></button>
+                                    <button className=" mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Trituradoras-Remolcables-De-Carretera"}>Ver productos</Link></button>
 
                                 </div>
                             </div>
@@ -134,14 +134,14 @@ const Producto = () => {
                         <div className="w-1/2 bg-[#F6F6F6] ">
                             <p className="text-start text-2xl font-bold md:pt-3 md:pl-10 lg:pl-20 lg:pt-10 xl:pl-32 xl:pt-20">04</p>
                             <div className="md:ml-5 md:pr-10 md:pt-10 lg:pr-24 lg:pt-14 lg:pl-20 lg:ml-0 xl:pl-52 ">
-                                <h2 className="md:text-2xl lg:text-3xl font-bold md:mb-3 lg:mb-8">Chipeadoras remolcables de carretera</h2>
+                                <h2 className="md:text-2xl lg:text-3xl font-bold md:mb-3 lg:mb-8">Trituradoras remolcables de carretera</h2>
                                 
                                 <p className="md:mt-3  md:mb-5 lg:mt-5 lg:mb-10 ">Cumplen con normativas de transporte y son ideales para contratistas y municipios que requieren movilidad entre distintos sitios de trabajo. Ofrecen un equilibrio entre rendimiento y facilidad de traslado<br/></p>
-                                <button className="xl:mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Chipeadoras-Remolcables-De-Carretera"}>Ver productos</Link></button>
+                                <button className="xl:mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Trituradoras-Remolcables-De-Carretera"}>Ver productos</Link></button>
                             </div>
                         </div>
                         <div className="w-1/2">
-                            <Image src="/chipeadora/eliet/chipeadora_carretera.png" alt="Chipeadoras remolcables de carretera" width={1000} height={1000} className="w-full"/>
+                            <Image src="/chipeadora/eliet/chipeadora_carretera.png" alt="Trituradoras remolcables de carretera" width={1000} height={1000} className="w-full"/>
                         </div>
                     </div>
 
@@ -151,16 +151,16 @@ const Producto = () => {
 
                     <div className="block md:flex">
                          <div className="w-screen  md:w-1/2">
-                            <Image src="/chipeadora/eliet/chipeadora_pto.jpg" alt="Chipeadoras PTO Eliet" width={1000} height={1000} className="w-full"/>
+                            <Image src="/chipeadora/eliet/chipeadora_pto.jpg" alt="Trituradoras PTO Eliet" width={1000} height={1000} className="w-full"/>
                         </div>
 
                         <div className="w-screen md:w-1/2 bg-[#F6F6F6]">
                             <p className="text-end pr-10 text-2xl font-bold pt-5 pb-4 md:pb-0 md:pr-10 md:pt-3 lg:pr-32 lg:pt-10 xl:pt-20">05</p>
                             <div className="md:pl-10 md:pr-4 lg:pl-24 lg:pr-20 lg:pt-10 xl:pr-52 xl:pt-40">
-                                <h2 className="text-center mb-8 text-2xl md:text-start lg:text-3xl font-bold ">Chipeadoras PTO</h2>
+                                <h2 className="text-center mb-8 text-2xl md:text-start lg:text-3xl font-bold ">Trituradoras PTO</h2>
                                 <p className="mb-5 px-10 sm:px-20 text-center md:text-start md:px-0 ">Disenadas para ser accionadas por la toma de fuerza de tractores, son una solucion eficiente para aplicaciones agricolas y forestales, optimizando el uso de maquinaria existente sin necesidad de un motor propio<br/></p>
                                 <div className="flex pb-10 justify-center md:justify-start md:pb-0">
-                                    <button className="mt-5 lg:mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Chipeadoras-PTO"}>Ver productos</Link></button>
+                                    <button className="mt-5 lg:mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Trituradoras-PTO"}>Ver productos</Link></button>
                                 </div>
                             </div>
                         </div>

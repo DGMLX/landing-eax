@@ -9,6 +9,13 @@
   --foreground: #171717;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background: var(--background);  /* Fondo blanco */
+    color: var(--foreground);       /* Texto oscuro */
+  }
+}
+
 
 body {
   color: var(--foreground);
