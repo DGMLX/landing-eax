@@ -10,6 +10,7 @@ import Link from "next/link";
 import Modal from "@/components/modal/Modal";
 
 import dynamic from 'next/dynamic';
+import { textoCapitalizado } from "@/lib/helpers";
 
 const ModelViewer = dynamic(() => import('../../../../components/modelo3D/ModelViewer'), {
   ssr: false,
@@ -53,8 +54,8 @@ const ModeloJensen = () => {
                 <div className="px-10 sm:px-16 mt-32">
                     <div className="font-extralight text-sm">
                         <a href="/jensen">Jensen</a> {' > '} 
-                        <Link href={`/jensen/${categoria}`}>{categoria.replace(/-/g,' ')}</Link> {' > '} 
-                        <span className="text-red-600 underline">{modelo.replace(/-/g,' ')}</span>
+                        <Link href={`/jensen/${categoria}`}>{textoCapitalizado(categoria.replace(/-/g,' '))}</Link> {' > '} 
+                        <span className="text-red-600 underline">{textoCapitalizado(modelo.replace(/-/g,' '))}</span>
                     </div>
                 </div>
             

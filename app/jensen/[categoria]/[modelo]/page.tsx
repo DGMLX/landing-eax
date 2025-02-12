@@ -1,6 +1,7 @@
 
 import { Metadata } from "next";
 import ModeloJensen from "@/components/chipeadoras/chipeadoras-jensen/modeloJensen/ModeloJensen";
+import { textoCapitalizado } from "@/lib/helpers";
 
 
 type Props = {
@@ -12,7 +13,7 @@ type Props = {
  export async function generateMetadata(params:Props):Promise<Metadata>{
     const info =await  params.params
     return{
-        title:`Chipeadora Jensen - ${info.modelo.replace(/-/g,' ')}`,
+        title:`Chipeadora Jensen - ${textoCapitalizado(info.modelo.replace(/-/g,' '))}`,
         description:'Descripcion de chipeadora',
         
         icons: {

@@ -1,4 +1,5 @@
 'use client'
+import { textoCapitalizado } from "@/lib/helpers";
 import { useParams } from "next/navigation";
 import { useEffect } from "react";
 import { BsGeoAltFill } from "react-icons/bs";
@@ -51,7 +52,7 @@ const FormularioHubspot = () => {
       <div className="hidden md:block p-5 pt-10  md:w-1/2 lg:w-3/5 bg-gradient-to-r from-white to-slate-400 border-t-2 border-b-2 border-r-2">
           <h3 className="hidden lg:block text-3xl">
           {
-            modelo !== undefined ?  `¿Te interesa la chipeadora ${modelo.replace(/-/g,' ')}?` : '¡Estamos aquí para ayudarte!'
+            modelo !== undefined ?  `¿Te interesa la  ${textoCapitalizado( modelo.replace(/-/g,' '))}?` : '¡Estamos aquí para ayudarte!'
           }
          </h3>
          <h3 className="hidden lg:block pb-10 text-3xl">Ponte en contacto con nosotros.</h3>

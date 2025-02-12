@@ -21,6 +21,7 @@ const nextConfig: NextConfig = {
     return config; // Devuelve la configuración modificada
   },
 
+
   
 
 };

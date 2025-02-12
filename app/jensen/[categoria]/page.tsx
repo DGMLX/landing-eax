@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 
 
 import CategoriaChipeadora from "@/components/chipeadoras/chipeadoras-jensen/CategoriaChipeadora";
+import { textoCapitalizado } from '@/lib/helpers';
 
 type Props = {
     params:Promise<{categoria:string}>;
@@ -11,7 +12,7 @@ type Props = {
  export async function generateMetadata(params:Props):Promise<Metadata>{
     const info =await  params.params
     return{
-        title:`${info.categoria.replace(/-/g, ' ')} - EcoAlliance`,
+        title:`${textoCapitalizado(info.categoria.replace(/-/g, ' '))} - EcoAlliance`,
         description:'',
         icons: {
             icon:"/logo.png",

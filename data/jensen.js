@@ -1,7 +1,7 @@
 export default [
     {
         "modelo":"A 141 XL",
-        "categoria":"Chipeadoras de Disco",
+        "categoria":"chipeadoras de disco",
         "imagen":[
             "/chipeadora/jensen/chipeadora_disco/A141-XL.png",
             "/chipeadora/jensen/chipeadora_disco/A141-XL/A-141-XL-SIN-FONDO-1.png",
@@ -16,7 +16,7 @@ export default [
         "descripcion2":"Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior es basculante, lo cual significa que se adapta a la forma y tamaño de las ramas. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
         "mesa_giratoria":true,
         "mesa_giratoria_opcional":false,
-        "routerPath":"/jensen/Chipeadoras-de-Disco/A141-XL",
+        "routerPath":"/jensen/chipeadoras-de-disco/A141-XL",
         "precio":0,
         "params":"A141-XL",
         //Especificaciones Especificas
@@ -38,7 +38,7 @@ export default [
 
     {
         "modelo":"A 540",
-        "categoria":"Chipeadoras de Disco",
+        "categoria":"chipeadoras de disco",
         "imagen":[
             "/chipeadora/jensen/chipeadora_disco/A540.png",
             "/chipeadora/jensen/chipeadora_disco/A540/A540-SIN-FONDO-1.png",
@@ -56,7 +56,7 @@ export default [
 
         "mesa_giratoria":true,
         "mesa_giratoria_opcional":true,
-        "routerPath":"/jensen/Chipeadoras-de-Disco/A540",
+        "routerPath":"/jensen/chipeadoras-de-disco/A540",
         "precio":0,
         "params":"A540",
 
@@ -79,7 +79,7 @@ export default [
 
     {
         "modelo":"A 328",
-        "categoria":"Chipeadoras de Disco",
+        "categoria":"chipeadoras de disco",
         "imagen":[
             "/chipeadora/jensen/chipeadora_disco/A328.png",  
             "/chipeadora/jensen/chipeadora_disco/A328/A328-SIN-FONDO-1.png",
@@ -97,7 +97,7 @@ export default [
 
         "mesa_giratoria":true,
         "mesa_giratoria_opcional":false,
-        "routerPath":"/jensen/Chipeadoras-de-Disco/A328",
+        "routerPath":"/jensen/chipeadoras-de-disco/A328",
         "precio":0,
         "params":"A328",
 
@@ -120,7 +120,7 @@ export default [
 
     {
         "modelo":"A 425",
-        "categoria":"Chipeadoras de Disco",
+        "categoria":"chipeadoras de disco",
         "imagen":[
             "/chipeadora/jensen/chipeadora_disco/A425.png",
             "/chipeadora/jensen/chipeadora_disco/A425/A425-SIN-FONDO-1.png",
@@ -138,7 +138,7 @@ export default [
 
         "mesa_giratoria":true,
         "mesa_giratoria_opcional":false,
-        "routerPath":"/jensen/Chipeadoras-de-Disco/A425-L",
+        "routerPath":"/jensen/chipeadoras-de-disco/A425-L",
         "precio":0,
         "params":"A425-L",
 
@@ -163,7 +163,7 @@ export default [
 
     {
         "modelo":"A 550",
-        "categoria":"Chipeadoras de Disco",
+        "categoria":"chipeadoras de disco",
         "imagen":[
             "/chipeadora/jensen/chipeadora_disco/A550.png",
             "/chipeadora/jensen/chipeadora_disco/A550/A550-SIN-FONDO-1.png",
@@ -179,7 +179,7 @@ export default [
 
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":"/jensen/Chipeadoras-de-Disco/A550",
+        "routerPath":"/jensen/chipeadoras-de-disco/A550",
         "precio":0,
         "params":"A550",
         
@@ -202,7 +202,7 @@ export default [
 
     {
         "modelo":"A 450 ",
-        "categoria":"Chipeadoras de Disco",
+        "categoria":"chipeadoras de disco",
         "imagen":[
             "/chipeadora/jensen/chipeadora_disco/A450.png",
             "/chipeadora/jensen/chipeadora_disco/A450/A450-SIN-FONDO-1.png",
@@ -220,7 +220,7 @@ export default [
         "descripcion2":"Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior está orientado de forma radial para que el material se dirija a donde exista la mayor velocidad periférica. Además, cuenta con un sistema de alimentación automática reduciendo los esfuerzos por corte de material en el motor.",
         "mesa_giratoria":true,
         "mesa_giratoria_opcional":false,
-        "routerPath":"/jensen/Chipeadoras-de-Disco/A450",
+        "routerPath":"/jensen/chipeadoras-de-disco/A450",
         "precio":0,
         "params":"A450",
 
@@ -243,7 +243,7 @@ export default [
 
     {
         "modelo":"A 530L Diesel",
-        "categoria":"Chipeadoras de Disco",
+        "categoria":"chipeadoras de disco",
         "imagen":["/chipeadora/jensen/chipeadora_disco/A530L-1.png"],
         "imagenPlano":"/chipeadora/jensen/chipeadora_disco/A530L-1/A530L-DIESEL-PLANO.png",
         "alt":"Chipeadora A530 L",
@@ -256,9 +256,9 @@ export default [
         "descripcion2":"Los rodillos de alimentación propulsados hidráulicamente y de giro sincronizado son capaces de agarrar el material sin ningún esfuerzo, el rodillo superior está orientado de forma radial para que el material se dirija a donde exista la mayor velocidad periférica. Además cuenta con un sistema de alimentación automático reduciendo los esfuerzos por corte de material en el motor.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":"/jensen/Chipeadoras-de-Disco/A530-L-Diesel",
+        "routerPath":"/jensen/chipeadoras-de-disco/A530-L-diesel",
         "precio":0,
-        "params":"A530-L-Diesel",
+        "params":"A530-L-diesel",
 
 
 
@@ -281,7 +281,7 @@ export default [
 
     {
         "modelo":"A 530L Bencina",
-        "categoria":"Chipeadoras de Disco",
+        "categoria":"chipeadoras de disco",
         "imagen":[
             "/chipeadora/jensen/chipeadora_disco/A530L-2.png",
             "/chipeadora/jensen/chipeadora_disco/A530L-2/A530L-BENCINA-SIN-FONDO-1.png",
@@ -300,9 +300,9 @@ export default [
     
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":"/jensen/Chipeadoras-de-Disco/A530-L-Bencina",
+        "routerPath":"/jensen/chipeadoras-de-disco/A530-L-bencina",
         "precio":0,
-        "params":"A530-L-Bencina",
+        "params":"A530-L-bencina",
 
 
         //Especificaciones Especificas
@@ -324,7 +324,7 @@ export default [
 
     {
         "modelo":"A 350L Bencina",
-        "categoria":"Chipeadoras de Disco",
+        "categoria":"chipeadoras de disco",
         "imagen":["/chipeadora/jensen/chipeadora_disco/A350.png"],
         "imagenPlano":"/chipeadora/jensen/chipeadora_disco/A350L/A350L-PLANO.jpg",
         "alt":"Chipeadora A350",
@@ -337,9 +337,9 @@ export default [
        
         "mesa_giratoria":true,
         "mesa_giratoria_opcional":false,
-        "routerPath":"/jensen/Chipeadoras-de-Disco/A350-L-Bencina",
+        "routerPath":"/jensen/chipeadoras-de-disco/A350-L-bencina",
         "precio":0,
-        "params":"A350-L-Bencina",
+        "params":"A350-L-bencina",
 
 
         //Especificaciones Especificas
@@ -371,7 +371,7 @@ export default [
 
     {
         "modelo":"A 141 XL PTO",
-        "categoria":"Chipeadoras PTO",
+        "categoria":"chipeadoras pto",
         "imagen":[
             "/chipeadora/jensen/chipeadora_pto/A141-XL.png",
             "/chipeadora/jensen/chipeadora_pto/A141-XL/A141-XL-SIN-FONDO-1.png",
@@ -389,7 +389,7 @@ export default [
        
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/jensen/Chipeadoras-PTO/A141-XL',
+        "routerPath":'/jensen/chipeadoras-pto/A141-XL',
         "precio":0,
         "params":'A141-XL',
 
@@ -414,7 +414,7 @@ export default [
 
     {
         "modelo":"A 231",
-        "categoria":"Chipeadoras PTO",
+        "categoria":"chipeadoras pto",
         "imagen":[
             "/chipeadora/jensen/chipeadora_pto/A231.png",
             "/chipeadora/jensen/chipeadora_pto/A231/A231-PTO-SIN-FONDO-1.png",
@@ -431,7 +431,7 @@ export default [
       
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/jensen/Chipeadoras-PTO/A231',
+        "routerPath":'/jensen/chipeadoras-pto/A231',
         "precio":0,
         "params":'A231',
 
@@ -455,7 +455,7 @@ export default [
 
     {
         "modelo":"A 328 ",
-        "categoria":"Chipeadoras PTO",
+        "categoria":"chipeadoras pto",
         "imagen":[
             "/chipeadora/jensen/chipeadora_pto/A328.png",
             "/chipeadora/jensen/chipeadora_pto/A328/A328-SIN-FONDO-1.png",
@@ -472,7 +472,7 @@ export default [
         "descripcion2":"El requisito de potencia del modelo A328 PTO es de 68 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/jensen/Chipeadoras-PTO/A328',
+        "routerPath":'/jensen/chipeadoras-pto/A328',
         "precio":0,
         "params":'A328',
 
@@ -495,7 +495,7 @@ export default [
 
     {
         "modelo":"A 425 PTO",
-        "categoria":"Chipeadoras PTO",
+        "categoria":"chipeadoras pto",
         "imagen":["/chipeadora/jensen/chipeadora_pto/A425.png"],
         "imagenPlano":"/chipeadora/jensen/chipeadora_pto/A425/A425-PLANO.jpg",
         "alt":"Chipeadora A 425 PTO",
@@ -507,7 +507,7 @@ export default [
         "descripcion2":"El requisito de potencia del modelo A425 PTO es de 55 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/jensen/Chipeadoras-PTO/A425',
+        "routerPath":'/jensen/chipeadoras-pto/A425',
         "precio":0,
         "params":'A425',
 
@@ -532,7 +532,7 @@ export default [
 
     {
         "modelo":"A 540 PTO",
-        "categoria":"Chipeadoras PTO",
+        "categoria":"chipeadoras pto",
         "imagen":[
             "/chipeadora/jensen/chipeadora_pto/A540.png",
             "/chipeadora/jensen/chipeadora_pto/A540/A540-PTO-SIN-FONDO-1.png"
@@ -547,7 +547,7 @@ export default [
         "descripcion2":"El requisito de potencia del modelo A540 PTO es de 40 [HP], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/jensen/Chipeadoras-PTO/A540',
+        "routerPath":'/jensen/chipeadoras-pto/A540',
         "precio":0,
         "params":'A540',
 
@@ -573,7 +573,7 @@ export default [
 
     {
         "modelo":"A 530 XL",
-        "categoria":"Chipeadoras PTO",
+        "categoria":"chipeadoras pto",
         "imagen":[
             "/chipeadora/jensen/chipeadora_pto/A530-XL.png",
             "/chipeadora/jensen/chipeadora_pto/A530/A530-PTO-SIN-FONDO-1.png",
@@ -590,7 +590,7 @@ export default [
         "descripcion2":"El requisito de potencia del modelo A530 XL PTO es de 30 [hp], y está disponible para montaje en tractores o vehículos con enganche de 3 puntos, con extensión cardánica o placa de montaje.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/jensen/Chipeadoras-PTO/A530-XL',
+        "routerPath":'/jensen/chipeadoras-pto/A530-XL',
         "precio":0,
         "params":'A530-XL',
 
@@ -621,7 +621,7 @@ export default [
     ,
     {
         "modelo":"A 530 L Oruga",
-        "categoria":"Chipeadoras con Oruga",
+        "categoria":"chipeadoras con oruga",
         "imagen":["/chipeadora/jensen/chipeadora_con_oruga/A530-L-oruga.png"],
         "imagenPlano":"/chipeadora/jensen/chipeadora_con_oruga/A530-L/A530-L-PLANO.jpg",
         "alt":"Chipeadora A 530 L con Oruga",
@@ -633,7 +633,7 @@ export default [
         "descripcion2":"Están disponibles tanto con orugas fijas como ajustables en ancho. Pueden alcanzar velocidades aproximadamente de 3 [km/hr] y superar pendientes de hasta 30º. También se pueden complementar con un sistema de compensación de nivel controlado hidráulicamente lo cual permite condiciones de trabajo óptimas incluso en pendientes pronunciadas.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/jensen/Chipeadoras-con-Oruga/A530-L',
+        "routerPath":'/jensen/chipeadoras-con-oruga/A530-L',
         "precio":0,
         "params":'A530-L',
 
@@ -658,7 +658,7 @@ export default [
 
     {
         "modelo":"A 540 L Oruga",
-        "categoria":"Chipeadoras con Oruga",
+        "categoria":"chipeadoras con oruga",
         "imagen":["/chipeadora/jensen/chipeadora_con_oruga/A540-L-oruga.png"],
         "imagenPlano":"/chipeadora/jensen/chipeadora_con_oruga/A540-L/A540-L-PLANO.jpg",
         "alt":"Chipeadora A 540 L con Oruga",
@@ -670,7 +670,7 @@ export default [
         "descripcion2":"Están disponibles tanto con orugas fijas como ajustables en ancho. Pueden alcanzar velocidades aproximadamente de 3 [km/hr] y superar pendientes de hasta 30º. También se pueden complementar con un sistema de compensación de nivel controlado hidráulicamente lo cual permite condiciones de trabajo óptimas incluso en pendientes pronunciadas.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/jensen/Chipeadoras-con-Oruga/A540-L',
+        "routerPath":'/jensen/chipeadoras-con-oruga/A540-L',
         "precio":0,
         "params":'A540-L',
 
@@ -700,7 +700,7 @@ export default [
 
     {
         "modelo":"A 540 Oruga Spider",
-        "categoria":"Chipeadoras con Oruga Spider",
+        "categoria":"chipeadoras con oruga spider",
         "imagen":["/chipeadora/jensen/chipeadora_con_oruga_spider/A540-oruga-spider.png"],
         "imagenPlano":"/chipeadora/jensen/chipeadora_con_oruga_spider/A540/A540-PLANO.jpg",
         "alt":"Chipeadora A 540 Oruga Spider",
@@ -713,7 +713,7 @@ export default [
         "descripcion2":"Se logra una distancia al suelo óptima gracias a su diseño ergonómico permitiendo el cruce de grandes obstáculos. Esta construcción inteligente le brinda la seguridad y flexibilidad que necesita para trabajar en pendientes.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/jensen/Chipeadoras-con-Oruga-Spider/A540',
+        "routerPath":'/jensen/chipeadoras-con-oruga-spider/A540',
         "precio":0,
         "params":'A540',
 
@@ -742,7 +742,7 @@ export default [
 
     {
         "modelo":"JT 600 Motor",
-        "categoria":"Chipeadoras de Tambor",
+        "categoria":"chipeadoras de tambor",
         "imagen":["/chipeadora/jensen/chipeadora_tambor/JT-600-MOTOR.png"],
         "imagenPlano":"/chipeadora/jensen/chipeadora_tambor/JT-600-MOTOR/JT-600-MOTOR-PLANO.jpg",
         "alt":"Chipeadora de tambor JT 600 Motor",
@@ -754,7 +754,7 @@ export default [
         "descripcion2":"Posee una capacidad de respuesta excepcional, cumple con las normas de regulación de emisiones más estrictas del mundo y permite un uso flexible a bajos costos de operación mediante el bajo consumo de combustible.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/jensen/Chipeadoras-de-Tambor/JT600-motor',
+        "routerPath":'/jensen/chipeadoras-de-tambor/JT600-motor',
         "precio":0,
         "params":'JT600-motor',
 
@@ -779,7 +779,7 @@ export default [
 
     {
         "modelo":"JT 600 PTO",
-        "categoria":"Chipeadoras de Tambor",
+        "categoria":"chipeadoras de tambor",
         "imagen":["/chipeadora/jensen/chipeadora_tambor/JT-600-PTO.png"],
         "imagenPlano":"/chipeadora/jensen/chipeadora_tambor/JT-600-PTO/JT-600-PTO-PLANO.jpg",
         "alt":"Chipeadora de tambor JT 600 PTO",
@@ -791,7 +791,7 @@ export default [
         "descripcion2":"Posee una capacidad de respuesta excepcional, cumple con las normas de regulación de emisiones más estrictas del mundo y permite un uso flexible a bajos costos de operación mediante el bajo consumo de combustible.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/jensen/Chipeadoras-de-Tambor/JT600-pto',
+        "routerPath":'/jensen/chipeadoras-de-tambor/JT600-pto',
         "precio":0,
         "params":'JT600-pto',
 
@@ -818,7 +818,7 @@ export default [
 
     {
         "modelo":"Chipeadora Especial con Oruga y Grúa",
-        "categoria":"Chipeadoras Especiales",
+        "categoria":"chipeadoras especiales",
         "imagen":[
             "/chipeadora/jensen/chipeadora_especial/chipeadora_especial__1_-removebg-preview.png"
         ],
@@ -832,9 +832,9 @@ export default [
         "descripcion2":"Ya sea que busques una chipeadora con chasis de eje simple o tándem, con oruga o chipeadoras PTO, puedes complementar la funcionalidad de estos equipos integrándole herramientas tales como Grúas de mediana y alta capacidad de carga, cintas transportadoras plegables o contenedores sobre chasis, entre otros.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/jensen/Chipeadoras-Especiales/Con-Oruga-y-Grua',
+        "routerPath":'/jensen/chipeadoras-especiales/con-oruga-y-grua',
         "precio":0,
-        "params":'Con-Oruga-y-Grua',
+        "params":'con-oruga-y-grua',
 
 
         //Especificaciones Especificas
@@ -854,7 +854,7 @@ export default [
 
     {
         "modelo":"Chipeadora con Chasis Tándem y Grúa",
-        "categoria":"Chipeadoras Especiales",
+        "categoria":"chipeadoras especiales",
         "imagen":[
             "/chipeadora/jensen/chipeadora_especial/chipeadora_5_1.png",
             "/chipeadora/jensen/chipeadora_especial/chipeadora_especial_5.png"
@@ -869,9 +869,9 @@ export default [
         "descripcion2":"Ya sea que busques una chipeadora con chasis de eje simple o tándem, con oruga o chipeadoras PTO, puedes complementar la funcionalidad de estos equipos integrándole herramientas tales como Grúas de mediana y alta capacidad de carga, cintas transportadoras plegables o contenedores sobre chasis, entre otros.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/jensen/Chipeadoras-Especiales/Con-Chasis-Tandem-y-Grua',
+        "routerPath":'/jensen/chipeadoras-especiales/con-chasis-tandem-y-grua',
         "precio":0,
-        "params":'Con-Chasis-Tandem-y-Grua',
+        "params":'con-chasis-tandem-y-grua',
 
 
         //Especificaciones Especificas
@@ -892,7 +892,7 @@ export default [
 
     {
         "modelo":"Chipeadora con Cinta, Mesa Giratoria y Grúa",
-        "categoria":"Chipeadoras Especiales",
+        "categoria":"chipeadoras especiales",
         "imagen":[
             "/chipeadora/jensen/chipeadora_especial/chipeadora_especial_2.png"
         ],
@@ -906,9 +906,9 @@ export default [
         "descripcion2":"Ya sea que busques una chipeadora con chasis de eje simple o tándem, con oruga o chipeadoras PTO, puedes complementar la funcionalidad de estos equipos integrándole herramientas tales como Grúas de mediana y alta capacidad de carga, cintas transportadoras plegables o contenedores sobre chasis, entre otros.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/jensen/Chipeadoras-Especiales/Con-Cinta-Transportadora',
+        "routerPath":'/jensen/chipeadoras-especiales/con-cinta-transportadora',
         "precio":0,
-        "params":'Con-Cinta-Transportadora',
+        "params":'con-cinta-transportadora',
 
 
         //Especificaciones Especificas
@@ -929,7 +929,7 @@ export default [
 
     {
         "modelo":"Chipeadora Grúa con Mayor capacidad de Alcance y Carga",
-        "categoria":"Chipeadoras Especiales",
+        "categoria":"chipeadoras especiales",
         "imagen":[
             "/chipeadora/jensen/chipeadora_especial/chipeadora_especial_3.png"
         ],
@@ -943,9 +943,9 @@ export default [
         "descripcion2":"Ya sea que busques una chipeadora con chasis de eje simple o tándem, con oruga o chipeadoras PTO, puedes complementar la funcionalidad de estos equipos integrándole herramientas tales como Grúas de mediana y alta capacidad de carga, cintas transportadoras plegables o contenedores sobre chasis, entre otros.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/jensen/Chipeadoras-Especiales/Con-Mayor-Alcance-y-Carga',
+        "routerPath":'/jensen/chipeadoras-especiales/con-mayor-alcance-y-carga',
         "precio":0,
-        "params":'Con-Mayor-Alcance-y-Carga',
+        "params":'con-mayor-alcance-y-carga',
 
 
         //Especificaciones Especificas
@@ -968,7 +968,7 @@ export default [
 
     {
         "modelo":"Chipeadora PTO en Chasis con Grúa y contenedor Hidráulico",
-        "categoria":"Chipeadoras Especiales",
+        "categoria":"chipeadoras especiales",
         "imagen":[
             "/chipeadora/jensen/chipeadora_especial/chipeadora_especial_4.png"
         ],
@@ -982,9 +982,9 @@ export default [
         "descripcion2":"Ya sea que busques una chipeadora con chasis de eje simple o tándem, con oruga o chipeadoras PTO, puedes complementar la funcionalidad de estos equipos integrándole herramientas tales como Grúas de mediana y alta capacidad de carga, cintas transportadoras plegables o contenedores sobre chasis, entre otros.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/jensen/Chipeadoras-Especiales/PTO-En-Chasis-Con-Descarga',
+        "routerPath":'/jensen/chipeadoras-especiales/pto-en-chasis-con-descarga',
         "precio":0,
-        "params":'PTO-En-Chasis-Con-Descarga',
+        "params":'pto-en-chasis-con-descarga',
 
 
         //Especificaciones Especificas
@@ -1007,7 +1007,7 @@ export default [
 
     {
         "modelo":"Chipeadora PTO con Chasis Tándem y Grúa",
-        "categoria":"Chipeadoras Especiales",
+        "categoria":"chipeadoras especiales",
         "imagen":[
             "/chipeadora/jensen/chipeadora_especial/chipeadora_Especial_6.png"
         ],
@@ -1021,9 +1021,9 @@ export default [
         "descripcion2":"Ya sea que busques una chipeadora con chasis de eje simple o tándem, con oruga o chipeadoras PTO, puedes complementar la funcionalidad de estos equipos integrándole herramientas tales como Grúas de mediana y alta capacidad de carga, cintas transportadoras plegables o contenedores sobre chasis, entre otros.",
         "mesa_giratoria":false,
         "mesa_giratoria_opcional":false,
-        "routerPath":'/jensen/Chipeadoras-Especiales/PTO-Con-Chasis-Tandem',
+        "routerPath":'/jensen/chipeadoras-especiales/pto-con-chasis-tandem',
         "precio":0,
-        "params":'PTO-Con-Chasis-Tandem',
+        "params":'pto-con-chasis-tandem',
 
 
         //Especificaciones Especificas

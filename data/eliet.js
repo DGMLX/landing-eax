@@ -22,14 +22,14 @@ export default [
         
         //descripcion 2
         "descripcion2": "Con un chasis robusto y ruedas grandes, la Maestro City es fácil de transportar y almacenar. Su sistema de cuchillas RESIST™/6 (12 unidades) y una velocidad de corte de 36,000 cortes por minuto garantizan un rendimiento óptimo y un trabajo preciso. Esta trituradora compacta combina practicidad y potencia, convirtiéndola en la herramienta perfecta para mantener jardines limpios y ordenados",
-        "categoria":"Trituradoras Estacionarias",
+        "categoria":"trituradoras estacionarias",
         //DESCRIPCION 3
         "descripcion3":"",
 
         //DESCRIPCION 4
         "descripcion4":"",
-        "params": "Maestro-city-Bencina",
-        "routerPath": "/eliet/Trituradoras-Estacionarias/Maestro-city-Bencina",
+        "params": "maestro-city-bencina",
+        "routerPath": "/eliet/trituradoras-estacionarias/maestro-city-bencina",
         "precio": 0,
 
         //ESPECIFICACIONES PRINCIPALES:
@@ -55,7 +55,7 @@ export default [
         ],
         "alt": "Trituradora Eliet Maestro Eléctrico 230V",
         "modelo": "Maestro City 230V",
-        "categoria":"Trituradoras Estacionarias",
+        "categoria":"trituradoras estacionarias",
         // "caracteristicas_tecnicas":"23.8 HP K - Chasis 80 km/h",
 
         //DESCRIPCION 1
@@ -69,8 +69,8 @@ export default [
 
         //descripcion 4
         "descripcion4":"",
-        "params": "Maestro-city-Electrico-230V",
-        "routerPath": "/eliet/Trituradoras-Estacionarias/Maestro-city-Electrico-230V",
+        "params": "maestro-city-electrico-230v",
+        "routerPath": "/eliet/trituradoras-estacionarias/maestro-city-electrico-230v",
         "precio": 0,
 
 
@@ -94,7 +94,7 @@ export default [
         ],
         "alt": "Trituradoras Eliet Maestro Eléctrico 380V",
         "modelo": "Maestro City 380V",
-        "categoria":"Trituradoras Estacionarias",
+        "categoria":"trituradoras estacionarias",
         // "caracteristicas_tecnicas":"23.8 HP K - Chasis 80 km/h",
 
         // DESCRIPCION 1
@@ -108,8 +108,8 @@ export default [
 
         //descripcion 4
         "descripcion4":"",
-        "params": "Maestro-city-Electrico-380V",
-        "routerPath": "/eliet/Trituradoras-Estacionarias/Maestro-city-Electrico-380V",
+        "params": "maestro-city-electrico-380v",
+        "routerPath": "/eliet/trituradoras-estacionarias/maestro-city-electrico-380v",
         "precio": 0,
 
 
@@ -134,7 +134,7 @@ export default [
         ],
         "alt": "Trituradora Eliet Maestro Country Bencina",
         "modelo": "Maestro Country Bencina",
-        "categoria":"Trituradoras Estacionarias",
+        "categoria":"trituradoras estacionarias",
         // "caracteristicas_tecnicas":"23.8 HP K - Chasis 80 km/h",
 
         // DESCRIPCION 1
@@ -148,8 +148,8 @@ export default [
 
         //DESCRIPCION 4
         "descripcion4":"",
-        "params": "Maestro-Country-Bencina",
-        "routerPath": "/eliet/Trituradoras-Estacionarias/Maestro-Country-Bencina",
+        "params": "maestro-country-bencina",
+        "routerPath": "/eliet/trituradoras-estacionarias/maestro-country-bencina",
         "precio": 0,
 
 
@@ -175,7 +175,7 @@ export default [
         ],
         "alt": "Trituradora Eliet Neo",
         "modelo": "Neo",
-        "categoria":"Trituradoras Estacionarias",
+        "categoria":"trituradoras estacionarias",
         // "caracteristicas_tecnicas":"23.8 HP K - Chasis 80 km/h",
 
         // DESCRIPCION 1
@@ -189,8 +189,8 @@ export default [
 
         //descripcion 4
         "descripcion4":"",
-        "params": "Neo",
-        "routerPath": "/eliet/Trituradoras-Estacionarias/Neo",
+        "params": "neo",
+        "routerPath": "/eliet/trituradoras-estacionarias/neo",
         "precio": 0,
 
         //ESPECIFICACIONES PRINCIPALES:
@@ -214,7 +214,7 @@ export default [
         ],
         "alt": "Trituradora Eliet Neo²",
         "modelo": "Neo 2",
-        "categoria":"Trituradoras Estacionarias",
+        "categoria":"trituradoras estacionarias",
         // "caracteristicas_tecnicas":"23.8 HP K - Chasis 80 km/h",
 
         // DESCRIPCION 1
@@ -228,8 +228,8 @@ export default [
 
         //descripcion 4
         "descripcion4":"",
-        "params": "Neo2",
-        "routerPath": "/eliet/Trituradoras-Estacionarias/Neo2",
+        "params": "neo2",
+        "routerPath": "/eliet/trituradoras-estacionarias/neo2",
         "precio": 0,
 
 
@@ -254,7 +254,7 @@ export default [
         ],
         "alt": "Trituradora Eliet Neo³",
         "modelo": "Neo 3",
-        "categoria":"Trituradoras Estacionarias",
+        "categoria":"trituradoras estacionarias",
         // "caracteristicas_tecnicas":"23.8 HP K - Chasis 80 km/h",
 
         // DESCRIPCION 1
@@ -268,8 +268,8 @@ export default [
 
         //descripcion 4
         "descripcion4":"",
-        "params": "Neo3",
-        "routerPath": "/eliet/Trituradoras-Estacionarias/Neo3",
+        "params": "neo3",
+        "routerPath": "/eliet/trituradoras-estacionarias/neo3",
         "precio": 0,
 
 
@@ -294,7 +294,7 @@ export default [
         ],
         "alt": "Trituradora Eliet Major 4S",
         "modelo": "Major 4S",
-        "categoria":"Trituradoras Moviles Sobre Ruedas",
+        "categoria":"trituradoras moviles sobre ruedas",
         // "caracteristicas_tecnicas":"23 HP V - Chasis 80 km/h",
 
         // DESCRIPCION 1
@@ -309,8 +309,8 @@ export default [
         //descripcion 4
         "descripcion4":"",
 
-        "params": "Major-4S",
-        "routerPath": "/eliet/Trituradoras-Moviles-Sobre-Ruedas/Major-4S",
+        "params": "major-4s",
+        "routerPath": "/eliet/trituradoras-moviles-sobre-ruedas/major-4s",
         "precio": 0,
 
 
@@ -337,7 +337,7 @@ export default [
         ],
         "alt": "Trituradora Eliet Vector 4S On Wheels",
         "modelo": "Vector 4S On Wheels",
-        "categoria":"Trituradoras Moviles Sobre Ruedas",
+        "categoria":"trituradoras moviles sobre ruedas",
         // "caracteristicas_tecnicas":"25 HP K - Chasis 80 km/h",
         
         // DESCRIPCION 1
@@ -351,8 +351,8 @@ export default [
 
         //descripcion4
         "descripcion4":"",
-        "params": "Vector-4S-On-Wheels",
-        "routerPath": "/eliet/Trituradoras-Moviles-Sobre-Ruedas/Vector-4S-On-Wheels",
+        "params": "vector-4s-on-wheels",
+        "routerPath": "/eliet/trituradoras-moviles-sobre-ruedas/vector-4s-on-wheels",
         "precio": 0,
 
 
@@ -382,7 +382,7 @@ export default [
         ],
         "alt": "Trituradora Eliet Prof 6 Cross Country",
         "modelo": "Prof 6 Cross Country",
-        "categoria":"Trituradoras Sobre Oruga",
+        "categoria":"trituradoras sobre oruga",
         // "caracteristicas_tecnicas":"25 HP K - Chasis 80 km/h",
 
         // DESCRIPCION 1
@@ -399,8 +399,8 @@ export default [
 
         "descripcion4":"Con una capacidad de procesamiento de hasta 4 m³ de astillas por hora, una altura de descarga de 1.8 metros y un peso total de 426 kg, la Prof 6 Cross Country se posiciona como una solución robusta y confiable para usuarios que buscan potencia, durabilidad y eficiencia en la gestión de residuos verdes.",
 
-        "params": "Prof-6-Cross-Country",
-        "routerPath": "/eliet/Trituradoras-Sobre-Oruga/Prof-6-Cross-Country",
+        "params": "prof-6-cross-country",
+        "routerPath": "/eliet/trituradoras-sobre-oruga/prof-6-cross-country",
         "precio": 0,
 
 
@@ -424,7 +424,7 @@ export default [
         ],
         "alt": "Trituradora Eliet Prof 6 On Road",
         "modelo": "Prof 6 On Road",
-        "categoria":"Trituradoras Remolcables De Carretera",
+        "categoria":"trituradoras remolcables de carretera",
         // "caracteristicas_tecnicas":"25 HP K - Chasis 80 km/h",
 
         //descripcion 1
@@ -438,8 +438,8 @@ export default [
 
         //descripcion 4
         "descripcion4":"",
-        "params": "Prof-6-On-Road",
-        "routerPath": "/eliet/Trituradoras-Remolcables-De-Carretera/Prof-6-On-Road",
+        "params": "prof-6-on-road",
+        "routerPath": "/eliet/trituradoras-remolcables-de-carretera/prof-6-on-road",
         "precio": 0,
 
 
@@ -464,7 +464,7 @@ export default [
         ],
         "alt": "Trituradora Eliet Prof 6 On Wheels",
         "modelo": "Prof 6 On Wheels",
-        "categoria":"Trituradoras Moviles Sobre Ruedas",
+        "categoria":"trituradoras moviles sobre ruedas",
         // "caracteristicas_tecnicas":"25 HP K - Chasis 80 km/h",
 
         //descripcion 1
@@ -477,8 +477,8 @@ export default [
 
         //descripcion 4
         "descripcion4":"",
-        "params": "Prof-6-On-Wheels",
-        "routerPath": "/eliet/Trituradoras-Moviles-Sobre-Ruedas/Prof-6-On-Wheels",
+        "params": "prof-6-on-wheels",
+        "routerPath": "/eliet/trituradoras-moviles-sobre-ruedas/prof-6-on-wheels",
         "precio": 0,
 
 
@@ -502,7 +502,7 @@ export default [
         ],
         "alt": "Trituradora Eliet Prof 6 PTO",
         "modelo": "Prof 6 PTO",
-        "categoria":"Trituradoras PTO",
+        "categoria":"trituradoras pto",
         // "caracteristicas_tecnicas":"25 HP K - Chasis 80 km/h",
 
         //descripcion 1
@@ -515,8 +515,8 @@ export default [
 
         //descripcion 4
         "descripcion4":"",
-        "params": "Prof-6-PTO",
-        "routerPath": "/eliet/Trituradoras-PTO/Prof-6-PTO",
+        "params": "prof-6-pto",
+        "routerPath": "/eliet/trituradoras-pto/prof-6-pto",
         "precio": 0,
 
 
@@ -541,7 +541,7 @@ export default [
         ],
         "alt": "Trituradora Eliet Minor 4S GP200",
         "modelo": "Minor 4S GP200",
-        "categoria":"Trituradoras Estacionarias",
+        "categoria":"trituradoras estacionarias",
         // "caracteristicas_tecnicas":"23 HP V - Chasis 80 km/h",
 
         // DESCRIPCION 1
@@ -555,8 +555,8 @@ export default [
 
         //descripcion 4
         "descripcion4":"",
-        "params": "Minor-4SGP-200",
-        "routerPath": "/eliet/Trituradoras-Estacionarias/Minor-4SGP-200",
+        "params": "minor-4sgp-200",
+        "routerPath": "/eliet/trituradoras-estacionarias/minor-4sgp-200",
         "precio": 0,
 
 
@@ -579,7 +579,7 @@ export default [
         ],
         "alt": "Trituradora Eliet Minor 4S GX200",
         "modelo": "Minor 4S GX200",
-        "categoria":"Trituradoras Estacionarias",
+        "categoria":"trituradoras estacionarias",
         // "caracteristicas_tecnicas":"23 HP V - Chasis 80 km/h",
 
         // DESCRIPCION 1
@@ -593,8 +593,8 @@ export default [
 
         //descripcion 4
         "descripcion4":"",
-        "params": "Minor-4SGX200",
-        "routerPath": "/eliet/Trituradoras-Estacionarias/Minor-4SGX200",
+        "params": "minor-4sgx200",
+        "routerPath": "/eliet/trituradoras-estacionarias/minor-4sgx200",
         "precio": 0,
 
 
@@ -619,7 +619,7 @@ export default [
         ],
         "alt": "Trituradora Eliet Minor 4S Eléctrica",
         "modelo": "Minur 4S Eléctrica",
-        "categoria":"Trituradoras Estacionarias",
+        "categoria":"trituradoras estacionarias",
         // "caracteristicas_tecnicas":"23 HP V - Chasis 80 km/h",
 
         // DESCRIPCION 1
@@ -632,8 +632,8 @@ export default [
 
         //descripcion 4
         "descripcion4":"",
-        "params": "Minor-4S-Electrica",
-        "routerPath": "/eliet/Trituradoras-Estacionarias/Minor-4S-Electrica",
+        "params": "minor-4s-electrica",
+        "routerPath": "/eliet/trituradoras-estacionarias/minor-4s-electrica",
         "precio": 0,
 
 
@@ -662,7 +662,7 @@ export default [
         ],
         "alt": "Trituradora Eliet Super Prof Max Cross Country",
         "modelo": "Super Prof Max Cross Country",
-        "categoria":"Trituradoras Sobre Oruga",
+        "categoria":"trituradoras sobre oruga",
         // "caracteristicas_tecnicas": "25 HP K - Chasis 80 km/h",
 
         //DESCRIPCION 1
@@ -675,8 +675,8 @@ export default [
 
         //descripcion 4
         "descripcion4":"",
-        "params": "Super-Prof-Max-Cross-Country",
-        "routerPath": "/eliet/Trituradoras-Sobre-Oruga/Super-Prof-Max-Cross-Country",
+        "params": "super-prof-max-cross-country",
+        "routerPath": "/eliet/trituradoras-sobre-oruga/super-prof-max-cross-country",
         "precio": 0,
 
 
@@ -703,7 +703,7 @@ export default [
         ],
         "alt": "Trituradora Eliet Super Prof Max On Road",
         "modelo": "Super Prof Max On Road",
-        "categoria":"Trituradoras Remolcables De Carretera",
+        "categoria":"trituradoras remolcables de carretera",
         // "caracteristicas_tecnicas":"25 HP K - Chasis 80 km/h",
 
         //DESCRIPCION 1
@@ -716,8 +716,8 @@ export default [
 
         //descripcion 4
         "descripcion4":"",
-        "params": "Super-Prof-Max-On-Road",
-        "routerPath": "/eliet/Trituradoras-Remolcables-De-Carretera/Super-Prof-Max-On-Road",
+        "params": "super-prof-max-on-road",
+        "routerPath": "/eliet/trituradoras-remolcables-de-carretera/super-prof-max-on-road",
         "precio": 0,
 
 
@@ -739,7 +739,7 @@ export default [
         ],
         "alt": "Trituradora Eliet Super Prof On Wheels",
         "modelo": "Super Prof On Wheels",
-        "categoria":"Trituradoras Moviles Sobre Ruedas",
+        "categoria":"trituradoras moviles sobre ruedas",
         // "caracteristicas_tecnicas":"25 HP K - Chasis 80 km/h",
 
         //DESCRIPCION 1
@@ -752,8 +752,8 @@ export default [
 
         //descripcion 4
         "descripcion4":"",
-        "params": "Super-Prof-On-Wheels",
-        "routerPath": "/eliet/Trituradoras-Moviles-Sobre-Ruedas/Super-Prof-On-Wheels",
+        "params": "super-prof-on-wheels",
+        "routerPath": "/eliet/trituradoras-moviles-sobre-ruedas/super-prof-on-wheels",
         "precio": 0,
 
 
@@ -776,7 +776,7 @@ export default [
         ],
         "alt": "Trituradora Eliet Super Prof On Road",
         "modelo": "Super Prof On Road",
-        "categoria":"Chipedaoras Remolcables De Carretera",
+        "categoria":"chipedaoras remolcables de carretera",
         // "caracteristicas_tecnicas":"25 HP K - Chasis 80 km/h",
 
         //DESCRIPCION 1
@@ -789,8 +789,8 @@ export default [
 
         //descripcion 4
         "descripcion4":"",
-        "params": "Super-Prof-On-Road",
-        "routerPath": "/eliet/Trituradoras-Remolcables-De-Carretera/Super-Prof-On-Road",
+        "params": "super-prof-on-road",
+        "routerPath": "/eliet/trituradoras-remolcables-de-carretera/super-prof-on-road",
         "precio": 0,
 
 
@@ -818,7 +818,7 @@ export default [
         ],
         "alt": "Trituradora Eliet Mega Prof Diesel",
         "modelo": "Mega Prof Diesel",
-        "categoria":"Trituradoras Remolcables De Carretera",
+        "categoria":"trituradoras remolcables de carretera",
         // "caracteristicas_tecnicas":"37 HP Y - Chasis 80 km/h",
 
         //DESCRIPCION 1
@@ -831,8 +831,8 @@ export default [
 
         //descripcion 4
         "descripcion4":"",
-        "params": "Mega-Prof-Diesel",
-        "routerPath": "/eliet/Trituradoras-Remolcables-De-Carretera/Mega-Prof-Diesel",
+        "params": "mega-prof-diesel",
+        "routerPath": "/eliet/trituradoras-remolcables-de-carretera/mega-prof-diesel",
         "diametro_entrada": "150 [mm]",
         "precio": 0,
 
@@ -856,7 +856,7 @@ export default [
         ],
         "alt": "Trituradora Eliet Mega Prof",
         "modelo": "Mega Prof Gasolina",
-        "categoria":"Trituradoras Remolcables De Carretera",
+        "categoria":"trituradoras remolcables de carretera",
         // "caracteristicas_tecnicas":"37 HP Y - Chasis 80 km/h",
 
         //DESCRIPCION 1
@@ -869,8 +869,8 @@ export default [
 
         //descripcion 4
         "descripcion4":"",
-        "params": "Mega-Prof-Gasolina",
-        "routerPath": "/eliet/Trituradoras-Remolcables-De-Carretera/Mega-Prof-Gasolina",
+        "params": "mega-prof-gasolina",
+        "routerPath": "/eliet/trituradoras-remolcables-de-carretera/mega-prof-gasolina",
         "precio": 0,
 
 

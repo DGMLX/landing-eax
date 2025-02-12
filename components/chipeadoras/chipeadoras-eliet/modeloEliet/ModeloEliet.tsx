@@ -9,13 +9,12 @@ import { TbNoteOff } from "react-icons/tb";
 import Link from "next/link";
 import Modal from "@/components/modal/Modal";
 import ModelViewer from "@/components/modelo3D/ModelViewer";
+import { textoCapitalizado } from "@/lib/helpers";
 
 
 
 
 const ModeloEliet = () => {
-
-  
 
     const params = useParams()
     const modelo = params.modelo as string
@@ -57,8 +56,8 @@ const ModeloEliet = () => {
                 <div className="px-10 sm:px-16 mt-32">
                     <div className="font-extralight text-sm">
                         <a href="/eliet">Eliet</a> {' > '} 
-                        <Link href={`/eliet/${categoria}`}>{categoria.replace(/-/g,' ')}</Link> {' > '} 
-                        <span className="text-red-600 underline">{modelo.replace(/-/g,' ')}</span>
+                        <Link href={`/eliet/${categoria}`}>{textoCapitalizado(categoria.replace(/-/g,' '))}</Link> {' > '} 
+                        <span className="text-red-600 underline">{textoCapitalizado(modelo.replace(/-/g,' '))}</span>
                     </div>
                 </div>
               <section  className="px-5 sm:px-10 md:px-32 xl:px-24 mt-10 xl:flex mb-10">

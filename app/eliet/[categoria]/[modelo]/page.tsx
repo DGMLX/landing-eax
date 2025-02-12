@@ -1,6 +1,7 @@
 
 import { Metadata } from "next";
 import ModeloEliet from "@/components/chipeadoras/chipeadoras-eliet/modeloEliet/ModeloEliet";
+import { textoCapitalizado } from "@/lib/helpers";
 
 
 type Props = {
@@ -12,7 +13,8 @@ type Props = {
  export async function generateMetadata(params:Props):Promise<Metadata>{
     const info =await  params.params
     return{
-        title:`Trituradoras Eliet - ${info.modelo.replace(/-/g,' ')}`,
+        title:'Trituradoras Eliet -'.concat(textoCapitalizado(info.modelo.replace(/-/g,' '))),
+        // `Trituradoras Eliet - ${info.modelo.replace(/-/g,' ')}`,
         description:'Descripcion de chipeadora',
         icons: {
             icon:"/logo.png",

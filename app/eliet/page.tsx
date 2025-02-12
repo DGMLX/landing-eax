@@ -45,7 +45,7 @@ const Producto = () => {
                                 <h2 className="text-center mb-8 text-2xl md:text-start lg:text-3xl font-bold ">Trituradoras estacionarias</h2>
                                 <p className="mb-5 px-10 sm:px-20 text-center md:text-start md:px-0 ">Compactas y diseñadas para uso doméstico y de jardinería, estas trituradoras son ideales para propietarios de jardines y pequeños espacios verdes. Permiten procesar residuos vegetales de manera eficiente, facilitando su reutilización como compost o mulch.<br/></p>
                                 <div className="flex pb-10 justify-center md:justify-start md:pb-0 ">
-                                <button className="md:mt-1 md:mb-3 lg:mt-10 lg:mb-0 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Trituradoras-Estacionarias"}>Ver productos</Link></button>
+                                <button className="md:mt-1 md:mb-3 lg:mt-10 lg:mb-0 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/trituradoras-estacionarias"}>Ver productos</Link></button>
                                 </div>
                             </div>
                         </div>
@@ -63,7 +63,7 @@ const Producto = () => {
                                 
                                 <p className=" px-10 sm:px-20 text-center mb-5 md:mt-3  md:mb-5 lg:mt-5 lg:mb-10 ">Equipadas para facilitar el transporte en terrenos variados, son ideales para jardineros y empresas de mantenimiento de áreas verdes. Su diseño compacto permite un uso eficiente en espacios reducidos<br/></p>
                                 <div className="flex pb-10 justify-center ">
-                                <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Trituradoras-Moviles-Sobre-Ruedas"}>Ver productos</Link></button>
+                                <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/trituradoras-moviles-sobre-ruedas"}>Ver productos</Link></button>
 
                                 </div>
                             </div>
@@ -83,7 +83,7 @@ const Producto = () => {
                                 <h2 className="md:text-2xl lg:text-3xl font-bold md:mb-3 lg:mb-8">Trituradoras móviles sobre rueda</h2>
                                 
                                 <p className="md:mt-3  md:mb-5 lg:mt-5 lg:mb-5 xl:mb-10 ">Equipadas para facilitar el transporte en terrenos variados, son ideales para jardineros y empresas de mantenimiento de áreas verdes.<br/></p>
-                                <button className=" xl:mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Trituradoras-Moviles-Sobre-Ruedas"}>Ver productos</Link></button>
+                                <button className=" xl:mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/trituradoras-moviles-sobre-ruedas"}>Ver productos</Link></button>
                             </div>
                         </div>
                         <div className="w-1/2">
@@ -103,7 +103,7 @@ const Producto = () => {
                                 <h2 className="text-center mb-8 text-2xl md:text-start lg:text-3xl font-bold ">Trituradoras sobre oruga</h2>
                                 <p className="mb-5 px-10 sm:px-20 text-center md:text-start md:px-0 ">Optimizadas para terrenos difíciles e irregulares, brindan estabilidad y tracción en zonas forestales o de acceso complicado, garantizando movilidad en condiciones adversas.<br/></p>
                                 <div className="flex pb-10 justify-center md:justify-start md:pb-0">
-                                <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Trituradoras-Sobre-Oruga"}>Ver productos</Link></button>
+                                <button className="mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/trituradoras-sobre-oruga"}>Ver productos</Link></button>
                                 </div>
                             </div>
                         </div>
@@ -123,7 +123,7 @@ const Producto = () => {
                                 
                                 <p className=" px-10 sm:px-20 text-center mb-5 md:mt-3  md:mb-5 lg:mt-5 lg:mb-10 ">Cumplen con normativas de transporte y son ideales para contratistas y municipios que requieren movilidad entre distintos sitios de trabajo. Ofrecen un equilibrio entre rendimiento y facilidad de traslado<br/></p>
                                 <div className="flex pb-10 justify-center ">
-                                    <button className=" mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Trituradoras-Remolcables-De-Carretera"}>Ver productos</Link></button>
+                                    <button className=" mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/trituradoras-remolcables-de-carretera"}>Ver productos</Link></button>
 
                                 </div>
                             </div>
@@ -143,7 +143,7 @@ const Producto = () => {
                                 <h2 className="md:text-2xl lg:text-3xl font-bold md:mb-3 lg:mb-8">Trituradoras remolcables de carretera</h2>
                                 
                                 <p className="md:mt-3  md:mb-5 lg:mt-5 lg:mb-10 ">Cumplen con normativas de transporte y son ideales para contratistas y municipios que requieren movilidad entre distintos sitios de trabajo. Ofrecen un equilibrio entre rendimiento y facilidad de traslado<br/></p>
-                                <button className="xl:mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Trituradoras-Remolcables-De-Carretera"}>Ver productos</Link></button>
+                                <button className="xl:mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/trituradoras-remolcables-de-carretera"}>Ver productos</Link></button>
                             </div>
                         </div>
                         <div className="w-1/2">
@@ -166,7 +166,7 @@ const Producto = () => {
                                 <h2 className="text-center mb-8 text-2xl md:text-start lg:text-3xl font-bold ">Trituradoras PTO</h2>
                                 <p className="mb-5 px-10 sm:px-20 text-center md:text-start md:px-0 ">Disenadas para ser accionadas por la toma de fuerza de tractores, son una solucion eficiente para aplicaciones agricolas y forestales, optimizando el uso de maquinaria existente sin necesidad de un motor propio<br/></p>
                                 <div className="flex pb-10 justify-center md:justify-start md:pb-0">
-                                    <button className="mt-5 lg:mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/Trituradoras-PTO"}>Ver productos</Link></button>
+                                    <button className="mt-5 lg:mt-10 bg-black text-white py-2 px-8 rounded-xl"><Link href={"/eliet/trituradoras-pto"}>Ver productos</Link></button>
                                 </div>
                             </div>
                         </div>

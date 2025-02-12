@@ -1,19 +1,19 @@
 
-
-import Image from "next/image"
 import { Metadata } from 'next';
 
 
 import CategoriaChipeadora from "@/components/chipeadoras/chipeadoras-eliet/CategoriaChipeadora";
+import { textoCapitalizado } from '@/lib/helpers';
 
 type Props = {
     params:Promise<{categoria:string}>;
 }
 
+
  export async function generateMetadata(params:Props):Promise<Metadata>{
     const info =await  params.params
     return{
-        title:`${info.categoria.replace(/-/g, ' ')} - EcoAlliance`,
+        title:textoCapitalizado(info.categoria.replace(/-/g,' ')).concat( ' - EcoAlliance'),
         description:'',
         icons: {
             icon:"/logo.png",
