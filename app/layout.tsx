@@ -6,6 +6,7 @@ import { Footer } from "@/components/footer/Footer";
 import HotjarScript from "@/components/HotjarScript";
 import Navbar from "@/components/navbar/Navbar";
 import NavbarMovil from "@/components/navbarMovil/NavbarMovil";
+import NavbarMovilActualizada from "@/components/navbarMovil/NavbarMovilActualizada";
 
 
 
@@ -47,6 +48,7 @@ export default function RootLayout({
           
             <Navbar />
             <NavbarMovil/>
+            {/* <NavbarMovilActualizada/> */}
             
             {children}
             <Footer/>

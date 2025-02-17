@@ -533,42 +533,42 @@ export default [
 
     //MINOR 4S
 
-    {
-        "imagen": [
-            "/chipeadora/eliet/productos/minor_4s/MINOR_4s.png",
-            "/chipeadora/eliet/productos/minor_4s/GP200-1.png",
-            "/chipeadora/eliet/productos/minor_4s/GP200-2.png",
-        ],
-        "alt": "Trituradora Eliet Minor 4S GP200",
-        "modelo": "Minor 4S GP200",
-        "categoria":"trituradoras estacionarias",
-        // "caracteristicas_tecnicas":"23 HP V - Chasis 80 km/h",
+//    {
+//         "imagen": [
+//             "/chipeadora/eliet/productos/minor_4s/MINOR_4s.png",
+//             "/chipeadora/eliet/productos/minor_4s/GP200-1.png",
+//             "/chipeadora/eliet/productos/minor_4s/GP200-2.png",
+//         ],
+//         "alt": "Trituradora Eliet Minor 4S GP200",
+//         "modelo": "Minor 4S GP200", 
+//         "categoria":"trituradoras estacionarias",
+//         // "caracteristicas_tecnicas":"23 HP V - Chasis 80 km/h",
 
-        // DESCRIPCION 1
-        "descripcion": "La Trituradora Minor 4S es una máquina compacta, robusta y versátil, diseñada para procesar todo tipo de residuos verdes, incluyendo ramas, hojas y desechos húmedos, sin riesgo de atascos. Equipada con un eje de 12 cuchillas ultra afiladas y un sistema de alimentación amplio, puede triturar madera de hasta 50 mm de diámetro.",
+//         // DESCRIPCION 1
+//         "descripcion": "La Trituradora Minor 4S es una máquina compacta, robusta y versátil, diseñada para procesar todo tipo de residuos verdes, incluyendo ramas, hojas y desechos húmedos, sin riesgo de atascos. Equipada con un eje de 12 cuchillas ultra afiladas y un sistema de alimentación amplio, puede triturar madera de hasta 50 mm de diámetro.",
 
-        //descripcion 2
-        "descripcion2":"Gracias a su impulsión por correa, ofrece alta durabilidad, mientras que su sistema de expulsión asegura un manejo eficiente del material. Disponible con motores Honda de gasolina o eléctrico, combina potencia, funcionalidad y comodidad, siendo ideal para la gestión de residuos durante todo el año.",
+//         //descripcion 2
+//         "descripcion2":"Gracias a su impulsión por correa, ofrece alta durabilidad, mientras que su sistema de expulsión asegura un manejo eficiente del material. Disponible con motores Honda de gasolina o eléctrico, combina potencia, funcionalidad y comodidad, siendo ideal para la gestión de residuos durante todo el año.",
 
-        //descripcion 3
-        "descripcion3":"",
+//         //descripcion 3
+//         "descripcion3":"",
 
-        //descripcion 4
-        "descripcion4":"",
-        "params": "minor-4sgp-200",
-        "routerPath": "/eliet/trituradoras-estacionarias/minor-4sgp-200",
-        "precio": 0,
+//         //descripcion 4
+//         "descripcion4":"",
+//         "params": "minor-4sgp-200",
+//         "routerPath": "/eliet/trituradoras-estacionarias/minor-4sgp-200",
+//         "precio": 0,
 
 
-        //ESPECIFICACIONES PRINCIPALES:
-        "produccion": "2,72 [m³/hr] astillas de madera",
-        "diametro_entrada": "50 [mm]",
-        "motor": "6,0 HP Honda GP200 ",
-        "dimensiones": "(Largo x Ancho x Alto) 1250 x 520 x 1100 [mm]",
-        "peso": "92 [kg]",
-        "motorPrincipal":"6,0 HP Honda",
-        "modelo3D":""
-    },
+//         //ESPECIFICACIONES PRINCIPALES:
+//         "produccion": "2,72 [m³/hr] astillas de madera",
+//         "diametro_entrada": "50 [mm]",
+//         "motor": "6,0 HP Honda GP200 ",
+//         "dimensiones": "(Largo x Ancho x Alto) 1250 x 520 x 1100 [mm]",
+//         "peso": "92 [kg]",
+//         "motorPrincipal":"6,0 HP Honda",
+//         "modelo3D":""
+//     },
     {
         "imagen": [
             "/chipeadora/eliet/productos/minor_4s/MINOR-GX200.png",
@@ -847,41 +847,41 @@ export default [
     },
 
     // MEGA PROF GASOLINA
-    {
-        "imagen": [
-            "/chipeadora/eliet/productos/mega_prof_gasolina/mega-prof-gasolina-1.png",
-            "/chipeadora/eliet/productos/mega_prof/mega_prof_2.jpg",
-            "/chipeadora/eliet/productos/mega_prof/mega_prof_3.png",
-            "/chipeadora/eliet/productos/mega_prof/mega_prof_4.png",
-        ],
-        "alt": "Trituradora Eliet Mega Prof",
-        "modelo": "Mega Prof Gasolina",
-        "categoria":"trituradoras remolcables de carretera",
-        // "caracteristicas_tecnicas":"37 HP Y - Chasis 80 km/h",
+    // {
+    //     "imagen": [
+    //         "/chipeadora/eliet/productos/mega_prof_gasolina/mega-prof-gasolina-1.png",
+    //         "/chipeadora/eliet/productos/mega_prof/mega_prof_2.jpg",
+    //         "/chipeadora/eliet/productos/mega_prof/mega_prof_3.png",
+    //         "/chipeadora/eliet/productos/mega_prof/mega_prof_4.png",
+    //     ],
+    //     "alt": "Trituradora Eliet Mega Prof",
+    //     "modelo": "Mega Prof Gasolina",
+    //     "categoria":"trituradoras remolcables de carretera",
+    //     // "caracteristicas_tecnicas":"37 HP Y - Chasis 80 km/h",
 
-        //DESCRIPCION 1
-        "descripcion": "La trituradora Mega Prof es una máquina universal diseñada para maximizar la capacidad de trabajo y la eficiencia en la trituración de residuos. Puede procesar ramas y troncos de hasta 150 mm de diámetro. Su capacidad alcanza hasta 10 m³ de astillas por hora, ideal para grandes volúmenes de trabajo.",
-        //descripcion 2
-        "descripcion2":"Cuenta con un sistema de descarga rotativo de 280° con un calibrador y un deflector direccional en dos partes, lo que facilita la gestión de los desechos triturados. El sistema de cuchillas RESIST™/10, compuesto por 24 unidades, asegura cortes precisos y eficientes. Su chasis robusto y peso de menos de 750 kg permiten su transporte por carretera con una licencia estándar.",
+    //     //DESCRIPCION 1
+    //     "descripcion": "La trituradora Mega Prof es una máquina universal diseñada para maximizar la capacidad de trabajo y la eficiencia en la trituración de residuos. Puede procesar ramas y troncos de hasta 150 mm de diámetro. Su capacidad alcanza hasta 10 m³ de astillas por hora, ideal para grandes volúmenes de trabajo.",
+    //     //descripcion 2
+    //     "descripcion2":"Cuenta con un sistema de descarga rotativo de 280° con un calibrador y un deflector direccional en dos partes, lo que facilita la gestión de los desechos triturados. El sistema de cuchillas RESIST™/10, compuesto por 24 unidades, asegura cortes precisos y eficientes. Su chasis robusto y peso de menos de 750 kg permiten su transporte por carretera con una licencia estándar.",
 
-        //descripcion 3
-        "descripcion3":"",
+    //     //descripcion 3
+    //     "descripcion3":"",
 
-        //descripcion 4
-        "descripcion4":"",
-        "params": "mega-prof-gasolina",
-        "routerPath": "/eliet/trituradoras-remolcables-de-carretera/mega-prof-gasolina",
-        "precio": 0,
+    //     //descripcion 4
+    //     "descripcion4":"",
+    //     "params": "mega-prof-gasolina",
+    //     "routerPath": "/eliet/trituradoras-remolcables-de-carretera/mega-prof-gasolina",
+    //     "precio": 0,
 
 
-        //ESPECIFICACIONES PRINCIPALES:
-        "motor": "37 hp Vanguard tm Gasoline",
-        "produccion": "10 [m³/hr] astillas de madera",
-        "diametro_entrada": "150 [mm]",
-        "peso": "748 [kg]",
-        "dimensiones": "(Largo x Ancho x Alto) 3500 x 1700 x 2250 [mm]",
-        "motorPrincipal":"37 hp Vanguard tm Gasoline",
-        "modelo3D":""
+    //     //ESPECIFICACIONES PRINCIPALES:
+    //     "motor": "37 hp Vanguard tm Gasoline",
+    //     "produccion": "10 [m³/hr] astillas de madera",
+    //     "diametro_entrada": "150 [mm]",
+    //     "peso": "748 [kg]",
+    //     "dimensiones": "(Largo x Ancho x Alto) 3500 x 1700 x 2250 [mm]",
+    //     "motorPrincipal":"37 hp Vanguard tm Gasoline",
+    //     "modelo3D":""
 
-    }
+    // }
 ]
