@@ -1,6 +1,5 @@
 'use client'
 
-import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
