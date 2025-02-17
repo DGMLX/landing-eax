@@ -47,8 +47,8 @@ export default function RootLayout({
           >
           
             <Navbar />
-            <NavbarMovil/>
-            {/* <NavbarMovilActualizada/> */}
+            <NavbarMovil/> 
+       
             
             {children}
             <Footer/>
