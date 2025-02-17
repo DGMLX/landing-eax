@@ -4,6 +4,8 @@
 
 @import "tailwindcss-animated";
 
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -29,6 +31,9 @@ html {
 
 
 
+
+
+/*MODAL IMAGEN DE PRODUCTOS CHIPEADORAS*/
 
 .modal-overlay {
   position: fixed;
