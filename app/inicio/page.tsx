@@ -1,4 +1,5 @@
 import BannerPrincipal from "@/components/bannerAutomatico/BannerPrincipal";
+import SliderProductos from "@/components/bannerAutomatico/SliderProductos";
 import { HiArrowLongRight } from "react-icons/hi2";
 
 
@@ -12,7 +13,7 @@ const HomePage = () =>{
 
             <section className="mx-20 mb-10">
                 <h2 className="text-2xl mb-5">FEATURED STORIES</h2>
-                <div className="flex justify-between">
+                <div className="flex justify-between">  
 
                     <div className="w-[250px] hover:shadow-xl">
                         <div className="bg-gray-300 w-[250px] h-[150px]"></div>
@@ -211,7 +212,7 @@ const HomePage = () =>{
 
 
             <section className="mx-20  mb-10">
-                <div className="bg-gray-300 w-full h-[400px]"></div>
+                <SliderProductos/>
             </section>
             
             <section className="mx-20 flex mt-20 mb-10 gap-10">
