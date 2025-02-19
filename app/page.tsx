@@ -7,8 +7,9 @@ import BannerAutomatico from "@/components/bannerAutomatico/BannerAutomatico"
 import dynamic from "next/dynamic";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import BannerPrincipal from "@/components/bannerAutomatico/BannerPrincipal";
 import NavbarMovilActualizada from "@/components/navbarMovil/NavbarMovilActualizada";
+import NavbarActualizada from "@/components/navbar/NavbarActualizada";
+import BannerPrincipalV1 from "@/components/bannerAutomatico/BannerPrincipalV1";
 
 const Slider = dynamic(() => import("react-slick"), { ssr: false });
 
@@ -62,10 +63,11 @@ const HomePage = () =>{
     return(
         <>
         <NavbarMovilActualizada/>
+        <NavbarActualizada/>
         <main className="mt-36 mx-5 md:mx-16">
             
           
-            <BannerPrincipal/>
+            <BannerPrincipalV1/>
 
             <section className="mt-24 mb-24 w-full ">
                 <h2 className="text-3xl font-bold text-[#A7283D]">Productos</h2>
