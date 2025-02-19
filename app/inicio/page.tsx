@@ -214,7 +214,99 @@ const HomePage = () =>{
             <section className="mx-20  mb-10">
                 <SliderProductos/>
             </section>
+
+
+   
+
+            <section className="mx-20  ">
+                <h2 className="text-2xl mb-5">PERSPECTIVAS</h2>
+                <div className="flex gap-5 mb-7 ">
+                    <div className=" bg-gray-300 w-1/2 h-[350px] flex flex-col justify-center">
+                        <div className="flex flex-col  justify-start px-28 text-white">
+                            
+                            <h3 className="mb-10 underline underline-offset-[12px]">ARTÍCULO</h3>
+                            <h1 className="text-4xl font-bold">How to Makethe Switch to LiquidCooling</h1>
+                            <div className="flex mt-10">
+                            <button className=" flex items-center text-xl border border-[#c4262e]  py-3 px-4 rounded-full bg-[#c4262e] text-white hover:bg-[#b01c1c] hover:text-white hover:underline">MÁS INFORMACIÓN <HiArrowLongRight className="ml-5 text-3xl"/></button>
+                        
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className=" bg-gray-300 w-1/2 h-[350px] flex flex-col justify-center">
+                        <div className="flex flex-col justify-start px-28 text-white">
+                            
+                            <h3 className="mb-10 underline underline-offset-[12px]">ARTÍCULO</h3>
+                            <h1 className="text-4xl font-bold">Reduce Footprint in Energy Storage Systems</h1>
+                            <div className="flex mt-10">
+                                <button className=" flex items-center text-xl border border-[#c4262e]  py-3 px-4 rounded-full bg-[#c4262e] text-white hover:bg-[#b01c1c] hover:text-white hover:underline">MÁS INFORMACIÓN<HiArrowLongRight className="ml-5 text-3xl"/></button>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                <div className="flex gap-5">
+
+                        <div className="w-1/4 hover:shadow-xl">
+                            <div className="bg-gray-300 w-full h-[170px]"></div>
+                            <div className="px-6 pt-5  border-gray-300 border">
+                                <h3 className="font-bold ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, possimus!</h3>
+                                <p className="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ipsum? Similique omnis voluptas qui perspiciatis optio? Odit voluptates iste facere inventore atque aliquid voluptatem, exercitationem necessitatibus tempore mollitia repellat, magnam dolores tempora minus natus illo?</p>
+                                <div className="mt-9 mb-9 flex justify-around items-center text-[#c4262e]">
+                                    <button className="text-xl">MÁS  INFORMACION</button>
+                                    <HiArrowLongRight className="text-4xl"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="w-1/4 hover:shadow-xl">
+                            <div className="bg-gray-300 w-full h-[170px]"></div>
+                            <div className="px-6 pt-5  border-gray-300 border">
+                                <h3 className="font-bold ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, possimus!</h3>
+                                <p className="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ipsum? Similique omnis voluptas qui perspiciatis optio? Odit voluptates iste facere inventore atque aliquid voluptatem, exercitationem necessitatibus tempore mollitia repellat, magnam dolores tempora minus natus illo?</p>
+                                <div className="mt-9 mb-9 flex justify-around items-center text-[#c4262e]">
+                                    <button className="text-xl">MÁS  INFORMACION</button>
+                                    <HiArrowLongRight className="text-4xl"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="w-1/4 hover:shadow-xl">
+                            <div className="bg-gray-300 w-full h-[170px]"></div>
+                            <div className="px-6 pt-5  border-gray-300 border">
+                                <h3 className="font-bold ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, possimus!</h3>
+                                <p className="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ipsum? Similique omnis voluptas qui perspiciatis optio? Odit voluptates iste facere inventore atque aliquid voluptatem, exercitationem necessitatibus tempore mollitia repellat, magnam dolores tempora minus natus illo?</p>
+                                <div className="mt-9 mb-9 flex justify-around items-center text-[#c4262e]">
+                                    <button className="text-xl">MÁS  INFORMACION</button>
+                                    <HiArrowLongRight className="text-4xl"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="w-1/4 hover:shadow-xl">
+                            <div className="bg-gray-300 w-full h-[170px]"></div>
+                            <div className="px-6 pt-5  border-gray-300 border">
+                                <h3 className="font-bold ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, possimus!</h3>
+                                <p className="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ipsum? Similique omnis voluptas qui perspiciatis optio? Odit voluptates iste facere inventore atque aliquid voluptatem, exercitationem necessitatibus tempore mollitia repellat, magnam dolores tempora minus natus illo?</p>
+                                <div className="mt-9 mb-9 flex justify-around items-center text-[#c4262e]">
+                                    <button className="text-xl">MÁS  INFORMACION</button>
+                                    <HiArrowLongRight className="text-4xl"/>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </section>
             
+
+
+
+                    
             <section className="mx-20 flex mt-20 mb-10 gap-10">
                 <div className="w-1/3">
                     <h2 className="text-2xl mb-5">MUNDO VIRTUAL NVENT</h2>
