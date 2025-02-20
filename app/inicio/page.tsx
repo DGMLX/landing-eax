@@ -15,16 +15,16 @@ const HomePage = () =>{
             </section>
 
             <section className="mx-20 mb-5">
-                <h2 className="text-2xl mb-5 tracking-widest">FEATURED STORIES</h2>
+                <h2 className="text-2xl mb-5 tracking-widest">ÁREAS DE ESPECIALIZACIÓN</h2>
                 <div className="flex justify-between gap-5">  
 
                     <div className="w-1/3 hover:shadow-xl">
                         <div className="bg-gray-300 w-full h-[150px]"></div>
                         <div className="px-6 pt-5  border-gray-300 border">
-                            <h3 className="font-bold ">Lorem ipsum dolor sit amet.</h3>
-                            <p className="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse ratione eveniet sint, ullam voluptas impedit!</p>
+                            <h3 className="font-bold ">Multipropósito</h3>
+                            <p className="mt-3">Equipos versátiles con más de 100 accesorios y 300 combinaciones, maximizando innovación y ahorro en espacios públicos e industriales</p>
                             <div className="my-5 flex justify-around items-center text-[#c4262e]">
-                                <button className="text-xl">MÁS INFORMACION</button>
+                                <button className="text-xl">DESCUBRE MÁS</button>
                                 <HiArrowLongRight className="text-4xl"/>
                             </div>
                         </div>
@@ -33,26 +33,26 @@ const HomePage = () =>{
                     <div className="w-1/3 hover:shadow-xl">
                         <div className="bg-gray-300 w-full h-[150px]"></div>
                         <div className="px-6 pt-5  border-gray-300 border">
-                            <h3 className="font-bold ">Lorem ipsum dolor sit amet.</h3>
-                            <p className="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse ratione eveniet sint, ullam voluptas impedit!</p>
+                            <h3 className="font-bold ">Tratamiento de Residuos</h3>
+                            <p className="mt-3">Reduce costos y optimiza la gestión de residuos a través del reciclaje, transformación y reutilización, generando un impacto ambiental positivo.</p>
                             <div className="my-5 flex justify-around items-center text-[#c4262e]">
-                                <button className="text-xl">MÁS INFORMACION</button>
+                                <button className="text-xl">DESCUBRE MÁS</button>
                                 <HiArrowLongRight className="text-4xl"/>
                             </div>
                         </div>
                     </div>
-
                     <div className="w-1/3 hover:shadow-xl">
                         <div className="bg-gray-300 w-full h-[150px]"></div>
                         <div className="px-6 pt-5  border-gray-300 border">
-                            <h3 className="font-bold ">Lorem ipsum dolor sit amet.</h3>
-                            <p className="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse ratione eveniet sint, ullam voluptas impedit!</p>
+                            <h3 className="font-bold ">Espacios Públicos</h3>
+                            <p className="mt-3">Diseño de mobiliario urbano pensado para el bienestar y disfrute de las personas, promoviendo una convivencia segura y sostenible.</p>
                             <div className="my-5 flex justify-around items-center text-[#c4262e]">
-                                <button className="text-xl">MÁS INFORMACION</button>
+                                <button className="text-xl">DESCUBRE MÁS</button>
                                 <HiArrowLongRight className="text-4xl"/>
                             </div>
                         </div>
                     </div>
+                    
 
                    
                 </div>
@@ -66,32 +66,34 @@ const HomePage = () =>{
                 <div className="w-1/3 hover:shadow-xl">
                         <div className="bg-gray-300 w-full h-[150px]"></div>
                         <div className="px-6 pt-5  border-gray-300 border">
-                            <h3 className="font-bold ">Lorem ipsum dolor sit amet.</h3>
-                            <p className="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse ratione eveniet sint, ullam voluptas impedit!</p>
+                            <h3 className="font-bold ">Mantenimiento Urbano</h3>
+                            <p className="mt-3">Equipamiento confiable y eficiente que agiliza la mantención de infraestructura urbana y rural, garantizando seguridad, rapidez y costos reducidos.</p>
                             <div className="my-5 flex justify-around items-center text-[#c4262e]">
-                                <button className="text-xl">MÁS INFORMACION</button>
+                                <button className="text-xl">DESCUBRE MÁS</button>
                                 <HiArrowLongRight className="text-4xl"/>
                             </div>
                         </div>
                     </div>
+
                     <div className="w-1/3 hover:shadow-xl">
                         <div className="bg-gray-300 w-full h-[150px]"></div>
                         <div className="px-6 pt-5  border-gray-300 border">
-                            <h3 className="font-bold ">Lorem ipsum dolor sit amet.</h3>
-                            <p className="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse ratione eveniet sint, ullam voluptas impedit!</p>
+                            <h3 className="font-bold ">Aseo Urbano</h3>
+                            <p className="mt-3">Soluciones de limpieza y recolección diseñadas para máxima eficiencia y mínimo gasto, impulsando el desarrollo y la calidad de vida en los espacios públicos.</p>
                             <div className="my-5 flex justify-around items-center text-[#c4262e]">
-                                <button className="text-xl">MÁS INFORMACION</button>
+                                <button className="text-xl">DESCUBRE MÁS</button>
                                 <HiArrowLongRight className="text-4xl"/>
                             </div>
                         </div>
                     </div>
+                   
                     <div className="w-1/3 hover:shadow-xl">
                         <div className="bg-gray-300 w-full h-[150px]"></div>
                         <div className="px-6 pt-5  border-gray-300 border">
-                            <h3 className="font-bold ">Lorem ipsum dolor sit amet.</h3>
-                            <p className="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse ratione eveniet sint, ullam voluptas impedit!</p>
+                            <h3 className="font-bold ">Electromovilidad</h3>
+                            <p className="mt-3">Tecnología de vanguardia para operaciones silenciosas y libres de contaminación, revolucionando la gestión urbana e industrial con eficiencia energética.</p>
                             <div className="my-5 flex justify-around items-center text-[#c4262e]">
-                                <button className="text-xl">MÁS INFORMACION</button>
+                                <button className="text-xl">DESCUBRE MÁS</button>
                                 <HiArrowLongRight className="text-4xl"/>
                             </div>
                         </div>
@@ -105,58 +107,40 @@ const HomePage = () =>{
             </section>
 
             <section className="mx-20 mb-10">
-                <h2 className="text-2xl mb-5 tracking-widest">INDUSTRY SOLUTIONS</h2>
+                <h2 className="text-2xl mb-5 tracking-widest">SOLUCIONES</h2>
                 <div className="w-full flex justify-between">
                     <div className="w-3/6">
                         <div className="flex justify-between py-5 hover:bg-gray-300 px-4">
-                            <h4 className="text-lg">Centro de datos y redes</h4>
+                            <h4 className="text-lg">Tratamiento de residuos orgánicos y restos de poda</h4>
                             <HiArrowLongRight className="text-3xl"/>
                         </div>
 
                         <div className="flex justify-between py-5 hover:bg-gray-300 px-4">
-                            <h4 className="text-lg">Automatización industrial</h4>
+                            <h4 className="text-lg">Tratamiento de residuos reciclables</h4>
                             <HiArrowLongRight className="text-3xl"/>
                         </div>
 
                         <div className="flex justify-between py-5 hover:bg-gray-300 px-4">
-                            <h4 className="text-lg">Servicios públicos de energía</h4>
+                            <h4 className="text-lg">Tratamiento de residuos de gran tamaño</h4>
                             <HiArrowLongRight className="text-3xl"/>
                         </div>
 
                         <div className="flex justify-between py-5 hover:bg-gray-300 px-4">
-                            <h4 className="text-lg">Energía renovable</h4>
+                            <h4 className="text-lg">Limpieza y sanitización</h4>
                             <HiArrowLongRight className="text-3xl"/>
                         </div>
 
                         <div className="flex justify-between py-5 hover:bg-gray-300 px-4">
-                            <h4 className="text-lg">Almacenamiento de energía</h4>
+                            <h4 className="text-lg">Mantención de arbustos y arbolado</h4>
                             <HiArrowLongRight className="text-3xl"/>
                         </div>
 
                         <div className="flex justify-between py-5 hover:bg-gray-300 px-4">
-                            <h4 className="text-lg">Sector automotriz y movilidad electrónica</h4>
+                            <h4 className="text-lg">Autonomía energética y sostenibilidad ambiental</h4>
                             <HiArrowLongRight className="text-3xl"/>
                         </div>
 
-                        <div className="flex justify-between py-5 hover:bg-gray-300 px-4">
-                            <h4 className="text-lg">Edificios comerciales</h4>
-                            <HiArrowLongRight className="text-3xl"/>
-                        </div>
-
-                        <div className="flex justify-between py-5 hover:bg-gray-300 px-4">
-                            <h4 className="text-lg">Transición energética</h4>
-                            <HiArrowLongRight className="text-3xl"/>
-                        </div>
-
-                        <div className="flex justify-between py-5 hover:bg-gray-300 px-4">
-                            <h4 className="text-lg">Telecomunicaciones</h4>
-                            <HiArrowLongRight className="text-3xl"/>
-                        </div>
-
-                        <div className="flex justify-between py-5 hover:bg-gray-300 px-4">
-                            <h4 className="text-lg">Ferrocarril</h4>
-                            <HiArrowLongRight className="text-3xl"/>
-                        </div>
+                      
 
                     </div>
 

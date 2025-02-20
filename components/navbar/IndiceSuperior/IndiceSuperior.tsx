@@ -21,15 +21,14 @@ const IndiceSuperior = () =>{
     return(
         <>
             <div className="px-20 flex items-center gap-6 py-4 justify-end bg-red-700 text-white">
-                <button className="flex items-center text-sm">LOG IN REGISTER<FaUser  className="ml-2"/></button>
-                <button className="flex items-center text-sm">ORDERS<FaTruck className="ml-2"/></button>
+               
                 <button className="flex items-center text-sm" onClick={()=>{
                     setOpenModal(!openModal)
                     setOpenLlamanos(true)
                     setOpenInfo(false)
                     setOpenMensaje(false)
-                }}>CONTACT<MdChatBubbleOutline className="ml-2"/></button>
-                <button className="flex items-center text-sm">CART<FiShoppingCart className="ml-2"/></button>
+                }}>CONTACTO<MdChatBubbleOutline className="ml-2"/></button>
+                <button className="flex items-center text-sm">CARRITO<FiShoppingCart className="ml-2"/></button>
                 <div className="flex items-center">
                     <input type="text"  className="bg-red-700 border-b placeholder-white placeholder-" placeholder="Buscar"/>
                     <LiaSearchSolid/>
@@ -38,7 +37,7 @@ const IndiceSuperior = () =>{
 
             {
                 openModal &&
-                <div className="z-50 absolute bg-black text-white w-1/3 right-36 py-5 shadow-lg">
+                <div className="z-50 absolute bg-black text-white w-1/3 right-36 py-5 shadow-lg" >
                     <h2 className="px-5 text-2xl font-bold  mb-5">Contáctanos</h2>
                     <div className="flex justify-between px-5 text-sm mb-2">
                         <button onClick={()=>{
@@ -111,6 +110,9 @@ const IndiceSuperior = () =>{
                                 <input type="text" className="bg-white block w-full py-1 text-black px-2 mt-2" />
 
                                 <label className="flex opacity-60 mt-2">Correo electrónico<span className="text-red-600 block">*</span></label>
+                                <input type="text" className="bg-white block w-full py-1 text-black px-2 mt-2" />
+
+                                <label className="flex opacity-60 mt-2">Mensaje<span className="text-red-600 block">*</span></label>
                                 <input type="text" className="bg-white block w-full py-1 text-black px-2 mt-2" />
 
                                 <div className="flex justify-center">
