@@ -1,22 +1,34 @@
 'use client'
 
-import { FaUser } from "react-icons/fa";
-import { FaTruck } from "react-icons/fa";
 import { MdChatBubbleOutline } from "react-icons/md";
 import { FiShoppingCart } from "react-icons/fi";
 import { LiaSearchSolid } from "react-icons/lia";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { FaPhoneAlt } from "react-icons/fa";
 
 
 const IndiceSuperior = () =>{
     
     const [openModal,setOpenModal] = useState(false);
-
     const [openLlamanos,setOpenLlamanos] = useState(true);
     const [openInfo,setOpenInfo] = useState(false);
     const [openMensaje,setOpenMensaje] = useState(false);
     
+    const contenedorRef = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+        const handleClickOutside = (event: MouseEvent) => {
+          if (contenedorRef.current && !contenedorRef.current.contains(event.target as Node) && openModal){
+            setOpenModal(false)
+            console.log("fuera del contenedor")
+          }
+        };
+    
+        document.addEventListener("click", handleClickOutside);
+        return () => {
+          document.removeEventListener("click", handleClickOutside);
+        };
+      }, [openModal]);
 
     return(
         <>
@@ -37,7 +49,7 @@ const IndiceSuperior = () =>{
 
             {
                 openModal &&
-                <div className="z-50 absolute bg-black text-white w-1/3 right-36 py-5 shadow-lg" >
+                <div ref={contenedorRef} className="z-50 absolute bg-black text-white w-1/3 right-36 py-5 shadow-lg" >
                     <h2 className="px-5 text-2xl font-bold  mb-5">Contáctanos</h2>
                     <div className="flex justify-between px-5 text-sm mb-2">
                         <button onClick={()=>{
