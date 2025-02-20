@@ -256,9 +256,10 @@ const HomePage = () =>{
                     <div className=" bg-gray-300 w-1/2 h-[350px] flex flex-col justify-center">
                         <div className="flex flex-col justify-start px-28 text-white">
                             
-                            <h3 className="mb-10 underline underline-offset-[12px]">SERVICIOS</h3>
-                            <h1 className="text-4xl font-bold">Reduce Footprint in Energy Storage Systems</h1>
-                            <div className="flex mt-10">
+                            <h3 className="mb-5 underline underline-offset-[12px]">SERVICIOS</h3>
+                            <h1 className="text-4xl font-bold">Optimiza tu operación con nuestro soporte integral</h1>
+                            <p className="mt-3">Confía en nuestro equipo para el montaje de equipos hasta el servicio postventa, insumos y repuestos, ofrecemos soluciones diseñadas para maximizar el rendimiento y la eficiencia de tus proyectos.</p>
+                            <div className="flex mt-5">
                                 <button className=" flex items-center text-xl border border-[#c4262e]  py-3 px-4 rounded-full bg-[#c4262e] text-white hover:bg-[#b01c1c] hover:text-white hover:underline">DESCUBRE MÁS<HiArrowLongRight className="ml-5 text-3xl"/></button>
                             
                             </div>
