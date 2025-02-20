@@ -5,7 +5,10 @@ import { HiArrowLongRight } from "react-icons/hi2";
 
 const HomePage = () =>{
     return(
-        <main className="mt-[99px]">
+        <>
+
+        <main className="mt-[99px] xl:mt-[87px]">
+            
 
             <section className="w-screen h-1/4 mb-10">
                 <BannerPrincipal/>
@@ -228,6 +231,10 @@ const HomePage = () =>{
 
                 </div>
 
+                <div className="flex justify-end mt-7">
+                    <button className="text-[#c4262e] flex items-center text-xl border border-[#c4262e]  py-3 px-5 rounded-full hover:bg-[#b01c1c] hover:text-white hover:underline">VIEW ALL <HiArrowLongRight className="ml-3"/></button>
+                </div>
+
             </section>
 
 
@@ -270,6 +277,7 @@ const HomePage = () =>{
         
             
         </main>
+        </>
     )
 }
 

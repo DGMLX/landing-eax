@@ -6,7 +6,8 @@ import { Footer } from "@/components/footer/Footer";
 import HotjarScript from "@/components/HotjarScript";
 import Navbar from "@/components/navbar/Navbar";
 import NavbarMovil from "@/components/navbarMovil/NavbarMovil";
-import NavbarMovilActualizada from "@/components/navbarMovil/NavbarMovilActualizada";
+
+import ClientLayout from "@/components/ClientLayout/ClientLayout";
 
 
 
@@ -32,11 +33,9 @@ export const metadata: Metadata = {
 
 
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({children,}: Readonly<{children: React.ReactNode;}>) {
+
+  
   return (
      
     <html lang="en">
@@ -45,13 +44,7 @@ export default function RootLayout({
         <body
           className={` ${geistSans.variable} ${geistMono.variable} antialiased`}
           >
-          
-            <Navbar />
-            <NavbarMovil/> 
-       
-            
-            {children}
-            <Footer/>
+            <ClientLayout>{children}</ClientLayout>
         </body>
 
     </html>

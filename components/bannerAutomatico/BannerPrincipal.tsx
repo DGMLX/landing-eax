@@ -64,11 +64,9 @@ const BannerPrincipal:React.FC = () =>{
 
     return(
         <>
-          <section className=" bg-gray-400  pt-24 pb-16 h-[450px]  justify-center flex-col flex">
-            
-    
+          <section className=" bg-gray-400  pt-28 pb-16 h-[470px]  justify-center flex-col flex">
 
-              <div className="w-1/2  pl-32 ">
+              <div className="w-1/2  pl-32 mt-5">
                   <div className="h-[250px] w-full">
                     <h2 className="text-lg font-bold text-[#FBFBFB] mb-3 ">{banners[currentBanner].header}</h2>
                     <h2 className="text-[21px] md:text-3xl font-bold text-[#FBFBFB]">{banners[currentBanner].titulo}</h2>
