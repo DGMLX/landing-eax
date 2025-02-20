@@ -245,7 +245,8 @@ const HomePage = () =>{
                         <div className="flex flex-col  justify-start px-28 text-white">
                             
                             <h3 className="mb-10 underline underline-offset-[12px]">BLOG</h3>
-                            <h1 className="text-4xl font-bold">How to Makethe Switch to LiquidCooling</h1>
+                            <h1 className="text-4xl font-bold">Innovación y Sostenibilidad en Acción</h1>
+                            <p className="mt-3">Explora artículos especializados sobre maquinaria, reciclaje y soluciones sustentables.</p>
                             <div className="flex mt-10">
                             <button className=" flex items-center text-xl border border-[#c4262e]  py-3 px-4 rounded-full bg-[#c4262e] text-white hover:bg-[#b01c1c] hover:text-white hover:underline">DESCUBRE MÁS<HiArrowLongRight className="ml-5 text-3xl"/></button>
                         
