@@ -64,7 +64,7 @@ const BannerPrincipal:React.FC = () =>{
 
     return(
         <>
-          <section className=" bg-gray-400  pt-28 pb-16 h-[470px]  justify-center flex-col flex">
+          <section className=" bg-gray-400  pt-28 pb-16 md:h-[470px]  justify-center flex-col flex">
 
               <div className="w-1/2  pl-32 mt-5">
                   <div className="h-[250px] w-full">

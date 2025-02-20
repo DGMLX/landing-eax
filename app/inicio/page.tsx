@@ -7,7 +7,7 @@ const HomePage = () =>{
     return(
         <>
 
-        <main className="mt-[99px] xl:mt-[87px]">
+        <main className="mt-[80px] lg:mt-[99px] xl:mt-[87px]">
             
 
             <section className="w-screen h-1/4 mb-10">
@@ -145,7 +145,7 @@ const HomePage = () =>{
                     </div>
 
                     <div className="w-3/6 pl-14">
-                        <div className="bg-gray-300 w- h-2/3 flex justify-center items-center">
+                        <div className="bg-gray-300 w- h-4/5 flex justify-center items-center">
                             <p>Item </p>
                         </div>
                     </div>
@@ -163,50 +163,59 @@ const HomePage = () =>{
                 <h2 className="text-2xl mb-5 tracking-widest">PRODUCTOS DESTACADOS</h2>
                 <div className="flex gap-5">
 
-
                     <div className="w-1/4 hover:shadow-xl">
                         <div className="bg-gray-300 w-full h-[170px]"></div>
-                        <div className="px-6 pt-5  border-gray-300 border">
-                            <h3 className="font-bold ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, possimus!</h3>
-                            <p className="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ipsum? Similique omnis voluptas qui perspiciatis optio? Odit voluptates iste facere inventore atque aliquid voluptatem, exercitationem necessitatibus tempore mollitia repellat, magnam dolores tempora minus natus illo?</p>
+                        <div className="px-6 pt-5 h-[406px] flex flex-col justify-between  border-gray-300 border">
+                            <div>
+
+                                <h3 className="font-bold ">Multicar M31: Potencia y Versatilidad en un Solo Vehículo</h3>
+                                <p className="mt-3"> Es el camión multipropósito ideal para realizar múltiples tareas con eficiencia, seguridad y confort. Su alta maniobrabilidad y capacidad de carga lo convierten en la solución ideal para tareas de todo el año en cualquier entorno. Con transmisión mecánica o hidrostática, este vehículo redefine el estándar en rendimiento y sostenibilidad.</p>
+                            </div>
                             <div className="mt-9 mb-9 flex justify-around items-center text-[#c4262e]">
-                                <button className="text-xl">MÁS  INFORMACION</button>
+                                <button className="text-xl">DESCUBRE MÁS</button>
                                 <HiArrowLongRight className="text-4xl"/>
                             </div>
                         </div>
                     </div>
 
-                    <div className="w-1/4 hover:shadow-xl">
+                    <div className="w-1/4  hover:shadow-xl">
                         <div className="bg-gray-300 w-full h-[170px]"></div>
-                        <div className="px-6 pt-5  border-gray-300 border">
-                            <h3 className="font-bold ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, possimus!</h3>
-                            <p className="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ipsum? Similique omnis voluptas qui perspiciatis optio? Odit voluptates iste facere inventore atque aliquid voluptatem, exercitationem necessitatibus tempore mollitia repellat, magnam dolores tempora minus natus illo?</p>
+                        <div className="px-6 pt-5 h-[406px] flex flex-col justify-between  border-gray-300 border">
+                            <div>
+
+                                <h3 className="font-bold ">Giant G2200E: Flexibilidad Eléctrica para Cada Desafío</h3>
+                                <p className="mt-3">El Giant G2200E redefine la eficiencia con su tecnología 100% eléctrica, operación silenciosa y cero emisiones. Su gran capacidad de carga y compatibilidad con más de 60 accesorios lo convierten en la solución ideal para trabajos urbanos, agrícolas y de construcción.</p>
+                            </div>
                             <div className="mt-9 mb-9 flex justify-around items-center text-[#c4262e]">
-                                <button className="text-xl">MÁS  INFORMACION</button>
+                                <button className="text-xl">DESCUBRE MÁS</button>
                                 <HiArrowLongRight className="text-4xl"/>
                             </div>
                         </div>
                     </div>
 
-                    <div className="w-1/4 hover:shadow-xl">
+                    <div className="w-1/4  hover:shadow-xl">
                         <div className="bg-gray-300 w-full h-[170px]"></div>
-                        <div className="px-6 pt-5  border-gray-300 border">
-                            <h3 className="font-bold ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, possimus!</h3>
-                            <p className="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ipsum? Similique omnis voluptas qui perspiciatis optio? Odit voluptates iste facere inventore atque aliquid voluptatem, exercitationem necessitatibus tempore mollitia repellat, magnam dolores tempora minus natus illo?</p>
+                        <div className="px-6 pt-5 h-[406px] flex flex-col justify-between  border-gray-300 border">
+                            <div>
+                                <h3 className="font-bold ">Trituradora Super Prof MAX On Road: Rendimiento y Movilidad para la Gestión de Residuos</h3>
+                                <p className="mt-3">La Super Prof MAX On Road lleva la trituración a otro nivel con su innovador sistema de descarga AXELERO™, capaz de procesar ramas de gran tamaño con máxima eficiencia. Diseñada para un transporte ágil gracias a su montaje sobre tráiler, combina potencia, sostenibilidad y facilidad de uso, ideal para quienes buscan optimizar la gestión de residuos verdes.</p>
+                            </div>
                             <div className="mt-9 mb-9 flex justify-around items-center text-[#c4262e]">
-                                <button className="text-xl">MÁS  INFORMACION</button>
+                                <button className="text-xl">DESCUBRE MÁS</button>
                                 <HiArrowLongRight className="text-4xl"/>
                             </div>
                         </div>
                     </div>
 
-                    <div className="w-1/4 hover:shadow-xl">
+                    <div className="w-1/4   hover:shadow-xl">
                         <div className="bg-gray-300 w-full h-[170px]"></div>
-                        <div className="px-6 pt-5  border-gray-300 border">
-                            <h3 className="font-bold ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, possimus!</h3>
-                            <p className="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ipsum? Similique omnis voluptas qui perspiciatis optio? Odit voluptates iste facere inventore atque aliquid voluptatem, exercitationem necessitatibus tempore mollitia repellat, magnam dolores tempora minus natus illo?</p>
+                        <div className="px-6 pt-5 h-[406px] flex flex-col justify-between  border-gray-300 border">
+                            <div>
+                                <h3 className="font-bold ">Mini Compactador MSP: Máxima Compactación en Espacios Reducidos</h3>
+                                <p className="mt-3"> El Mini Compactador MSP está diseñado para zonas de difícil acceso, como estacionamientos subterráneos o áreas urbanas estrechas, ofreciendo una solución eficiente para la gestión de residuos. Su construcción modular, alta densidad de compactación (9:1) y contenedores intercambiables permiten una operación continua sin interrupciones.</p>
+                            </div>
                             <div className="mt-9 mb-9 flex justify-around items-center text-[#c4262e]">
-                                <button className="text-xl">MÁS  INFORMACION</button>
+                                <button className="text-xl">DESCUBRE MÁS</button>
                                 <HiArrowLongRight className="text-4xl"/>
                             </div>
                         </div>

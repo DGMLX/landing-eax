@@ -13,6 +13,7 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
   if (excludedPaths.includes(pathname)) {
     return <>
         <NavbarV2/>
+        <NavbarMovil />
         {children}
         <Footer />
     </>;
