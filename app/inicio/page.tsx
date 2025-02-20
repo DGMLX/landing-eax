@@ -102,7 +102,7 @@ const HomePage = () =>{
                    
                 </div>
                 <div className="flex justify-end mt-7">
-                    <button className="text-[#c4262e] flex items-center text-xl border border-[#c4262e]  py-3 px-4 rounded-full hover:bg-[#b01c1c] hover:text-white hover:underline">NEW AND INSIGHTS <HiArrowLongRight/></button>
+                    <button className="text-[#c4262e] flex items-center text-xl border border-[#c4262e]  py-3 px-4 rounded-full hover:bg-[#b01c1c] hover:text-white hover:underline">ÁREAS DE ESPECIALIZACIÓN <HiArrowLongRight/></button>
                 </div>
             </section>
 
@@ -154,7 +154,7 @@ const HomePage = () =>{
 
 
                 <div className="flex justify-end mt-7">
-                    <button className="text-[#c4262e] flex items-center text-xl border border-[#c4262e]  py-3 px-5 rounded-full hover:bg-[#b01c1c] hover:text-white hover:underline">VIEW ALL <HiArrowLongRight className="ml-3"/></button>
+                    <button className="text-[#c4262e] flex items-center text-xl border border-[#c4262e]  py-3 px-5 rounded-full hover:bg-[#b01c1c] hover:text-white hover:underline">VER TODOS <HiArrowLongRight className="ml-3"/></button>
                 </div>
             </section>
 
@@ -225,7 +225,7 @@ const HomePage = () =>{
                 </div>
 
                 <div className="flex justify-end mt-7">
-                    <button className="text-[#c4262e] flex items-center text-xl border border-[#c4262e]  py-3 px-5 rounded-full hover:bg-[#b01c1c] hover:text-white hover:underline">VIEW ALL <HiArrowLongRight className="ml-3"/></button>
+                    <button className="text-[#c4262e] flex items-center text-xl border border-[#c4262e]  py-3 px-5 rounded-full hover:bg-[#b01c1c] hover:text-white hover:underline">VER TODOS <HiArrowLongRight className="ml-3"/></button>
                 </div>
 
             </section>
@@ -244,10 +244,10 @@ const HomePage = () =>{
                     <div className=" bg-gray-300 w-1/2 h-[350px] flex flex-col justify-center">
                         <div className="flex flex-col  justify-start px-28 text-white">
                             
-                            <h3 className="mb-10 underline underline-offset-[12px]">ARTÍCULO</h3>
+                            <h3 className="mb-10 underline underline-offset-[12px]">BLOG</h3>
                             <h1 className="text-4xl font-bold">How to Makethe Switch to LiquidCooling</h1>
                             <div className="flex mt-10">
-                            <button className=" flex items-center text-xl border border-[#c4262e]  py-3 px-4 rounded-full bg-[#c4262e] text-white hover:bg-[#b01c1c] hover:text-white hover:underline">MÁS INFORMACIÓN <HiArrowLongRight className="ml-5 text-3xl"/></button>
+                            <button className=" flex items-center text-xl border border-[#c4262e]  py-3 px-4 rounded-full bg-[#c4262e] text-white hover:bg-[#b01c1c] hover:text-white hover:underline">DESCUBRE MÁS<HiArrowLongRight className="ml-5 text-3xl"/></button>
                         
                             </div>
                         </div>
@@ -256,10 +256,10 @@ const HomePage = () =>{
                     <div className=" bg-gray-300 w-1/2 h-[350px] flex flex-col justify-center">
                         <div className="flex flex-col justify-start px-28 text-white">
                             
-                            <h3 className="mb-10 underline underline-offset-[12px]">ARTÍCULO</h3>
+                            <h3 className="mb-10 underline underline-offset-[12px]">SERVICIOS</h3>
                             <h1 className="text-4xl font-bold">Reduce Footprint in Energy Storage Systems</h1>
                             <div className="flex mt-10">
-                                <button className=" flex items-center text-xl border border-[#c4262e]  py-3 px-4 rounded-full bg-[#c4262e] text-white hover:bg-[#b01c1c] hover:text-white hover:underline">MÁS INFORMACIÓN<HiArrowLongRight className="ml-5 text-3xl"/></button>
+                                <button className=" flex items-center text-xl border border-[#c4262e]  py-3 px-4 rounded-full bg-[#c4262e] text-white hover:bg-[#b01c1c] hover:text-white hover:underline">DESCUBRE MÁS<HiArrowLongRight className="ml-5 text-3xl"/></button>
                             
                             </div>
                         </div>
