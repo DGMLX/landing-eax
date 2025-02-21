@@ -17,7 +17,7 @@ const banners = [
     {
       header:"PRODUCTOS",
       titulo:"Barredoras de Calle: Innovación para Ciudades Más Limpias",
-      descripcion: "Mantén los espacios públicos libres de residuos con barredoras diseñadas para un desempeño confiable y costos de mantenimiento reducidos. Su avanzada tecnología de barrido y aspiración, junto con materiales resistentes a la corrosión, garantizan una limpieza profunda y duradera.", 
+      descripcion: "Mantén los espacios públicos libres de residuos con barredoras de desempeño confiable y bajo mantenimiento. Su tecnología de barrido y aspiración, junto con materiales resistentes a la corrosión, aseguran una limpieza profunda y duradera.", 
       urlImg:'',
       boton:"DESCUBRE MÁS"
     },
@@ -71,7 +71,7 @@ const BannerPrincipal:React.FC = () =>{
                     <h2 className="text-[21px] md:text-3xl font-bold text-[#FBFBFB]">{banners[currentBanner].titulo}</h2>
                     <p className="mt-3 text-lg hidden md:block text-[#FBFBFB]">{banners[currentBanner].descripcion}</p>
                     <div>
-                        <button className="hover:bg-[#A7283D] bg-[#e34f4f] text-white text-[16px] py-2 px-7 rounded-full mt-12 font-bold   flex items-center">{banners[currentBanner].boton}<HiArrowLongRight className="text-3xl ml-4"/></button>
+                        <button className="hover:bg-[#A7283D] bg-[#e34f4f] text-white text-[16px] py-2 px-7 rounded-full mt-10 font-bold   flex items-center">{banners[currentBanner].boton}<HiArrowLongRight className="text-3xl ml-4"/></button>
                     </div>
                   </div>
               </div>
