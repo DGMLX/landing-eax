@@ -9,10 +9,11 @@ type Props = {
     setHoverSubProductos:Dispatch<SetStateAction<boolean>>;
     setHoverSubChipeadoras:Dispatch<SetStateAction<boolean>>;
     setHoverSubCamiones:Dispatch<SetStateAction<boolean>>;
+    isVisible:boolean;
 }
 
 
-const SubTratamientoResiduosV2:React.FC<Props> = ({hoverTratamientoResiduos,setHoverTratamientoResiduos,setHoverSubProductos,hoverSubChipeadoras,setHoverSubChipeadoras,setHoverSubCamiones}) =>{
+const SubTratamientoResiduosV2:React.FC<Props> = ({hoverTratamientoResiduos,setHoverTratamientoResiduos,setHoverSubProductos,hoverSubChipeadoras,setHoverSubChipeadoras,setHoverSubCamiones,isVisible}) =>{
 
    
     const outHover = ()=>{
@@ -47,7 +48,7 @@ const SubTratamientoResiduosV2:React.FC<Props> = ({hoverTratamientoResiduos,setH
     return(
         <>
             <div className={` text-white md:ml-10 lg:ml-[436px] xl:ml-[499px]   mr-96 ${hoverTratamientoResiduos ? 'flex' : 'hidden'}`} onMouseLeave={()=>outHover()}>
-                <div className="z-50  bg-[#1E1E1E] fixed top-[171px] ">
+                <div className={`z-50  bg-[#1E1E1E] fixed  ${isVisible ? 'top-[171px]' : 'top-[114px]'}`}>
                     <div className="bg-[#1E1E1E] h-[5px]" onMouseEnter={()=>hoverBonus()}></div>
                     <a onMouseEnter={()=>onHoverSubChipeadoras()} href="https://ecoalliance.cl/chipeadoras/" className="text-white text-xs pt-4 pb-[11px] flex border-b border-slate-600 pl-12 pr-5">CHIPEADORAS<IoMdArrowDropright className="text-lg"/></a>
                     <a onMouseEnter={()=>onhoverNav()} href="https://ecoalliance.cl/briquetadoras/" className="text-white text-xs pt-4 pb-[17.5px] flex border-b border-slate-600 pl-12 pr-5 ">BRIQUETADORAS</a>
@@ -57,7 +58,7 @@ const SubTratamientoResiduosV2:React.FC<Props> = ({hoverTratamientoResiduos,setH
                 </div>
             </div>
 
-            <SubChipeadorasV2 hoverSubChipeadoras={hoverSubChipeadoras} setHoverSubChipeadoras={setHoverSubChipeadoras} setHoverSubProductos={setHoverSubProductos} setHoverTratamientoResiduos={setHoverTratamientoResiduos}/>
+            <SubChipeadorasV2 isVisible={isVisible} hoverSubChipeadoras={hoverSubChipeadoras} setHoverSubChipeadoras={setHoverSubChipeadoras} setHoverSubProductos={setHoverSubProductos} setHoverTratamientoResiduos={setHoverTratamientoResiduos}/>
         </>
     )
 }

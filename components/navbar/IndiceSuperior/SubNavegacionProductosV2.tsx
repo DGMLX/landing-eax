@@ -25,9 +25,10 @@ type Props = {
   setHoverSubProductos:Dispatch<SetStateAction<boolean>>;
   setHoverSubChipeadoras:Dispatch<SetStateAction<boolean>>;
   setHoverSubCamiones:Dispatch<SetStateAction<boolean>>;
+  isVisible:boolean;
 }
 
-export const SubNavegacionProductosV2:React.FC<Props> = ({setHoverSubProductos,hoverSubProductos,hoverMultiproposito,hoverTratamientoResiduos,hoverAseoUrbano,hoverMantenimientoUrbano,hoverEspaciosPublicos,setHoverMultiproposito,setHoverTratamientoResiduos,setHoverAseoUrbano,setHoverMantenimientoUrbano,setHoverEspaciosPublicos,hoverSubCamiones,hoverSubChipeadoras,setHoverSubCamiones,setHoverSubChipeadoras}) =>{
+export const SubNavegacionProductosV2:React.FC<Props> = ({setHoverSubProductos,hoverSubProductos,hoverMultiproposito,hoverTratamientoResiduos,hoverAseoUrbano,hoverMantenimientoUrbano,hoverEspaciosPublicos,setHoverMultiproposito,setHoverTratamientoResiduos,setHoverAseoUrbano,setHoverMantenimientoUrbano,setHoverEspaciosPublicos,hoverSubCamiones,hoverSubChipeadoras,setHoverSubCamiones,setHoverSubChipeadoras,isVisible}) =>{
 
 
 
@@ -151,7 +152,7 @@ export const SubNavegacionProductosV2:React.FC<Props> = ({setHoverSubProductos,h
         <>
 
           <div className={` text-white md:ml-10 lg:ml-48 xl:ml-64 mr-96 ${hoverSubProductos ? 'flex' : 'hidden'}`} onMouseLeave={()=>outHover()} >
-              <div className="z-50 bg-[#1E1E1E] fixed top-[120px] ">
+              <div className={`z-50 bg-[#1E1E1E] fixed top-[120px] ${isVisible ? 'top-[120px]' : 'top-[63px]'}`}>
                 
                 <a onMouseEnter={()=>onHoverMultiproposito()} href="https://ecoalliance.cl/camion-multiproposito/" className="text-white text-xs py-4 flex border-b border-slate-600 pl-[55px] pr-5 ">MULTIPROPÓSITO<IoMdArrowDropright className="text-lg"/></a>
                 <a onMouseEnter={()=>onHoverTratamientoResiduos()} href="https://ecoalliance.cl/tratamiento-de-residuos/" className="text-white text-xs py-4 flex border-b border-slate-600 pl-[55px] pr-5">TRATAMIENTO DE RESIDUOS<IoMdArrowDropright className="text-lg"/></a>
@@ -177,15 +178,15 @@ export const SubNavegacionProductosV2:React.FC<Props> = ({setHoverSubProductos,h
           </div>
         
           </div>
-          <SubMultipropositoV2 hoverMultiproposito={hoverMultiproposito} setHoverMultiproposito={setHoverMultiproposito} setHoverSubProductos={setHoverSubProductos} hoverSubCamiones={hoverSubCamiones} setHoverSubCamiones={setHoverSubCamiones}/>
+          <SubMultipropositoV2 isVisible={isVisible} hoverMultiproposito={hoverMultiproposito} setHoverMultiproposito={setHoverMultiproposito} setHoverSubProductos={setHoverSubProductos} hoverSubCamiones={hoverSubCamiones} setHoverSubCamiones={setHoverSubCamiones}/>
 
-          <SubTratamientoResiduosV2 hoverTratamientoResiduos={hoverTratamientoResiduos} setHoverTratamientoResiduos={setHoverTratamientoResiduos} setHoverSubProductos={setHoverSubProductos} hoverSubChipeadoras={hoverSubChipeadoras} setHoverSubChipeadoras={setHoverSubChipeadoras} setHoverSubCamiones={setHoverSubCamiones}/>
+          <SubTratamientoResiduosV2 isVisible={isVisible} hoverTratamientoResiduos={hoverTratamientoResiduos} setHoverTratamientoResiduos={setHoverTratamientoResiduos} setHoverSubProductos={setHoverSubProductos} hoverSubChipeadoras={hoverSubChipeadoras} setHoverSubChipeadoras={setHoverSubChipeadoras} setHoverSubCamiones={setHoverSubCamiones}/>
 
-          <SubAseoUrbanoV2 hoverAseoUrbano={hoverAseoUrbano} setHoverAseoUrbano={setHoverAseoUrbano} setHoverSubProductos={setHoverSubProductos}/>
+          <SubAseoUrbanoV2 isVisible={isVisible} hoverAseoUrbano={hoverAseoUrbano} setHoverAseoUrbano={setHoverAseoUrbano} setHoverSubProductos={setHoverSubProductos}/>
 
-          <SubMantenimientoUrbanoV2 hoverMantenimientoUrbano={hoverMantenimientoUrbano} setHoverMantenimientoUrbano={setHoverMantenimientoUrbano} setHoverSubProductos={setHoverSubProductos}/>
+          <SubMantenimientoUrbanoV2 isVisible={isVisible} hoverMantenimientoUrbano={hoverMantenimientoUrbano} setHoverMantenimientoUrbano={setHoverMantenimientoUrbano} setHoverSubProductos={setHoverSubProductos}/>
 
-          <SubEspaciosPublicosV2 hoverEspaciosPublicos={hoverEspaciosPublicos} setHoverEspaciosPublicos={setHoverEspaciosPublicos} setHoverSubProductos={setHoverSubProductos}/>
+          <SubEspaciosPublicosV2 isVisible={isVisible} hoverEspaciosPublicos={hoverEspaciosPublicos} setHoverEspaciosPublicos={setHoverEspaciosPublicos} setHoverSubProductos={setHoverSubProductos}/>
 
         </>
     )

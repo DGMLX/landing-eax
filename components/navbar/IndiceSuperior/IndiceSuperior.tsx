@@ -8,7 +8,9 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 
 const IndiceSuperior = () =>{
-    
+    const [isVisible, setIsVisible] = useState(true);
+    const [lastScrollY, setLastScrollY] = useState(0);
+
     const [openModal,setOpenModal] = useState(false);
     const [openLlamanos,setOpenLlamanos] = useState(true);
     const [openInfo,setOpenInfo] = useState(false);
@@ -30,9 +32,24 @@ const IndiceSuperior = () =>{
         };
       }, [openModal]);
 
+      useEffect(() => {
+        const handleScroll = () => {
+          if (window.scrollY > lastScrollY && window.scrollY > 100) {
+            setIsVisible(false); // Oculta el menú al hacer scroll hacia abajo
+          } else {
+            setIsVisible(true); // Muestra el menú al hacer scroll hacia arriba
+          }
+          setLastScrollY(window.scrollY);
+        };
+    
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);    
+      }, [lastScrollY]);
+
     return(
         <>
-            <div className="px-20 flex items-center gap-6 py-4 justify-end bg-red-700 text-white">
+            <div className={`px-20 flex items-center gap-6 py-4 justify-end bg-red-700 text-white transition-transform duration-300 ${
+        isVisible ? "translate-y-0" : "-translate-y-full"}`}>
                
                 <button className="flex items-center text-sm" onClick={()=>{
                     setOpenModal(!openModal)

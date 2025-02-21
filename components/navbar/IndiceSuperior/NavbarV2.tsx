@@ -9,13 +9,16 @@ import { FaYoutube } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { LuBookText } from "react-icons/lu";
 import { FaInstagram } from "react-icons/fa";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import IndiceSuperior from "./IndiceSuperior";
 import SubNavegacionProductosV2 from "./SubNavegacionProductosV2";
 import SubNavegacionSolucionesV2 from "./SubNavegacionSolucionesV2";
 
 
 const NavbarV2 = () => {
+
+    const [isVisible, setIsVisible] = useState(true);
+    const [lastScrollY, setLastScrollY] = useState(0);
 
     const [hoverSubProductos,setHoverSubProductos] = useState(false)
     const [hoverSubSoluciones,setHoverSubSoluciones] = useState(false)
@@ -68,9 +71,24 @@ const NavbarV2 = () => {
         setHoverSubCamiones(false);
     }
 
+    useEffect(() => {
+            const handleScroll = () => {
+              if (window.scrollY > lastScrollY && window.scrollY > 100) {
+                setIsVisible(false); // Oculta el menú al hacer scroll hacia abajo
+              } else {
+                setIsVisible(true); // Muestra el menú al hacer scroll hacia arriba
+              }
+              setLastScrollY(window.scrollY);
+            };
+        
+            window.addEventListener("scroll", handleScroll);
+            return () => window.removeEventListener("scroll", handleScroll);    
+          }, [lastScrollY]);
+
     return(
         <>
-            <header className="w-screen fixed top-0 z-40">
+            <header className={`w-screen fixed top-0 z-40  transition-transform duration-300 ${
+        isVisible ? "translate-y-0" : "-translate-y-16"}`}>
                 <IndiceSuperior/>
                 <div className="hidden lg:flex lg:bg-[#303030]  py-6 px-5  items-center justify-between">
                     <nav className="flex">
@@ -110,9 +128,9 @@ const NavbarV2 = () => {
                 </div>
             </header>
 
-            <SubNavegacionProductosV2 hoverSubProductos={hoverSubProductos} setHoverSubProductos={setHoverSubProductos} hoverMultiproposito={hoverMultiproposito} hoverTratamientoResiduos={hoverTratamientoResiduos} hoverAseoUrbano={hoverAseoUrbano} hoverMantenimientoUrbano={hoverMantenimientoUrbano} hoverEspaciosPublicos={hoverEspaciosPublicos} setHoverMultiproposito={setHoverMultiproposito} setHoverTratamientoResiduos={setHoverTratamientoResiduos} setHoverAseoUrbano={setHoverAseoUrbano} setHoverMantenimientoUrbano={setHoverMantenimientoUrbano} setHoverEspaciosPublicos={setHoverEspaciosPublicos} hoverSubChipeadoras={hoverSubChipeadoras} hoverSubCamiones={hoverSubCamiones} setHoverSubChipeadoras={setHoverSubChipeadoras} setHoverSubCamiones={setHoverSubCamiones} />
+            <SubNavegacionProductosV2 isVisible={isVisible} hoverSubProductos={hoverSubProductos} setHoverSubProductos={setHoverSubProductos} hoverMultiproposito={hoverMultiproposito} hoverTratamientoResiduos={hoverTratamientoResiduos} hoverAseoUrbano={hoverAseoUrbano} hoverMantenimientoUrbano={hoverMantenimientoUrbano} hoverEspaciosPublicos={hoverEspaciosPublicos} setHoverMultiproposito={setHoverMultiproposito} setHoverTratamientoResiduos={setHoverTratamientoResiduos} setHoverAseoUrbano={setHoverAseoUrbano} setHoverMantenimientoUrbano={setHoverMantenimientoUrbano} setHoverEspaciosPublicos={setHoverEspaciosPublicos} hoverSubChipeadoras={hoverSubChipeadoras} hoverSubCamiones={hoverSubCamiones} setHoverSubChipeadoras={setHoverSubChipeadoras} setHoverSubCamiones={setHoverSubCamiones} />
 
-            <SubNavegacionSolucionesV2  hoverSubSoluciones={hoverSubSoluciones} setHoverSubSoluciones={setHoverSubSoluciones} hoverSolucionAseo={hoverSolucionAseo} hoverSolucionMantenimiento={hoverSolucionMantenimiento} setHoverSolucionAseo={setHoverSolucionAseo} setHoverSolucionMantenimiento={setHoverSolucionMantenimiento}/>
+            <SubNavegacionSolucionesV2 isVisible={isVisible}  hoverSubSoluciones={hoverSubSoluciones} setHoverSubSoluciones={setHoverSubSoluciones} hoverSolucionAseo={hoverSolucionAseo} hoverSolucionMantenimiento={hoverSolucionMantenimiento} setHoverSolucionAseo={setHoverSolucionAseo} setHoverSolucionMantenimiento={setHoverSolucionMantenimiento}/>
 
 
         </>

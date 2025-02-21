@@ -7,11 +7,12 @@ type Props = {
   hoverSubCamiones:boolean;
   setHoverSubCamiones:Dispatch<SetStateAction<boolean>>;
   setHoverMultiproposito:Dispatch<SetStateAction<boolean>>;
-  setHoverSubProductos:Dispatch<SetStateAction<boolean>>
+  setHoverSubProductos:Dispatch<SetStateAction<boolean>>;
+  isVisible:boolean;
 }
 
 
-const SubMultipropositoV2:React.FC<Props> = ({hoverMultiproposito,setHoverMultiproposito,setHoverSubProductos,hoverSubCamiones,setHoverSubCamiones}) =>{
+const SubMultipropositoV2:React.FC<Props> = ({hoverMultiproposito,setHoverMultiproposito,setHoverSubProductos,hoverSubCamiones,setHoverSubCamiones,isVisible}) =>{
     
     const outHover = ()=>{
         if(hoverSubCamiones){
@@ -39,14 +40,14 @@ const SubMultipropositoV2:React.FC<Props> = ({hoverMultiproposito,setHoverMultip
     return(
        <>
         <div className={` text-white md:!ml-10 lg:!ml-[436px] xl:!ml-[515px] mr-96 ${hoverMultiproposito ? 'flex' : 'hidden'}`} onMouseLeave={()=>outHover()}>
-            <div className="z-50  bg-[#1E1E1E] fixed top-[120px]">
+            <div className={`z-50  bg-[#1E1E1E] fixed ${isVisible ? 'top-[120px]' : 'top-[63px]'}`}>
                 <a onMouseEnter={()=>onHoverCamiones()} href="https://ecoalliance.cl/camion-multiproposito/" className="text-white text-xs pt-3 pb-[15px] flex pl-10 pr-5 ">CAMIÓN MULTIPROPÓSITO<IoMdArrowDropright className="text-lg"/></a>
                 <div className="bg-[#1E1E1E] h-[5px]" onMouseEnter={()=>hoverBonus()}></div>
             </div>
            
         </div>
 
-        <SubCamionesV2 hoverSubCamiones={hoverSubCamiones} setHoverSubCamiones={setHoverSubCamiones} setHoverSubProductos={setHoverSubProductos} setHoverMultiproposito={setHoverMultiproposito}/>
+        <SubCamionesV2 isVisible={isVisible} hoverSubCamiones={hoverSubCamiones} setHoverSubCamiones={setHoverSubCamiones} setHoverSubProductos={setHoverSubProductos} setHoverMultiproposito={setHoverMultiproposito}/>
        </>
     )
 }
