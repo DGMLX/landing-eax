@@ -7,41 +7,27 @@ import { HiArrowLongRight } from "react-icons/hi2";
 
 const banners = [
     {
-      header:"",
-      titulo:"Nuevo centro de productos", 
-      descripcion: "Convenient location to find the latest new product launches", 
+   
+      titulo:"Trituradoras: La Nueva Generación de Chipeadoras en Chile", 
+      descripcion: "Descubre la gama más avanzada de trituradoras Eliet, diseñadas para adaptarse a cada necesidad con máxima eficiencia y versatilidad. Desde modelos estacionarios, móviles y sobre oruga, hasta remolcables y PTO.", 
       urlImg:'',
-      boton:"SEE ALL NEW PRODUCTOS"
+      boton:"DESCUBRE MÁS"
     },
 
     {
-      header:"NEW PRODUCTOS NEWS",
-      titulo:"Enclosures for Electric Vehicle (EV) Charging Inverters",
-      descripcion: "As the world becomes more sustainable and electrified, people around the world are looking for ways to reduce their impact on the environment.", 
+   
+      titulo:"Briquetadoras: Convierte Residuos en Valor",
+      descripcion: "Maximiza el aprovechamiento de materiales, una solución eficiente para transformar residuos en briquetas compactas y listas para su uso. Con un proceso limpio y sencillo, reducen costos de almacenamiento y transporte, aportando valor agregado a materiales desechables.", 
       urlImg:'',
-      boton:"OBTENGA MÁS INFORMACIÓN"
+      boton:"DESCUBRE MÁS"
     },
     {
-      header:"PRODUCTO NUEVO",
-      titulo:"RDHX PRO", 
-      descripcion: "Revolutionary new high-performance rear door cooling unit, offering the capability to upgrade data centres with up to 78 kW high-density racks, meeting the requirements for the growing use of AI-enhanced applications, demands for higher energy efficiency and sustainability, and the need for greater data centre space utilisation.", 
+     
+      titulo:"Multicar: Versatilidad y Rendimiento para Cada Desafío", 
+      descripcion: "El Multicar es la solución ideal para quienes buscan versatilidad y rendimiento en tareas urbanas e industriales. Con un diseño técnicamente avanzado, ofrece máxima eficiencia operativa, reduciendo costos y optimizando recursos.", 
       urlImg:'',
-      boton:"FIND OUT MORE"
-    },
-    {
-      header:"PRODUCTO NUEVO",
-      titulo:"Software Design to Manufacturing (DTM)",
-      descripcion: "Gracias a la biblioteca fácil de usar e inteligente de piezas principales, los diseñadores pueden trabajar con eficiencia en un solo proyecto mientras el software garantiza, de forma automática, la sincronización de los datos. En consecuencia, se simplifica el proceso de diseño y planificación, y se disminuyen los errores.", 
-      urlImg:'', 
-      boton:"OBTENGA MÁS INFORMACIÓN"
-    },
-    {
-      header:"PRODUCTO NUEVO",
-      titulo:"Rack Safety Plus Product Configuration",
-      descripcion: "Select the power input, power output, additional features such as a surge arrester or EMC filter based on your infrastructure.", 
-      urlImg:'',
-      boton:"OBTENGA MÁS INFORMACIÓN"
-    },
+      boton:"DESCUBRE MÁS"
+    }
   ];
   
 
@@ -70,7 +56,7 @@ const SliderProductos = () =>{
                     
             <div className="w-1/2  pl-32 ">
                 <div className="h-[250px] w-full">
-                <h2 className="text-lg font-bold text-[#FBFBFB] mb-3 ">{banners[currentBanner].header}</h2>
+              
                 <h2 className="text-[21px] md:text-3xl font-bold text-[#FBFBFB]">{banners[currentBanner].titulo}</h2>
                 <p className="mt-3 text-lg hidden md:block text-[#FBFBFB]">{banners[currentBanner].descripcion}</p>
                 <div>
@@ -82,8 +68,7 @@ const SliderProductos = () =>{
             <button className={` h-[10px] w-[30px] rounded-full ${currentBanner === 0 ? 'bg-[#c4262e]' : 'bg-white'}`} onClick={()=>setCurrentBanner(0)}></button>
             <button className={` h-[10px] w-[30px] rounded-full ${currentBanner === 1 ? 'bg-[#c4262e]' : 'bg-white'}`} onClick={()=>setCurrentBanner(1)}></button>
             <button className={` h-[10px] w-[30px] rounded-full ${currentBanner === 2 ? 'bg-[#c4262e]' : 'bg-white'}`} onClick={()=>setCurrentBanner(2)}></button>
-            <button className={` h-[10px] w-[30px] rounded-full ${currentBanner === 3 ? 'bg-[#c4262e]' : 'bg-white'}`} onClick={()=>setCurrentBanner(3)}></button>
-            <button className={` h-[10px] w-[30px] rounded-full ${currentBanner === 4 ? 'bg-[#c4262e]' : 'bg-white'}`} onClick={()=>setCurrentBanner(4)}></button>
+           
             </div>
     
 
