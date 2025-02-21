@@ -20,8 +20,8 @@ const SolucionesHover = () => {
     'Revalorizando los desechos y transformando lo reciclable en oportunidades sostenibles.',
     'Gestión eficiente de grandes residuos con tecnología al servicio de la limpieza urbana.',
     'Cuidando nuestros espacios con tecnología móvil y versátil para una limpieza eficiente.',
-    'Logrando el equilibrio entre naturaleza y urbanismo con el cuidado del arbolado urbano.',
-    'Avanzando hacia la autosuficiencia con energía sostenible para ciudades más inteligentes.'
+    'Conservando el equilibrio entre naturaleza y urbanismo con el cuidado del arbolado urbano.',
+    'Avanzando hacia la independencia energética de forma sostenible.'
   ];
 
   return (
