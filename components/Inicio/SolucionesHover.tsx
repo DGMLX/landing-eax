@@ -19,9 +19,9 @@ const SolucionesHover = () => {
     'Transformando residuos en nuevas formas de energía y valor.',
     'Revalorizando los desechos y transformando lo reciclable en oportunidades sostenibles.',
     'Gestión eficiente de grandes residuos con tecnología al servicio de la limpieza urbana.',
-    'Limpieza profesional con tecnología móvil y versátil para cualquier necesidad.',
-    'Cuidado del arbolado urbano para lograr equilibrio entre naturaleza y el urbanismo.',
-    'Energía sostenible para ciudades más inteligentes, avanzando hacia la autosuficiencia.'
+    'Cuidando nuestros espacios con tecnología móvil y versátil para una limpieza eficiente.',
+    'Logrando el equilibrio entre naturaleza y urbanismo con el cuidado del arbolado urbano.',
+    'Avanzando hacia la autosuficiencia con energía sostenible para ciudades más inteligentes.'
   ];
 
   return (

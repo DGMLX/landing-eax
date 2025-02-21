@@ -9,7 +9,7 @@ const banners = [
     {
    
       titulo:"Trituradoras: La Nueva Generación de Chipeadoras en Chile", 
-      descripcion: "Descubre la gama más avanzada de trituradoras Eliet, diseñadas para adaptarse a cada necesidad con máxima eficiencia y versatilidad. Desde modelos estacionarios, móviles y sobre oruga, hasta remolcables y PTO.", 
+      descripcion: "Descubre la gama más avanzada de trituradoras, diseñadas para adaptarse a cada necesidad con máxima eficiencia y versatilidad. Desde modelos estacionarios, móviles y sobre oruga, hasta remolcables y PTO.", 
       urlImg:'/inicio/trituradoras.webp',
       boton:"DESCUBRE MÁS"
     },
