@@ -5,9 +5,11 @@ import { FiShoppingCart } from "react-icons/fi";
 import { LiaSearchSolid } from "react-icons/lia";
 import { useEffect, useRef, useState } from "react";
 import { FaPhoneAlt } from "react-icons/fa";
+import ModalCarrito from "@/components/carrito/ModalCarrito";
 
 
 const IndiceSuperior = () =>{
+    const [openCarrito,setOpenCarrito] = useState(false)
     const [isVisible, setIsVisible] = useState(true);
     const [lastScrollY, setLastScrollY] = useState(0);
 
@@ -17,11 +19,13 @@ const IndiceSuperior = () =>{
     const [openMensaje,setOpenMensaje] = useState(false);
     
     const contenedorRef = useRef<HTMLDivElement>(null);
+  
 
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {
           if (contenedorRef.current && !contenedorRef.current.contains(event.target as Node) && openModal){
             setOpenModal(false)
+          
             console.log("fuera del contenedor")
           }
         };
@@ -46,6 +50,11 @@ const IndiceSuperior = () =>{
         return () => window.removeEventListener("scroll", handleScroll);    
       }, [lastScrollY]);
 
+      const toogleCarrito = ()=>{
+        setOpenCarrito(!openCarrito)
+       
+       }
+
     return(
         <>
             <div className={`px-20 flex items-center gap-6 py-4 justify-end bg-red-700 text-white transition-transform duration-300 ${
@@ -57,7 +66,7 @@ const IndiceSuperior = () =>{
                     setOpenInfo(false)
                     setOpenMensaje(false)
                 }}>CONTACTO<MdChatBubbleOutline className="ml-2"/></button>
-                <button className="flex items-center text-sm">CARRITO<FiShoppingCart className="ml-2"/></button>
+                <button className="flex items-center text-sm" onClick={()=>toogleCarrito()}>CARRITO<FiShoppingCart className="ml-2"/></button>
                 <div className="flex items-center">
                     <input type="text"  className="bg-red-700 border-b placeholder-white placeholder-" placeholder="Buscar"/>
                     <LiaSearchSolid/>
@@ -154,6 +163,8 @@ const IndiceSuperior = () =>{
                     }
                 </div>
             }
+
+        <ModalCarrito openCarrito={openCarrito} setOpenCarrito={setOpenCarrito}/>
 
         </>
     )

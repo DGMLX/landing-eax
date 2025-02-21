@@ -1,5 +1,6 @@
 import BannerPrincipal from "@/components/bannerAutomatico/BannerPrincipal";
 import SliderProductos from "@/components/bannerAutomatico/SliderProductos";
+import SolucionesHover from "@/components/Inicio/SolucionesHover";
 import { HiArrowLongRight } from "react-icons/hi2";
 
 
@@ -16,7 +17,7 @@ const HomePage = () =>{
 
             <section className="mx-20 mb-5">
                 <h2 className="text-2xl mb-5 tracking-widest">ÁREAS DE ESPECIALIZACIÓN</h2>
-                <div className="flex justify-between gap-5">  
+                <div className="flex justify-between gap-5 ">  
 
                     <div className="w-1/3 hover:shadow-xl">
                         <div className="bg-gray-300 w-full h-[240px]" style={{
@@ -56,7 +57,14 @@ const HomePage = () =>{
                         </div>
                     </div>
                     <div className="w-1/3 hover:shadow-xl">
-                        <div className="bg-gray-300 w-full h-[240px]"></div>
+                        <div className="bg-gray-300 w-full h-[240px]" style={{
+                            backgroundImage:`url('/inicio/espacios_publicos.jpg')`,
+                            
+                            backgroundRepeat:"no-repeat",
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            
+                        }}></div>
                         <div className="px-6 pt-5  border-gray-300 border">
                             <h3 className="font-bold ">Espacios Públicos</h3>
                             <p className="mt-3">Diseño de mobiliario urbano pensado para el bienestar y disfrute de las personas, promoviendo una convivencia segura y sostenible.</p>
@@ -117,7 +125,7 @@ const HomePage = () =>{
                    
                     <div className="w-1/3 hover:shadow-xl">
                         <div className="bg-gray-300 w-full h-[240px]" style={{
-                            backgroundImage:`url('/inicio/electromovilidad2.jpg')`,
+                            backgroundImage:`url('/inicio/electromovilidad.jpg')`,
                      
                             backgroundRepeat:"no-repeat",
                             backgroundSize: "cover",
@@ -141,57 +149,7 @@ const HomePage = () =>{
                 </div>
             </section>
 
-            <section className="mx-20 mb-10">
-                <h2 className="text-2xl mb-5 tracking-widest">SOLUCIONES</h2>
-                <div className="w-full flex justify-between">
-                    <div className="w-3/6">
-                        <div className="flex justify-between py-5 hover:bg-gray-300 px-4">
-                            <h4 className="text-lg">Tratamiento de residuos orgánicos y restos de poda</h4>
-                            <HiArrowLongRight className="text-3xl"/>
-                        </div>
-
-                        <div className="flex justify-between py-5 hover:bg-gray-300 px-4">
-                            <h4 className="text-lg">Tratamiento de residuos reciclables</h4>
-                            <HiArrowLongRight className="text-3xl"/>
-                        </div>
-
-                        <div className="flex justify-between py-5 hover:bg-gray-300 px-4">
-                            <h4 className="text-lg">Tratamiento de residuos de gran tamaño</h4>
-                            <HiArrowLongRight className="text-3xl"/>
-                        </div>
-
-                        <div className="flex justify-between py-5 hover:bg-gray-300 px-4">
-                            <h4 className="text-lg">Limpieza y sanitización</h4>
-                            <HiArrowLongRight className="text-3xl"/>
-                        </div>
-
-                        <div className="flex justify-between py-5 hover:bg-gray-300 px-4">
-                            <h4 className="text-lg">Mantención de arbustos y arbolado</h4>
-                            <HiArrowLongRight className="text-3xl"/>
-                        </div>
-
-                        <div className="flex justify-between py-5 hover:bg-gray-300 px-4">
-                            <h4 className="text-lg">Autonomía energética y sostenibilidad ambiental</h4>
-                            <HiArrowLongRight className="text-3xl"/>
-                        </div>
-
-                      
-
-                    </div>
-
-                    <div className="w-3/6 pl-14">
-                        <div className="bg-gray-300 w- h-4/5 flex justify-center items-center">
-                            <p>Item </p>
-                        </div>
-                    </div>
-
-                </div>
-
-
-                <div className="flex justify-end mt-7">
-                    <button className="text-[#c4262e] flex items-center text-xl border border-[#c4262e]  py-3 px-5 rounded-full hover:bg-[#b01c1c] hover:text-white hover:underline">VER TODOS <HiArrowLongRight className="ml-3"/></button>
-                </div>
-            </section>
+            <SolucionesHover/>
 
 
             <section className="mx-20 mb-10">
@@ -284,12 +242,18 @@ const HomePage = () =>{
                             <p className="mt-3">Explora artículos especializados sobre maquinaria, reciclaje y soluciones sustentables.</p>
                             <div className="flex mt-10">
                             <button className=" flex items-center text-xl border border-[#c4262e]  py-3 px-4 rounded-full bg-[#c4262e] text-white hover:bg-[#b01c1c] hover:text-white hover:underline">DESCUBRE MÁS<HiArrowLongRight className="ml-5 text-3xl"/></button>
-                        
                             </div>
                         </div>
                     </div>
 
-                    <div className=" bg-gray-300 w-1/2 h-[350px] flex flex-col justify-center">
+                    <div className="  bg-black/35 w-1/2 h-[350px] flex flex-col justify-center" style={{
+                        backgroundImage:'url(/inicio/servicios.jpg)',
+                        backgroundBlendMode:"darken",
+                        backgroundRepeat:"no-repeat",
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                        
+                    }}>
                         <div className="flex flex-col justify-start px-28 text-white">
                             
                             <h3 className="mb-5 underline underline-offset-[12px]">SERVICIOS</h3>
