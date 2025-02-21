@@ -19,8 +19,15 @@ const HomePage = () =>{
                 <div className="flex justify-between gap-5">  
 
                     <div className="w-1/3 hover:shadow-xl">
-                        <div className="bg-gray-300 w-full h-[240px]"></div>
-                        <div className="px-6 pt-5  border-gray-300 border">
+                        <div className="bg-gray-300 w-full h-[240px]" style={{
+                            backgroundImage:`url('/inicio/multiproposito.jpg')`,
+                            
+                            backgroundRepeat:"no-repeat",
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            
+                        }}></div>
+                        <div className="px-6 pt-5  border-gray-300 border" >
                             <h3 className="font-bold ">Multipropósito</h3>
                             <p className="mt-3">Equipos versátiles con más de 100 accesorios y 300 combinaciones, maximizando innovación y ahorro en espacios públicos e industriales</p>
                             <div className="my-5 flex justify-around items-center text-[#c4262e]">
@@ -31,7 +38,14 @@ const HomePage = () =>{
                     </div>
 
                     <div className="w-1/3 hover:shadow-xl">
-                        <div className="bg-gray-300 w-full h-[240px]"></div>
+                        <div className="bg-gray-300 w-full h-[240px]" style={{
+                            backgroundImage:`url('/inicio/tratamiento_residuos.jpg')`,
+        
+                            backgroundRepeat:"no-repeat",
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            
+                        }}></div>
                         <div className="px-6 pt-5  border-gray-300 border">
                             <h3 className="font-bold ">Tratamiento de Residuos</h3>
                             <p className="mt-3">Reduce costos y optimiza la gestión de residuos a través del reciclaje, transformación y reutilización, generando un impacto ambiental positivo.</p>
@@ -64,7 +78,14 @@ const HomePage = () =>{
                 <div className="flex justify-between gap-5">  
 
                 <div className="w-1/3 hover:shadow-xl">
-                        <div className="bg-gray-300 w-full h-[240px]"></div>
+                        <div className="bg-gray-300 w-full h-[240px]" style={{
+                            backgroundImage:`url('/inicio/mantenimiento_urbano.jpg')`,
+                            
+                            backgroundRepeat:"no-repeat",
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            
+                        }}></div>
                         <div className="px-6 pt-5  border-gray-300 border">
                             <h3 className="font-bold ">Mantenimiento Urbano</h3>
                             <p className="mt-3">Equipamiento confiable y eficiente que agiliza la mantención de infraestructura urbana y rural, garantizando seguridad, rapidez y costos reducidos.</p>
@@ -76,7 +97,14 @@ const HomePage = () =>{
                     </div>
 
                     <div className="w-1/3 hover:shadow-xl">
-                        <div className="bg-gray-300 w-full h-[240px]"></div>
+                        <div className="bg-gray-300 w-full h-[240px]" style={{
+                            backgroundImage:`url('/inicio/aseo_urbano.jpg')`,
+                         
+                            backgroundRepeat:"no-repeat",
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            
+                        }}></div>
                         <div className="px-6 pt-5  border-gray-300 border">
                             <h3 className="font-bold ">Aseo Urbano</h3>
                             <p className="mt-3">Soluciones de limpieza y recolección diseñadas para máxima eficiencia y mínimo gasto, impulsando el desarrollo y la calidad de vida en los espacios públicos.</p>
@@ -88,7 +116,14 @@ const HomePage = () =>{
                     </div>
                    
                     <div className="w-1/3 hover:shadow-xl">
-                        <div className="bg-gray-300 w-full h-[240px]"></div>
+                        <div className="bg-gray-300 w-full h-[240px]" style={{
+                            backgroundImage:`url('/inicio/electromovilidad2.jpg')`,
+                     
+                            backgroundRepeat:"no-repeat",
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            
+                        }}></div>
                         <div className="px-6 pt-5  border-gray-300 border">
                             <h3 className="font-bold ">Electromovilidad</h3>
                             <p className="mt-3">Tecnología de vanguardia para operaciones silenciosas y libres de contaminación, revolucionando la gestión urbana e industrial con eficiencia energética.</p>

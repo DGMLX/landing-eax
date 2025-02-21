@@ -10,7 +10,7 @@ const banners = [
       header:"SOLUCIONES",
       titulo:"Solución de Limpieza, Sanitización y Desinfección: Espacios Públicos más Seguros y Saludables", 
       descripcion: "Transforma la higiene urbana con un sistema de agua a alta presión y desinfectantes complementarios, diseñado para mantener los espacios públicos en óptimas condiciones. Adaptable a diversos vehículos, incluyendo el Camión Multipropósito Multicar.", 
-      urlImg:'',
+      urlImg:'/inicio/banner_soluciones.jpg',
       boton:"DESCUBRE MÁS"
     },
 
@@ -28,20 +28,7 @@ const banners = [
       urlImg:'',
       boton:"DESCUBRE MÁS"
     },
-    // {
-    //   header:"COMUNICADO DE PRENSA",
-    //   titulo:"nVent Completes Sale of Thermal Management Business",
-    //   descripcion: "nVent Electric PLC announced that it has completed the previously announced sale of its Thermal Management business to funds managed by Brookfield Asset Management", 
-    //   urlImg:'', 
-    //   boton:"OBTENGA MÁS INFORMACIÓN"
-    // },
-    // {
-    //   header:"COMUNICADO DE PRENSA",
-    //   titulo:"nVent Completa la adquisición de Trachte",
-    //   descripcion: "nVent anunció hoy que ha completado la adquisición previamente anunciada de la empresa matriz de Trachte, LLC.", 
-    //   urlImg:'',
-    //   boton:"MÁS INFORMACIÓN"
-    // },
+
   ];
   
 
@@ -63,7 +50,15 @@ const BannerPrincipal:React.FC = () =>{
 
     return(
         <>
-          <section className=" bg-gray-400  pt-28 pb-16 md:h-[470px]  justify-center flex-col flex">
+          <section className="pt-28 bg- bg-black/35  pb-16 md:h-[470px]  justify-center flex-col flex "
+          style={{
+            backgroundImage:banners[currentBanner].urlImg !== '' ? `url(${banners[currentBanner].urlImg})` : 'bg-gray-500',
+            backgroundBlendMode:"darken",
+            backgroundRepeat:"no-repeat",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            
+          }}>
 
               <div className="w-1/2  pl-32 mt-5">
                   <div className="h-[250px] w-full">
