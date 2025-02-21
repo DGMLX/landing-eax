@@ -16,8 +16,8 @@ const SolucionesHover = () => {
   ];
 
   const descripciones = [
-    'Nada se pierde cuando se transforma en energía, fertilidad y desarrollo.',
-    'Redefiniendo los desechos y transformando lo reciclable en oportunidades sostenibles.',
+    'Transformando residuos en nuevas formas de energía y valor.',
+    'Revalorizando los desechos y transformando lo reciclable en oportunidades sostenibles.',
     'Gestión eficiente de grandes residuos con tecnología al servicio de la limpieza urbana.',
     'Limpieza profesional con tecnología móvil y versátil para cualquier necesidad.',
     'Cuidado del arbolado urbano para lograr equilibrio entre naturaleza y el urbanismo.',

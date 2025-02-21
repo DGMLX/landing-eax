@@ -10,7 +10,7 @@ const banners = [
    
       titulo:"Trituradoras: La Nueva Generación de Chipeadoras en Chile", 
       descripcion: "Descubre la gama más avanzada de trituradoras Eliet, diseñadas para adaptarse a cada necesidad con máxima eficiencia y versatilidad. Desde modelos estacionarios, móviles y sobre oruga, hasta remolcables y PTO.", 
-      urlImg:'',
+      urlImg:'/inicio/trituradoras.webp',
       boton:"DESCUBRE MÁS"
     },
 
@@ -18,14 +18,14 @@ const banners = [
    
       titulo:"Briquetadoras: Convierte Residuos en Valor",
       descripcion: "Maximiza el aprovechamiento de materiales, una solución eficiente para transformar residuos en briquetas compactas y listas para su uso. Con un proceso limpio y sencillo, reducen costos de almacenamiento y transporte, aportando valor agregado a materiales desechables.", 
-      urlImg:'',
+      urlImg:'/inicio/briquetadoras.jpg',
       boton:"DESCUBRE MÁS"
     },
     {
      
       titulo:"Multicar: Versatilidad y Rendimiento para Cada Desafío", 
       descripcion: "El Multicar es la solución ideal para quienes buscan versatilidad y rendimiento en tareas urbanas e industriales. Con un diseño técnicamente avanzado, ofrece máxima eficiencia operativa, reduciendo costos y optimizando recursos.", 
-      urlImg:'',
+      urlImg:'/inicio/multicar.jpg',
       boton:"DESCUBRE MÁS"
     }
   ];
@@ -52,7 +52,13 @@ const SliderProductos = () =>{
         
     return(
         <>
-         <section className=" bg-gray-400  pt-24 pb-16 h-[400px]  justify-center flex-col flex">
+         <section className=" bg-black/30 pt-24 pb-16 h-[400px]  justify-center flex-col flex"  style={{
+            backgroundImage:`url(${banners[currentBanner].urlImg})`,
+            backgroundBlendMode:"darken",
+            backgroundRepeat:"no-repeat",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}>
                     
             <div className="w-1/2  pl-32 ">
                 <div className="h-[250px] w-full">

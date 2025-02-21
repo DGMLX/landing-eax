@@ -157,7 +157,14 @@ const HomePage = () =>{
                 <div className="flex gap-5">
 
                     <div className="w-1/4 hover:shadow-xl">
-                        <div className="bg-gray-300 w-full h-[170px]"></div>
+                        <div className="bg-gray-300 w-full h-[240px]" style={{
+                            backgroundImage:`url('/inicio/multicar_m31.jpg')`,
+                     
+                            backgroundRepeat:"no-repeat",
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            
+                        }}></div>
                         <div className="px-6 pt-5 h-[406px] flex flex-col justify-between  border-gray-300 border">
                             <div>
 
@@ -172,7 +179,13 @@ const HomePage = () =>{
                     </div>
 
                     <div className="w-1/4  hover:shadow-xl">
-                        <div className="bg-gray-300 w-full h-[170px]"></div>
+                        <div className="bg-gray-300 w-full h-[240px]" style={{
+                            backgroundImage:`url('/inicio/giant-g2200e.jpg')`,
+                            backgroundRepeat:"no-repeat",
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            
+                        }}></div>
                         <div className="px-6 pt-5 h-[406px] flex flex-col justify-between  border-gray-300 border">
                             <div>
 
@@ -186,9 +199,15 @@ const HomePage = () =>{
                         </div>
                     </div>
 
-                    <div className="w-1/4  hover:shadow-xl">
-                        <div className="bg-gray-300 w-full h-[170px]"></div>
-                        <div className="px-6 pt-5 h-[406px] flex flex-col justify-between  border-gray-300 border">
+                    <div className="w-1/4  hover:shadow-xl border   border-gray-300">
+                        <div className="bg-gray-300 w-full h-[240px]" style={{
+                            backgroundImage:`url('/inicio/super_prof.jpg')`,
+                            backgroundRepeat:"no-repeat",
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            
+                        }}></div>
+                        <div className="px-6 pt-5 h-[406px] flex flex-col justify-between ">
                             <div>
                                 <h3 className="font-bold ">Trituradora Super Prof MAX On Road: Rendimiento y Movilidad para la Gestión de Residuos</h3>
                                 <p className="mt-3">La Super Prof MAX On Road lleva la trituración a otro nivel con su innovador sistema de descarga AXELERO™, capaz de procesar ramas de gran tamaño con máxima eficiencia. Diseñada para un transporte ágil gracias a su montaje sobre tráiler, combina potencia, sostenibilidad y facilidad de uso, ideal para quienes buscan optimizar la gestión de residuos verdes.</p>
@@ -201,7 +220,13 @@ const HomePage = () =>{
                     </div>
 
                     <div className="w-1/4   hover:shadow-xl">
-                        <div className="bg-gray-300 w-full h-[170px]"></div>
+                        <div className="bg-gray-300 w-full h-[240px]" style={{
+                            backgroundImage:`url('/inicio/mini_compactador.png')`,
+                            backgroundRepeat:"no-repeat",
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            
+                        }}></div>
                         <div className="px-6 pt-5 h-[406px] flex flex-col justify-between  border-gray-300 border">
                             <div>
                                 <h3 className="font-bold ">Mini Compactador MSP: Máxima Compactación en Espacios Reducidos</h3>
