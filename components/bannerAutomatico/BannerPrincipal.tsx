@@ -10,10 +10,9 @@ const banners = [
       header:"SOLUCIONES",
       titulo:"Solución de Limpieza, Sanitización y Desinfección: Espacios Públicos más Seguros y Saludables", 
       descripcion: "Transforma la higiene urbana con un sistema de agua a alta presión y desinfectantes complementarios, diseñado para mantener los espacios públicos en óptimas condiciones. Adaptable a diversos vehículos, incluyendo el Camión Multipropósito Multicar.", 
-      urlImg:'/inicio/banner_soluciones.jpg',
+      urlImg:'/inicio/banner_soluciones2.jpg',
       boton:"DESCUBRE MÁS"
     },
-
     {
       header:"PRODUCTOS",
       titulo:"Barredoras de Calle: Innovación para Ciudades Más Limpias",
