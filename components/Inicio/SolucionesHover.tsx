@@ -27,10 +27,10 @@ const SolucionesHover = () => {
   const imagenes = [
     '/inicio/tratamiento_residuos_organicos.jpg',
     '/inicio/pellet.jpg',
-    '',
+    '/inicio/residuos_gran_tamanio.jpg',
     '/inicio/limpieza_sanitizacion.jpg',
     '/inicio/mantencion_arbustos.jpg',
-    '/inicio/autonomia_energetica.jpg'
+    '/inicio/autonomia_energetica.webp'
   ]
 
   return (
