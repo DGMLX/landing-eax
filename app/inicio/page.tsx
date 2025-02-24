@@ -19,7 +19,7 @@ const HomePage = () =>{
                 <h2 className="text-2xl mb-5 tracking-widest">ÁREAS DE ESPECIALIZACIÓN</h2>
                 <div className="flex justify-between gap-5 flex-col md:flex-row ">  
 
-                    <div className="lg:w-1/3 hover:shadow-xl">
+                    <div className="md:w-1/2 lg:w-1/3 hover:shadow-xl">
                         <div className="bg-gray-300 w-full h-[240px]" style={{
                             backgroundImage:`url('/inicio/multiproposito.jpg')`,
                             
@@ -28,7 +28,7 @@ const HomePage = () =>{
                             backgroundPosition: "center",
                             
                         }}></div>
-                        <div className="px-6 pt-5 border-gray-300 border h-[310px] flex flex-col justify-around" >
+                        <div className="px-6 pt-5 border-gray-300 border  flex flex-col justify-around" >
                             <h3 className="font-bold text-lg">Multipropósito: innovación y Eficiencia en Cada Espacio</h3>
                             <p className="mt-3">Los equipos multipropósito redefinen la eficiencia y versatilidad, adaptándose a diversas necesidades en aseo, mantenimiento y tratamiento de residuos. Con más de 100 accesorios intercambiables y 300 combinaciones, optimizan recursos, reducen costos y maximizan el rendimiento, brindando innovación, sostenibilidad y alto desempeño en entornos urbanos e industriales con solo una inversión.</p>
                             <div className="my-5 flex justify-around items-center text-[#c4262e]">
@@ -38,7 +38,7 @@ const HomePage = () =>{
                         </div>
                     </div>
 
-                    <div className="lg:w-1/3 hover:shadow-xl">
+                    <div className="md:w-1/2 lg:w-1/3 hover:shadow-xl">
                         <div className="bg-gray-300 w-full h-[240px]" style={{
                             backgroundImage:`url('/inicio/tratamiento_residuos.jpg')`,
         
@@ -47,7 +47,7 @@ const HomePage = () =>{
                             backgroundPosition: "center",
                             
                         }}></div>
-                        <div className="px-6 pt-5  border-gray-300 border h-[310px] flex flex-col justify-around">
+                        <div className="px-6 pt-5  border-gray-300 border flex flex-col justify-around">
                             <h3 className="font-bold text-lg">Tratamiento de Residuos: Tecnología para una Transformación Inteligente</h3>
                             <p className="mt-3">Equipos y soluciones avanzadas para una gestión de residuos eficiente, sostenible y rentable. Reducimos costos operativos, optimizamos la logística y fomentamos el reciclaje, la transformación y reutilización de residuos. Con automatización y eficiencia energética, ayudamos a gestionar y avanzar hacia un modelo circular y sustentable.</p>
                             <div className="my-5 flex justify-around items-center text-[#c4262e]">
@@ -65,7 +65,7 @@ const HomePage = () =>{
                             backgroundPosition: "center",
                             
                         }}></div>
-                        <div className="px-6 pt-5  border-gray-300 border h-[310px] flex flex-col justify-around">
+                        <div className="px-6 pt-5  border-gray-300 border flex flex-col justify-around">
                             <h3 className="font-bold text-lg">Mejoramiento de Espacios Públicos: Transformando Entornos para una Vida de Calidad</h3>
                             <p className="mt-3">Diseño, mantenimiento y rehabilitación de plazas, parques y calles, aplicando accesibilidad, seguridad y sostenibilidad para fortalecer la calidad de vida urbana. Incorporamos mobiliario urbano inteligente y tecnologías avanzadas para gestionar espacios de forma eficiente, promoviendo ciudades más sostenibles con entornos modernos, funcionales e inclusivos.</p>
                             <div className="my-5 flex justify-around items-center text-[#c4262e]">
@@ -94,7 +94,7 @@ const HomePage = () =>{
                             backgroundPosition: "center",
                             
                         }}></div>
-                        <div className="px-6 pt-5  border-t h-[310px] flex flex-col justify-around">
+                        <div className="px-6 pt-5  border-t flex flex-col justify-around">
                             <h3 className="font-bold text-lg">Gestión Urbana: Estrategias Inteligentes para Ciudades Mas Eficientes y Sostenibles</h3>
                             <p className="mt-3">Desarrollo e implementación de estrategias innovadoras para optimizar la planificación y administración de ciudades y entornos empresariales con tecnología basada en Inteligencia Artificial. Optimizamos la gestión de recursos, infraestructura y servicios, promoviendo sostenibilidad, automatización y eficiencia económica, creando entornos más conectados, funcionales y habitables.</p>
                             <div className="my-5 flex justify-around items-center text-[#c4262e]">
@@ -113,7 +113,7 @@ const HomePage = () =>{
                             backgroundPosition: "center",
                             
                         }}></div>
-                        <div className="px-6 pt-5  border-t h-[310px] flex flex-col justify-around">
+                        <div className="px-6 pt-5  border-t flex flex-col justify-around">
                             <h3 className="font-bold text-lg">Aseo y Mantenimiento: Tecnologia para Entonos Más Limpios y Eficientes</h3>
                             <p className="mt-3">Ofrecemos equipos y soluciones especializadas para el aseo y mantenimiento de espacios urbanos, industriales y empresariales, asegurando rapidez, seguridad y costos optimizados. Con tecnología confiable y de alto rendimiento, facilitamos la gestión eficiente de residuos y mantención de infraestructuras, impulsando entornos más limpios, sostenibles y funcionales.</p>
                             <div className="my-5 flex justify-around items-center text-[#c4262e]">
@@ -134,7 +134,7 @@ const HomePage = () =>{
                             backgroundPosition: "center",
                             
                         }}></div>
-                        <div className="px-6 pt-5 border-t  h-[310px] flex flex-col justify-around">
+                        <div className="px-6 pt-5 border-t  flex flex-col justify-around">
                             <h3 className="font-bold text-lg">Electromovilidad: el Cambio Hacia un Futuro Energético y Sostenible</h3>
                             <p className="mt-3">La electromovilidad transforma la operación en ciudades e industrias con tecnología de vanguardia para desarrollar soluciones eléctricas seguras, silenciosas y libres de contaminación. Desde saneamiento hasta logística industrial, impulsa la eficiencia energética y reduce la huella de carbono. Su integración en diversos sectores genera entornos más sostenibles, resilientes.</p>
                             <div className="my-5 flex justify-around items-center text-[#c4262e]">
@@ -161,7 +161,7 @@ const HomePage = () =>{
                             backgroundPosition: "center",
                             
                         }}></div>
-                        <div className="px-6 pt-5  border-gray-300 border h-[310px] flex flex-col justify-around">
+                        <div className="px-6 pt-5  border-gray-300 border  flex flex-col justify-around">
                             <h3 className="font-bold ">Mejoramiento de Espacios Públicos: Transformando Entornos para una Vida de Calidad</h3>
                             <p className="mt-3">Diseño, mantenimiento y rehabilitación de plazas, parques y calles, aplicando accesibilidad, seguridad y sostenibilidad para fortalecer la calidad de vida urbana. Incorporamos mobiliario urbano inteligente y tecnologías avanzadas para gestionar espacios de forma eficiente, promoviendo ciudades más sostenibles con entornos modernos, funcionales e inclusivos.</p>
                             <div className="my-5 flex justify-around items-center text-[#C4262E]">
@@ -178,7 +178,7 @@ const HomePage = () =>{
                             backgroundSize: "cover",
                             backgroundPosition: "center",
                         }}></div>
-                        <div className="px-6 pt-5  border-gray-300 border h-[310px] flex flex-col justify-around">
+                        <div className="px-6 pt-5  border-gray-300 border  flex flex-col justify-around">
                             <h3 className="font-bold ">Electromovilidad: el Cambio Hacia un Futuro Energético y Sostenible</h3>
                             <p className="mt-3">La electromovilidad transforma la operación en ciudades e industrias con tecnología de vanguardia para desarrollar soluciones eléctricas seguras, silenciosas y libres de contaminación. Desde saneamiento hasta logística industrial, impulsa la eficiencia energética y reduce la huella de carbono. Su integración en diversos sectores genera entornos más sostenibles, resilientes.</p>
                             <div className="my-5 flex justify-around items-center text-[#C4262E]">
