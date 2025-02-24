@@ -17,9 +17,9 @@ const HomePage = () =>{
 
             <section className="mx-20 mb-5">
                 <h2 className="text-2xl mb-5 tracking-widest">ÁREAS DE ESPECIALIZACIÓN</h2>
-                <div className="flex justify-between gap-5 ">  
+                <div className="flex justify-between gap-5 flex-col md:flex-row ">  
 
-                    <div className="w-1/3 hover:shadow-xl">
+                    <div className="lg:w-1/3 hover:shadow-xl">
                         <div className="bg-gray-300 w-full h-[240px]" style={{
                             backgroundImage:`url('/inicio/multiproposito.jpg')`,
                             
@@ -38,7 +38,7 @@ const HomePage = () =>{
                         </div>
                     </div>
 
-                    <div className="w-1/3 hover:shadow-xl">
+                    <div className="lg:w-1/3 hover:shadow-xl">
                         <div className="bg-gray-300 w-full h-[240px]" style={{
                             backgroundImage:`url('/inicio/tratamiento_residuos.jpg')`,
         
@@ -56,7 +56,7 @@ const HomePage = () =>{
                             </div>
                         </div>
                     </div>
-                    <div className="w-1/3 hover:shadow-xl">
+                    <div className=" lg:w-1/3 sm:hidden lg:block hover:shadow-xl">
                         <div className="bg-gray-300 w-full h-[240px]" style={{
                             backgroundImage:`url('/inicio/espacios_publicos.jpg')`,
                             
@@ -83,9 +83,9 @@ const HomePage = () =>{
             
 
             <section className="mx-20 mb-10">
-                <div className="flex justify-between gap-5">  
+                <div className="flex justify-between gap-5 lg:flex-row flex-col md:flex-row">  
 
-                <div className="w-1/3 hover:shadow-xl">
+                <div className="lg:w-1/3 hover:shadow-xl md:w-1/2">
                         <div className="bg-gray-300 w-full h-[240px]" style={{
                             backgroundImage:`url('/inicio/mantenimiento_urbano.jpg')`,
                             
@@ -104,7 +104,7 @@ const HomePage = () =>{
                         </div>
                     </div>
 
-                    <div className="w-1/3 hover:shadow-xl border">
+                    <div className="lg:w-1/3 hover:shadow-xl md:w-1/2 border">
                         <div className="bg-gray-300 w-full h-[240px]" style={{
                             backgroundImage:`url('/inicio/aseo_urbano.jpg')`,
                          
@@ -123,7 +123,9 @@ const HomePage = () =>{
                         </div>
                     </div>
                    
-                    <div className="w-1/3 hover:shadow-xl">
+
+
+                    <div className="lg:w-1/3 sm:hidden lg:block hover:shadow-xl">
                         <div className="bg-gray-300 w-full h-[240px]" style={{
                             backgroundImage:`url('/inicio/electromovilidad.jpg')`,
                      
@@ -144,6 +146,50 @@ const HomePage = () =>{
 
                    
                 </div>
+
+
+                {/* **************************************************************** */}
+
+                <div className=" mt-5">
+            <div className="flex justify-between gap-5 lg:flex-row flex-col md:flex-row">
+            <div className="lg:w-1/3 md:w-1/2 hover:shadow-xl hidden sm:block lg:hidden">
+                        <div className="bg-gray-300 w-full h-[240px]" style={{
+                            backgroundImage:`url('/inicio/espacios_publicos.jpg')`,
+                            
+                            backgroundRepeat:"no-repeat",
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            
+                        }}></div>
+                        <div className="px-6 pt-5  border-gray-300 border">
+                            <h3 className="font-bold ">Espacios Públicos</h3>
+                            <p className="mt-3">Diseño de mobiliario urbano pensado para el bienestar y disfrute de las personas, promoviendo una convivencia segura y sostenible.</p>
+                            <div className="my-5 flex justify-around items-center text-[#C4262E]">
+                                <button className="text-xl">DESCUBRE MÁS</button>
+                                <HiArrowLongRight className="text-4xl"/>
+                            </div>
+                        </div>
+                    </div>
+                   {/* desaparece para tablet */}
+                   <div className="lg:w-1/3 md:w-1/2 hover:shadow-xl hidden sm:block lg:hidden">
+                        <div className="bg-gray-300 w-full h-[240px]" style={{
+                            backgroundImage:`url('/inicio/electromovilidad.jpg')`,
+                            backgroundRepeat:"no-repeat",
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                        }}></div>
+                        <div className="px-6 pt-5  border-gray-300 border">
+                            <h3 className="font-bold ">Electromovilidad</h3>
+                            <p className="mt-3">Tecnología de vanguardia para operaciones silenciosas y libres de contaminación, revolucionando la gestión urbana e industrial con eficiencia energética.</p>
+                            <div className="my-5 flex justify-around items-center text-[#C4262E]">
+                                <button className="text-xl">DESCUBRE MÁS</button>
+                                <HiArrowLongRight className="text-4xl"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
                 <div className="flex justify-end mt-7">
                     <button className="text-[#c4262e] flex items-center text-xl border border-[#c4262e]  py-3 px-4 rounded-full hover:bg-[#b01c1c] hover:text-white hover:underline">ÁREAS DE ESPECIALIZACIÓN <HiArrowLongRight/></button>
                 </div>
@@ -152,11 +198,13 @@ const HomePage = () =>{
             <SolucionesHover/>
 
 
+
+
             <section className="mx-20 mb-10">
                 <h2 className="text-2xl mb-5 tracking-widest">PRODUCTOS DESTACADOS</h2>
-                <div className="flex gap-5">
+                <div className="flex flex-wrap justify-between w-full">
 
-                    <div className="w-1/4 hover:shadow-xl">
+                    <div className="w-full lg:w-[49%] xl:w-[24%] hover:shadow-xl flex flex-col">
                         <div className="bg-gray-300 w-full h-[240px]" style={{
                             backgroundImage:`url('/inicio/multicar_m31.jpg')`,
                      
@@ -165,7 +213,7 @@ const HomePage = () =>{
                             backgroundPosition: "center",
                             
                         }}></div>
-                        <div className="px-6 pt-5 h-[406px] flex flex-col justify-between  border-gray-300 border">
+                        <div className="px-6 pt-5 h-[406px] w-full flex flex-col justify-between  border-gray-300 border">
                             <div>
 
                                 <h3 className="font-bold ">Multicar M31: Potencia y Versatilidad en un Solo Vehículo</h3>
@@ -178,7 +226,7 @@ const HomePage = () =>{
                         </div>
                     </div>
 
-                    <div className="w-1/4  hover:shadow-xl">
+                    <div className="w-full lg:w-[49%] xl:w-[24%]  hover:shadow-xl flex flex-col mt-5 lg:mt-0">
                         <div className="bg-gray-300 w-full h-[240px]" style={{
                             backgroundImage:`url('/inicio/giant-g2200e.jpg')`,
                             backgroundRepeat:"no-repeat",
@@ -186,7 +234,7 @@ const HomePage = () =>{
                             backgroundPosition: "center",
                             
                         }}></div>
-                        <div className="px-6 pt-5 h-[406px] flex flex-col justify-between  border-gray-300 border">
+                        <div className="px-6 pt-5 h-[406px] flex flex-col justify-between  border-gray-300 border ">
                             <div>
 
                                 <h3 className="font-bold ">Giant G2200E: Flexibilidad Eléctrica para Cada Desafío</h3>
@@ -199,7 +247,7 @@ const HomePage = () =>{
                         </div>
                     </div>
 
-                    <div className="w-1/4  hover:shadow-xl border   border-gray-300">
+                    <div className="w-full lg:w-[49%] xl:w-[24%]  hover:shadow-xl border   border-gray-300 flex flex-col mt-5 xl:mt-0">
                         <div className="bg-gray-300 w-full h-[240px]" style={{
                             backgroundImage:`url('/inicio/super_prof.jpg')`,
                             backgroundRepeat:"no-repeat",
@@ -219,7 +267,7 @@ const HomePage = () =>{
                         </div>
                     </div>
 
-                    <div className="w-1/4   hover:shadow-xl">
+                    <div className="w-full lg:w-[49%] xl:w-[24%]   hover:shadow-xl flex flex-col mt-5 xl:mt-0">
                         <div className="bg-gray-300 w-full h-[240px]" style={{
                             backgroundImage:`url('/inicio/mini_compactador.jpg')`,
                             backgroundRepeat:"no-repeat",
@@ -243,7 +291,7 @@ const HomePage = () =>{
                 </div>
 
                 <div className="flex justify-end mt-7">
-                    <button className="text-[#c4262e] flex items-center text-xl border border-[#c4262e]  py-3 px-5 rounded-full hover:bg-[#b01c1c] hover:text-white hover:underline">VER TODOS <HiArrowLongRight className="ml-3"/></button>
+                    <button className="text-[#C4262E] flex items-center text-xl border border-[#C4262E]  py-3 px-5 rounded-full hover:bg-[#B01C1C] hover:text-white hover:underline">VER TODOS <HiArrowLongRight className="ml-3"/></button>
                 </div>
 
             </section>
