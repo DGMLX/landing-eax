@@ -60,12 +60,12 @@ const SliderProductos = () =>{
             backgroundPosition: "center",
           }}>
                     
-            <div className="w-1/2  pl-32 ">
-                <div className="h-[250px] w-full">
+            <div className="w-full lg:w-1/2 pl-5 pr-10 md:pr-36 lg:pr-0   lg:pl-32 ">
+                <div className="h-[250px] w-full flex flex-col justify-center">
               
-                <h2 className="text-[21px] md:text-3xl font-bold text-[#FBFBFB]">{banners[currentBanner].titulo}</h2>
-                <p className="mt-3 text-lg hidden md:block text-[#FBFBFB]">{banners[currentBanner].descripcion}</p>
-                <div>
+                <h2 className="text-[21px]  md:text-3xl font-bold text-[#FBFBFB]">{banners[currentBanner].titulo}</h2>
+                <p className="mt-3 text-lg hidden lg:block text-[#FBFBFB]">{banners[currentBanner].descripcion}</p>
+                <div className="">
                     <button className="hover:bg-[#A7283D] bg-[#e34f4f] text-white text-[16px] py-2 px-7 rounded-full mt-5 font-bold   flex items-center">{banners[currentBanner].boton}<HiArrowLongRight className="text-3xl ml-4"/></button>
                 </div>
                 </div>

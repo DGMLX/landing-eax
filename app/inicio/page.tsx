@@ -29,8 +29,8 @@ const HomePage = () =>{
                             
                         }}></div>
                         <div className="px-6 pt-5  border-gray-300 border" >
-                            <h3 className="font-bold ">Multipropósito</h3>
-                            <p className="mt-3">Equipos versátiles con más de 100 accesorios y 300 combinaciones, maximizando innovación y ahorro en espacios públicos e industriales</p>
+                            <h3 className="font-bold ">Multipropósito: innovación y Eficiencia en Cada Espacio</h3>
+                            <p className="mt-3">Los equipos multipropósito redefinen eficiencia y versatilidad, adaptándose a diversas necesidades en aseo, mantenimiento y tratamiento de residuos. Con más de 100 accesorios intercambiables y 300 combinaciones, optimizan recursos, reducen costos y maximizan el rendimiento, brindando innovación, sostenibilidad y alto desempeño en entornos urbanos e industriales con solo una inversión.</p>
                             <div className="my-5 flex justify-around items-center text-[#c4262e]">
                                 <button className="text-xl">DESCUBRE MÁS</button>
                                 <HiArrowLongRight className="text-4xl"/>
@@ -48,8 +48,8 @@ const HomePage = () =>{
                             
                         }}></div>
                         <div className="px-6 pt-5  border-gray-300 border">
-                            <h3 className="font-bold ">Tratamiento de Residuos</h3>
-                            <p className="mt-3">Reduce costos y optimiza la gestión de residuos a través del reciclaje, transformación y reutilización, generando un impacto ambiental positivo.</p>
+                            <h3 className="font-bold ">Tratamiento de Residuos: Tecnología para una Transformación Inteligente</h3>
+                            <p className="mt-3">Equipos y soluciones avanzadas para una gestión de residuos eficiente, sostenible y rentable. Reducimos costos operativos, optimizamos la logística y fomentamos el reciclaje, la transformación y reutilización de residuos. Con automatización y eficiencia energética, ayudamos a gestionar y avanzar hacia un modelo circular y sustentable.</p>
                             <div className="my-5 flex justify-around items-center text-[#c4262e]">
                                 <button className="text-xl">DESCUBRE MÁS</button>
                                 <HiArrowLongRight className="text-4xl"/>
@@ -66,8 +66,8 @@ const HomePage = () =>{
                             
                         }}></div>
                         <div className="px-6 pt-5  border-gray-300 border">
-                            <h3 className="font-bold ">Espacios Públicos</h3>
-                            <p className="mt-3">Diseño de mobiliario urbano pensado para el bienestar y disfrute de las personas, promoviendo una convivencia segura y sostenible.</p>
+                            <h3 className="font-bold ">Mejoramiento de Espacios Públicos: Transformando Entornos para una Vida de Calidad</h3>
+                            <p className="mt-3">Diseño, mantenimiento y rehabilitación de plazas, parques y calles, aplicando accesibilidad, seguridad y sostenibilidad para fortalecer la calidad de vida urbana. Incorporamos mobiliario urbano inteligente y tecnologías avanzadas para gestionar espacios de forma eficiente, promoviendo ciudades más sostenibles con entornos modernos, funcionales e inclusivos.</p>
                             <div className="my-5 flex justify-around items-center text-[#c4262e]">
                                 <button className="text-xl">DESCUBRE MÁS</button>
                                 <HiArrowLongRight className="text-4xl"/>
@@ -95,8 +95,8 @@ const HomePage = () =>{
                             
                         }}></div>
                         <div className="px-6 pt-5  border-gray-300 border">
-                            <h3 className="font-bold ">Mantenimiento Urbano</h3>
-                            <p className="mt-3">Equipamiento confiable y eficiente que agiliza la mantención de infraestructura urbana y rural, garantizando seguridad, rapidez y costos reducidos.</p>
+                            <h3 className="font-bold ">Gestión Urbana: Estrategias Inteligentes para Ciudades Mas Eficientes y Sostenibles</h3>
+                            <p className="mt-3">Desarrollo e implementación de estrategias innovadoras para optimizar la planificación y administración de ciudades y entornos empresariales con tecnología basada en Inteligencia Artificial. Optimizamos la gestión de recursos, infraestructura y servicios, promoviendo sostenibilidad, automatización y eficiencia económica, creando entornos más conectados, funcionales y habitables.</p>
                             <div className="my-5 flex justify-around items-center text-[#c4262e]">
                                 <button className="text-xl">DESCUBRE MÁS</button>
                                 <HiArrowLongRight className="text-4xl"/>
@@ -114,8 +114,8 @@ const HomePage = () =>{
                             
                         }}></div>
                         <div className="px-6 pt-5  border-t">
-                            <h3 className="font-bold ">Aseo Urbano</h3>
-                            <p className="mt-3">Soluciones de limpieza y recolección diseñadas para máxima eficiencia y mínimo gasto, impulsando el desarrollo y la calidad de vida en los espacios públicos.</p>
+                            <h3 className="font-bold ">Aseo y Mantenimiento: Tecnologia para Entonos Más Limpios y Eficientes</h3>
+                            <p className="mt-3">Ofrecemos equipos y soluciones especializadas para el aseo y mantenimiento de espacios urbanos, industriales y empresariales, asegurando rapidez, seguridad y costos optimizados. Con tecnología confiable y de alto rendimiento, facilitamos la gestión eficiente de residuos y mantención de infraestructuras, impulsando entornos más limpios, sostenibles y funcionales.</p>
                             <div className="my-5 flex justify-around items-center text-[#c4262e]">
                                 <button className="text-xl">DESCUBRE MÁS</button>
                                 <HiArrowLongRight className="text-4xl"/>
@@ -135,8 +135,8 @@ const HomePage = () =>{
                             
                         }}></div>
                         <div className="px-6 pt-5  border-gray-300 border">
-                            <h3 className="font-bold ">Electromovilidad</h3>
-                            <p className="mt-3">Tecnología de vanguardia para operaciones silenciosas y libres de contaminación, revolucionando la gestión urbana e industrial con eficiencia energética.</p>
+                            <h3 className="font-bold ">Electromovilidad: el Cambio Hacia un Futuro Energético y Sostenible</h3>
+                            <p className="mt-3">La electromovilidad transforma la operación en ciudades e industrias con tecnología de vanguardia para desarrollar soluciones eléctricas seguras, silenciosas y libres de contaminación. Desde saneamiento hasta logística industrial, impulsa la eficiencia energética y reduce la huella de carbono. Su integración en diversos sectores genera entornos más sostenibles, resilientes.</p>
                             <div className="my-5 flex justify-around items-center text-[#c4262e]">
                                 <button className="text-xl">DESCUBRE MÁS</button>
                                 <HiArrowLongRight className="text-4xl"/>
@@ -162,8 +162,8 @@ const HomePage = () =>{
                             
                         }}></div>
                         <div className="px-6 pt-5  border-gray-300 border">
-                            <h3 className="font-bold ">Espacios Públicos</h3>
-                            <p className="mt-3">Diseño de mobiliario urbano pensado para el bienestar y disfrute de las personas, promoviendo una convivencia segura y sostenible.</p>
+                            <h3 className="font-bold ">Mejoramiento de Espacios Públicos: Transformando Entornos para una Vida de Calidad</h3>
+                            <p className="mt-3">Diseño, mantenimiento y rehabilitación de plazas, parques y calles, aplicando accesibilidad, seguridad y sostenibilidad para fortalecer la calidad de vida urbana. Incorporamos mobiliario urbano inteligente y tecnologías avanzadas para gestionar espacios de forma eficiente, promoviendo ciudades más sostenibles con entornos modernos, funcionales e inclusivos.</p>
                             <div className="my-5 flex justify-around items-center text-[#C4262E]">
                                 <button className="text-xl">DESCUBRE MÁS</button>
                                 <HiArrowLongRight className="text-4xl"/>
@@ -179,8 +179,8 @@ const HomePage = () =>{
                             backgroundPosition: "center",
                         }}></div>
                         <div className="px-6 pt-5  border-gray-300 border">
-                            <h3 className="font-bold ">Electromovilidad</h3>
-                            <p className="mt-3">Tecnología de vanguardia para operaciones silenciosas y libres de contaminación, revolucionando la gestión urbana e industrial con eficiencia energética.</p>
+                            <h3 className="font-bold ">Electromovilidad: el Cambio Hacia un Futuro Energético y Sostenible</h3>
+                            <p className="mt-3">La electromovilidad transforma la operación en ciudades e industrias con tecnología de vanguardia para desarrollar soluciones eléctricas seguras, silenciosas y libres de contaminación. Desde saneamiento hasta logística industrial, impulsa la eficiencia energética y reduce la huella de carbono. Su integración en diversos sectores genera entornos más sostenibles, resilientes.</p>
                             <div className="my-5 flex justify-around items-center text-[#C4262E]">
                                 <button className="text-xl">DESCUBRE MÁS</button>
                                 <HiArrowLongRight className="text-4xl"/>

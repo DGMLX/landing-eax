@@ -49,7 +49,7 @@ const BannerPrincipal:React.FC = () =>{
 
     return(
         <>
-          <section className="   bg-black/35   md:h-[470px]  justify-center flex-col  flex "
+          <section className=" bg-black/35 h-[420px] md:h-[470px]  justify-center flex-col flex "
           style={{
             backgroundImage:banners[currentBanner].urlImg !== '' ? `url(${banners[currentBanner].urlImg})` : 'bg-gray-500',
             backgroundBlendMode:"darken",
@@ -59,12 +59,12 @@ const BannerPrincipal:React.FC = () =>{
             
           }}>
 
-              <div className="w-2/3 xl:w-1/2  pl-32 mt-5">
-                  <div className="h-[250px] w-full">
-                    <h2 className="text-lg font-bold text-[#FBFBFB] mb-3 ">{banners[currentBanner].header}</h2>
-                    <h2 className="text-[21px] md:text-3xl font-bold text-[#FBFBFB]">{banners[currentBanner].titulo}</h2>
+              <div className="md:w-2/3 xl:w-[55%] p-5  md:pl-32 mt-5">
+                  <div className="h-[250px] w-full flex flex-col justify-around">
+                    <h2 className=" text-lg font-bold text-[#FBFBFB] mb-3 ">{banners[currentBanner].header}</h2>
+                    <h2 className="  text-[21px] md:text-3xl font-bold text-[#FBFBFB]">{banners[currentBanner].titulo}</h2>
                     <p className="mt-3 text-lg hidden lg:block text-[#FBFBFB]">{banners[currentBanner].descripcion}</p>
-                    <div>
+                    <div className="flex justify-center sm:justify-start">
                         <button className="hover:bg-[#A7283D] bg-[#e34f4f] text-white text-[16px] py-2 px-7 rounded-full mt-10 font-bold   flex items-center">{banners[currentBanner].boton}<HiArrowLongRight className="text-3xl ml-4"/></button>
                     </div>
                   </div>
