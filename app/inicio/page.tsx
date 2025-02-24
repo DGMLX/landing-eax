@@ -308,7 +308,7 @@ const HomePage = () =>{
                 <h2 className="text-2xl mb-5 tracking-widest">PERSPECTIVAS</h2>
                 <div className="flex gap-5 mb-7 ">
                     <div className=" bg-gray-300 w-1/2 h-[350px] flex flex-col justify-center" style={{
-                        backgroundImage:'url(/inicio/blog.jpg)',
+                        backgroundImage:'url(/inicio/blog2.jpg)',
                         backgroundBlendMode:"darken",
                         backgroundRepeat:"no-repeat",
                         backgroundSize: "cover",
