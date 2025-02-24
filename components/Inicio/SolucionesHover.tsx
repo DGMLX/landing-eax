@@ -24,6 +24,15 @@ const SolucionesHover = () => {
     'Avanzando hacia la independencia energética de forma sostenible.'
   ];
 
+  const imagenes = [
+    '/inicio/tratamiento_residuos_organicos.jpg',
+    '',
+    '',
+    '/inicio/limpieza_sanitizacion.jpg',
+    '/inicio/mantencion_arbustos.jpg',
+    '/inicio/autonomia_energetica.jpg'
+  ]
+
   return (
     <section className="mx-20 mb-10">
       <h2 className="text-2xl mb-5 tracking-widest">SOLUCIONES</h2>
@@ -44,9 +53,16 @@ const SolucionesHover = () => {
         </div>
 
         {/* Contenido dinámico basado en hoverValue */}
-        <div className="w-3/6 pl-14 ">
-          <div className="bg-gray-300 w-full h-full flex justify-center items-center p-10 ">
-            <p className="text-white text-5xl font-bold">
+        <div className="w-3/6 pl-14 "  >
+          <div className=" bg-black/20  w-full h-full flex justify-center items-center p-10 " style={{
+            backgroundImage:imagenes[hoverValue] !== '' ? `url(${imagenes[hoverValue]})` : 'bg-gray-300',
+            backgroundBlendMode:"darken",
+            backgroundRepeat:"no-repeat",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            
+          }}>
+            <p className="text-white text-5xl pr-44 font-bold">
               {descripciones[hoverValue]}
             </p>
           </div>
