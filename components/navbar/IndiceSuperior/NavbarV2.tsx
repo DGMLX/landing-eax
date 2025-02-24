@@ -13,6 +13,13 @@ import { useEffect, useState } from "react";
 import IndiceSuperior from "./IndiceSuperior";
 import SubNavegacionProductosV2 from "./SubNavegacionProductosV2";
 import SubNavegacionSolucionesV2 from "./SubNavegacionSolucionesV2";
+import { Open_Sans } from "next/font/google";
+
+const openSans = Open_Sans({
+  subsets: ["latin"],
+  weight: ["300", "400", "600", "700"], // Puedes agregar más pesos
+  display: "swap",
+});
 
 
 const NavbarV2 = () => {
@@ -87,7 +94,7 @@ const NavbarV2 = () => {
 
     return(
         <>
-            <header className={`w-screen fixed top-0 z-40  transition-transform duration-300 ${
+            <header className={`w-screen fixed top-0 z-40  transition-transform duration-300 ${openSans.className} ${
         isVisible ? "translate-y-0" : "-translate-y-16"}`}>
                 <IndiceSuperior/>
                 <div className="hidden lg:flex lg:bg-[#303030]  py-6 px-5  items-center justify-between">
@@ -95,22 +102,22 @@ const NavbarV2 = () => {
                         <a href="https://ecoalliance.cl/"><Image src="/logos_generales/eax.png" width={80} height={80} alt="Logo EAX" className="lg:mr-10 xl:mr-[104px] w-auto"/></a>
                         <ul className="flex items-center">
                             <li onMouseEnter={()=>onHoverNav()}>
-                                <a href="https://ecoalliance.cl/" className="text-white text-xs mr-5 ">INICIO</a>
+                                <a href="https://ecoalliance.cl/" className="text-white text-sm mr-5 ">INICIO</a>
                             </li>
                             <li onMouseEnter={()=>onHoverProducto()}>
-                                <a href="https://ecoalliance.cl/productos/" className="text-white text-xs mr-5 flex mt-1">PRODUCTOS <IoMdArrowDropdown className="ml-1 text-lg text-white"/></a>
+                                <a href="https://ecoalliance.cl/productos/" className="text-white text-sm mr-5 flex mt-1">PRODUCTOS <IoMdArrowDropdown className="ml-1 text-lg text-white"/></a>
                             </li>
                             <li onMouseEnter={()=>onHoverSoluciones()}>
-                                <a href="https://ecoalliance.cl/soluciones/" className="text-white text-xs mr-5 flex mt-1">SOLUCIONES <IoMdArrowDropdown className="ml-1 text-lg text-white"/></a>
+                                <a href="https://ecoalliance.cl/soluciones/" className="text-white text-sm mr-5 flex mt-1">SOLUCIONES <IoMdArrowDropdown className="ml-1 text-lg text-white"/></a>
                             </li>
                             <li onMouseEnter={()=>onHoverNav()}>
-                                <a href="https://ecoalliance.cl/servicios/" className="text-white text-xs mr-5">SERVICIOS</a>
+                                <a href="https://ecoalliance.cl/servicios/" className="text-white text-sm mr-5">SERVICIOS</a>
                             </li>
                             <li onMouseEnter={()=>onHoverNav()}>
-                                <a href="https://ecoalliance.cl/acerca-de-eax/" className="text-white text-xs mr-5">ACERCA DE EAX</a>
+                                <a href="https://ecoalliance.cl/acerca-de-eax/" className="text-white text-sm mr-5">ACERCA DE EAX</a>
                             </li>
                             <li onMouseEnter={()=>onHoverNav()}>
-                                <a href="https://ecoalliance.cl/contacto/" className="text-white text-xs mr-5">CONTACTO</a>
+                                <a href="https://ecoalliance.cl/contacto/" className="text-white text-sm mr-5">CONTACTO</a>
                             </li>
                         
                         </ul>

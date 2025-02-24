@@ -8,7 +8,7 @@ const HomePage = () =>{
     return(
         <>
 
-        <main className="mt-[80px] lg:mt-[99px] xl:mt-[120px]">
+        <main className="mt-[80px] lg:mt-[130px] xl:mt-[135px]">
             
 
             <section className="w-screen h-1/4 mb-10">
@@ -104,7 +104,7 @@ const HomePage = () =>{
                         </div>
                     </div>
 
-                    <div className="w-1/3 hover:shadow-xl">
+                    <div className="w-1/3 hover:shadow-xl border">
                         <div className="bg-gray-300 w-full h-[240px]" style={{
                             backgroundImage:`url('/inicio/aseo_urbano.jpg')`,
                          
@@ -113,7 +113,7 @@ const HomePage = () =>{
                             backgroundPosition: "center",
                             
                         }}></div>
-                        <div className="px-6 pt-5  border-gray-300 border">
+                        <div className="px-6 pt-5  border-t">
                             <h3 className="font-bold ">Aseo Urbano</h3>
                             <p className="mt-3">Soluciones de limpieza y recolección diseñadas para máxima eficiencia y mínimo gasto, impulsando el desarrollo y la calidad de vida en los espacios públicos.</p>
                             <div className="my-5 flex justify-around items-center text-[#c4262e]">
@@ -221,7 +221,7 @@ const HomePage = () =>{
 
                     <div className="w-1/4   hover:shadow-xl">
                         <div className="bg-gray-300 w-full h-[240px]" style={{
-                            backgroundImage:`url('/inicio/mini_compactador.png')`,
+                            backgroundImage:`url('/inicio/mini_compactador.jpg')`,
                             backgroundRepeat:"no-repeat",
                             backgroundSize: "cover",
                             backgroundPosition: "center",
@@ -259,7 +259,14 @@ const HomePage = () =>{
             <section className="mx-20  mb-20">
                 <h2 className="text-2xl mb-5 tracking-widest">PERSPECTIVAS</h2>
                 <div className="flex gap-5 mb-7 ">
-                    <div className=" bg-gray-300 w-1/2 h-[350px] flex flex-col justify-center">
+                    <div className=" bg-gray-300 w-1/2 h-[350px] flex flex-col justify-center" style={{
+                        backgroundImage:'url(/inicio/blog.jpg)',
+                        backgroundBlendMode:"darken",
+                        backgroundRepeat:"no-repeat",
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                        
+                    }}>
                         <div className="flex flex-col  justify-start px-28 text-white">
                             
                             <h3 className="mb-10 underline underline-offset-[12px]">BLOG</h3>

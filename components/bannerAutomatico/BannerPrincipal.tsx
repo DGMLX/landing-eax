@@ -10,21 +10,21 @@ const banners = [
       header:"SOLUCIONES",
       titulo:"Solución de Limpieza, Sanitización y Desinfección: Espacios Públicos más Seguros y Saludables", 
       descripcion: "Transforma la higiene urbana con un sistema de agua a alta presión y desinfectantes complementarios, diseñado para mantener los espacios públicos en óptimas condiciones. Adaptable a diversos vehículos, incluyendo el Camión Multipropósito Multicar.", 
-      urlImg:'/inicio/banner_soluciones2.jpg',
+      urlImg:'/inicio/banner_soluciones.jpg',
       boton:"DESCUBRE MÁS"
     },
     {
       header:"PRODUCTOS",
       titulo:"Barredoras de Calle: Innovación para Ciudades Más Limpias",
       descripcion: "Mantén los espacios públicos libres de residuos con barredoras de desempeño confiable y bajo mantenimiento. Su tecnología de barrido y aspiración, junto con materiales resistentes a la corrosión, aseguran una limpieza profunda y duradera.", 
-      urlImg:'',
+      urlImg:'/inicio/banner_productos3.jpg',
       boton:"DESCUBRE MÁS"
     },
     {
       header:"SERVICIOS",
       titulo:"Montaje de Equipos: Eficiencia desde el Primer Día", 
       descripcion: "Contamos con la experiencia y capacidad para realizar el montaje y puesta en marcha de equipos y máquinas especiales, asegurando una instalación eficiente y operativa desde el primer momento.", 
-      urlImg:'',
+      urlImg:'/inicio/banner_servicios.jpg',
       boton:"DESCUBRE MÁS"
     },
 
@@ -49,7 +49,7 @@ const BannerPrincipal:React.FC = () =>{
 
     return(
         <>
-          <section className="pt-28 bg- bg-black/35  pb-16 md:h-[470px]  justify-center flex-col flex "
+          <section className="   bg-black/35   md:h-[470px]  justify-center flex-col  flex "
           style={{
             backgroundImage:banners[currentBanner].urlImg !== '' ? `url(${banners[currentBanner].urlImg})` : 'bg-gray-500',
             backgroundBlendMode:"darken",
@@ -59,11 +59,11 @@ const BannerPrincipal:React.FC = () =>{
             
           }}>
 
-              <div className="w-1/2  pl-32 mt-5">
+              <div className="w-2/3 xl:w-1/2  pl-32 mt-5">
                   <div className="h-[250px] w-full">
                     <h2 className="text-lg font-bold text-[#FBFBFB] mb-3 ">{banners[currentBanner].header}</h2>
                     <h2 className="text-[21px] md:text-3xl font-bold text-[#FBFBFB]">{banners[currentBanner].titulo}</h2>
-                    <p className="mt-3 text-lg hidden md:block text-[#FBFBFB]">{banners[currentBanner].descripcion}</p>
+                    <p className="mt-3 text-lg hidden lg:block text-[#FBFBFB]">{banners[currentBanner].descripcion}</p>
                     <div>
                         <button className="hover:bg-[#A7283D] bg-[#e34f4f] text-white text-[16px] py-2 px-7 rounded-full mt-10 font-bold   flex items-center">{banners[currentBanner].boton}<HiArrowLongRight className="text-3xl ml-4"/></button>
                     </div>
