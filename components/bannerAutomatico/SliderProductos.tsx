@@ -8,7 +8,7 @@ import { HiArrowLongRight } from "react-icons/hi2";
 const banners = [
     {
    
-      titulo:"Trituradoras: La Nueva Generación de Chipeadoras en Chile", 
+      titulo:"Trituradoras: Nuevas soluciones para el manejo de residuos verdes", 
       descripcion: "Descubre la gama más avanzada de trituradoras, diseñadas para adaptarse a cada necesidad con máxima eficiencia y versatilidad. Desde modelos estacionarios, móviles y sobre oruga, hasta remolcables y PTO.", 
       urlImg:'/inicio/trituradoras.jpg',
       boton:"DESCUBRE MÁS"
@@ -18,7 +18,7 @@ const banners = [
    
       titulo:"Briquetadoras: Convierte Residuos en Valor",
       descripcion: "Maximiza el aprovechamiento de materiales, una solución eficiente para transformar residuos en briquetas compactas y listas para su uso. Con un proceso limpio y sencillo, reducen costos de almacenamiento y transporte, aportando valor agregado a materiales desechables.", 
-      urlImg:'/inicio/briquetadoras.jpg',
+      urlImg:'/inicio/briqueta.jpg',
       boton:"DESCUBRE MÁS"
     },
     {
