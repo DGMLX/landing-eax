@@ -15,7 +15,7 @@ const HomePage = () =>{
                 <BannerPrincipal/>
             </section>
 
-            <section className="mx-20 mb-5">
+            <section className="mx-5 md:mx-20 mb-5">
                 <h2 className="text-2xl mb-5 tracking-widest">ÁREAS DE ESPECIALIZACIÓN</h2>
                 <div className="flex justify-between gap-5 flex-col md:flex-row ">  
 
@@ -82,7 +82,7 @@ const HomePage = () =>{
             </section>
             
 
-            <section className="mx-20 mb-10">
+            <section className="mx-5 md:mx-20 mb-10">
                 <div className="flex justify-between gap-5 lg:flex-row flex-col md:flex-row">  
 
                 <div className="lg:w-1/3 hover:shadow-xl md:w-1/2">
@@ -200,7 +200,7 @@ const HomePage = () =>{
 
 
 
-            <section className="mx-20 mb-10">
+            <section className="mx-5 md:mx-20 mb-10">
                 <h2 className="text-2xl mb-5 tracking-widest">PRODUCTOS DESTACADOS</h2>
                 <div className="flex flex-wrap justify-between w-full">
 
@@ -297,17 +297,17 @@ const HomePage = () =>{
             </section>
 
 
-            <section className="mx-20  mb-10">
+            <section className="mx-5 md:mx-20  mb-10">
                 <SliderProductos/>
             </section>
 
 
    
 
-            <section className="mx-20  mb-20">
+            <section className="md:mx-20  md:mb-20 mx-5 md-5">
                 <h2 className="text-2xl mb-5 tracking-widest">PERSPECTIVAS</h2>
-                <div className="flex gap-5 mb-7 ">
-                    <div className=" bg-gray-300 w-1/2 h-[350px] flex flex-col justify-center" style={{
+                <div className="flex-col md:flex-row  lg:flex-row flex gap-5 mb-7 ">
+                    <div className="bg-gray-300 w-full sm:w-full md:w-1/2 h-[350px] flex flex-col justify-center" style={{
                         backgroundImage:'url(/inicio/blog2.jpg)',
                         backgroundBlendMode:"darken",
                         backgroundRepeat:"no-repeat",
@@ -315,18 +315,18 @@ const HomePage = () =>{
                         backgroundPosition: "center",
                         
                     }}>
-                        <div className="flex flex-col  justify-start px-28 text-white">
+                        <div className="flex flex-col  px-5 text-white">
                             
-                            <h3 className="mb-10 underline underline-offset-[12px]">BLOG</h3>
-                            <h1 className="text-4xl font-bold">Innovación y Sostenibilidad en Acción</h1>
-                            <p className="mt-3">Explora artículos especializados sobre maquinaria, reciclaje y soluciones sustentables.</p>
+                            <h3 className="xl:mb-10 underline underline-offset-[12px]">BLOG</h3>
+                            <h2 className="text-4xl font-bold">Innovación y Sostenibilidad en Acción</h2>
+                            <p className="mt-3 hidden xl:block">Explora artículos especializados sobre maquinaria, reciclaje y soluciones sustentables.</p>
                             <div className="flex mt-10">
-                            <button className=" flex items-center text-xl border border-[#c4262e]  py-3 px-4 rounded-full bg-[#c4262e] text-white hover:bg-[#b01c1c] hover:text-white hover:underline">DESCUBRE MÁS<HiArrowLongRight className="ml-5 text-3xl"/></button>
+                            <button className=" flex items-center text-xl border border-[#C4262E] px-4 md:py-3 md:px-4 rounded-full bg-[#C4262E] text-white hover:bg-[#B01C1C] hover:text-white hover:underline">DESCUBRE MÁS<HiArrowLongRight className="ml-5 text-3xl"/></button>
                             </div>
                         </div>
                     </div>
 
-                    <div className="  bg-black/35 w-1/2 h-[350px] flex flex-col justify-center" style={{
+                    <div className="bg-gray-300 w-full sm:w-full md:w-1/2 h-[350px] flex flex-col justify-center" style={{
                         backgroundImage:'url(/inicio/servicios.jpg)',
                         backgroundBlendMode:"darken",
                         backgroundRepeat:"no-repeat",
@@ -334,13 +334,13 @@ const HomePage = () =>{
                         backgroundPosition: "center",
                         
                     }}>
-                        <div className="flex flex-col justify-start px-28 text-white">
+                        <div className="flex flex-col px-5 text-white">
                             
-                            <h3 className="mb-5 underline underline-offset-[12px]">SERVICIOS</h3>
-                            <h1 className="text-4xl font-bold">Optimiza tu operación con nuestro soporte integral</h1>
-                            <p className="mt-3">Confía en nuestro equipo para el montaje de equipos hasta el servicio postventa, insumos y repuestos, ofrecemos soluciones diseñadas para maximizar el rendimiento y la eficiencia de tus proyectos.</p>
+                            <h3 className="xl:mb-10 underline underline-offset-[12px]">SERVICIOS</h3>
+                            <h2 className="text-4xl font-bold mt-5 md:block">Optimiza tu operación con nuestro soporte integral</h2>
+                            <p className="mt-3 hidden xl:block">Confía en nuestro equipo para el montaje de equipos hasta el servicio postventa, insumos y repuestos, ofrecemos soluciones diseñadas para maximizar el rendimiento y la eficiencia de tus proyectos.</p>
                             <div className="flex mt-5">
-                                <button className=" flex items-center text-xl border border-[#c4262e]  py-3 px-4 rounded-full bg-[#c4262e] text-white hover:bg-[#b01c1c] hover:text-white hover:underline">DESCUBRE MÁS<HiArrowLongRight className="ml-5 text-3xl"/></button>
+                            <button className=" flex items-center text-xl border border-[#C4262E] px-4 md:py-3 md:px-4 rounded-full bg-[#C4262E] text-white hover:bg-[#B01C1C] hover:text-white hover:underline">DESCUBRE MÁS<HiArrowLongRight className="ml-5 text-3xl"/></button>
                             
                             </div>
                         </div>

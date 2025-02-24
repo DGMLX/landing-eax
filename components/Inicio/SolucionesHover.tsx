@@ -34,11 +34,11 @@ const SolucionesHover = () => {
   ]
 
   return (
-    <section className="mx-20 mb-10">
+    <section className="mx-5 md:mx-20 mb-10">
       <h2 className="text-2xl mb-5 tracking-widest">SOLUCIONES</h2>
       <div className="w-full flex justify-between">
         {/* Lista de soluciones */}
-        <div className="w-3/6">
+        <div className="w-full lg:w-3/6">
           {soluciones.map((solucion, index) => (
             <div
               key={index}
@@ -53,7 +53,7 @@ const SolucionesHover = () => {
         </div>
 
         {/* Contenido dinámico basado en hoverValue */}
-        <div className="w-3/6 pl-14 "  >
+        <div className="w-3/6 pl-14 hidden lg:block"  >
           <div className=" bg-black/20  w-full h-full flex justify-center items-center p-10 " style={{
             backgroundImage:imagenes[hoverValue] !== '' ? `url(${imagenes[hoverValue]})` : 'bg-gray-300',
             backgroundBlendMode:"darken",
@@ -62,7 +62,7 @@ const SolucionesHover = () => {
             backgroundPosition: "center",
             
           }}>
-            <p className="text-white text-5xl pr-44 font-bold">
+            <p className="text-white lg:text-3xl lg:pr-24 xl:text-[44px] xl:leading-[44px] xl:pr-44 font-bold">
               {descripciones[hoverValue]}
             </p>
           </div>
