@@ -26,7 +26,7 @@ const SolucionesHover = () => {
 
   const imagenes = [
     '/inicio/tratamiento_residuos_organicos.jpg',
-    '',
+    '/inicio/pellet.jpg',
     '',
     '/inicio/limpieza_sanitizacion.jpg',
     '/inicio/mantencion_arbustos.jpg',
