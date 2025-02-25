@@ -98,7 +98,7 @@ const NavbarV2 = () => {
         isVisible ? "translate-y-0" : "-translate-y-16"}`}>
                 <IndiceSuperior/>
 
-                <div className="hidden lg:block">
+                {/* <div className="hidden lg:block">
 
                     <div className=" w-[3px] absolute  left-[130px] h-[86.5px] bg-[#8F5434]"></div>
                     <div className=" w-[3px] absolute  left-[133px] h-[86.5px] bg-[#824624]"></div>
@@ -163,7 +163,7 @@ const NavbarV2 = () => {
                     <div className=" w-[3px] absolute  right-[98px] h-[86.5px] bg-[#8F5434]"></div>
                     <div className=" w-[3px] absolute  right-[101px] h-[86.5px] bg-[#824624]"></div>
 
-                </div>
+                </div> */}
 
                 <div className="hidden lg:flex lg:bg-[#303030] py-6 px-5  items-center justify-between z-40">
                     <nav className="flex">
