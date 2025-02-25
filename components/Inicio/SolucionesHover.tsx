@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import {  useState, useRef, useEffect  } from 'react';
 import { HiArrowLongRight } from 'react-icons/hi2';
 
@@ -47,6 +48,15 @@ const SolucionesHover = () => {
     '/inicio/autonomia_energetica.webp'
   ]
 
+  const urls = [
+    "",
+    "",
+    "https://landing-eax.vercel.app/eliet",
+    "https://ecoalliance.cl/solucion-limpieza-sanitizacion-desinfeccion-urbana/",
+    "https://ecoalliance.cl/solucion-mantencion-de-arbustos-y-arbolado/",
+    ""
+  ]
+
   return (
     <section ref={myRef} className={`mx-5 md:mx-20 mb-10 transition-opacity duration-[1200ms] opacity-0 ${solucionesVisible && 'opacity-100'}`}>
       <h2 className="text-2xl mb-5 tracking-widest">SOLUCIONES</h2>
@@ -60,7 +70,7 @@ const SolucionesHover = () => {
                 ${hoverValue === index && 'bg-gray-300 '}`}
               onMouseEnter={() => setHoverValue(index)}
             >
-              <h4 className="text-lg">{solucion}</h4>
+              <Link href={urls[index]} className="text-lg">{solucion}</Link>
               <HiArrowLongRight className="text-3xl" />
             </div>
           ))}
