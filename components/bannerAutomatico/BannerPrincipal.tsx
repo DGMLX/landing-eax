@@ -1,5 +1,6 @@
 'use client';
 
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { HiArrowLongRight } from "react-icons/hi2";
 
@@ -11,21 +12,24 @@ const banners = [
       titulo:"Solución de Limpieza, Sanitización y Desinfección: Espacios Públicos más Seguros y Saludables", 
       descripcion: "Transforma la higiene urbana con un sistema de agua a alta presión y desinfectantes complementarios, diseñado para mantener los espacios públicos en óptimas condiciones. Adaptable a diversos vehículos, incluyendo el Camión Multipropósito Multicar.", 
       urlImg:'/inicio/banner_soluciones.jpg',
-      boton:"DESCUBRE MÁS"
+      boton:"DESCUBRE MÁS",
+      href:"https://ecoalliance.cl/soluciones/"
     },
     {
       header:"PRODUCTOS",
       titulo:"Barredoras de Calle: Innovación para Ciudades Más Limpias",
       descripcion: "Mantén los espacios públicos libres de residuos con barredoras de desempeño confiable y bajo mantenimiento. Su tecnología de barrido y aspiración, junto con materiales resistentes a la corrosión, aseguran una limpieza profunda y duradera.", 
       urlImg:'/inicio/banner_productos3.jpg',
-      boton:"DESCUBRE MÁS"
+      boton:"DESCUBRE MÁS",
+      href:"https://ecoalliance.cl/productos/"
     },
     {
       header:"SERVICIOS",
       titulo:"Montaje de Equipos: Eficiencia desde el Primer Día", 
       descripcion: "Contamos con la experiencia y capacidad para realizar el montaje y puesta en marcha de equipos y máquinas especiales, asegurando una instalación eficiente y operativa desde el primer momento.", 
       urlImg:'/inicio/banner_servicios2.jpg',
-      boton:"DESCUBRE MÁS"
+      boton:"DESCUBRE MÁS",
+      href:"https://ecoalliance.cl/servicios/"
     },
 
   ];
@@ -65,12 +69,12 @@ const BannerPrincipal:React.FC = () =>{
                       <h2 className="  text-[21px] md:text-3xl font-bold text-[#FBFBFB]">{banners[currentBanner].titulo}</h2>
                       <p className="mt-3 text-lg hidden lg:block text-[#FBFBFB]">{banners[currentBanner].descripcion}</p>
                       <div className="flex justify-center sm:justify-start">
-                          <button className="hover:bg-[#A7283D] bg-[#e34f4f] text-white text-[16px] py-2 px-7 rounded-full mt-10 font-bold   flex items-center">{banners[currentBanner].boton}<HiArrowLongRight className="text-3xl ml-4"/></button>
+                          <Link href={banners[currentBanner].href} className="hover:bg-[#A7283D] bg-[#e34f4f] text-white text-[16px] py-2 px-7 rounded-full mt-10 font-bold   flex items-center">{banners[currentBanner].boton}<HiArrowLongRight className="text-3xl ml-4"/></Link>
                       </div>
                     </div>
                 </div>
                 <div className="flex justify-center mt-16 items-center gap-2">
-                  <button className={` h-[10px] w-[30px] rounded-full ${currentBanner === 0 ? 'bg-[#c4262e]' : 'bg-white'}`} onClick={()=>setCurrentBanner(0)}></button>
+                  <button className={` h-[10px] w-[30px] rounded-full ${currentBanner === 0 ? 'bg-[#c4262e]' : 'bg-white'}`} onClick={()=>setCurrentBanner(0)} ></button>
                   <button className={` h-[10px] w-[30px] rounded-full ${currentBanner === 1 ? 'bg-[#c4262e]' : 'bg-white'}`} onClick={()=>setCurrentBanner(1)}></button>
                   <button className={` h-[10px] w-[30px] rounded-full ${currentBanner === 2 ? 'bg-[#c4262e]' : 'bg-white'}`} onClick={()=>setCurrentBanner(2)}></button>
                   {/* <button className={` h-[10px] w-[30px] rounded-full ${currentBanner === 3 ? 'bg-[#c4262e]' : 'bg-white'}`} onClick={()=>setCurrentBanner(3)}></button>
