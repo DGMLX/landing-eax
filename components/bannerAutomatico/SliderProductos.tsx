@@ -35,9 +35,11 @@ const banners = [
 const SliderProductos = () =>{
 
      const [currentBanner, setCurrentBanner] = useState<number>(0);
-    const intervalRef = useRef<NodeJS.Timeout | null>(null);
+     const [solucionesVisible,setSolucionesVisible] = useState(false);
 
-    
+    const intervalRef = useRef<NodeJS.Timeout | null>(null);
+    const myRef = useRef<any | null>(null);
+
     useEffect(() => {
         intervalRef.current = setInterval(() => {
             setCurrentBanner((prev) => (prev + 1) % banners.length);
@@ -49,15 +51,23 @@ const SliderProductos = () =>{
         }, []);
 
 
-        
+    useEffect(()=>{
+      const observer = new IntersectionObserver((entries)=>{
+        const entry = entries[0]
+        setSolucionesVisible(entry.isIntersecting)
+      })
+      observer.observe(myRef.current)
+    },[])
+
     return(
         <>
-         <section className=" bg-black/30 pt-24 pb-16 h-[400px]  justify-center flex-col flex"  style={{
-            backgroundImage:`url(${banners[currentBanner].urlImg})`,
-            backgroundBlendMode:"darken",
-            backgroundRepeat:"no-repeat",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
+       
+         <section ref={myRef} className={` bg-black/30 pt-24 pb-16 h-[400px]  justify-center flex-col flex transition-opacity duration-[1200ms] opacity-0 ${solucionesVisible && 'opacity-100'}`}  style={{
+           backgroundImage:`url(${banners[currentBanner].urlImg})`,
+           backgroundBlendMode:"darken",
+           backgroundRepeat:"no-repeat",
+           backgroundSize: "cover",
+           backgroundPosition: "center",
           }}>
                     
             <div className="w-full lg:w-1/2 pl-5 pr-10 md:pr-36 lg:pr-0   lg:pl-32 ">
@@ -79,6 +89,7 @@ const SliderProductos = () =>{
     
 
         </section>
+            
         </>
     )
 }

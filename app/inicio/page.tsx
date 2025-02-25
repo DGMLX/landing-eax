@@ -8,7 +8,7 @@ const HomePage = () =>{
     return(
         <>
 
-        <main className="mt-[80px] lg:mt-[130px] xl:mt-[135px]">
+        <main className="mt-[80px] lg:mt-[130px] xl:mt-[135px] animate-fade animate-duration-[1000ms] animate-normal animate-fill-both">
             
 
             <section className="w-screen h-1/4 mb-10">

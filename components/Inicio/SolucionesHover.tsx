@@ -1,10 +1,24 @@
 'use client';
 
-import { useState } from 'react';
+import {  useState, useRef, useEffect  } from 'react';
 import { HiArrowLongRight } from 'react-icons/hi2';
 
 const SolucionesHover = () => {
   const [hoverValue, setHoverValue] = useState<number>(0); // Valor por defecto: el primer índice
+  const [solucionesVisible,setSolucionesVisible] = useState(false);
+  const myRef = useRef<any | null>(null);
+  console.log(solucionesVisible)
+  useEffect(()=>{
+
+    const observer = new IntersectionObserver((entries)=>{
+      const entry = entries[0]
+      setSolucionesVisible(entry.isIntersecting)
+      console.log(entry)
+    })
+   
+  
+    observer.observe(myRef.current)
+  },[]);
 
   const soluciones = [
     'Tratamiento de residuos orgánicos y restos de poda',
@@ -34,7 +48,7 @@ const SolucionesHover = () => {
   ]
 
   return (
-    <section className="mx-5 md:mx-20 mb-10">
+    <section ref={myRef} className={`mx-5 md:mx-20 mb-10 transition-opacity duration-[1200ms] opacity-0 ${solucionesVisible && 'opacity-100'}`}>
       <h2 className="text-2xl mb-5 tracking-widest">SOLUCIONES</h2>
       <div className="w-full flex justify-between">
         {/* Lista de soluciones */}
@@ -53,7 +67,7 @@ const SolucionesHover = () => {
         </div>
 
         {/* Contenido dinámico basado en hoverValue */}
-        <div className="w-3/6 pl-14 hidden lg:block"  >
+        <div className={`w-3/6 pl-14 hidden lg:block `}>
           <div className=" bg-black/20  w-full h-full flex justify-center items-center p-10 " style={{
             backgroundImage:imagenes[hoverValue] !== '' ? `url(${imagenes[hoverValue]})` : 'bg-gray-300',
             backgroundBlendMode:"darken",
@@ -62,7 +76,7 @@ const SolucionesHover = () => {
             backgroundPosition: "center",
             
           }}>
-            <p className="text-white lg:text-3xl lg:pr-24 xl:text-[44px] xl:leading-[44px] xl:pr-44 font-bold">
+            <p className="text-white lg:text-3xl lg:pr-24 xl:text-[44px] xl:leading-[44px] xl:pr-44 font-bold ">
               {descripciones[hoverValue]}
             </p>
           </div>
