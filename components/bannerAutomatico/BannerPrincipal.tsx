@@ -24,7 +24,7 @@ const banners = [
       header:"SERVICIOS",
       titulo:"Montaje de Equipos: Eficiencia desde el Primer Día", 
       descripcion: "Contamos con la experiencia y capacidad para realizar el montaje y puesta en marcha de equipos y máquinas especiales, asegurando una instalación eficiente y operativa desde el primer momento.", 
-      urlImg:'/inicio/banner_servicios.jpg',
+      urlImg:'/inicio/banner_servicios2.jpg',
       boton:"DESCUBRE MÁS"
     },
 

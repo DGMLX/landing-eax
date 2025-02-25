@@ -157,11 +157,10 @@ const NavbarV2 = () => {
                     <div className=" w-[3px] absolute  right-[80px] h-[86.5px] bg-[#824624]"></div>
                     <div className=" w-[3px] absolute  right-[83px] h-[86.5px] bg-[#8F5434]"></div>
                     <div className=" w-[3px] absolute  right-[86px] h-[86.5px] bg-[#824624]"></div>
-                    <div className=" w-[3px] absolute  right-[89px] h-[86.5px] bg-[#824624]"></div>
-                    <div className=" w-[3px] absolute  right-[92px] h-[86.5px] bg-[#8F5434]"></div>
-                    <div className=" w-[3px] absolute  right-[95px] h-[86.5px] bg-[#824624]"></div>
-                    <div className=" w-[3px] absolute  right-[98px] h-[86.5px] bg-[#8F5434]"></div>
-                    <div className=" w-[3px] absolute  right-[101px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  right-[89px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  right-[92px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  right-[95px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  right-[98px] h-[86.5px] bg-[#824624]"></div>
 
                 </div>
 
