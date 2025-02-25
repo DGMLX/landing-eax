@@ -164,9 +164,9 @@ const NavbarV2 = () => {
 
                 </div>
 
-                <div className="hidden lg:flex lg:bg-[#303030] py-6 px-5  items-center justify-between z-40">
+                <div className="hidden lg:flex lg:bg-[#303030] py-6 px-5 h-[87px]  items-center justify-between z-40">
                     <nav className="flex">
-                        <a href="https://ecoalliance.cl/"><Image src="/logos_generales/eax.png" width={80} height={80} alt="Logo EAX" className="lg:mr-10 xl:mr-[104px] w-auto "/></a>
+                        <a href="https://ecoalliance.cl/"><Image src="/logos_generales/eax.png" width={80} height={80} alt="Logo EAX" className="lg:mr-10 xl:mr-[104px] w-[96px] h-[39px]"/></a>
                         <ul className="flex items-center">
                         
                             <li onMouseEnter={()=>onHoverNav()} >

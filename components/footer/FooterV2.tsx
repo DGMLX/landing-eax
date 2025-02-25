@@ -5,6 +5,72 @@ import { BsGeoAltFill } from "react-icons/bs"
 export const FooterV2 = () =>{
     return(
         <footer className="bg-[#1E1E1E]">
+
+            
+            {/* <div className="hidden 2xl:block">
+                <div className=" w-[3px] absolute  left-[130px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  left-[133px] h-[509px] bg-[#824624]"></div>
+                <div className=" w-[3px] absolute  left-[136px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  left-[139px] h-[509px] bg-[#824624]"></div>
+                <div className=" w-[3px] absolute  left-[142px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  left-[145px] h-[509px] bg-[#824624]"></div>
+                <div className=" w-[3px] absolute  left-[148px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  left-[151px] h-[509px] bg-[#824624]"></div>
+                <div className=" w-[3px] absolute  left-[154px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  left-[157px] h-[509px] bg-[#824624]"></div>
+                <div className=" w-[3px] absolute  left-[160px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  left-[163px] h-[509px] bg-[#824624]"></div>
+                <div className=" w-[3px] absolute  left-[166px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  left-[169px] h-[509px] bg-[#824624]"></div>
+                <div className=" w-[3px] absolute  left-[172px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  left-[175px] h-[509px] bg-[#824624]"></div>
+                <div className=" w-[3px] absolute  left-[178px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  left-[181px] h-[509px] bg-[#824624]"></div>
+                <div className=" w-[3px] absolute  left-[184px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  left-[187px] h-[509px] bg-[#824624]"></div>
+                <div className=" w-[3px] absolute  left-[190px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  left-[193px] h-[509px] bg-[#824624]"></div>
+                <div className=" w-[3px] absolute  left-[196px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  left-[199px] h-[509px] bg-[#824624]"></div>
+                <div className=" w-[3px] absolute  left-[202px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  left-[205px] h-[509px] bg-[#824624]"></div>
+                <div className=" w-[3px] absolute  left-[208px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  left-[211px] h-[509px] bg-[#824624]"></div>
+            </div>
+
+
+            <div className="hidden 2xl:block ">
+
+                <div className=" w-[3px] absolute  right-[17px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  right-[20px] h-[509px] bg-[#824624]"></div>
+                <div className=" w-[3px] absolute  right-[23px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  right-[26px] h-[509px] bg-[#824624]"></div>
+                <div className=" w-[3px] absolute  right-[29px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  right-[32px] h-[509px] bg-[#824624]"></div>
+                <div className=" w-[3px] absolute  right-[35px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  right-[38px] h-[509px] bg-[#824624]"></div>
+                <div className=" w-[3px] absolute  right-[41px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  right-[44px] h-[509px] bg-[#824624]"></div>
+                <div className=" w-[3px] absolute  right-[47px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  right-[50px] h-[509px] bg-[#824624]"></div>
+                <div className=" w-[3px] absolute  right-[53px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  right-[56px] h-[509px] bg-[#824624]"></div>
+                <div className=" w-[3px] absolute  right-[59px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  right-[62px] h-[509px] bg-[#824624]"></div>
+                <div className=" w-[3px] absolute  right-[65px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  right-[68px] h-[509px] bg-[#824624]"></div>
+                <div className=" w-[3px] absolute  right-[71px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  right-[74px] h-[509px] bg-[#824624]"></div>
+                <div className=" w-[3px] absolute  right-[77px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  right-[80px] h-[509px] bg-[#824624]"></div>
+                <div className=" w-[3px] absolute  right-[83px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  right-[86px] h-[509px] bg-[#824624]"></div>
+                <div className=" w-[3px] absolute  right-[89px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  right-[92px] h-[509px] bg-[#824624]"></div>
+                <div className=" w-[3px] absolute  right-[95px] h-[509px] bg-[#8F5434]"></div>
+                <div className=" w-[3px] absolute  right-[98px] h-[509px] bg-[#824624]"></div>
+
+            </div> */}
             <div className=" justify-center flex-col md:flex-row hidden md:flex">
                <div className="text-[#D9D9D9] mt-10">
                     <h3 className="mb-5 text-xl font-bold">Enlaces</h3>
