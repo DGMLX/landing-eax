@@ -192,7 +192,9 @@ const HomePage = () =>{
             </div>
 
                 <div className="flex justify-end mt-7">
-                    <button className="text-[#c4262e] flex items-center text-xl border border-[#c4262e]  py-3 px-4 rounded-full hover:bg-[#b01c1c] hover:text-white hover:underline">ÁREAS DE ESPECIALIZACIÓN <HiArrowLongRight/></button>
+                    <Link href="https://ecoalliance.cl/soluciones/">
+                        <button className="text-[#c4262e] flex items-center text-xl border border-[#c4262e]  py-3 px-4 rounded-full hover:bg-[#b01c1c] hover:text-white hover:underline">ÁREAS DE ESPECIALIZACIÓN <HiArrowLongRight/></button>
+                    </Link>
                 </div>
             </section>
 
@@ -291,7 +293,9 @@ const HomePage = () =>{
                 </div>
 
                 <div className="flex justify-end mt-7">
-                    <button className="text-[#C4262E] flex items-center text-xl border border-[#C4262E]  py-3 px-5 rounded-full hover:bg-[#B01C1C] hover:text-white hover:underline">VER TODOS <HiArrowLongRight className="ml-3"/></button>
+                    <Link  href="https://ecoalliance.cl/productos/">
+                        <button className="text-[#C4262E] flex items-center text-xl border border-[#C4262E]  py-3 px-5 rounded-full hover:bg-[#B01C1C] hover:text-white hover:underline">VER TODOS <HiArrowLongRight className="ml-3"/></button>
+                    </Link>
                 </div>
 
             </section>

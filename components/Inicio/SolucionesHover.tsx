@@ -95,9 +95,11 @@ const SolucionesHover = () => {
 
       {/* Botón */}
       <div className="flex justify-end mt-7">
-        <button className="text-[#c4262e] flex items-center text-xl border border-[#c4262e] py-3 px-5 rounded-full hover:bg-[#b01c1c] hover:text-white hover:underline">
-          VER TODOS <HiArrowLongRight className="ml-3" />
-        </button>
+        <Link href="https://ecoalliance.cl/soluciones/">
+          <button className="text-[#c4262e] flex items-center text-xl border border-[#c4262e] py-3 px-5 rounded-full hover:bg-[#b01c1c] hover:text-white hover:underline">
+            VER TODOS <HiArrowLongRight className="ml-3" />
+          </button>
+        </Link>
       </div>
     </section>
   );
