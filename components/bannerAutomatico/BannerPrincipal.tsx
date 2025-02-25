@@ -49,7 +49,7 @@ const BannerPrincipal:React.FC = () =>{
 
     return(
         <>
-          <section className=" bg-black/35 h-[420px] md:h-[470px]  justify-center flex-col flex "
+          <section className=" bg-black/35 h-[420px] md:h-[470px] 2xl:h-[550px]  justify-center flex-col flex "
           style={{
             backgroundImage:banners[currentBanner].urlImg !== '' ? `url(${banners[currentBanner].urlImg})` : 'bg-gray-500',
             backgroundBlendMode:"darken",
