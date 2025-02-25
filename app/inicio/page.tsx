@@ -204,7 +204,7 @@ const HomePage = () =>{
                 <h2 className="text-2xl mb-5 tracking-widest">PRODUCTOS DESTACADOS</h2>
                 <div className="flex flex-wrap justify-between w-full">
 
-                    <div className="w-full lg:w-[49%] xl:w-[24%] hover:shadow-xl flex flex-col">
+                    <div className="w-full lg:w-[49%] xl:w-[24%] hover:shadow-xl flex flex-col border">
                         <div className="bg-gray-300 w-full h-[240px]" style={{
                             backgroundImage:`url('/inicio/multicar_m31.jpg')`,
                      
@@ -213,7 +213,7 @@ const HomePage = () =>{
                             backgroundPosition: "center",
                             
                         }}></div>
-                        <div className="px-6 pt-5 h-[406px] w-full flex flex-col justify-between  border-gray-300 border">
+                        <div className="px-6 pt-5 h-[410px] sm:h-[300px] lg:h-[380px] xl:h-[550px] 2xl:h-[460px] w-full flex flex-col justify-between ">
                             <div>
 
                                 <h3 className="font-bold ">Multicar M31: Potencia y Versatilidad en un Solo Vehículo</h3>
@@ -226,7 +226,7 @@ const HomePage = () =>{
                         </div>
                     </div>
 
-                    <div className="w-full lg:w-[49%] xl:w-[24%]  hover:shadow-xl flex flex-col mt-5 lg:mt-0">
+                    <div className="w-full lg:w-[49%] xl:w-[24%]  hover:shadow-xl flex flex-col mt-5 lg:mt-0 border">
                         <div className="bg-gray-300 w-full h-[240px]" style={{
                             backgroundImage:`url('/inicio/giant-g2200e.jpg')`,
                             backgroundRepeat:"no-repeat",
@@ -234,7 +234,7 @@ const HomePage = () =>{
                             backgroundPosition: "center",
                             
                         }}></div>
-                        <div className="px-6 pt-5 h-[406px] flex flex-col justify-between  border-gray-300 border ">
+                        <div className="px-6 pt-5 h-[410px] sm:h-[300px] lg:h-[380px] xl:h-[550px] 2xl:h-[460px] flex flex-col justify-between   ">
                             <div>
 
                                 <h3 className="font-bold ">Giant G2200E: Flexibilidad Eléctrica para Cada Desafío</h3>
@@ -247,7 +247,7 @@ const HomePage = () =>{
                         </div>
                     </div>
 
-                    <div className="w-full lg:w-[49%] xl:w-[24%]  hover:shadow-xl border   border-gray-300 flex flex-col mt-5 xl:mt-0">
+                    <div className="w-full lg:w-[49%] xl:w-[24%]  hover:shadow-xl border  flex flex-col mt-5 xl:mt-0">
                         <div className="bg-gray-300 w-full h-[240px]" style={{
                             backgroundImage:`url('/inicio/super_prof.jpg')`,
                             backgroundRepeat:"no-repeat",
@@ -255,7 +255,7 @@ const HomePage = () =>{
                             backgroundPosition: "center",
                             
                         }}></div>
-                        <div className="px-6 pt-5 h-[406px] flex flex-col justify-between ">
+                        <div className="px-6 pt-5 h-[450px] sm:h-[300px] lg:h-[380px] xl:h-[550px] 2xl:h-[460px] flex flex-col justify-between ">
                             <div>
                                 <h3 className="font-bold ">Trituradora Super Prof MAX On Road: Rendimiento y Movilidad para la Gestión de Residuos</h3>
                                 <p className="mt-3">La Super Prof MAX On Road lleva la trituración a otro nivel con su innovador sistema de descarga AXELERO™, capaz de procesar ramas de gran tamaño con máxima eficiencia. Diseñada para un transporte ágil gracias a su montaje sobre tráiler, combina potencia, sostenibilidad y facilidad de uso, ideal para quienes buscan optimizar la gestión de residuos verdes.</p>
@@ -267,15 +267,14 @@ const HomePage = () =>{
                         </div>
                     </div>
 
-                    <div className="w-full lg:w-[49%] xl:w-[24%]   hover:shadow-xl flex flex-col mt-5 xl:mt-0">
+                    <div className="w-full lg:w-[49%] xl:w-[24%]   hover:shadow-xl flex flex-col mt-5 xl:mt-0 border">
                         <div className="bg-gray-300 w-full h-[240px]" style={{
                             backgroundImage:`url('/inicio/mini_compactador.jpg')`,
                             backgroundRepeat:"no-repeat",
                             backgroundSize: "cover",
                             backgroundPosition: "center",
-                            
                         }}></div>
-                        <div className="px-6 pt-5 h-[406px] flex flex-col justify-between  border-gray-300 border">
+                        <div className="px-6 pt-5 h-[450px] sm:h-[300px] lg:h-[380px] xl:h-[550px] 2xl:h-[460px] flex flex-col justify-between ">
                             <div>
                                 <h3 className="font-bold ">Mini Compactador MSP: Máxima Compactación en Espacios Reducidos</h3>
                                 <p className="mt-3"> El Mini Compactador MSP está diseñado para zonas de difícil acceso, como estacionamientos subterráneos o áreas urbanas estrechas, ofreciendo una solución eficiente para la gestión de residuos. Su construcción modular, alta densidad de compactación (9:1) y contenedores intercambiables permiten una operación continua sin interrupciones.</p>
