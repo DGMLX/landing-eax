@@ -61,7 +61,7 @@ const BannerPrincipal:React.FC = () =>{
 
                 <div className="md:w-2/3 xl:w-[55%] p-5  md:pl-32 mt-5">
                     <div className="h-[250px] w-full flex flex-col justify-around">
-                      <h2 className=" text-lg font-bold text-[#FBFBFB] mb-3 ">{banners[currentBanner].header}</h2>
+                      <h2 className=" text-lg font-bold text-[#FBFBFB] mb-3 tracking-[5px]">{banners[currentBanner].header}</h2>
                       <h2 className="  text-[21px] md:text-3xl font-bold text-[#FBFBFB]">{banners[currentBanner].titulo}</h2>
                       <p className="mt-3 text-lg hidden lg:block text-[#FBFBFB]">{banners[currentBanner].descripcion}</p>
                       <div className="flex justify-center sm:justify-start">

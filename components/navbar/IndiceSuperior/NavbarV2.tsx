@@ -97,11 +97,80 @@ const NavbarV2 = () => {
             <header className={`w-screen fixed top-0 z-40  transition-transform duration-300 ${openSans.className} ${
         isVisible ? "translate-y-0" : "-translate-y-16"}`}>
                 <IndiceSuperior/>
-                <div className="hidden lg:flex lg:bg-[#303030]  py-6 px-5  items-center justify-between">
+
+                <div className="hidden lg:block">
+
+                    <div className=" w-[3px] absolute  left-[130px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  left-[133px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  left-[136px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  left-[139px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  left-[142px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  left-[145px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  left-[148px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  left-[151px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  left-[154px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  left-[157px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  left-[160px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  left-[163px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  left-[166px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  left-[169px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  left-[172px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  left-[175px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  left-[178px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  left-[181px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  left-[184px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  left-[187px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  left-[190px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  left-[193px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  left-[196px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  left-[199px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  left-[202px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  left-[205px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  left-[208px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  left-[211px] h-[86.5px] bg-[#824624]"></div>
+                </div>
+
+                
+                <div className="hidden lg:block ">
+
+                    <div className=" w-[3px] absolute  right-[17px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  right-[20px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  right-[23px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  right-[26px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  right-[29px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  right-[32px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  right-[35px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  right-[38px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  right-[41px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  right-[44px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  right-[47px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  right-[50px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  right-[53px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  right-[56px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  right-[59px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  right-[62px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  right-[65px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  right-[68px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  right-[71px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  right-[74px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  right-[77px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  right-[80px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  right-[83px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  right-[86px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  right-[89px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  right-[92px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  right-[95px] h-[86.5px] bg-[#824624]"></div>
+                    <div className=" w-[3px] absolute  right-[98px] h-[86.5px] bg-[#8F5434]"></div>
+                    <div className=" w-[3px] absolute  right-[101px] h-[86.5px] bg-[#824624]"></div>
+
+                </div>
+
+                <div className="hidden lg:flex lg:bg-[#303030] py-6 px-5  items-center justify-between z-40">
                     <nav className="flex">
-                        <a href="https://ecoalliance.cl/"><Image src="/logos_generales/eax.png" width={80} height={80} alt="Logo EAX" className="lg:mr-10 xl:mr-[104px] w-auto"/></a>
+                        <a href="https://ecoalliance.cl/"><Image src="/logos_generales/eax.png" width={80} height={80} alt="Logo EAX" className="lg:mr-10 xl:mr-[104px] w-auto "/></a>
                         <ul className="flex items-center">
-                            <li onMouseEnter={()=>onHoverNav()}>
+                        
+                            <li onMouseEnter={()=>onHoverNav()} >
                                 <a href="https://ecoalliance.cl/" className="text-white text-sm mr-5 ">INICIO</a>
                             </li>
                             <li onMouseEnter={()=>onHoverProducto()}>
@@ -122,15 +191,20 @@ const NavbarV2 = () => {
                         
                         </ul>
                     </nav>
-                    <div className="flex ">
+                    <div className="flex z-40">
                         <a href="https://ecoalliance.cl/contacto/"><IoMdMail className=" text-white text-lg mr-5" /></a>
                         <a href="https://api.whatsapp.com/send?phone=56322690691&text=Hola!%20Solicito%20mas%20informacion%20de%20los%20siguientes%20productos:" target="_blank"><FaWhatsapp className="text-white text-lg mr-5"/>
                         </a>
                         <a href="https://www.facebook.com/EcoAllianceEAX" target="_blank"><FaFacebook className="text-white text-lg mr-5"/></a>
                         <a href="https://www.youtube.com/channel/UCkNCjH3z4eyPPzgCBwveUZg" target="_blank"><FaYoutube className="text-white text-lg mr-5"/></a>
+                        
+                                
                         <a href="https://ecoalliance.cl/blog/" target="_blank"><LuBookText className="text-white text-lg mr-5"/></a>
                         <a href="https://www.linkedin.com/company/ecoalliance-spa/" target="_blank"><FaLinkedin className="text-white text-lg mr-5"/></a>
                         <a href="https://www.instagram.com/ecoalliancespa_chile/" target="_blank"><FaInstagram className="text-white text-lg mr-4"/></a>
+
+                    
+                        
                     </div>
                 </div>
             </header>
