@@ -1,8 +1,10 @@
 'use client';
 
+
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { HiArrowLongRight } from "react-icons/hi2";
+
 
 
 
@@ -42,6 +44,7 @@ const BannerPrincipal:React.FC = () =>{
 
     
     useEffect(() => {
+      
         intervalRef.current = setInterval(() => {
           setCurrentBanner((prev) => (prev + 1) % banners.length);
         }, 4000);
@@ -51,10 +54,13 @@ const BannerPrincipal:React.FC = () =>{
         };
       }, []);
 
+
+
     return(
         <>
-   
-            <section className=" bg-black/35 h-[420px] md:h-[470px] 2xl:h-[550px]  justify-center flex-col flex "
+        
+       
+          <section className={`bg-black/35 h-[420px] md:h-[470px] 2xl:h-[550px]  justify-center flex-col flex ${currentBanner === 0 ? 'animate-fade-left animate-duration-[1000ms] animate-ease-in-out' : currentBanner === 1 ? 'animate-fade animate-duration-[1000ms] animate-ease-in-out' : currentBanner === 2 ? 'animate-fade-right animate-duration-[1000ms] animate-ease-in-out ' : ''}`}
             style={{
               backgroundImage:banners[currentBanner].urlImg !== '' ? `url(${banners[currentBanner].urlImg})` : 'bg-gray-500',
               backgroundBlendMode:"darken",
@@ -62,27 +68,28 @@ const BannerPrincipal:React.FC = () =>{
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}>
+                
 
-                <div className="md:w-2/3 xl:w-[55%] p-5  md:pl-32 mt-5">
-                    <div className="h-[250px] w-full flex flex-col justify-around">
-                      <h2 className=" text-lg font-bold text-[#FBFBFB] mb-3 tracking-[5px]">{banners[currentBanner].header}</h2>
-                      <h2 className="  text-[21px] md:text-3xl font-bold text-[#FBFBFB]">{banners[currentBanner].titulo}</h2>
-                      <p className="mt-3 text-lg hidden lg:block text-[#FBFBFB]">{banners[currentBanner].descripcion}</p>
-                      <div className="flex justify-center sm:justify-start">
-                          <Link href={banners[currentBanner].href} className="hover:bg-[#A7283D] bg-[#e34f4f] text-white text-[16px] py-2 px-7 rounded-full mt-10 font-bold   flex items-center">{banners[currentBanner].boton}<HiArrowLongRight className="text-3xl ml-4"/></Link>
+                  <div className="md:w-2/3 xl:w-[55%] p-5  md:pl-32 mt-5">
+                      <div className="h-[250px] w-full flex flex-col justify-around">
+                        <h2 className=" text-lg font-bold text-[#FBFBFB] mb-3 tracking-[5px]">{banners[currentBanner].header}</h2>
+                        <h2 className="  text-[21px] md:text-3xl font-bold text-[#FBFBFB]">{banners[currentBanner].titulo}</h2>
+                        <p className="mt-3 text-lg hidden lg:block text-[#FBFBFB]">{banners[currentBanner].descripcion}</p>
+                        <div className="flex justify-center sm:justify-start">
+                            <Link href={banners[currentBanner].href} className="hover:bg-[#A7283D] bg-[#e34f4f] text-white text-[16px] py-2 px-7 rounded-full mt-10 font-bold   flex items-center">{banners[currentBanner].boton}<HiArrowLongRight className="text-3xl ml-4"/></Link>
+                        </div>
                       </div>
-                    </div>
-                </div>
-                <div className="flex justify-center mt-16 items-center gap-2">
-                  <button className={` h-[10px] w-[30px] rounded-full ${currentBanner === 0 ? 'bg-[#c4262e]' : 'bg-white'}`} onClick={()=>setCurrentBanner(0)} ></button>
-                  <button className={` h-[10px] w-[30px] rounded-full ${currentBanner === 1 ? 'bg-[#c4262e]' : 'bg-white'}`} onClick={()=>setCurrentBanner(1)}></button>
-                  <button className={` h-[10px] w-[30px] rounded-full ${currentBanner === 2 ? 'bg-[#c4262e]' : 'bg-white'}`} onClick={()=>setCurrentBanner(2)}></button>
-                  {/* <button className={` h-[10px] w-[30px] rounded-full ${currentBanner === 3 ? 'bg-[#c4262e]' : 'bg-white'}`} onClick={()=>setCurrentBanner(3)}></button>
-                  <button className={` h-[10px] w-[30px] rounded-full ${currentBanner === 4 ? 'bg-[#c4262e]' : 'bg-white'}`} onClick={()=>setCurrentBanner(4)}></button> */}
-                </div>
-        
+                  </div>
+                  <div className="flex justify-center mt-16 items-center gap-2">
+                    <button className={` h-[10px] w-[30px] rounded-full ${currentBanner === 0 ? 'bg-[#c4262e]' : 'bg-white'}`} onClick={()=>setCurrentBanner(0)} ></button>
+                    <button className={` h-[10px] w-[30px] rounded-full ${currentBanner === 1 ? 'bg-[#c4262e]' : 'bg-white'}`} onClick={()=>setCurrentBanner(1)}></button>
+                    <button className={` h-[10px] w-[30px] rounded-full ${currentBanner === 2 ? 'bg-[#c4262e]' : 'bg-white'}`} onClick={()=>setCurrentBanner(2)}></button>
+                
+                  </div>
+          
 
-            </section>
+               
+            </section> 
 
         </>
     )

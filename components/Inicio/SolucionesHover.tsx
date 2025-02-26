@@ -8,13 +8,13 @@ const SolucionesHover = () => {
   const [hoverValue, setHoverValue] = useState<number>(0); // Valor por defecto: el primer índice
   const [solucionesVisible,setSolucionesVisible] = useState(false);
   const myRef = useRef<any | null>(null);
-  console.log(solucionesVisible)
+
   useEffect(()=>{
 
     const observer = new IntersectionObserver((entries)=>{
       const entry = entries[0]
       setSolucionesVisible(entry.isIntersecting)
-      console.log(entry)
+
     })
    
   

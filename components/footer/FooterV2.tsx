@@ -5,8 +5,6 @@ import { BsGeoAltFill } from "react-icons/bs"
 export const FooterV2 = () =>{
     return(
         <footer className="bg-[#1E1E1E]">
-
-            
             {/* <div className="hidden 2xl:block">
                 <div className=" w-[3px] absolute  left-[130px] h-[509px] bg-[#8F5434]"></div>
                 <div className=" w-[3px] absolute  left-[133px] h-[509px] bg-[#824624]"></div>
@@ -37,10 +35,7 @@ export const FooterV2 = () =>{
                 <div className=" w-[3px] absolute  left-[208px] h-[509px] bg-[#8F5434]"></div>
                 <div className=" w-[3px] absolute  left-[211px] h-[509px] bg-[#824624]"></div>
             </div>
-
-
             <div className="hidden 2xl:block ">
-
                 <div className=" w-[3px] absolute  right-[17px] h-[509px] bg-[#8F5434]"></div>
                 <div className=" w-[3px] absolute  right-[20px] h-[509px] bg-[#824624]"></div>
                 <div className=" w-[3px] absolute  right-[23px] h-[509px] bg-[#8F5434]"></div>
@@ -69,24 +64,23 @@ export const FooterV2 = () =>{
                 <div className=" w-[3px] absolute  right-[92px] h-[509px] bg-[#824624]"></div>
                 <div className=" w-[3px] absolute  right-[95px] h-[509px] bg-[#8F5434]"></div>
                 <div className=" w-[3px] absolute  right-[98px] h-[509px] bg-[#824624]"></div>
-
             </div> */}
             <div className=" justify-center flex-col md:flex-row hidden md:flex">
                <div className="text-[#D9D9D9] mt-10">
                     <h3 className="mb-5 text-xl font-bold">Enlaces</h3>
-                    <p className="mb-5 ">Inicio</p>
-                    <p className="mb-5 ">Soluciones</p>
-                    <p className="mb-5 ">Productos</p>
-                    <p className="mb-5 ">Acerca de EAX</p>
-                    <p className="mb-5 ">Blog</p>
-                    <p className="mb-5 ">Tienda</p>
+                    <a href="https://ecoalliance.cl/"><p className="mb-5 ">Inicio</p></a>
+                    <a href="https://ecoalliance.cl/soluciones/"><p className="mb-5 ">Soluciones</p></a>
+                    <a href="https://ecoalliance.cl/productos/"><p className="mb-5 ">Productos</p></a>
+                    <a href="https://ecoalliance.cl/acerca-de-eax/"><p className="mb-5 ">Acerca de EAX</p></a>
+                    <a href="https://ecoalliance.cl/blog/"><p className="mb-5 ">Blog</p></a>
+                    <a href="https://ecoalliance.cl/camion-multiproposito/"><p className="mb-5 ">Tienda</p></a>
                 </div>
                <div className="text-[#D9D9D9] xl:mr-32 xl:ml-32 mt-10">
                     <h3 className="mb-5 text-xl font-bold text-justify">Contáctanos</h3>
                     <p className="mb-5 flex "><BsGeoAltFill className="text-xl mr-4"/>Casa central: 1/2 oriente 831, oficina 408, <br />Viña del mar, Chile</p>
                     <p className="mb-5 flex"><FaPhoneAlt className="text-xl mr-4"/> +56-32-269-0691</p>
-                    <p className="mb-5 flex"><IoMdMail className="text-xl mr-4"/>ventas@ecoalliance.cl</p>
-                    <p className="mb-5 flex"><FaWhatsapp className="text-2xl mr-4"/>+56-32-269-061</p>
+                    <a href="https://ecoalliance.cl/contacto/"><p className="mb-5 flex"><IoMdMail className="text-xl mr-4"/>ventas@ecoalliance.cl</p></a>
+                    <a href="https://api.whatsapp.com/send?phone=56322690691&text=Hola!%20Solicito%20mas%20informacion%20de%20los%20siguientes%20productos:"><p className="mb-5 flex"><FaWhatsapp className="text-2xl mr-4"/>+56-32-269-061</p></a>
                 </div>
                <div className="text-[#D9D9D9] mt-10">
                     <p className="mt-10 flex mb-10"><BsGeoAltFill className="text-xl mr-4"/>Oficina europea: Charlotenburg 1407, Berlín, Alemania</p>
@@ -123,9 +117,9 @@ export const FooterV2 = () =>{
                     <p className="flex items-center text-center text-[#D9D9D9] text-sm">EcoAlliance © 2025 - Transformando el entorno</p>
                 </div>
                 <div className="justify-around gap-5 flex-col sm:flex-row hidden md:flex">
-                    <p className="flex items-center text-center text-[#D9D9D9] text-sm">informacion Corporativa</p>
-                    <p className="flex items-center text-center text-[#D9D9D9] text-sm">informacion Legal</p>
-                    <p className="flex items-center text-center text-[#D9D9D9] text-sm">Mapa del Sitio</p>
+                <a href="https://ecoalliance.cl/informacion-corporativa/"><p className="flex items-center text-center text-[#D9D9D9] text-sm">informacion Corporativa</p></a>
+                <a href="https://ecoalliance.cl/informacion-legal/"><p className="flex items-center text-center text-[#D9D9D9] text-sm">informacion Legal</p></a>
+                <a href=""><p className="flex items-center text-center text-[#D9D9D9] text-sm">Mapa del Sitio</p></a>
                 </div>
             </div>
         </footer>

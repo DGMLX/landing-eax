@@ -66,7 +66,7 @@ const SliderProductos = () =>{
     return(
         <>
        
-         <section ref={myRef} className={` bg-black/30 pt-24 pb-16 h-[400px]  justify-center flex-col flex transition-opacity duration-[1200ms] opacity-0 ${solucionesVisible && 'opacity-100'}`}  style={{
+         <section ref={myRef} className={` bg-black/30 pt-24 pb-16 h-[400px]  justify-center flex-col flex transition-opacity duration-[1200ms] opacity-0 ${solucionesVisible && 'opacity-100'} ${currentBanner === 0 ? 'animate-fade-left animate-duration-[700ms] animate-ease-in-out' : currentBanner === 1 ? 'animate-fade animate-duration-[700ms] animate-ease-in-out' : currentBanner === 2 ? 'animate-fade-right animate-duration-[700ms] animate-ease-in-out ' : ''} ` }  style={{
            backgroundImage:`url(${banners[currentBanner].urlImg})`,
            backgroundBlendMode:"darken",
            backgroundRepeat:"no-repeat",

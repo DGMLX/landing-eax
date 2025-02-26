@@ -16,7 +16,7 @@ const HomePage = () =>{
                 <BannerPrincipal/>
             </section>
 
-            <section className="mx-5 md:mx-20 mb-5">
+            <section className="mx-5 md:mx-20 mb-5  animate-duration-700 animate-fade-left">
                 <h2 className="text-2xl mb-5 tracking-widest">ÁREAS DE ESPECIALIZACIÓN</h2>
                 <div className="flex justify-between gap-5 flex-col md:flex-row ">  
 
