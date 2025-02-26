@@ -3,7 +3,8 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { HiArrowLongRight } from "react-icons/hi2";
-
+import { MdOutlineArrowBackIos } from "react-icons/md";
+import { MdOutlineArrowForwardIos } from "react-icons/md";
 
 
 const banners = [
@@ -44,16 +45,25 @@ const SliderProductos = () =>{
     const intervalRef = useRef<NodeJS.Timeout | null>(null);
     const myRef = useRef<any | null>(null);
 
-    useEffect(() => {
-        intervalRef.current = setInterval(() => {
+     const resetInterval = () => {
+          if (intervalRef.current) {
+            clearInterval(intervalRef.current); 
+          }
+          intervalRef.current = setInterval(() => {
             setCurrentBanner((prev) => (prev + 1) % banners.length);
-        }, 4000);
-    
-        return () => {
-            if (intervalRef.current) clearInterval(intervalRef.current);
+          }, 4000);
         };
-        }, []);
+        
+        useEffect(() => {
+          resetInterval();
+          return () => {
+            if (intervalRef.current) {
+              clearInterval(intervalRef.current); 
+            }
+          };
+        }, [currentBanner]); 
 
+   
 
     useEffect(()=>{
       const observer = new IntersectionObserver((entries)=>{
@@ -73,6 +83,18 @@ const SliderProductos = () =>{
            backgroundSize: "cover",
            backgroundPosition: "center",
           }}>
+
+            <MdOutlineArrowBackIos className="text-2xl md:text-5xl  text-white absolute "  onClick={()=>{
+                                if(currentBanner === 0){
+                                  setCurrentBanner(2)
+                                  resetInterval()
+                                }else{
+                                  setCurrentBanner((prev) => (prev - 1) % banners.length);
+                                  resetInterval()
+                                }
+                              }}/>
+                              <MdOutlineArrowForwardIos className={`text-2xl md:text-5xl  text-white absolute  ${currentBanner === 1 ? 'right-[76px]' : 'right-0'}`} onClick={()=>setCurrentBanner((prev) => (prev + 1 ) % banners.length)}/>
+                          
                     
             <div className="w-full lg:w-3/5 xl:w-1/2 pl-5 pr-10 md:pr-36 lg:pr-0 lg:pl-20 xl:pl-32">
                 <div className="h-[250px] w-full flex flex-col justify-center">

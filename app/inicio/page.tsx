@@ -345,7 +345,7 @@ const HomePage = () =>{
                             <h2 className="text-4xl font-bold  md:block ">Optimiza tu operación con nuestro soporte integral</h2>
                             <p className="mt-3 hidden xl:block">Confía en nuestro equipo para el montaje de equipos hasta el servicio postventa, insumos y repuestos, ofrecemos soluciones diseñadas para maximizar el rendimiento y la eficiencia de tus proyectos.</p>
                             <div className="flex mt-5">
-                            <Link href="https://ecoalliance.cl/servicios/" className=" flex items-center text-xl border border-[#C4262E] px-4 py-3 px-4 rounded-full bg-[#C4262E] text-white hover:bg-[#B01C1C] hover:text-white hover:underline">DESCUBRE MÁS<HiArrowLongRight className="ml-5 text-3xl"/></Link>
+                            <Link href="https://ecoalliance.cl/servicios/" className=" flex items-center text-xl border border-[#C4262E]  py-3 px-4 rounded-full bg-[#C4262E] text-white hover:bg-[#B01C1C] hover:text-white hover:underline">DESCUBRE MÁS<HiArrowLongRight className="ml-5 text-3xl"/></Link>
                             
                             </div>
                         </div>
