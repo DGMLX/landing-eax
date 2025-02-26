@@ -45,7 +45,7 @@ const SolucionesHover = () => {
     '/inicio/residuos_gran_tamanio.jpg',
     '/inicio/limpieza_sanitizacion.jpg',
     '/inicio/mantencion_arbustos.jpg',
-    '/inicio/autonomia_energetica.webp'
+    '/inicio/autonomia_energetica.jpg'
   ]
 
   const urls = [

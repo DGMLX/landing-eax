@@ -41,7 +41,7 @@ const HomePage = () =>{
 
                     <div className="md:w-1/2 lg:w-1/3 hover:shadow-xl">
                         <div className="bg-gray-300 w-full h-[240px]" style={{
-                            backgroundImage:`url('/inicio/tratamiento_residuos.jpg')`,
+                            backgroundImage:`url('/inicio/tratamiento_residuos2.jpg')`,
         
                             backgroundRepeat:"no-repeat",
                             backgroundSize: "cover",
@@ -128,7 +128,7 @@ const HomePage = () =>{
 
                     <div className="lg:w-1/3 sm:hidden lg:block hover:shadow-xl border ">
                         <div className="bg-gray-300 w-full h-[240px]" style={{
-                            backgroundImage:`url('/inicio/electromovilidad.png')`,
+                            backgroundImage:`url('/inicio/electromovilidad.jpg')`,
                      
                             backgroundRepeat:"no-repeat",
                             backgroundSize: "cover",
@@ -174,7 +174,7 @@ const HomePage = () =>{
                    {/* desaparece para tablet */}
                    <div className="lg:w-1/3 md:w-1/2 hover:shadow-xl hidden sm:block lg:hidden">
                         <div className="bg-gray-300 w-full h-[240px]" style={{
-                            backgroundImage:`url('/inicio/electromovilidad.png')`,
+                            backgroundImage:`url('/inicio/electromovilidad.jpg')`,
                             backgroundRepeat:"no-repeat",
                             backgroundSize: "cover",
                             backgroundPosition: "center",
