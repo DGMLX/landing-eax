@@ -79,7 +79,7 @@ const SolucionesHover = () => {
 
         {/* Contenido dinámico basado en hoverValue */}
         <div className={`w-3/6 pl-14 hidden lg:block `}>
-          <div className=" bg-black/20  w-full h-full flex justify-center items-center p-10 " style={{
+          <div className={`bg-black/20  w-full h-full flex justify-center items-center p-10 ${hoverValue % 2 === 0 ? 'animate-fade duration-500' : 'animate-fade-left duration-500'} `} style={{
             backgroundImage:imagenes[hoverValue] !== '' ? `url(${imagenes[hoverValue]})` : 'bg-gray-300',
             backgroundBlendMode:"darken",
             backgroundRepeat:"no-repeat",

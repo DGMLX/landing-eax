@@ -68,7 +68,7 @@ const BannerPrincipal:React.FC = () =>{
         <>
         
        
-          <section className={`bg-black/35 h-[420px] md:h-[470px] 2xl:h-[550px]  justify-center flex-col flex ${currentBanner === 0 ? 'animate-fade-left animate-duration-[1000ms] animate-ease-in-out' : currentBanner === 1 ? 'animate-fade animate-duration-[1000ms] animate-ease-in-out' : currentBanner === 2 ? 'animate-fade-right animate-duration-[1000ms] animate-ease-in-out ' : ''}`}
+          <section className={`w-screen bg-black/35 h-[420px] md:h-[470px] 2xl:h-[550px]  justify-center flex-col flex ${currentBanner === 0 ? 'animate-fade-left animate-duration-[1000ms] animate-ease-in-out' : currentBanner === 1 ? 'animate-fade animate-duration-[1000ms] animate-ease-in-out' : currentBanner === 2 ? 'animate-fade-right animate-duration-[1000ms] animate-ease-in-out ' : ''}`}
             style={{
               backgroundImage:banners[currentBanner].urlImg !== '' ? `url(${banners[currentBanner].urlImg})` : 'bg-gray-500',
               backgroundBlendMode:"darken",
