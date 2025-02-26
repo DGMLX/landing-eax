@@ -32,8 +32,8 @@ const HomePage = () =>{
                         <div className="px-6 pt-5 border-gray-300 border  flex flex-col justify-between 2xl:justify-around md:h-[550px] lg:h-[550px] xl:h-[420px] 2xl:h-[370px]" >
                             <h3 className="font-bold text-lg">Multipropósito: innovación y Eficiencia en Cada Espacio</h3>
                             <p className="mt-3">Los equipos multipropósito redefinen la eficiencia y versatilidad, adaptándose a diversas necesidades en aseo, mantenimiento y tratamiento de residuos. Con más de 100 accesorios intercambiables y 300 combinaciones, optimizan recursos, reducen costos y maximizan el rendimiento, brindando innovación, sostenibilidad y alto desempeño en entornos urbanos e industriales con solo una inversión.</p>
-                            <div className="my-5 flex justify-around items-center text-[#c4262e]">
-                                <Link href="https://ecoalliance.cl/camion-multiproposito/" className="text-xl">DESCUBRE MÁS</Link>
+                            <div className="my-5 flex justify-end items-center text-[#c4262e] xl:mr-10">
+                                <Link href="https://ecoalliance.cl/camion-multiproposito/" className="text-xl mr-5">DESCUBRE MÁS</Link>
                                 <HiArrowLongRight className="text-4xl"/>
                             </div>
                         </div>
@@ -51,8 +51,8 @@ const HomePage = () =>{
                         <div className="px-6 pt-5  border-gray-300 border flex flex-col justify-between 2xl:justify-around md:h-[550px] lg:h-[550px] xl:h-[420px] 2xl:h-[370px]">
                             <h3 className="font-bold text-lg">Tratamiento de Residuos: Tecnología para una Transformación Inteligente</h3>
                             <p className="mt-3">Equipos y soluciones avanzadas para una gestión de residuos eficiente, sostenible y rentable. Reducimos costos operativos, optimizamos la logística y fomentamos el reciclaje, la transformación y reutilización de residuos. Con automatización y eficiencia energética, ayudamos a gestionar y avanzar hacia un modelo circular y sustentable.</p>
-                            <div className="my-5 flex justify-around items-center text-[#c4262e]">
-                                <Link href="https://ecoalliance.cl/soluciones-tratamiento-de-residuos/" className="text-xl">DESCUBRE MÁS</Link>
+                            <div className="my-5 flex justify-end items-center text-[#c4262e] xl:mr-10">
+                                <Link href="https://ecoalliance.cl/soluciones-tratamiento-de-residuos/" className="text-xl mr-5">DESCUBRE MÁS</Link>
                                 <HiArrowLongRight className="text-4xl"/>
                             </div>
                         </div>
@@ -69,8 +69,8 @@ const HomePage = () =>{
                         <div className="px-6 pt-5  border-gray-300 border flex flex-col justify-between 2xl:justify-around md:h-[550px] lg:h-[550px] xl:h-[420px] 2xl:h-[370px]">
                             <h3 className="font-bold text-lg">Mejoramiento de Espacios Públicos: Transformando Entornos para una Vida de Calidad</h3>
                             <p className="mt-3">Diseño, mantenimiento y rehabilitación de plazas, parques y calles, aplicando accesibilidad, seguridad y sostenibilidad para fortalecer la calidad de vida urbana. Incorporamos mobiliario urbano inteligente y tecnologías avanzadas para gestionar espacios de forma eficiente, promoviendo ciudades más sostenibles con entornos modernos, funcionales e inclusivos.</p>
-                            <div className="my-5 flex justify-around items-center text-[#c4262e]">
-                                <Link href="https://ecoalliance.cl/espacios-publicos/" className="text-xl">DESCUBRE MÁS</Link>
+                            <div className="my-5 flex justify-end items-center text-[#c4262e] xl:mr-10">
+                                <Link href="https://ecoalliance.cl/espacios-publicos/" className="text-xl mr-5">DESCUBRE MÁS</Link>
                                 <HiArrowLongRight className="text-4xl"/>
                             </div>
                         </div>
@@ -98,8 +98,8 @@ const HomePage = () =>{
                         <div className="px-6 pt-5  border-t flex flex-col justify-between 2xl:justify-around md:h-[550px] lg:h-[570px] xl:h-[420px] 2xl:h-[370px]">
                             <h3 className="font-bold text-lg">Gestión Urbana: Estrategias Inteligentes para Ciudades Mas Eficientes y Sostenibles</h3>
                             <p className="mt-3">Desarrollo e implementación de estrategias innovadoras para optimizar la planificación y administración de ciudades y entornos empresariales con tecnología basada en Inteligencia Artificial. Optimizamos la gestión de recursos, infraestructura y servicios, promoviendo sostenibilidad, automatización y eficiencia económica, creando entornos más conectados, funcionales y habitables.</p>
-                            <div className="my-5 flex justify-around items-center text-[#c4262e]">
-                                <Link href="https://ecoalliance.cl/soluciones-aseo-urbano/" className="text-xl">DESCUBRE MÁS</Link>
+                            <div className="my-5 flex justify-end items-center text-[#c4262e] xl:mr-10">
+                                <Link href="https://ecoalliance.cl/soluciones-aseo-urbano/" className="text-xl mr-5">DESCUBRE MÁS</Link>
                                 <HiArrowLongRight className="text-4xl"/>
                             </div>
                         </div>
@@ -117,8 +117,8 @@ const HomePage = () =>{
                         <div className="px-6 pt-5  border-t flex flex-col justify-between 2xl:justify-around md:h-[550px] lg:h-[570px] xl:h-[420px] 2xl:h-[370px]">
                             <h3 className="font-bold text-lg">Aseo y Mantenimiento: Tecnologia para Entonos Más Limpios y Eficientes</h3>
                             <p className="mt-3">Ofrecemos equipos y soluciones especializadas para el aseo y mantenimiento de espacios urbanos, industriales y empresariales, asegurando rapidez, seguridad y costos optimizados. Con tecnología confiable y de alto rendimiento, facilitamos la gestión eficiente de residuos y mantención de infraestructuras, impulsando entornos más limpios, sostenibles y funcionales.</p>
-                            <div className="my-5 flex justify-around items-center text-[#c4262e]">
-                                <Link href="https://ecoalliance.cl/soluciones-mantenimiento-urbano/" className="text-xl">DESCUBRE MÁS</Link>
+                            <div className="my-5 flex justify-end items-center text-[#c4262e] xl:mr-10">
+                                <Link href="https://ecoalliance.cl/soluciones-mantenimiento-urbano/" className="text-xl mr-5">DESCUBRE MÁS</Link>
                                 <HiArrowLongRight className="text-4xl"/>
                             </div>
                         </div>
@@ -138,8 +138,8 @@ const HomePage = () =>{
                         <div className="px-6 pt-5 border-t  flex flex-col justify-between 2xl:justify-around md:h-[550px] lg:h-[570px] xl:h-[420px] 2xl:h-[370px]">
                             <h3 className="font-bold text-lg">Electromovilidad: el Cambio Hacia un Futuro Energético y Sostenible</h3>
                             <p className="mt-3">La electromovilidad transforma la operación en ciudades e industrias con tecnología de vanguardia para desarrollar soluciones eléctricas seguras, silenciosas y libres de contaminación. Desde saneamiento hasta logística industrial, impulsa la eficiencia energética y reduce la huella de carbono. Su integración en diversos sectores genera entornos más sostenibles, resilientes.</p>
-                            <div className="my-5 flex justify-around items-center text-[#c4262e]">
-                                <button className="text-xl">DESCUBRE MÁS</button>
+                            <div className="my-5 flex justify-end items-center text-[#c4262e] xl:mr-10">
+                                <button className="text-xl mr-5">DESCUBRE MÁS</button>
                                 <HiArrowLongRight className="text-4xl"/>
                             </div>
                         </div>
@@ -165,8 +165,8 @@ const HomePage = () =>{
                         <div className="px-6 pt-5  border-gray-300 border  flex flex-col justify-around md:h-[550px]">
                             <h3 className="font-bold ">Mejoramiento de Espacios Públicos: Transformando Entornos para una Vida de Calidad</h3>
                             <p className="mt-3">Diseño, mantenimiento y rehabilitación de plazas, parques y calles, aplicando accesibilidad, seguridad y sostenibilidad para fortalecer la calidad de vida urbana. Incorporamos mobiliario urbano inteligente y tecnologías avanzadas para gestionar espacios de forma eficiente, promoviendo ciudades más sostenibles con entornos modernos, funcionales e inclusivos.</p>
-                            <div className="my-5 flex justify-around items-center text-[#C4262E]">
-                                <Link href="https://ecoalliance.cl/espacios-publicos/" className="text-xl">DESCUBRE MÁS</Link>
+                            <div className="my-5 flex justify-end items-center text-[#C4262E] xl:mr-10">
+                                <Link href="https://ecoalliance.cl/espacios-publicos/" className="text-xl mr-5">DESCUBRE MÁS</Link>
                                 <HiArrowLongRight className="text-4xl"/>
                             </div>
                         </div>
@@ -182,8 +182,8 @@ const HomePage = () =>{
                         <div className="px-6 pt-5  border-gray-300 border  flex flex-col justify-around md:h-[550px]">
                             <h3 className="font-bold ">Electromovilidad: el Cambio Hacia un Futuro Energético y Sostenible</h3>
                             <p className="mt-3">La electromovilidad transforma la operación en ciudades e industrias con tecnología de vanguardia para desarrollar soluciones eléctricas seguras, silenciosas y libres de contaminación. Desde saneamiento hasta logística industrial, impulsa la eficiencia energética y reduce la huella de carbono. Su integración en diversos sectores genera entornos más sostenibles, resilientes.</p>
-                            <div className="my-5 flex justify-around items-center text-[#C4262E]">
-                                <button className="text-xl">DESCUBRE MÁS</button>
+                            <div className="my-5 flex justify-end items-center text-[#C4262E] xl:mr-10">
+                                <button className="text-xl mr-5">DESCUBRE MÁS</button>
                                 <HiArrowLongRight className="text-4xl"/>
                             </div>
                         </div>
@@ -222,8 +222,8 @@ const HomePage = () =>{
                                 <h3 className="font-bold ">Multicar M31: Potencia y Versatilidad en un Solo Vehículo</h3>
                                 <p className="mt-3"> Es el camión multipropósito ideal para realizar múltiples tareas con eficiencia, seguridad y confort. Su alta maniobrabilidad y capacidad de carga lo convierten en la solución ideal para tareas de todo el año en cualquier entorno. Con transmisión mecánica o hidrostática, este vehículo redefine el estándar en rendimiento y sostenibilidad.</p>
                             </div>
-                            <div className="mt-9 mb-9 flex justify-around items-center text-[#c4262e]">
-                                <Link href="https://ecoalliance.cl/camion-multicar-m31-c/" className="text-xl">DESCUBRE MÁS</Link>
+                            <div className="mt-9 mb-9 flex justify-end items-center text-[#c4262e] xl:mr-10">
+                                <Link href="https://ecoalliance.cl/camion-multicar-m31-c/" className="text-xl mr-5">DESCUBRE MÁS</Link>
                                 <HiArrowLongRight className="text-4xl"/>
                             </div>
                         </div>
@@ -243,8 +243,8 @@ const HomePage = () =>{
                                 <h3 className="font-bold ">Giant G2200E: Flexibilidad Eléctrica para Cada Desafío</h3>
                                 <p className="mt-3">El Giant G2200E redefine la eficiencia con su tecnología 100% eléctrica, operación silenciosa y cero emisiones. Su gran capacidad de carga y compatibilidad con más de 60 accesorios lo convierten en la solución ideal para trabajos urbanos, agrícolas y de construcción.</p>
                             </div>
-                            <div className="mt-9 mb-9 flex justify-around items-center text-[#c4262e]">
-                                <button className="text-xl">DESCUBRE MÁS</button>
+                            <div className="mt-9 mb-9 flex justify-end items-center text-[#c4262e] xl:mr-10">
+                                <button className="text-xl mr-5">DESCUBRE MÁS</button>
                                 <HiArrowLongRight className="text-4xl"/>
                             </div>
                         </div>
@@ -263,8 +263,8 @@ const HomePage = () =>{
                                 <h3 className="font-bold ">Trituradora Super Prof MAX On Road: Rendimiento y Movilidad para la Gestión de Residuos</h3>
                                 <p className="mt-3">La Super Prof MAX On Road lleva la trituración a otro nivel con su innovador sistema de descarga AXELERO™, capaz de procesar ramas de gran tamaño con máxima eficiencia. Diseñada para un transporte ágil gracias a su montaje sobre tráiler, combina potencia, sostenibilidad y facilidad de uso, ideal para quienes buscan optimizar la gestión de residuos verdes.</p>
                             </div>
-                            <div className="mt-9 mb-9 flex justify-around items-center text-[#c4262e]">
-                                <Link href="https://landing-eax.vercel.app/eliet/trituradoras-remolcables-de-carretera/super-prof-max-on-road" className="text-xl">DESCUBRE MÁS</Link>
+                            <div className="mt-9 mb-9 flex justify-end items-center text-[#c4262e] xl:mr-10">
+                                <Link href="https://landing-eax.vercel.app/eliet/trituradoras-remolcables-de-carretera/super-prof-max-on-road" className="text-xl mr-5">DESCUBRE MÁS</Link>
                                 <HiArrowLongRight className="text-4xl"/>
                             </div>
                         </div>
@@ -282,8 +282,8 @@ const HomePage = () =>{
                                 <h3 className="font-bold ">Mini Compactador MSP: Máxima Compactación en Espacios Reducidos</h3>
                                 <p className="mt-3"> El Mini Compactador MSP está diseñado para zonas de difícil acceso, como estacionamientos subterráneos o áreas urbanas estrechas, ofreciendo una solución eficiente para la gestión de residuos. Su construcción modular, alta densidad de compactación (9:1) y contenedores intercambiables permiten una operación continua sin interrupciones.</p>
                             </div>
-                            <div className="mt-9 mb-9 flex justify-around items-center text-[#c4262e]">
-                                <button className="text-xl">DESCUBRE MÁS</button>
+                            <div className="mt-9 mb-9 flex justify-end items-center text-[#c4262e] xl:mr-10">
+                                <button className="text-xl mr-5">DESCUBRE MÁS</button>
                                 <HiArrowLongRight className="text-4xl"/>
                             </div>
                         </div>
@@ -319,13 +319,13 @@ const HomePage = () =>{
                         backgroundPosition: "center",
                         
                     }}>
-                        <div className="flex flex-col  px-5 text-white">
+                        <div className="flex flex-col px-5 lg:px-10 text-white">
                             
-                            <h3 className="xl:mb-10 underline underline-offset-[12px]">BLOG</h3>
+                            <h3 className="mb-5 text-lg underline underline-offset-[12px]">BLOG</h3>
                             <h2 className="text-4xl font-bold">Innovación y Sostenibilidad en Acción</h2>
                             <p className="mt-3 hidden xl:block">Explora artículos especializados sobre maquinaria, reciclaje y soluciones sustentables.</p>
                             <div className="flex mt-10">
-                            <Link href="https://ecoalliance.cl/blog/" className=" flex items-center text-xl border border-[#C4262E] px-4 md:py-3 md:px-4 rounded-full bg-[#C4262E] text-white hover:bg-[#B01C1C] hover:text-white hover:underline">DESCUBRE MÁS<HiArrowLongRight className="ml-5 text-3xl"/></Link>
+                            <Link href="https://ecoalliance.cl/blog/" className=" flex items-center text-xl border border-[#C4262E] px-4 py-3 rounded-full bg-[#C4262E] text-white hover:bg-[#B01C1C] hover:text-white hover:underline">DESCUBRE MÁS<HiArrowLongRight className="ml-5 text-3xl"/></Link>
                             </div>
                         </div>
                     </div>
@@ -338,13 +338,14 @@ const HomePage = () =>{
                         backgroundPosition: "center",
                         
                     }}>
-                        <div className="flex flex-col px-5 text-white">
+                        <div className="flex flex-col px-5 lg:px-10 text-white">
                             
-                            <h3 className="xl:mb-10 underline underline-offset-[12px]">SERVICIOS</h3>
-                            <h2 className="text-4xl font-bold mt-5 md:block">Optimiza tu operación con nuestro soporte integral</h2>
+                            <h3 className="mb-5 text-lg underline underline-offset-[12px]">SERVICIOS </h3>
+                            
+                            <h2 className="text-4xl font-bold  md:block ">Optimiza tu operación con nuestro soporte integral</h2>
                             <p className="mt-3 hidden xl:block">Confía en nuestro equipo para el montaje de equipos hasta el servicio postventa, insumos y repuestos, ofrecemos soluciones diseñadas para maximizar el rendimiento y la eficiencia de tus proyectos.</p>
                             <div className="flex mt-5">
-                            <Link href="https://ecoalliance.cl/servicios/" className=" flex items-center text-xl border border-[#C4262E] px-4 md:py-3 md:px-4 rounded-full bg-[#C4262E] text-white hover:bg-[#B01C1C] hover:text-white hover:underline">DESCUBRE MÁS<HiArrowLongRight className="ml-5 text-3xl"/></Link>
+                            <Link href="https://ecoalliance.cl/servicios/" className=" flex items-center text-xl border border-[#C4262E] px-4 py-3 px-4 rounded-full bg-[#C4262E] text-white hover:bg-[#B01C1C] hover:text-white hover:underline">DESCUBRE MÁS<HiArrowLongRight className="ml-5 text-3xl"/></Link>
                             
                             </div>
                         </div>

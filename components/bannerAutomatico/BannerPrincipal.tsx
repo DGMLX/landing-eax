@@ -4,6 +4,8 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { HiArrowLongRight } from "react-icons/hi2";
+import { MdOutlineArrowBackIos } from "react-icons/md";
+import { MdOutlineArrowForwardIos } from "react-icons/md";
 
 
 
@@ -42,17 +44,23 @@ const BannerPrincipal:React.FC = () =>{
     const [currentBanner, setCurrentBanner] = useState<number>(0);
     const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
+    const resetInterval = () => {
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current); 
+      }
+      intervalRef.current = setInterval(() => {
+        setCurrentBanner((prev) => (prev + 1) % banners.length);
+      }, 4000);
+    };
     
     useEffect(() => {
-      
-        intervalRef.current = setInterval(() => {
-          setCurrentBanner((prev) => (prev + 1) % banners.length);
-        }, 4000);
-    
-        return () => {
-          if (intervalRef.current) clearInterval(intervalRef.current);
-        };
-      }, []);
+      resetInterval();
+      return () => {
+        if (intervalRef.current) {
+          clearInterval(intervalRef.current); 
+        }
+      };
+    }, [currentBanner]); 
 
 
 
@@ -69,11 +77,22 @@ const BannerPrincipal:React.FC = () =>{
               backgroundPosition: "center",
             }}>
                 
+                  <MdOutlineArrowBackIos className="text-2xl md:text-5xl  text-white absolute "  onClick={()=>{
+                    if(currentBanner === 0){
+                      setCurrentBanner(2)
+                      resetInterval()
+                    }else{
+                      setCurrentBanner((prev) => (prev - 1) % banners.length);
+                      resetInterval()
+                    }
+                  }}/>
+                  <MdOutlineArrowForwardIos className="text-2xl md:text-5xl  text-white absolute right-4" onClick={()=>setCurrentBanner((prev) => (prev + 1 ) % banners.length)}/>
+              
 
-                  <div className="md:w-2/3 xl:w-[55%] p-5  md:pl-32 mt-5">
+                  <div className="pl-10 sm:pl-0 md:w-2/3 xl:w-[55%] p-5  md:pl-32 mt-5">
                       <div className="h-[250px] w-full flex flex-col justify-around">
-                        <h2 className=" text-lg font-bold text-[#FBFBFB] mb-3 tracking-[5px]">{banners[currentBanner].header}</h2>
-                        <h2 className="  text-[21px] md:text-3xl font-bold text-[#FBFBFB]">{banners[currentBanner].titulo}</h2>
+                        <h2 className=" text-lg 2xl:text-xl font-bold text-[#FBFBFB] mb-3 tracking-[5px]">{banners[currentBanner].header}</h2>
+                        <h2 className="  text-[21px] 2xl:text-4xl  md:text-3xl font-bold text-[#FBFBFB]">{banners[currentBanner].titulo}</h2>
                         <p className="mt-3 text-lg hidden lg:block text-[#FBFBFB]">{banners[currentBanner].descripcion}</p>
                         <div className="flex justify-center sm:justify-start">
                             <Link href={banners[currentBanner].href} className="hover:bg-[#A7283D] bg-[#e34f4f] text-white text-[16px] py-2 px-7 rounded-full mt-10 font-bold   flex items-center">{banners[currentBanner].boton}<HiArrowLongRight className="text-3xl ml-4"/></Link>

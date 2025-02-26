@@ -4,6 +4,7 @@ import Link from 'next/link';
 import {  useState, useRef, useEffect  } from 'react';
 import { HiArrowLongRight } from 'react-icons/hi2';
 
+
 const SolucionesHover = () => {
   const [hoverValue, setHoverValue] = useState<number>(0); // Valor por defecto: el primer índice
   const [solucionesVisible,setSolucionesVisible] = useState(false);
@@ -70,7 +71,7 @@ const SolucionesHover = () => {
                 ${hoverValue === index && 'bg-gray-300 '}`}
               onMouseEnter={() => setHoverValue(index)}
             >
-              <Link href={urls[index]} className="text-lg">{solucion}</Link>
+              <Link href={urls[index]} className="text-[1rem] tracking-[.36px] font-roboto font-semibold " >{solucion}</Link>
               <HiArrowLongRight className="text-3xl" />
             </div>
           ))}

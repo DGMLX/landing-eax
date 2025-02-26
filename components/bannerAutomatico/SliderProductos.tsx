@@ -74,7 +74,7 @@ const SliderProductos = () =>{
            backgroundPosition: "center",
           }}>
                     
-            <div className="w-full lg:w-1/2 pl-5 pr-10 md:pr-36 lg:pr-0   lg:pl-32 ">
+            <div className="w-full lg:w-3/5 xl:w-1/2 pl-5 pr-10 md:pr-36 lg:pr-0 lg:pl-20 xl:pl-32">
                 <div className="h-[250px] w-full flex flex-col justify-center">
               
                 <h2 className="text-[21px]  md:text-3xl font-bold text-[#FBFBFB]">{banners[currentBanner].titulo}</h2>
