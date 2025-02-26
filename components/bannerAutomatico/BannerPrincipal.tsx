@@ -77,7 +77,7 @@ const BannerPrincipal:React.FC = () =>{
               backgroundPosition: "center",
             }}>
                 
-                  <MdOutlineArrowBackIos className="text-2xl md:text-5xl  text-white absolute "  onClick={()=>{
+                  <MdOutlineArrowBackIos className={`text-2xl md:text-5xl  text-white absolute  left-5 md:left-10 `}  onClick={()=>{
                     if(currentBanner === 0){
                       setCurrentBanner(2)
                       resetInterval()
@@ -86,10 +86,10 @@ const BannerPrincipal:React.FC = () =>{
                       resetInterval()
                     }
                   }}/>
-                  <MdOutlineArrowForwardIos className="text-2xl md:text-5xl  text-white absolute right-4" onClick={()=>setCurrentBanner((prev) => (prev + 1 ) % banners.length)}/>
+                  <MdOutlineArrowForwardIos className={`text-2xl md:text-5xl  text-white absolute ${currentBanner === 1 ? 'right-5 md:right-6' : 'right-5 md:right-10'} `} onClick={()=>setCurrentBanner((prev) => (prev + 1 ) % banners.length)}/>
               
 
-                  <div className="pl-10 sm:pl-0 md:w-2/3 xl:w-[55%] p-5  md:pl-32 mt-5">
+                  <div className="pl-20 pr-14 md:pr-0  md:w-2/3 xl:w-[55%] p-5  md:pl-32 mt-5">
                       <div className="h-[250px] w-full flex flex-col justify-around">
                         <h2 className=" text-lg 2xl:text-xl font-bold text-[#FBFBFB] mb-3 tracking-[5px]">{banners[currentBanner].header}</h2>
                         <h2 className="  text-[21px] 2xl:text-4xl  md:text-3xl font-bold text-[#FBFBFB]">{banners[currentBanner].titulo}</h2>
