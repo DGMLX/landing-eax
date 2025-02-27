@@ -79,7 +79,7 @@ const BannerPrincipal:React.FC = () =>{
                 animate={{  x: 0 }}
                 exit={{  x: "-100%" }}
                 transition={{ duration: 0.5, ease: "easeInOut" }}
-                className="absolute inset-0 flex flex-col justify-center  bg-cover bg-center bg-black/35 overflow-x-hidden"
+                className="absolute inset-0 flex flex-col justify-center  bg-cover bg-center bg-black/35 "
                 style={{ backgroundImage:banners[currentBanner].urlImg !== '' ? `url(${banners[currentBanner].urlImg})` : 'bg-gray-500',
                 backgroundBlendMode:"darken",
                 backgroundRepeat:"no-repeat",
