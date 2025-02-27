@@ -23,7 +23,6 @@ const HomePage = () =>{
                     <div className="md:w-1/2 lg:w-1/3 hover:shadow-xl">
                         <div className="bg-gray-300 w-full h-[240px]" style={{
                             backgroundImage:`url('/inicio/multiproposito.jpg')`,
-                            
                             backgroundRepeat:"no-repeat",
                             backgroundSize: "cover",
                             backgroundPosition: "center",

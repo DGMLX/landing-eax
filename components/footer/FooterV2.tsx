@@ -66,7 +66,7 @@ export const FooterV2 = () =>{
                 <div className=" w-[3px] absolute  right-[98px] h-[509px] bg-[#824624]"></div>
             </div> */}
 <section className="elementor-container elementor-column-gap-default hidden md:block">
-<div className="elementor-container elementor-column-gap-default flex justify-center gap-10 xl:ml-52">
+<div className="elementor-container elementor-column-gap-default flex justify-center gap-20">
 {/* seccion enlaces */}
     <div className="text-[#D9D9D9] mt-10 mr-28 m-40">
         <h3 className="text-xl  font-bold">Enlaces</h3>
@@ -80,7 +80,7 @@ export const FooterV2 = () =>{
  {/* seccion contactos */}
     <div className="text-[#D9D9D9] mt-10">
         <h3 className="text-xl font-bold text-justify">Contáctanos</h3>
-            <p className="flex mt-5 text-[14px]"><BsGeoAltFill className="text-xl mr-5"/>Casa central: 1/2 oriente 831, oficina 408,<br />Viña del mar, Chile</p>
+            <a href="https://maps.app.goo.gl/FVeDiYA7TCzX8PWM8"><p className="flex mt-5 text-[14px]"><BsGeoAltFill className="text-xl mr-5"/>Casa central: 1/2 oriente 831, oficina 408,<br />Viña del mar, Chile</p></a>
             <p className="flex mt-5 text-[14px]"><FaPhoneAlt className="text-xl mr-5"/> +56-32-269-0691</p>
             <a href="https://ecoalliance.cl/contacto/"><p className="flex mt-5 text-[14px]"><IoMdMail className="text-xl mr-5"/>ventas@ecoalliance.cl</p></a>
             <a href="https://api.whatsapp.com/send?phone=56322690691&text=Hola!%20Solicito%20mas%20informacion%20de%20los%20siguientes%20productos:"><p className="flex mt-5 text-[14px]"><FaWhatsapp className="text-2xl mr-5"/>+56-32-269-061</p></a>
@@ -93,34 +93,34 @@ export const FooterV2 = () =>{
 </div>
 </section>
         {/* imagenes */}
-        <div className="elementor-container elementor-column-gap-default md:flex items-center justify-center gap-5 hidden mb-10 -mt-32">
-            <div className="flex ml-32 items-center">
-            <p className="text-[#D9D9D9] mr-2">Síguenos</p>
-                <a href="https://api.whatsapp.com/send?phone=56322690691&text=Hola!%20Solicito%20mas%20informacion%20de%20los%20siguientes%20productos:" target="_blank"><Image width={28} height={28} className="w-7 h-7 mr-2" src="/footer/logo_wsp.png" alt="Logo whatsApp" /></a>
-                    <Image width={28} height={28} className="w-7 h-7 mr-2" src="/footer/logo_gmail.png" alt="Logo Gmail" />
-                <a href="https://www.facebook.com/EcoAllianceEAX" target="_blank"><Image width={28} height={28} className="w-7 h-7 mr-2" src="/footer/logo_fb.png" alt="Logo Facebook" /></a>
-                <a href="https://www.youtube.com/channel/UCkNCjH3z4eyPPzgCBwveUZg" target="_blank"><Image width={28} height={28} className="w-7 h-7 mr-2" src="/footer/logo_youtube.png" alt="Logo Youtube" /></a>
-                <a href="https://ecoalliance.cl/blog/" target="_blank"><Image width={28} height={28} className="w-7 h-7 mr-2" src="/footer/logo_blog.png" alt="Logo Blog" /></a>
-                <a href="https://www.linkedin.com/company/ecoalliance-spa/" target="_blank"><Image width={28} height={28} className="w-7 h-7 mr-2" src="/footer/logo_linkedin.png" alt="Logo Linkedin" /></a>
-                <a href="https://www.instagram.com/ecoalliancespa_chile/" target="_blank"><Image width={28} height={28} className="w-7 h-7" src="/footer/logo_instagram.png" alt="Logo Instagram" /></a>
+        <div className="elementor-container elementor-column-gap-default md:flex items-center justify-center gap-5 hidden mb-10 -mt-32 ">
+            <div className="hidden  ml-32 items-center xl:flex">
+            <p className="text-[#D9D9D9] mr-2 hidden lg:block">Síguenos</p>
+                <a href="https://api.whatsapp.com/send?phone=56322690691&text=Hola!%20Solicito%20mas%20informacion%20de%20los%20siguientes%20productos:" target="_blank"><Image width={28} height={28} className="w-7 h-7 m-2" src="/footer/logo_wsp.png" alt="Logo whatsApp" /></a>
+                    <Image width={28} height={28} className="w-7 h-7 m-2" src="/footer/logo_gmail.png" alt="Logo Gmail" />
+                <a href="https://www.facebook.com/EcoAllianceEAX" target="_blank"><Image width={28} height={28} className="w-7 h-7 m-2" src="/footer/logo_fb.png" alt="Logo Facebook" /></a>
+                <a href="https://www.youtube.com/channel/UCkNCjH3z4eyPPzgCBwveUZg" target="_blank"><Image width={28} height={28} className="w-7 h-7 m-2" src="/footer/logo_youtube.png" alt="Logo Youtube" /></a>
+                <a href="https://ecoalliance.cl/blog/" target="_blank"><Image width={28} height={28} className="w-7 h-7 m-2" src="/footer/logo_blog.png" alt="Logo Blog" /></a>
+                <a href="https://www.linkedin.com/company/ecoalliance-spa/" target="_blank"><Image width={28} height={28} className="w-7 h-7 m-2" src="/footer/logo_linkedin.png" alt="Logo Linkedin" /></a>
+                <a href="https://www.instagram.com/ecoalliancespa_chile/" target="_blank"><Image width={28} height={28} className="w-7 h-7 m-2" src="/footer/logo_instagram.png" alt="Logo Instagram" /></a>
             </div>
-            <div>
-                    <Image width={296} height={40} src="/footer/logo_objetivos_sustentables.png" alt="Logo objetivos sustentables" className="justify-center md:w-[500px] md:h-[40px] ml-10 lg:w-[296px] lg:h-[40px]"/>
+            <div className="">
+                    <Image width={296} height={40} src="/footer/logo_obj_sustentables_obtimizado.svg" alt="Logo objetivos sustentables" className="justify-center md:w-[500px]"/>
             </div>
-            <div className="flex items-end ml-20">
+            <div className="flex items-end">
                     <Image width={73} height={63} src="/footer/logo_desafio10x.png"  alt="Logo desafio 10x " className="mr-1 "/>
                     <p className="text-[#D9D9D9]">EcoAlliance participa en Desafío 10X</p>
             </div>
 </div>
-<div className="border-t border-slate-400  md:mx-20 lg:mx-70"></div>
-            <div className="mt-3 flex justify-center gap-52 items-center xs:flex-col sm:flex-row px-10 md:px-60 ">
-                <div className="flex-col md:flex-row  md:flex justify-around m-5">
-                    <div className="flex justify-center md:block">
-                    <Image width={75} height={75} src="/footer/logo_eax.png" alt="Logo EAX" className="mr-5 md:w-[35px] md:h-[35px] w-[75px] h-[75px]" />
+<hr className="border-t border-slate-400 mb-10 mx-56"/>
+            <div className="lg:mt-3 flex gap-10 xl:gap-96 justify-center items-center">
+                <div className="flex justify-around m-5 flex-col lg:flex-row items-center gap-2">
+                    <div className="flex justify-center ">
+                    <Image width={75} height={75} src="/footer/logo_eax.png" alt="Logo EAX" className="mr-5 md:w-[35px] md:h-[35px] w-[75px] h-[75px] mb-2" />
                     </div>
-                    <p className="flex items-center text-center text-[#D9D9D9] text-sm">EcoAlliance © 2025 - Transformando el entorno</p>
+                    <p className="flex text-center text-[#D9D9D9] text-sm">EcoAlliance © 2025 - Transformando el entorno</p>
                 </div>
-                <div className="justify-around lg:gap-20 lg:flex-row flex-col hidden md:flex gap-5">
+                <div className="hidden md:flex gap-2 md:flex-col lg:flex-row">
                     <a href="https://ecoalliance.cl/informacion-corporativa/"><p className="flex items-center text-[#D9D9D9] text-sm">informacion Corporativa</p></a>
                     <a href="https://ecoalliance.cl/informacion-legal/"><p className="flex items-center text-[#D9D9D9] text-sm">informacion Legal</p></a>
                     <a href=""><p className="flex items-center text-[#D9D9D9] text-sm">Mapa del Sitio</p></a>

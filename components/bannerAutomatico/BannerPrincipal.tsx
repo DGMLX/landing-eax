@@ -86,7 +86,6 @@ const BannerPrincipal:React.FC = () =>{
                 backgroundSize: "cover",
                 backgroundPosition: "center", }}
               >
-                      
                   <MdOutlineArrowBackIos className={`text-2xl md:text-5xl  text-white absolute  left-5 md:left-10 `}  onClick={()=>{
                     if(currentBanner === 0){
                       setCurrentBanner(2)
@@ -105,14 +104,14 @@ const BannerPrincipal:React.FC = () =>{
                         <h2 className="  text-[21px] 2xl:text-4xl  md:text-3xl font-bold text-[#FBFBFB]">{banners[currentBanner].titulo}</h2>
                         <p className="mt-3 text-lg hidden lg:block text-[#FBFBFB]">{banners[currentBanner].descripcion}</p>
                         <div className="flex justify-center sm:justify-start">
-                            <Link href={banners[currentBanner].href} className="hover:bg-[#A7283D] bg-[#e34f4f] text-white text-[16px] py-2 px-7 rounded-full mt-10 font-bold   flex items-center">{banners[currentBanner].boton}<HiArrowLongRight className="text-3xl ml-4"/></Link>
+                            <Link href={banners[currentBanner].href}  className="hover:bg-[#A7283D] bg-[#e34f4f] text-white text-[16px] py-2 px-7 rounded-full mt-10 font-bold   flex items-center">{banners[currentBanner].boton}<HiArrowLongRight className="text-3xl ml-4"/></Link>
                         </div>
                       </div>
                   </div>
                   <div className="flex justify-center mt-16 items-center gap-2">
-                    <button className={` h-[10px] w-[30px] rounded-full ${currentBanner === 0 ? 'bg-[#c4262e]' : 'bg-white'}`} onClick={()=>setCurrentBanner(0)} ></button>
+                    <button  className={` h-[10px] w-[30px] rounded-full ${currentBanner === 0 ? 'bg-[#c4262e]' : 'bg-white'}`} onClick={()=>setCurrentBanner(0)} ></button>
                     <button className={` h-[10px] w-[30px] rounded-full ${currentBanner === 1 ? 'bg-[#c4262e]' : 'bg-white'}`} onClick={()=>setCurrentBanner(1)}></button>
-                    <button className={` h-[10px] w-[30px] rounded-full ${currentBanner === 2 ? 'bg-[#c4262e]' : 'bg-white'}`} onClick={()=>setCurrentBanner(2)}></button>
+                    <button  className={` h-[10px] w-[30px] rounded-full ${currentBanner === 2 ? 'bg-[#c4262e]' : 'bg-white'}`} onClick={()=>setCurrentBanner(2)}></button>
                 
                   </div>
                   </motion.div>

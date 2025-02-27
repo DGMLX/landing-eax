@@ -121,7 +121,7 @@ const NavbarV2 = () => {
             }
               setLastScrollY(window.scrollY);
             };
-            console.log(lastScrollY, '---', window.scrollY)
+            
             
             window.addEventListener("scroll", handleScroll);
             return () => window.removeEventListener("scroll", handleScroll);    

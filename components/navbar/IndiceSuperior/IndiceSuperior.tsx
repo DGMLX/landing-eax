@@ -26,7 +26,7 @@ const IndiceSuperior = () =>{
           if (contenedorRef.current && !contenedorRef.current.contains(event.target as Node) && openModal){
             setOpenModal(false)
           
-            console.log("fuera del contenedor")
+       
           }
         };
     
@@ -46,7 +46,7 @@ const IndiceSuperior = () =>{
             }
           setLastScrollY(window.scrollY);
         };
-        console.log(lastScrollY)
+        
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);    
       }, [lastScrollY]);
@@ -69,7 +69,7 @@ const IndiceSuperior = () =>{
                 }}>CONTACTO<MdChatBubbleOutline className="ml-2"/></button>
                 <button className="flex items-center text-sm" onClick={()=>toogleCarrito()}>CARRITO<FiShoppingCart className="ml-2"/></button>
                 <div className="flex items-center">
-                    <input type="text"  className="bg-red-700 border-b placeholder-white placeholder-" placeholder="Buscar"/>
+                    <input type="text"  className="bg-red-700 border-b placeholder-white" placeholder="Buscar"/>
                     <LiaSearchSolid/>
                 </div>
             </div>
