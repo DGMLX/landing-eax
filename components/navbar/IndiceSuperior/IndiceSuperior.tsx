@@ -38,14 +38,14 @@ const IndiceSuperior = () =>{
 
       useEffect(() => {
         const handleScroll = () => {
-          if (window.scrollY > lastScrollY && window.scrollY > 100) {
+            if (window.scrollY > lastScrollY && window.scrollY > 600) {
             setIsVisible(false); // Oculta el menú al hacer scroll hacia abajo
-          } else {
+            } else {
             setIsVisible(true); // Muestra el menú al hacer scroll hacia arriba
           }
           setLastScrollY(window.scrollY);
         };
-    
+        console.log(lastScrollY)
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);    
       }, [lastScrollY]);
