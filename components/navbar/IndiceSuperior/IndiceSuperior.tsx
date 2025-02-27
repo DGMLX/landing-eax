@@ -165,7 +165,7 @@ const IndiceSuperior = () =>{
                 </div>
             }
 
-        <ModalCarrito openCarrito={openCarrito} setOpenCarrito={setOpenCarrito}/>
+        
 
         </>
     )

@@ -3,17 +3,20 @@
 import Image from "next/image";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { IoMdMail } from "react-icons/io";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { LuBookText } from "react-icons/lu";
 import { FaInstagram } from "react-icons/fa";
-import { useEffect, useState } from "react";
-import IndiceSuperior from "./IndiceSuperior";
+import { useEffect, useRef, useState } from "react";
 import SubNavegacionProductosV2 from "./SubNavegacionProductosV2";
 import SubNavegacionSolucionesV2 from "./SubNavegacionSolucionesV2";
 import { Open_Sans } from "next/font/google";
+import { MdChatBubbleOutline } from "react-icons/md";
+import { LiaSearchSolid } from "react-icons/lia";
+import { FiShoppingCart } from "react-icons/fi";
+import ModalCarrito from "@/components/carrito/ModalCarrito";
 
 const openSans = Open_Sans({
   subsets: ["latin"],
@@ -41,6 +44,15 @@ const NavbarV2 = () => {
     // SUB CHIPEADORAS Y SUB CAMIONES
     const [hoverSubChipeadoras,setHoverSubChipeadoras] = useState(false);
     const [hoverSubCamiones,setHoverSubCamiones] = useState(false);
+
+
+    const [openCarrito,setOpenCarrito] = useState(false)
+    const [openModal,setOpenModal] = useState(false);
+    const [openLlamanos,setOpenLlamanos] = useState(true);
+    const [openInfo,setOpenInfo] = useState(false);
+    const [openMensaje,setOpenMensaje] = useState(false);
+
+    const contenedorRef = useRef<HTMLDivElement>(null);
 
 
     const onHoverProducto = ()=> {
@@ -78,6 +90,23 @@ const NavbarV2 = () => {
         setHoverSubCamiones(false);
     }
 
+
+    
+    useEffect(() => {
+        const handleClickOutside = (event: MouseEvent) => {
+          if (contenedorRef.current && !contenedorRef.current.contains(event.target as Node) && openModal){
+            setOpenModal(false)
+          
+            console.log("fuera del contenedor")
+          }
+        };
+    
+        document.addEventListener("click", handleClickOutside);
+        return () => {
+          document.removeEventListener("click", handleClickOutside);
+        };
+      }, [openModal]);
+
     useEffect(() => {
             const handleScroll = () => {
               if (window.scrollY > lastScrollY && window.scrollY > 600) {
@@ -94,11 +123,122 @@ const NavbarV2 = () => {
             return () => window.removeEventListener("scroll", handleScroll);    
           }, [lastScrollY]);
 
+          const toogleCarrito = ()=>{
+            setOpenCarrito(!openCarrito)
+           
+           }
+
     return(
         <>
-            <header className={`w-screen fixed top-0 z-40  transition-transform duration-300 ${openSans.className} ${
-        isVisible ? "translate-y-0" : "-translate-y-16"}`}>
-                <IndiceSuperior/>
+            <header className={`w-screen fixed top-0 z-40  transition-transform duration-300 ${openSans.className} ${isVisible ? "translate-y-0" : "-translate-y-16"}`}>
+
+                <div className={`px-20 flex items-center gap-6 py-4 justify-end bg-red-700 text-white transition-transform duration-300`}>
+                    <button className="flex items-center text-sm" onClick={()=>{
+                        setOpenModal(!openModal)
+                        setOpenLlamanos(true)
+                        setOpenInfo(false)
+                        setOpenMensaje(false)
+                    }}>CONTACTO<MdChatBubbleOutline className="ml-2"/></button>
+                    <button className="flex items-center text-sm" onClick={()=>toogleCarrito()}>CARRITO<FiShoppingCart className="ml-2"/></button>
+                    <div className="flex items-center">
+                        <input type="text"  className="bg-red-700 border-b placeholder-white placeholder-" placeholder="Buscar"/>
+                        <LiaSearchSolid/>
+                    </div>
+                </div>
+
+                {
+                    openModal &&
+                    <div ref={contenedorRef} className="z-50 absolute bg-black text-white w-1/3 right-36 py-5 shadow-lg" >
+                        <h2 className="px-5 text-2xl font-bold  mb-5">Contáctanos</h2>
+                        <div className="flex justify-between px-5 text-sm mb-2">
+                            <button onClick={()=>{
+                                setOpenLlamanos(true)
+                                setOpenInfo(false)
+                                setOpenMensaje(false)
+                            }}>LLÁMANOS</button>
+
+                            <button onClick={()=>{
+                                setOpenInfo(true)
+                                setOpenLlamanos(false)
+                                setOpenMensaje(false)
+                            }}>SOLICITA INFORMACIÓN</button>
+                            <button onClick={()=>{
+                                setOpenMensaje(true)
+                                setOpenLlamanos(false)
+                                setOpenInfo(false)
+                            }}
+                            >ENVÍANOS UN MENSAJE</button>
+                        </div>
+                        <hr />
+                        {
+                            openLlamanos && 
+                            <div className="px-5 pt-7">
+                                <p className="text-xs mb-4">HABLA DIRECTAMENTE CON NUESTRO EQUIPO</p>
+                                <div className="flex items-center">
+                                    <FaPhoneAlt className="text-white text-2xl mr-5"/>
+                                    <p className="text-2xl">+56-32-269 0691</p>
+                                </div>
+                                <p className="text-xs mt-4 mb-3">SERVICIO DE ATENCIÓN LUNES A VIERNES DE 9:00 AM A 18:30 PM</p>
+                            </div>
+                        }
+                        {
+                            openInfo &&
+                            <div className="px-5 pt-5">
+                                <p className="text-xs pr-10">COMPLETA EL FORMULARIO PARA RECIBIR DETALLES SOBRE NUESTROS PRODUCTOS Y SERVICIOS</p>
+                                <form action="" className="mt-5">
+                                    <label className="flex opacity-60">Nombre de contacto<span className="text-red-600 block">*</span></label>
+                                    <input type="text" className="bg-white block w-full py-1 text-black px-2 mt-2" />
+
+                                    <label className="flex opacity-60 mt-2">Nombre de la Empresa<span className="text-red-600 block">*</span></label>
+                                    <input type="text" className="bg-white block w-full py-1 text-black px-2 mt-2" />
+
+                                    <label className="flex opacity-60 mt-2">E-mail de Empresa<span className="text-red-600 block">*</span></label>
+                                    <input type="email" className="bg-white block w-full py-1 text-black px-2 mt-2" />
+
+                                    <label className="flex opacity-60 mt-2">Teléfono de contacto</label>
+                                    <input type="number" className="bg-white block w-full py-1 text-black px-2 mt-2" />
+
+                                    <label className="flex opacity-60 mt-2">Asunto</label>
+                                    <input type="text" className="bg-white block w-full py-1 text-black px-2 mt-2" />
+
+                                    <label className="flex opacity-60 mt-2">Mensaje</label>
+                                    <input type="text" className="bg-white block w-full py-1 text-black px-2 mt-2" />
+
+                                    <div className="flex justify-center mt-7">
+                                        <button className="text-white opacity-70">Enviar</button>
+                                    </div>
+                                    
+                                </form>
+                            </div>
+                        }
+                        {
+                            openMensaje &&
+                            <div className="px-5 pt-5">
+                                <p className="text-xs">DÉJANOS TU CORREO PARA QUE PODAMOS CONTACTARTE POR EMAIL</p>
+                                <form action="" className="mt-5">
+                                    <label className="flex opacity-60">Nombre</label>
+                                    <input type="text" className="bg-white block w-full py-1 text-black px-2 mt-2" />
+
+                                    <label className="flex opacity-60 mt-2">Correo electrónico<span className="text-red-600 block">*</span></label>
+                                    <input type="text" className="bg-white block w-full py-1 text-black px-2 mt-2" />
+
+                                    <label className="flex opacity-60 mt-2">Mensaje<span className="text-red-600 block">*</span></label>
+                                    <input type="text" className="bg-white block w-full py-1 text-black px-2 mt-2" />
+
+                                    <div className="flex justify-center">
+                                        <button className="text-white bg-blue-700 mt-7 py-1 px-7">Enviar</button>
+                                    </div>
+                                
+                                </form>
+                        
+                            </div>
+                        }
+                    </div>
+            
+            
+                }
+                <ModalCarrito openCarrito={openCarrito} setOpenCarrito={setOpenCarrito}/>
+           
 
                 <div className="hidden lg:block">
 
