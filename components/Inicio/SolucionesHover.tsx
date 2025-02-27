@@ -7,20 +7,9 @@ import { HiArrowLongRight } from 'react-icons/hi2';
 
 const SolucionesHover = () => {
   const [hoverValue, setHoverValue] = useState<number>(0); // Valor por defecto: el primer índice
-  const [solucionesVisible,setSolucionesVisible] = useState(false);
-  const myRef = useRef<any | null>(null);
 
-  useEffect(()=>{
 
-    const observer = new IntersectionObserver((entries)=>{
-      const entry = entries[0]
-      setSolucionesVisible(entry.isIntersecting)
 
-    })
-   
-  
-    observer.observe(myRef.current)
-  },[]);
 
   const soluciones = [
     'Tratamiento de residuos orgánicos y restos de poda',
@@ -59,7 +48,7 @@ const SolucionesHover = () => {
   ]
 
   return (
-    <section ref={myRef} className={`mx-5 md:mx-20 mb-10 transition-opacity duration-[1200ms] opacity-0 ${solucionesVisible && 'opacity-100'}`}>
+    <section  className={`mx-5 md:mx-20 mb-10 transition-opacity duration-[1200ms] `}>
       <h2 className="text-2xl mb-5 tracking-widest">SOLUCIONES</h2>
       <div className="w-full flex justify-between">
         {/* Lista de soluciones */}
