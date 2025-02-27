@@ -17,6 +17,7 @@ import { MdChatBubbleOutline } from "react-icons/md";
 import { LiaSearchSolid } from "react-icons/lia";
 import { FiShoppingCart } from "react-icons/fi";
 import ModalCarrito from "@/components/carrito/ModalCarrito";
+import { MdMenu } from "react-icons/md";
 
 const openSans = Open_Sans({
   subsets: ["latin"],
@@ -109,8 +110,10 @@ const NavbarV2 = () => {
 
     useEffect(() => {
             const handleScroll = () => {
-              if (window.scrollY > lastScrollY && window.scrollY > 600) {
+              if ( window.scrollY > 600) {
                 setIsVisible(false); // Oculta el menú al hacer scroll hacia abajo
+                setOpenModal(false)
+                setOpenCarrito(false)
               } 
             
             if(window.scrollY < lastScrollY && window.scrollY < 600){
@@ -118,7 +121,8 @@ const NavbarV2 = () => {
             }
               setLastScrollY(window.scrollY);
             };
-        
+            console.log(lastScrollY, '---', window.scrollY)
+            
             window.addEventListener("scroll", handleScroll);
             return () => window.removeEventListener("scroll", handleScroll);    
           }, [lastScrollY]);
@@ -332,7 +336,12 @@ const NavbarV2 = () => {
                         
                         </ul>
                     </nav>
-                    <div className="flex z-40">
+                    
+                    <div className={`z-40 mr-28 cursor-pointer animate-fade duration-700 ${isVisible ? 'hidden ' : 'block'}`}>
+                        <MdMenu className="text-white text-3xl" onClick={()=>{setIsVisible(true)}} />
+                    </div>
+
+                    <div className={` z-40  ${isVisible ? 'flex ' : 'hidden animate-fade duration-700'}`}>
                         <a href="https://ecoalliance.cl/contacto/"><IoMdMail className=" text-white text-lg mr-5" /></a>
                         <a href="https://api.whatsapp.com/send?phone=56322690691&text=Hola!%20Solicito%20mas%20informacion%20de%20los%20siguientes%20productos:" target="_blank"><FaWhatsapp className="text-white text-lg mr-5"/>
                         </a>
@@ -344,10 +353,10 @@ const NavbarV2 = () => {
                         <a href="https://www.linkedin.com/company/ecoalliance-spa/" target="_blank"><FaLinkedin className="text-white text-lg mr-5"/></a>
                         <a href="https://www.instagram.com/ecoalliancespa_chile/" target="_blank"><FaInstagram className="text-white text-lg mr-4"/></a>
 
-                    
-                        
                     </div>
+                   
                 </div>
+                
             </header>
 
             <SubNavegacionProductosV2 isVisible={isVisible} hoverSubProductos={hoverSubProductos} setHoverSubProductos={setHoverSubProductos} hoverMultiproposito={hoverMultiproposito} hoverTratamientoResiduos={hoverTratamientoResiduos} hoverAseoUrbano={hoverAseoUrbano} hoverMantenimientoUrbano={hoverMantenimientoUrbano} hoverEspaciosPublicos={hoverEspaciosPublicos} setHoverMultiproposito={setHoverMultiproposito} setHoverTratamientoResiduos={setHoverTratamientoResiduos} setHoverAseoUrbano={setHoverAseoUrbano} setHoverMantenimientoUrbano={setHoverMantenimientoUrbano} setHoverEspaciosPublicos={setHoverEspaciosPublicos} hoverSubChipeadoras={hoverSubChipeadoras} hoverSubCamiones={hoverSubCamiones} setHoverSubChipeadoras={setHoverSubChipeadoras} setHoverSubCamiones={setHoverSubCamiones} />
