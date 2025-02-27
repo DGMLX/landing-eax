@@ -71,7 +71,7 @@ const BannerPrincipal:React.FC = () =>{
         <>
         
        
-          <section className={`w-screen bg-black/35 h-[420px] md:h-[470px] 2xl:h-[550px]  justify-center flex-col flex relative overflow-hidden `}>
+          <section className={` w-screen bg-black/35 h-[420px] md:h-[470px] 2xl:h-[550px]  justify-center flex-col flex relative overflow-hidden `}>
               <AnimatePresence initial={false}>
               <motion.div
                 key={banners[currentBanner].id}
@@ -79,7 +79,7 @@ const BannerPrincipal:React.FC = () =>{
                 animate={{  x: 0 }}
                 exit={{  x: "-100%" }}
                 transition={{ duration: 0.5, ease: "easeInOut" }}
-                className="absolute inset-0 flex flex-col justify-center  bg-cover bg-center bg-black/35 "
+                className="absolute inset-0 flex flex-col justify-center  bg-cover bg-center bg-black/35 overflow-x-hidden"
                 style={{ backgroundImage:banners[currentBanner].urlImg !== '' ? `url(${banners[currentBanner].urlImg})` : 'bg-gray-500',
                 backgroundBlendMode:"darken",
                 backgroundRepeat:"no-repeat",

@@ -42,7 +42,7 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
        <HotjarScript />
        
         <body
-          className={` ${geistSans.variable} ${geistMono.variable} antialiased`}
+          className={` ${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
           >
             <ClientLayout>{children}</ClientLayout>
         </body>
