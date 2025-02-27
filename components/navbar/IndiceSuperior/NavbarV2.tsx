@@ -80,11 +80,13 @@ const NavbarV2 = () => {
 
     useEffect(() => {
             const handleScroll = () => {
-              if (window.scrollY > lastScrollY && window.scrollY > 100) {
+              if (window.scrollY > lastScrollY && window.scrollY > 600) {
                 setIsVisible(false); // Oculta el menú al hacer scroll hacia abajo
-              } else {
-                setIsVisible(true); // Muestra el menú al hacer scroll hacia arriba
-              }
+              } 
+            
+            if(window.scrollY < lastScrollY && window.scrollY < 600){
+                setIsVisible(true)
+            }
               setLastScrollY(window.scrollY);
             };
         
