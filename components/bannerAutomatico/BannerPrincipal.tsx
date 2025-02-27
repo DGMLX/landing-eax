@@ -6,12 +6,13 @@ import { useEffect, useRef, useState } from "react";
 import { HiArrowLongRight } from "react-icons/hi2";
 import { MdOutlineArrowBackIos } from "react-icons/md";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
-
+import { motion, AnimatePresence } from "framer-motion";
 
 
 
 const banners = [
     {
+      id: 1,
       header:"SOLUCIONES",
       titulo:"Solución de Limpieza, Sanitización y Desinfección: Espacios Públicos más Seguros y Saludables", 
       descripcion: "Transforma la higiene urbana con un sistema de agua a alta presión y desinfectantes complementarios, diseñado para mantener los espacios públicos en óptimas condiciones. Adaptable a diversos vehículos, incluyendo el Camión Multipropósito Multicar.", 
@@ -20,6 +21,7 @@ const banners = [
       href:"https://ecoalliance.cl/soluciones/"
     },
     {
+      id: 2,
       header:"PRODUCTOS",
       titulo:"Barredoras de Calle: Innovación para Ciudades Más Limpias",
       descripcion: "Mantén los espacios públicos libres de residuos con barredoras de desempeño confiable y bajo mantenimiento. Su tecnología de barrido y aspiración, junto con materiales resistentes a la corrosión, aseguran una limpieza profunda y duradera.", 
@@ -28,6 +30,7 @@ const banners = [
       href:"https://ecoalliance.cl/productos/"
     },
     {
+      id: 3,
       header:"SERVICIOS",
       titulo:"Montaje de Equipos: Eficiencia desde el Primer Día", 
       descripcion: "Contamos con la experiencia y capacidad para realizar el montaje y puesta en marcha de equipos y máquinas especiales, asegurando una instalación eficiente y operativa desde el primer momento.", 
@@ -68,15 +71,22 @@ const BannerPrincipal:React.FC = () =>{
         <>
         
        
-          <section className={`w-screen bg-black/35 h-[420px] md:h-[470px] 2xl:h-[550px]  justify-center flex-col flex ${currentBanner === 0 ? 'animate-fade-left animate-duration-[1000ms] animate-ease-in-out' : currentBanner === 1 ? 'animate-fade animate-duration-[1000ms] animate-ease-in-out' : currentBanner === 2 ? 'animate-fade-right animate-duration-[1000ms] animate-ease-in-out ' : ''}`}
-            style={{
-              backgroundImage:banners[currentBanner].urlImg !== '' ? `url(${banners[currentBanner].urlImg})` : 'bg-gray-500',
-              backgroundBlendMode:"darken",
-              backgroundRepeat:"no-repeat",
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-            }}>
-                
+          <section className={`w-screen bg-black/35 h-[420px] md:h-[470px] 2xl:h-[550px]  justify-center flex-col flex relative overflow-hidden `}>
+              <AnimatePresence initial={false}>
+              <motion.div
+                key={banners[currentBanner].id}
+                initial={{ x: "100%" }}
+                animate={{  x: 0 }}
+                exit={{  x: "-100%" }}
+                transition={{ duration: 0.5, ease: "easeInOut" }}
+                className="absolute inset-0 flex flex-col justify-center  bg-cover bg-center bg-black/35 "
+                style={{ backgroundImage:banners[currentBanner].urlImg !== '' ? `url(${banners[currentBanner].urlImg})` : 'bg-gray-500',
+                backgroundBlendMode:"darken",
+                backgroundRepeat:"no-repeat",
+                backgroundSize: "cover",
+                backgroundPosition: "center", }}
+              >
+                      
                   <MdOutlineArrowBackIos className={`text-2xl md:text-5xl  text-white absolute  left-5 md:left-10 `}  onClick={()=>{
                     if(currentBanner === 0){
                       setCurrentBanner(2)
@@ -105,8 +115,8 @@ const BannerPrincipal:React.FC = () =>{
                     <button className={` h-[10px] w-[30px] rounded-full ${currentBanner === 2 ? 'bg-[#c4262e]' : 'bg-white'}`} onClick={()=>setCurrentBanner(2)}></button>
                 
                   </div>
-          
-
+                  </motion.div>
+                  </AnimatePresence>
                
             </section> 
 
